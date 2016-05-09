@@ -42,7 +42,7 @@
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>NONE</Upkeep>
 			<iNumCitiesMaintenanceModifier>100</iNumCitiesMaintenanceModifier>
-			<iSpecialistExtraYieldBaseThreshold>7</iSpecialistExtraYieldBaseThreshold>
+			<iSpecialistExtraYieldBaseThreshold>9</iSpecialistExtraYieldBaseThreshold>
 			<iSpecialistExtraYieldEraThreshold>0</iSpecialistExtraYieldEraThreshold>
 			<SpecialistThresholdExtraYields>
 				<iYield>1</iYield>
@@ -308,7 +308,7 @@
 			<Type>CIVIC_CASTE_SYSTEM</Type>
 			<Description>TXT_KEY_CIVIC_CASTE_SYSTEM</Description>
 			<Civilopedia>TXT_KEY_CIVIC_CASTE_SYSTEM_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_CIVIC_CASTE_SYSTEM_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_CIVIC_CASTE_SYSTEM_KNOEDEL_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/Civics/Caste_System.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,3,1</Button>
 			<TechPrereq>TECH_WRITING</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
@@ -323,7 +323,7 @@
 			<Type>CIVIC_SERFDOM</Type>
 			<Description>TXT_KEY_CIVIC_SERFDOM</Description>
 			<Civilopedia>TXT_KEY_CIVIC_SERFDOM_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_CIVIC_SERFDOM_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_CIVIC_SERFDOM_KNOEDEL_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/Civics/Serfdom.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,7,2</Button>
 			<TechPrereq>TECH_CALENDAR</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
@@ -590,7 +590,6 @@
 			<Description>TXT_KEY_CIVIC_PUBLIC_WELFARE</Description>
 			<Civilopedia>TXT_KEY_CIVIC_PUBLIC_WELFARE_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_CIVIC_PUBLIC_WELFARE_STRATEGY</Strategy>
-			<Help>TXT_KEY_CIVIC_ENVIRONMENTALISM_HELP</Help>
 			<Button>,Art/Interface/Buttons/Civics/Environmentalism.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,7,1</Button>
 			<TechPrereq>TECH_ASSEMBLY_LINE</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
@@ -706,7 +705,7 @@
 			<Type>CIVIC_TOLERANCE</Type>
 			<Description>TXT_KEY_CIVIC_TOLERANCE</Description>
 			<Civilopedia>TXT_KEY_CIVIC_SCHOLASTICISM_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_CIVIC_SCHOLASTICISM_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_CIVIC_TOLERANCE_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/TechTree/Philosophy.dds,Art/Interface/Buttons/TechTree_Atlas.dds,4,6</Button>
 			<TechPrereq>TECH_PHILOSOPHY</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
@@ -747,6 +746,12 @@
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>UPKEEP_LOW</Upkeep>
 			<iExpInBorderModifier>50</iExpInBorderModifier>
+			<BuildingProductionModifiers>
+				<BuildingProductionModifier>
+					<BuildingType>BUILDINGCLASS_WALLS</BuildingType>
+					<iProductionModifier>100</iProductionModifier>
+				</BuildingProductionModifier>
+			</BuildingProductionModifiers>
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_MILITARY</CivicOptionType>
@@ -766,12 +771,6 @@
 					<bHurry>1</bHurry>
 				</Hurry>
 			</Hurrys>
-			<BuildingProductionModifiers>
-				<BuildingProductionModifier>
-					<BuildingType>BUILDINGCLASS_WALLS</BuildingType>
-					<iProductionModifier>100</iProductionModifier>
-				</BuildingProductionModifier>
-			</BuildingProductionModifiers>
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_MILITARY</CivicOptionType>
@@ -783,7 +782,7 @@
 			<TechPrereq>TECH_FEUDALISM</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>UPKEEP_LOW</Upkeep>
-			<iBaseFreeUnits>5</iBaseFreeUnits>
+			<iBaseFreeUnits>10</iBaseFreeUnits>
 			<iFreeUnitsPopulationPercent>15</iFreeUnitsPopulationPercent>
 			<bMilitaryFoodProduction>1</bMilitaryFoodProduction>
 			<BuildingProductionModifiers>
@@ -890,7 +889,7 @@
 			<Button>,Art/Interface/Buttons/Buildings/UnitedNations.dds,Art/Interface/Buttons/Buildings_Atlas.dds,5,7</Button>
 			<TechPrereq>TECH_RADIO</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
-			<Upkeep>NONE</Upkeep>
+			<Upkeep>UPKEEP_LOW</Upkeep>
 			<iGoldPerMilitaryUnit>1</iGoldPerMilitaryUnit>
 			<iWarWearinessModifier>50</iWarWearinessModifier>
 			<iDefensivePactTradeModifier>50</iDefensivePactTradeModifier>

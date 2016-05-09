@@ -4104,7 +4104,7 @@
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 				<UnitClassUpgrade>
-					<UnitClassUpgradeType>UNITCLASS_MODERN_INFANTRY</UnitClassUpgradeType>
+					<UnitClassUpgradeType>UNITCLASS_SQUAD_INFANTRY</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
@@ -4196,7 +4196,7 @@
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 				<UnitClassUpgrade>
-					<UnitClassUpgradeType>UNITCLASS_MODERN_INFANTRY</UnitClassUpgradeType>
+					<UnitClassUpgradeType>UNITCLASS_SQUAD_INFANTRY</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
@@ -4290,7 +4290,7 @@
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 				<UnitClassUpgrade>
-					<UnitClassUpgradeType>UNITCLASS_MODERN_INFANTRY</UnitClassUpgradeType>
+					<UnitClassUpgradeType>UNITCLASS_SQUAD_INFANTRY</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
@@ -9356,7 +9356,7 @@
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 				<UnitClassUpgrade>
-					<UnitClassUpgradeType>UNITCLASS_MODERN_INFANTRY</UnitClassUpgradeType>
+					<UnitClassUpgradeType>UNITCLASS_SQUAD_INFANTRY</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
@@ -13331,14 +13331,14 @@
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 		</UnitInfo>
 		<UnitInfo>
-			<Class>UNITCLASS_MODERN_INFANTRY</Class>
-			<Type>UNIT_MODERN_INFANTRY</Type>
+			<Class>UNITCLASS_SQUAD_INFANTRY</Class>
+			<Type>UNIT_SQUAD_INFANTRY</Type>
 			<Combat>UNITCOMBAT_GUN</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_CITY_DEFENSE</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_MODERN_INFANTRY</Description>
-			<Civilopedia>TXT_KEY_UNIT_MODERN_INFANTRY_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_MODERN_INFANTRY_STRATEGY</Strategy>
+			<Description>TXT_KEY_UNIT_SQUAD_INFANTRY</Description>
+			<Civilopedia>TXT_KEY_UNIT_SQUAD_INFANTRY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_SQUAD_INFANTRY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<bMilitaryHappiness>1</bMilitaryHappiness>
 			<bMilitarySupport>1</bMilitarySupport>
@@ -13368,7 +13368,6 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iNukeRange>-1</iNukeRange>
-			<!-- Rhye -->
 			<FeatureImpassables>
 				<FeatureImpassable>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>

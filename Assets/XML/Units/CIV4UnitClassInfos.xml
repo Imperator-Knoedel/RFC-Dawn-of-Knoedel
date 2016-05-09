@@ -728,13 +728,13 @@
 			<DefaultUnit>UNIT_HEAVY_HORSEMAN</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_MODERN_INFANTRY</Type>
-			<Description>TXT_KEY_UNIT_MODERN_INFANTRY</Description>
+			<Type>UNITCLASS_SQUAD_INFANTRY</Type>
+			<Description>TXT_KEY_UNIT_SQUAD_INFANTRY</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_MODERN_INFANTRY</DefaultUnit>
+			<DefaultUnit>UNIT_SQUAD_INFANTRY</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_POLICE</Type>
