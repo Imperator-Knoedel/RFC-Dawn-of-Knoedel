@@ -355,7 +355,7 @@
 	</Define>
 	<Define>
 		<DefineName>CONSCRIPT_POPULATION_PER_COST</DefineName>
-		<iDefineIntVal>56</iDefineIntVal>
+		<iDefineIntVal>61</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>CONSCRIPT_MIN_CULTURE_PERCENT</DefineName>

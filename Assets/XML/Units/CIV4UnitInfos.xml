@@ -3653,7 +3653,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_RIFLING</PrereqTech>
-			<iCost>110</iCost>
+			<iCost>120</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -3736,7 +3736,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_RIFLING</PrereqTech>
-			<iCost>110</iCost>
+			<iCost>120</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -3822,7 +3822,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_RIFLING</PrereqTech>
-			<iCost>90</iCost>
+			<iCost>110</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -3919,7 +3919,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_CHEMISTRY</PrereqTech>
-			<iCost>100</iCost>
+			<iCost>110</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -4024,7 +4024,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_CHEMISTRY</PrereqTech>
-			<iCost>100</iCost>
+			<iCost>110</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -4123,7 +4123,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_ROCKETRY</PrereqTech>
-			<iCost>120</iCost>
+			<iCost>140</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -4188,10 +4188,6 @@
 			<bIgnoreBuildingDefense>1</bIgnoreBuildingDefense>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
-					<UnitClassUpgradeType>UNITCLASS_SAM_INFANTRY</UnitClassUpgradeType>
-					<bUnitClassUpgrade>1</bUnitClassUpgrade>
-				</UnitClassUpgrade>
-				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_MECHANIZED_INFANTRY</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
@@ -4218,7 +4214,7 @@
 			<TechTypes>
 				<PrereqTech>TECH_RIFLING</PrereqTech>
 			</TechTypes>
-			<iCost>140</iCost>
+			<iCost>160</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -4282,10 +4278,6 @@
 			<bIgnoreBuildingDefense>1</bIgnoreBuildingDefense>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
-					<UnitClassUpgradeType>UNITCLASS_SAM_INFANTRY</UnitClassUpgradeType>
-					<bUnitClassUpgrade>1</bUnitClassUpgrade>
-				</UnitClassUpgrade>
-				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_MECHANIZED_INFANTRY</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
@@ -4312,7 +4304,7 @@
 			<TechTypes>
 				<PrereqTech>TECH_RIFLING</PrereqTech>
 			</TechTypes>
-			<iCost>140</iCost>
+			<iCost>160</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -4415,7 +4407,7 @@
 					<bFeatureImpassable>1</bFeatureImpassable>
 				</FeatureImpassable>
 			</FeatureImpassables>
-			<iCombat>18</iCombat>
+			<iCombat>16</iCombat>
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -4475,7 +4467,7 @@
 			</UnitAIs>
 			<PrereqTech>TECH_LASER</PrereqTech>
 			<BonusType>BONUS_OIL</BonusType>
-			<iCost>200</iCost>
+			<iCost>225</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -4561,7 +4553,7 @@
 			<TechTypes>
 				<PrereqTech>TECH_RIFLING</PrereqTech>
 			</TechTypes>
-			<iCost>160</iCost>
+			<iCost>180</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -4714,7 +4706,7 @@
 				<PrereqTech>TECH_RIFLING</PrereqTech>
 				<PrereqTech>TECH_FLIGHT</PrereqTech>
 			</TechTypes>
-			<iCost>160</iCost>
+			<iCost>180</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -4797,7 +4789,7 @@
 				<PrereqTech>TECH_RIFLING</PrereqTech>
 			</TechTypes>
 			<BonusType>BONUS_OIL</BonusType>
-			<iCost>200</iCost>
+			<iCost>250</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -7124,7 +7116,7 @@
 			<PrereqBonuses>
 				<BonusType>BONUS_IRON</BonusType>
 			</PrereqBonuses>
-			<iCost>100</iCost>
+			<iCost>110</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -7242,7 +7234,7 @@
 			<PrereqBonuses>
 				<BonusType>BONUS_IRON</BonusType>
 			</PrereqBonuses>
-			<iCost>100</iCost>
+			<iCost>110</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -7349,7 +7341,7 @@
 			<PrereqBonuses>
 				<BonusType>BONUS_IRON</BonusType>
 			</PrereqBonuses>
-			<iCost>100</iCost>
+			<iCost>110</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -7673,7 +7665,7 @@
 				<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
 			</TechTypes>
 			<BonusType>BONUS_HORSE</BonusType>
-			<iCost>120</iCost>
+			<iCost>130</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -7779,7 +7771,7 @@
 				<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
 			</TechTypes>
 			<BonusType>BONUS_HORSE</BonusType>
-			<iCost>120</iCost>
+			<iCost>130</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -7890,7 +7882,7 @@
 				<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
 			</TechTypes>
 			<BonusType>BONUS_HORSE</BonusType>
-			<iCost>100</iCost>
+			<iCost>120</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -8001,7 +7993,7 @@
 				<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
 			</TechTypes>
 			<BonusType>BONUS_HORSE</BonusType>
-			<iCost>120</iCost>
+			<iCost>130</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -8327,7 +8319,7 @@
 				<PrereqTech>TECH_RIFLING</PrereqTech>
 			</TechTypes>
 			<BonusType>BONUS_OIL</BonusType>
-			<iCost>180</iCost>
+			<iCost>200</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -8418,7 +8410,7 @@
 				<PrereqTech>TECH_RIFLING</PrereqTech>
 			</TechTypes>
 			<BonusType>BONUS_OIL</BonusType>
-			<iCost>180</iCost>
+			<iCost>200</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -8520,7 +8512,7 @@
 			<PrereqBonuses>
 				<BonusType>BONUS_OIL</BonusType>
 			</PrereqBonuses>
-			<iCost>240</iCost>
+			<iCost>280</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -8614,7 +8606,7 @@
 			</UnitAIs>
 			<PrereqTech>TECH_ADVANCED_FLIGHT</PrereqTech>
 			<BonusType>BONUS_OIL</BonusType>
-			<iCost>160</iCost>
+			<iCost>200</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>4</iMoves>
@@ -9178,7 +9170,7 @@
 			</UnitAIs>
 			<PrereqTech>TECH_RIFLING</PrereqTech>
 			<BonusType>BONUS_IRON</BonusType>
-			<iCost>120</iCost>
+			<iCost>125</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -9268,7 +9260,7 @@
 			</UnitAIs>
 			<PrereqTech>TECH_RIFLING</PrereqTech>
 			<BonusType>BONUS_IRON</BonusType>
-			<iCost>120</iCost>
+			<iCost>125</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -9466,7 +9458,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_ARTILLERY</PrereqTech>
-			<iCost>150</iCost>
+			<iCost>160</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -9560,7 +9552,7 @@
 				<PrereqTech>TECH_ARTILLERY</PrereqTech>
 			</TechTypes>
 			<BonusType>BONUS_OIL</BonusType>
-			<iCost>200</iCost>
+			<iCost>225</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -9662,7 +9654,7 @@
 			<iCost>30</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>2</iMoves>
+			<iMoves>3</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<iWorkRate>100</iWorkRate>
 			<TerrainImpassables>
@@ -11025,7 +11017,7 @@
 				<BonusType>BONUS_OIL</BonusType>
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
-			<iCost>125</iCost>
+			<iCost>150</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>10</iMoves>
@@ -11166,7 +11158,7 @@
 				<BonusType>BONUS_OIL</BonusType>
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
-			<iCost>170</iCost>
+			<iCost>180</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>13</iMoves>
@@ -11242,7 +11234,7 @@
 				<BonusType>BONUS_OIL</BonusType>
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
-			<iCost>225</iCost>
+			<iCost>250</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>9</iMoves>
@@ -11306,7 +11298,7 @@
 				<BonusType>BONUS_OIL</BonusType>
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
-			<iCost>240</iCost>
+			<iCost>280</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>10</iMoves>
@@ -11383,7 +11375,7 @@
 				<BonusType>BONUS_OIL</BonusType>
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
-			<iCost>220</iCost>
+			<iCost>260</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>11</iMoves>
@@ -11449,7 +11441,7 @@
 				<BonusType>BONUS_OIL</BonusType>
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
-			<iCost>150</iCost>
+			<iCost>160</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>9</iMoves>
@@ -11590,7 +11582,7 @@
 				<BonusType>BONUS_OIL</BonusType>
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
-			<iCost>175</iCost>
+			<iCost>180</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>10</iMoves>
@@ -11646,7 +11638,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_COMBUSTION</PrereqTech>
-			<iCost>80</iCost>
+			<iCost>100</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -11705,7 +11697,7 @@
 			</UnitAIs>
 			<PrereqTech>TECH_FLIGHT</PrereqTech>
 			<BonusType>BONUS_OIL</BonusType>
-			<iCost>100</iCost>
+			<iCost>120</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -11763,7 +11755,7 @@
 			<PrereqBonuses>
 				<BonusType>BONUS_OIL</BonusType>
 			</PrereqBonuses>
-			<iCost>150</iCost>
+			<iCost>200</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -11822,7 +11814,7 @@
 				<PrereqTech>TECH_FLIGHT</PrereqTech>
 			</TechTypes>
 			<BonusType>BONUS_OIL</BonusType>
-			<iCost>140</iCost>
+			<iCost>160</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -11886,7 +11878,7 @@
 			<PrereqBonuses>
 				<BonusType>BONUS_OIL</BonusType>
 			</PrereqBonuses>
-			<iCost>200</iCost>
+			<iCost>250</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -11948,7 +11940,7 @@
 			<TechTypes>
 				<PrereqTech>TECH_RADIO</PrereqTech>
 			</TechTypes>
-			<iCost>60</iCost>
+			<iCost>80</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -11958,7 +11950,7 @@
 			<iAirCombatLimit>100</iAirCombatLimit>
 			<iXPValueDefense>4</iXPValueDefense>
 			<iEvasionProbability>100</iEvasionProbability>
-			<iBombRate>16</iBombRate>
+			<iBombRate>20</iBombRate>
 			<iAsset>2</iAsset>
 			<iPower>6</iPower>
 			<UnitMeshGroups>
@@ -12000,11 +11992,11 @@
 				<PrereqTech>TECH_ROCKETRY</PrereqTech>
 			</TechTypes>
 			<BonusType>BONUS_URANIUM</BonusType>
-			<iCost>200</iCost>
+			<iCost>300</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
-			<iAirRange>4</iAirRange>
+			<iAirRange>6</iAirRange>
 			<iNukeRange>1</iNukeRange>
 			<iXPValueDefense>4</iXPValueDefense>
 			<iEvasionProbability>50</iEvasionProbability>
@@ -12049,7 +12041,7 @@
 				<PrereqTech>TECH_ROCKETRY</PrereqTech>
 			</TechTypes>
 			<BonusType>BONUS_URANIUM</BonusType>
-			<iCost>400</iCost>
+			<iCost>500</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -13279,7 +13271,7 @@
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</UnitAIs>
-			<PrereqTech>TECH_METAL_CASTING</PrereqTech>
+			<PrereqTech>TECH_MACHINERY</PrereqTech>
 			<TechTypes>
 				<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
 			</TechTypes>
@@ -13292,7 +13284,6 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iNukeRange>-1</iNukeRange>
-			<!-- Rhye -->
 			<FeatureImpassables>
 				<FeatureImpassable>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
@@ -13363,7 +13354,7 @@
 			<TechTypes>
 				<PrereqTech>TECH_RIFLING</PrereqTech>
 			</TechTypes>
-			<iCost>170</iCost>
+			<iCost>190</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
@@ -13440,7 +13431,6 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
 			<iNukeRange>-1</iNukeRange>
-			<!-- Rhye -->
 			<FeatureImpassables>
 				<FeatureImpassable>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
@@ -13511,7 +13501,7 @@
 			</UnitAIs>
 			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
 			<BonusType>BONUS_COAL</BonusType>
-			<iCost>100</iCost>
+			<iCost>120</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>8</iMoves>
