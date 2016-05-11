@@ -401,6 +401,10 @@
 					<BuildType>BUILD_FOREST_PRESERVE</BuildType>
 					<bBuild>1</bBuild>
 				</Build>
+				<Build>
+					<BuildType>BUILD_HAMLET</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
 			</Builds>
 			<iCost>60</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
@@ -520,6 +524,10 @@
 				</Build>
 				<Build>
 					<BuildType>BUILD_FOREST_PRESERVE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_HAMLET</BuildType>
 					<bBuild>1</bBuild>
 				</Build>
 			</Builds>
@@ -649,6 +657,10 @@
 				</Build>
 				<Build>
 					<BuildType>BUILD_FOREST_PRESERVE</BuildType>
+					<bBuild>1</bBuild>
+				</Build>
+				<Build>
+					<BuildType>BUILD_HAMLET</BuildType>
 					<bBuild>1</bBuild>
 				</Build>
 			</Builds>

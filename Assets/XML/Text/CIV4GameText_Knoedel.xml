@@ -90,10 +90,25 @@
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_WE_LOVE_PARTY</Tag>
 		<English>"We Love the Party Day"</English>
+		<French>"We Love the Party Day"</French>
 		<German>"Die Partei, die Partei, die hat immer Recht!"</German>
+		<Italian>"We Love the Party Day"</Italian>
+		<Spanish>"We Love the Party Day"</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_VOTE_COLLABORATION</Tag>
 		<English>U.N. Resolution #1138 (Global Civic - Collaboration)</English>
+		<French>U.N. Resolution #1138 (Global Civic - Collaboration)</French>
+		<German>U.N. Resolution #1138 (Global Civic - Collaboration)</German>
+		<Italian>U.N. Resolution #1138 (Global Civic - Collaboration)</Italian>
+		<Spanish>U.N. Resolution #1138 (Global Civic - Collaboration)</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILD_HAMLET</Tag>
+		<English>Build a Hamlet</English>
+		<French>Build a Hamlet</French>
+		<German>Build a Hamlet</German>
+		<Italian>Build a Hamlet</Italian>
+		<Spanish>Build a Hamlet</Spanish>
 	</TEXT>
 </Civ4GameText>

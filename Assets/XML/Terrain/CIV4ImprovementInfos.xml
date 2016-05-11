@@ -754,13 +754,21 @@
 					<PrereqTech>TECH_CHEMISTRY</PrereqTech>
 					<TechYields>
 						<iYield>0</iYield>
-						<iYield>0</iYield>
 						<iYield>1</iYield>
+						<iYield>0</iYield>
 					</TechYields>
 				</TechYieldChange>
 				<TechYieldChange>
 					<PrereqTech>TECH_ROBOTICS</PrereqTech>
 					<TechYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</TechYields>
+				</TechYieldChange>
+				<TechYieldChange>
+					<PrereqTech>TECH_GUILDS</PrereqTech>
+					<TechYields>
+						<iYield>0</iYield>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
 					</TechYields>
@@ -1900,8 +1908,22 @@
 			<iHappiness>0</iHappiness>
 			<iPillageGold>15</iPillageGold>
 			<bOutsideBorders>0</bOutsideBorders>
-			<TerrainMakesValids/>
-			<FeatureMakesValids/>
+			<TerrainMakesValids>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_GRASS</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+				<TerrainMakesValid>
+					<TerrainType>TERRAIN_PLAINS</TerrainType>
+					<bMakesValid>1</bMakesValid>
+				</TerrainMakesValid>
+			</TerrainMakesValids>
+			<FeatureMakesValids>
+				<FeatureMakesValid>
+					<FeatureType>FEATURE_OASIS</FeatureType>
+					<bMakesValid>1</bMakesValid>
+				</FeatureMakesValid>
+			</FeatureMakesValids>
 			<ImprovementPillage>IMPROVEMENT_COTTAGE</ImprovementPillage>
 			<ImprovementUpgrade>IMPROVEMENT_VILLAGE</ImprovementUpgrade>
 			<TechYieldChanges/>
@@ -2036,14 +2058,6 @@
 			<TechYieldChanges>
 				<TechYieldChange>
 					<PrereqTech>TECH_PRINTING_PRESS</PrereqTech>
-					<TechYields>
-						<iYield>0</iYield>
-						<iYield>0</iYield>
-						<iYield>1</iYield>
-					</TechYields>
-				</TechYieldChange>
-				<TechYieldChange>
-					<PrereqTech>TECH_GUILDS</PrereqTech>
 					<TechYields>
 						<iYield>0</iYield>
 						<iYield>0</iYield>

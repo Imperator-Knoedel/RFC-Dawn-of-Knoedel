@@ -82,7 +82,7 @@
 				</FeatureStruct>
 				<FeatureStruct>
 					<FeatureType>FEATURE_FLOOD_PLAINS</FeatureType>
-					<PrereqTech>TECH_BIOLOGY</PrereqTech>
+					<PrereqTech>TECH_POTTERY</PrereqTech>
 					<iTime>500</iTime>
 					<iProduction>0</iProduction>
 					<bRemove>0</bRemove>
@@ -272,29 +272,6 @@
 			<iTime>800</iTime>
 			<ImprovementType>IMPROVEMENT_WATERMILL</ImprovementType>
 			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
-			<!--<FeatureStructs>
-				<FeatureStruct>
-					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<PrereqTech>TECH_BIOLOGY</PrereqTech>
-					<iTime>400</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_RAINFOREST</FeatureType>
-					<PrereqTech>TECH_BIOLOGY</PrereqTech>
-					<iTime>400</iTime>
-					<iProduction>0</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST</FeatureType>
-					<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
-					<iTime>300</iTime>
-					<iProduction>30</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-			</FeatureStructs>-->
 			<HotKey>KB_W</HotKey>
 			<bAltDown>0</bAltDown>
 			<bShiftDown>1</bShiftDown>
@@ -901,44 +878,6 @@
 			<Button>,Art/Interface/Buttons/Builds/BuildWindMill.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,5,8</Button>
 			<bGraphicalOnly>1</bGraphicalOnly>
 		</BuildInfo>
-		<!--<BuildInfo>
-			<Type>BUILD_WATERMILL_DEFORESTATION</Type>
-			<Description>TXT_KEY_BUILD_WATERMILL</Description>
-			<PrereqTech>TECH_MACHINERY</PrereqTech>
-			<iTime>900</iTime>
-			<ImprovementType>IMPROVEMENT_WATERMILL</ImprovementType>
-			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
-			<FeatureStructs>
-				<FeatureStruct>
-					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<PrereqTech>TECH_BIOLOGY</PrereqTech>
-					<iTime>400</iTime>
-					<iProduction>40</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_RAINFOREST</FeatureType>
-					<PrereqTech>TECH_BIOLOGY</PrereqTech>
-					<iTime>400</iTime>
-					<iProduction>40</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-				<FeatureStruct>
-					<FeatureType>FEATURE_FOREST</FeatureType>
-					<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
-					<iTime>300</iTime>
-					<iProduction>30</iProduction>
-					<bRemove>1</bRemove>
-				</FeatureStruct>
-			</FeatureStructs>
-			<HotKey>KB_W</HotKey>
-			<bAltDown>0</bAltDown>
-			<bShiftDown>1</bShiftDown>
-			<bCtrlDown>0</bCtrlDown>
-			<iHotKeyPriority>0</iHotKeyPriority>
-			<Button>,Art/Interface/Buttons/Builds/BuildWaterMill.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,3,8</Button>
-			<bGraphicalOnly>1</bGraphicalOnly>
-		</BuildInfo>-->
 		<BuildInfo>
 			<Type>BUILD_PLANTATION_DEFORESTATION</Type>
 			<Description>TXT_KEY_BUILD_PLANTATION</Description>
@@ -1135,6 +1074,83 @@
 			<PrereqTech>TECH_POTTERY</PrereqTech>
 			<iTime>400</iTime>
 			<ImprovementType>IMPROVEMENT_COTTAGE</ImprovementType>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<FeatureStructs>
+				<FeatureStruct>
+					<FeatureType>FEATURE_JUNGLE</FeatureType>
+					<PrereqTech>TECH_BIOLOGY</PrereqTech>
+					<iTime>400</iTime>
+					<iProduction>40</iProduction>
+					<bRemove>1</bRemove>
+				</FeatureStruct>
+				<FeatureStruct>
+					<FeatureType>FEATURE_RAINFOREST</FeatureType>
+					<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+					<iTime>400</iTime>
+					<iProduction>0</iProduction>
+					<bRemove>0</bRemove>
+				</FeatureStruct>
+				<FeatureStruct>
+					<FeatureType>FEATURE_FOREST</FeatureType>
+					<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+					<iTime>300</iTime>
+					<iProduction>30</iProduction>
+					<bRemove>1</bRemove>
+				</FeatureStruct>
+			</FeatureStructs>
+			<HotKey>KB_T</HotKey>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>,Art/Interface/Buttons/Builds/BuildCottage.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,2,7</Button>
+			<bGraphicalOnly>1</bGraphicalOnly>
+		</BuildInfo>
+		<BuildInfo>
+			<Type>BUILD_HAMLET</Type>
+			<Description>TXT_KEY_BUILD_HAMLET</Description>
+			<PrereqTech>TECH_POTTERY</PrereqTech>
+			<iTime>500</iTime>
+			<bKill>1</bKill>
+			<ImprovementType>IMPROVEMENT_HAMLET</ImprovementType>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<FeatureStructs>
+				<FeatureStruct>
+					<FeatureType>FEATURE_JUNGLE</FeatureType>
+					<PrereqTech>TECH_BIOLOGY</PrereqTech>
+					<iTime>400</iTime>
+					<iProduction>0</iProduction>
+					<bRemove>1</bRemove>
+				</FeatureStruct>
+				<FeatureStruct>
+					<FeatureType>FEATURE_RAINFOREST</FeatureType>
+					<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+					<iTime>400</iTime>
+					<iProduction>0</iProduction>
+					<bRemove>0</bRemove>
+				</FeatureStruct>
+				<FeatureStruct>
+					<FeatureType>FEATURE_FOREST</FeatureType>
+					<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
+					<iTime>300</iTime>
+					<iProduction>30</iProduction>
+					<bRemove>1</bRemove>
+				</FeatureStruct>
+			</FeatureStructs>
+			<HotKey>KB_T</HotKey>
+			<bAltDown>0</bAltDown>
+			<bShiftDown>0</bShiftDown>
+			<bCtrlDown>0</bCtrlDown>
+			<iHotKeyPriority>0</iHotKeyPriority>
+			<Button>,Art/Interface/Buttons/Builds/BuildCottage.dds,Art/Interface/Buttons/Actions_Builds_LeaderHeads_Specialists_Atlas.dds,2,7</Button>
+		</BuildInfo>
+		<BuildInfo>
+			<Type>BUILD_HAMLET_DEFORESTATION</Type>
+			<Description>TXT_KEY_BUILD_HAMLET</Description>
+			<PrereqTech>TECH_POTTERY</PrereqTech>
+			<iTime>500</iTime>
+			<bKill>1</bKill>
+			<ImprovementType>IMPROVEMENT_HAMLET</ImprovementType>
 			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
 			<FeatureStructs>
 				<FeatureStruct>
