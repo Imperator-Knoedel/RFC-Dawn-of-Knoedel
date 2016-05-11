@@ -106,7 +106,7 @@
 			<Upkeep>UPKEEP_HIGH</Upkeep>
 			<BuildingHappinessChanges>
 				<BuildingHappinessChange>
-					<BuildingType>BUILDINGCLASS_COURTHOUSE</BuildingType>
+					<BuildingType>BUILDINGCLASS_CITY_HALL</BuildingType>
 					<iHappinessChange>1</iHappinessChange>
 				</BuildingHappinessChange>
 			</BuildingHappinessChanges>
@@ -121,6 +121,12 @@
 				<iYield>1</iYield>
 			</SpecialistExtraYields>
 			<iImprovementUpgradeRateModifier>100</iImprovementUpgradeRateModifier>
+			<BuildingProductionModifiers>
+				<BuildingProductionModifier>
+					<BuildingType>BUILDINGCLASS_CITY_HALL</BuildingType>
+					<iProductionModifier>100</iProductionModifier>
+				</BuildingProductionModifier>
+			</BuildingProductionModifiers>
 			<WeLoveTheKing>TXT_KEY_CIVIC_WE_LOVE_PRESIDENT</WeLoveTheKing>
 		</CivicInfo>
 		<CivicInfo>

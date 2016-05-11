@@ -407,6 +407,15 @@
 			<DefaultBuilding>BUILDING_SECURITY_BUREAU</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
+			<Type>BUILDINGCLASS_CITY_HALL</Type>
+			<Description>TXT_KEY_BUILDING_CITY_HALL</Description>
+			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
+			<iMaxTeamInstances>-1</iMaxTeamInstances>
+			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
+			<iExtraPlayerInstances>0</iExtraPlayerInstances>
+			<DefaultBuilding>BUILDING_CITY_HALL</DefaultBuilding>
+		</BuildingClassInfo>
+		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_JEWISH_TEMPLE</Type>
 			<Description>TXT_KEY_BUILDING_JEWISH_TEMPLE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>

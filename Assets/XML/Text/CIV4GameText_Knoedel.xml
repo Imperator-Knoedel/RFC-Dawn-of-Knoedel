@@ -111,4 +111,28 @@
 		<Italian>Build a Hamlet</Italian>
 		<Spanish>Build a Hamlet</Spanish>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CITY_HALL</Tag>
+		<English>City Hall</English>
+		<French>City Hall</French>
+		<German>Stadthalle</German>
+		<Italian>City Hall</Italian>
+		<Spanish>City Hall</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CITY_HALL_PEDIA</Tag>
+		<English>In local government, a city hall, town hall, civic centre, guildhall, or (more rarely) a municipal building, is the chief administrative building of a city, town, or other municipality. It usually houses the city or town council, its associated departments, and their employees. It also usually functions as the base of the mayor of a city, town, borough, or county. The local government may endeavor to use the town hall building to promote and enhance the quality of life of the community. In many cases, town halls serve not only as buildings for government functions, but also have facilities for various civic and cultural activities. These may include art shows, stage performances, exhibits and festivals. Modern town halls or "civic centres" are often designed with a great variety and flexibility of purpose in mind. City hall buildings may also serve as cultural icons that symbolize their cities.</English>
+		<French>In local government, a city hall, town hall, civic centre, guildhall, or (more rarely) a municipal building, is the chief administrative building of a city, town, or other municipality. It usually houses the city or town council, its associated departments, and their employees. It also usually functions as the base of the mayor of a city, town, borough, or county. The local government may endeavor to use the town hall building to promote and enhance the quality of life of the community. In many cases, town halls serve not only as buildings for government functions, but also have facilities for various civic and cultural activities. These may include art shows, stage performances, exhibits and festivals. Modern town halls or "civic centres" are often designed with a great variety and flexibility of purpose in mind. City hall buildings may also serve as cultural icons that symbolize their cities.</French>
+		<German>In local government, a city hall, town hall, civic centre, guildhall, or (more rarely) a municipal building, is the chief administrative building of a city, town, or other municipality. It usually houses the city or town council, its associated departments, and their employees. It also usually functions as the base of the mayor of a city, town, borough, or county. The local government may endeavor to use the town hall building to promote and enhance the quality of life of the community. In many cases, town halls serve not only as buildings for government functions, but also have facilities for various civic and cultural activities. These may include art shows, stage performances, exhibits and festivals. Modern town halls or "civic centres" are often designed with a great variety and flexibility of purpose in mind. City hall buildings may also serve as cultural icons that symbolize their cities.</German>
+		<Italian>In local government, a city hall, town hall, civic centre, guildhall, or (more rarely) a municipal building, is the chief administrative building of a city, town, or other municipality. It usually houses the city or town council, its associated departments, and their employees. It also usually functions as the base of the mayor of a city, town, borough, or county. The local government may endeavor to use the town hall building to promote and enhance the quality of life of the community. In many cases, town halls serve not only as buildings for government functions, but also have facilities for various civic and cultural activities. These may include art shows, stage performances, exhibits and festivals. Modern town halls or "civic centres" are often designed with a great variety and flexibility of purpose in mind. City hall buildings may also serve as cultural icons that symbolize their cities.</Italian>
+		<Spanish>In local government, a city hall, town hall, civic centre, guildhall, or (more rarely) a municipal building, is the chief administrative building of a city, town, or other municipality. It usually houses the city or town council, its associated departments, and their employees. It also usually functions as the base of the mayor of a city, town, borough, or county. The local government may endeavor to use the town hall building to promote and enhance the quality of life of the community. In many cases, town halls serve not only as buildings for government functions, but also have facilities for various civic and cultural activities. These may include art shows, stage performances, exhibits and festivals. Modern town halls or "civic centres" are often designed with a great variety and flexibility of purpose in mind. City hall buildings may also serve as cultural icons that symbolize their cities.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_CITY_HALL_STRATEGY</Tag>
+		<English>City Halls provide a free statesman, a statesman slot, and a free specialist for every town in the city radius.</English>
+		<French>City Halls provide a free statesman, a statesman slot, and a free specialist for every town in the city radius.</French>
+		<German>City Halls provide a free statesman, a statesman slot, and a free specialist for every town in the city radius.</German>
+		<Italian>City Halls provide a free statesman, a statesman slot, and a free specialist for every town in the city radius.</Italian>
+		<Spanish>City Halls provide a free statesman, a statesman slot, and a free specialist for every town in the city radius.</Spanish>
+	</TEXT>
 </Civ4GameText>
