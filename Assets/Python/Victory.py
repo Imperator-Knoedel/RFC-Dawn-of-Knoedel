@@ -1292,15 +1292,15 @@ def checkTurn(iGameTurn, iPlayer):
 		
 	elif iPlayer == iAmerica:
 	
-		# first goal: allow no European colonies in North America, Central America and the Caribbean and control or vassalize Mexico in 1930 AD
+		# first goal: allow no European colonies in North America, Central America and the Caribbean and control or vassalize Mexico in 1900 AD
 		if iGameTurn == getTurnForYear(1900):
 			if isAreaFreeOfCivs(utils.getPlotList(tNCAmericaTL, tNCAmericaBR), lCivGroups[0]) and isControlledOrVassalized(iAmerica, Areas.getCoreArea(iAztecs, True)):
 				win(iAmerica, 0)
 			else:
 				lose(iAmerica, 0)
 				
-		# second goal: build the Statue of Liberty, the Empire State Building, the Pentagon and the United Nations by 1950 AD
-		if iGameTurn == getTurnForYear(1950):
+		# second goal: build the Statue of Liberty, the Empire State Building, the Pentagon and the United Nations by 1945 AD
+		if iGameTurn == getTurnForYear(1945):
 			expire(iAmerica, 1)
 			
 		# third goal: secure 10 oil resources by 2000 AD

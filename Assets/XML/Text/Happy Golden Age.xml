@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Game Text - New -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_HAPPY_GOLDEN_AGE</Tag>
+		<English>Golden Age: (%d1 [COLOR_POSITIVE_TEXT]+%d2[COLOR_REVERT]) / %d3</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SAD_GOLDEN_AGE</Tag>
+		<English>Golden Age: (%d1 [COLOR_WARNING_TEXT]%d2[COLOR_REVERT]) / %d3</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IS_GOLDEN_AGE</Tag>
+		<English>[ICON_GOLDENAGE][ICON_GOLDENAGE][ICON_GOLDENAGE]Golden Age[ICON_GOLDENAGE][ICON_GOLDENAGE][ICON_GOLDENAGE]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_IS_ANARCHY</Tag>
+		<English>[ICON_UNHAPPY][ICON_UNHAPPY][ICON_UNHAPPY]Anarchy[ICON_UNHAPPY][ICON_UNHAPPY][ICON_UNHAPPY]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_HAPPY_HEALTH_BAR</Tag>
+		<English>Healthcare: (%d1 [COLOR_POSITIVE_TEXT]+%d2[COLOR_REVERT]) / %d3</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_SAD_HEALTH_BAR</Tag>
+		<English>Healthcare: (%d1 [COLOR_WARNING_TEXT]%d2[COLOR_REVERT]) / %d3</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRIGGER_GOLDEN_AGE</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Our empire has maintained happiness for a long period of time![COLOR_REVERT]</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRIGGER_GOLDEN_HEALTH</Tag>
+		<English>[COLOR_HIGHLIGHT_TEXT]Our empire has maintained healthiness for a long period of time![COLOR_REVERT]</English>
+	</TEXT>
+</Civ4GameText>
