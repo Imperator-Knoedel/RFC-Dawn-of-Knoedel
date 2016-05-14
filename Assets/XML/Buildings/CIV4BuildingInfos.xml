@@ -8102,7 +8102,7 @@
 			<bTeamShare>1</bTeamShare>
 			<bWater>1</bWater>
 			<bNukeImmune>1</bNukeImmune>
-			<iCost>200</iCost>
+			<iCost>150</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>10</iMinAreaSize>
@@ -8325,7 +8325,7 @@
 			<bMapCentering>1</bMapCentering>
 			<bNukeImmune>1</bNukeImmune>
 			<iAIWeight>200</iAIWeight>
-			<iCost>250</iCost>
+			<iCost>200</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
@@ -8873,7 +8873,7 @@
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<bTeamShare>1</bTeamShare>
 			<bNukeImmune>1</bNukeImmune>
-			<iCost>350</iCost>
+			<iCost>250</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
@@ -8931,7 +8931,7 @@
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<bTeamShare>1</bTeamShare>
 			<bNukeImmune>1</bNukeImmune>
-			<iCost>450</iCost>
+			<iCost>300</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>

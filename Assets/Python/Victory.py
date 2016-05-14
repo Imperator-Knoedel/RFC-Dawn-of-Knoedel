@@ -44,7 +44,7 @@ tDeccanBR = (94, 36)
 tSrivijayaTL = (98, 25)
 tSrivijayaBR = (105, 29)
 
-# third Ethiopian goal: allow no European colonies and East and Subequatorial Africa in 1500 AD and 1910 AD
+# third Ethiopian goal: allow no European colonies and East and Subequatorial Africa in 1500 AD and 1930 AD
 tSomaliaTL = (73, 24)
 tSomaliaBR = (77, 29)
 tSubeqAfricaTL = (60, 10)
@@ -86,26 +86,26 @@ tWestAfricaBR = (56, 32)
 tEuropeTL = (44, 40)
 tEuropeBR = (68, 65)
 
-# second French goal: control 40% of Europe and North America in 1800 AD
+# second French goal: control 40% of Europe and North America in 1815 AD
 tEasternEuropeTL = (69, 48)
 tEasternEuropeBR = (73, 64)
 
-# second French goal: control 40% of Europe and North America in 1800 AD
-# first English goal: colonize every continent by 1730 AD
+# second French goal: control 40% of Europe and North America in 1815 AD
+# first English goal: colonize every continent by 1850 AD
 # third Maya goal: make contact with a European civilization before they have discovered America
 tNorthAmericaTL = (10, 40)
 tNorthAmericaBR = (37, 58)
 
-# first English goal: colonize every continent by 1730 AD
+# first English goal: colonize every continent by 1850 AD
 tOceaniaTL = (99, 5)
 tOceaniaBR = (123, 28)
 
-# first English goal: colonize every continent by 1730 AD
+# first English goal: colonize every continent by 1850 AD
 # third Maya goal: make contact with a European civilization before they have discovered America
 tSouthCentralAmericaTL = (13, 3)
 tSouthCentralAmericaBR = (41, 39)
 
-# first English goal: colonize every continent by 1730 AD
+# first English goal: colonize every continent by 1850 AD
 # third Portuguese goal: control 15 cities in Brazil, Africa and Asia in 1700 AD
 tAfricaTL = (45, 10)
 tAfricaBR = (76, 39)
@@ -138,7 +138,7 @@ tSAmericaTL = (24, 3)
 tSAmericaBR = (43, 32)
 tSouthAmericaExceptions = ((24, 31), (25, 32))
 
-# third Holy Roman goal: settle three great artists in Vienna by 1700 AD
+# third Holy Roman goal: settle four great artists in Vienna by 1805 AD
 # second Turkish goal: control the Eastern Mediterranean, the Black Sea, Cairo, Mecca, Baghdad and Vienna by 1700 AD
 tVienna = (62, 49)
 
@@ -274,19 +274,19 @@ def checkTurn(iGameTurn, iPlayer):
 	
 	if iPlayer == iEgypt:
 	
-		# first goal: have 500 culture in 850 BC
-		if iGameTurn == getTurnForYear(-850):
+		# first goal: have 500 culture in 1000 BC
+		if iGameTurn == getTurnForYear(-1000):
 			if pEgypt.countTotalCulture() >= utils.getTurns(500):
 				win(iEgypt, 0)
 			else:
 				lose(iEgypt, 0)
 				
-		# first goal: build the Pyramids, the Great Lighthouse and the Great Library by 100 BC
-		if iGameTurn == getTurnForYear(-100):
+		# first goal: build the Pyramids, the Great Lighthouse and the Great Library by 200 BC
+		if iGameTurn == getTurnForYear(-200):
 			expire(iEgypt, 1)
 				
-		# third goal: have 5000 culture in 170 AD
-		if iGameTurn == getTurnForYear(170):
+		# third goal: have 5000 culture in 30 BC
+		if iGameTurn == getTurnForYear(-30):
 			if pEgypt.countTotalCulture() >= utils.getTurns(5000):
 				win(iEgypt, 2)
 			else:
@@ -355,12 +355,12 @@ def checkTurn(iGameTurn, iPlayer):
 	
 		# first goal: be the first to discover Literature, Drama and Philosophy
 		
-		# second goal: build the Oracle, the Parthenon, the Colossus and the Temple of Artemis by 250 BC
-		if iGameTurn == getTurnForYear(-250):
+		# second goal: build the Oracle, the Parthenon, the Colossus and the Temple of Artemis by 150 BC
+		if iGameTurn == getTurnForYear(-150):
 			expire(iGreece, 1)
 			
-		# third goal: control Egypt, Phoenicia, Babylonia and Persia in 325 BC
-		if iGameTurn == getTurnForYear(-325):
+		# third goal: control Egypt, Phoenicia, Babylonia and Persia in 320 BC
+		if iGameTurn == getTurnForYear(-320):
 			bEgypt = checkOwnedCiv(iGreece, iEgypt)
 			bPhoenicia = checkOwnedCiv(iGreece, iCarthage)
 			bBabylonia = checkOwnedCiv(iGreece, iBabylonia)
@@ -439,24 +439,24 @@ def checkTurn(iGameTurn, iPlayer):
 		# Persia
 		if not pPersia.isReborn():
 		
-			# first goal: control 7% of world territory by 140 AD
+			# first goal: control 6% of world territory by 330 BC
 			if isPossible(iPersia, 0):
-				if getLandPercent(iPersia) >= 6.995:
+				if getLandPercent(iPersia) >= 5.995:
 					win(iPersia, 0)
 			
-			if iGameTurn == getTurnForYear(140):
+			if iGameTurn == getTurnForYear(-330):
 				expire(iPersia, 0)
 				
-			# second goal: control seven wonders by 350 AD
+			# second goal: control seven wonders by 260 AD
 			if isPossible(iPersia, 1):
 				if countWonders(iPersia) >= 7:
 					win(iPersia, 1)
 					
-			if iGameTurn == getTurnForYear(350):
+			if iGameTurn == getTurnForYear(260):
 				expire(iPersia, 1)
 						
-			# third goal: control two holy shrines in 350 AD
-			if iGameTurn == getTurnForYear(350):
+			# third goal: control two holy shrines in 20 BC
+			if iGameTurn == getTurnForYear(-20):
 				if countShrines(iPersia) >= 2:
 					win(iPersia, 2)
 				else:
@@ -492,8 +492,8 @@ def checkTurn(iGameTurn, iPlayer):
 					
 	elif iPlayer == iRome:
 	
-		# first goal: build 6 Barracks, 5 Aqueducts, 4 Amphitheatres and 3 Forums by 100 AD
-		if iGameTurn == getTurnForYear(100):
+		# first goal: build 6 Barracks, 5 Aqueducts, 4 Amphitheatres and 3 Forums by 180 AD
+		if iGameTurn == getTurnForYear(180):
 			expire(iRome, 0)
 			
 		# second goal: control Iberia, Gaul, Britain, Africa, Greece, Asia Minor and Egypt in 320 AD
@@ -553,24 +553,24 @@ def checkTurn(iGameTurn, iPlayer):
 					
 	elif iPlayer == iEthiopia:
 	
-		# first goal: found Catholicism
+		# first goal: found Orthodoxy
 		
-		# second goal: acquire three incense resources by 600 AD
+		# second goal: acquire three incense resources by 1200 AD
 		if isPossible(iEthiopia, 1):
-			if pEthiopia.getNumAvailableBonuses(iIncense) >= 3:
+			if pEthiopia.getNumAvailableBonuses(iIncense) >= 4:
 				win(iEthiopia, 1)
 				
-		if iGameTurn == getTurnForYear(600):
+		if iGameTurn == getTurnForYear(1200):
 			expire(iEthiopia, 1)
 			
-		# third goal: allow no European colonies in East and Subequatorial Africa in 1500 AD and 1910 AD
+		# third goal: allow no European colonies in East and Subequatorial Africa in 1500 AD and 1930 AD
 		if iGameTurn == getTurnForYear(1500):
 			bEastAfrica = isAreaFreeOfCivs(utils.getPlotList(tSomaliaTL, tSomaliaBR), lCivGroups[0])
 			bSubequatorialAfrica = isAreaFreeOfCivs(utils.getPlotList(tSubeqAfricaTL, tSubeqAfricaBR), lCivGroups[0])
 			if not bEastAfrica or not bSubequatorialAfrica:
 				lose(iEthiopia, 2)
 				
-		if iGameTurn == getTurnForYear(1910) and isPossible(iEthiopia, 2):
+		if iGameTurn == getTurnForYear(1930) and isPossible(iEthiopia, 2):
 			bEastAfrica = isAreaFreeOfCivs(utils.getPlotList(tSomaliaTL, tSomaliaBR), lCivGroups[0])
 			bSubequatorialAfrica = isAreaFreeOfCivs(utils.getPlotList(tSubeqAfricaTL, tSubeqAfricaBR), lCivGroups[0])
 			if bEastAfrica and bSubequatorialAfrica:
@@ -597,8 +597,8 @@ def checkTurn(iGameTurn, iPlayer):
 			if iGameTurn == getTurnForYear(600):
 				expire(iMaya, 0)
 				
-			# second goal: build the Temple of Kukulkan by 900 AD
-			if iGameTurn == getTurnForYear(900):
+			# second goal: build the Temple of Kukulkan by 1000 AD
+			if iGameTurn == getTurnForYear(1000):
 				expire(iMaya, 1)
 				
 			# third goal: make contact with a European civilization before they discover America
@@ -682,8 +682,8 @@ def checkTurn(iGameTurn, iPlayer):
 		if iGameTurn == getTurnForYear(1600):
 			expire(iJapan, 0)
 				
-		# second goal: control or vassalize Korea, Manchuria, China, Indochina, Indonesia and the Philippines in 1940 AD
-		if iGameTurn == getTurnForYear(1940):
+		# second goal: control or vassalize Korea, Manchuria, China, Indochina, Indonesia and the Philippines in 1945 AD
+		if iGameTurn == getTurnForYear(1945):
 			bKorea = isControlledOrVassalized(iJapan, utils.getPlotList(tKoreaTL, tKoreaBR))
 			bManchuria = isControlledOrVassalized(iJapan, utils.getPlotList(tManchuriaTL, tManchuriaBR))
 			bChina = isControlledOrVassalized(iJapan, utils.getPlotList(tChinaTL, tChinaBR))
@@ -806,8 +806,8 @@ def checkTurn(iGameTurn, iPlayer):
 		if iGameTurn == getTurnForYear(1500):
 			expire(iIndonesia, 1)
 		
-		# third goal: control 9% of the world's population in 1940 AD
-		if iGameTurn == getTurnForYear(1940):
+		# third goal: control 9% of the world's population in 1950 AD
+		if iGameTurn == getTurnForYear(1950):
 			if calculatePopulationPercent(iIndonesia) >= 9.0:
 				win(iIndonesia, 2)
 			else:
@@ -815,8 +815,8 @@ def checkTurn(iGameTurn, iPlayer):
 				
 	elif iPlayer == iMoors:
 	
-		# first goal: control three cities in Iberia, the Maghreb and West Africa in 1200 AD
-		if iGameTurn == getTurnForYear(1200):
+		# first goal: control three cities in Iberia, the Maghreb and West Africa in 1150 AD
+		if iGameTurn == getTurnForYear(1150):
 			bIberia = getNumCitiesInArea(iMoors, utils.getPlotList(tIberiaTL, tIberiaBR)) >= 3
 			bMaghreb = getNumCitiesInArea(iMoors, utils.getPlotList(tMaghrebTL, tMaghrebBR)) >= 3
 			bWestAfrica = getNumCitiesInArea(iMoors, utils.getPlotList(tWestAfricaTL, tWestAfricaBR)) >= 3
@@ -826,25 +826,25 @@ def checkTurn(iGameTurn, iPlayer):
 			else:
 				lose(iMoors, 0)
 				
-		# second goal: settle five great prophets, scientists or engineers in Cordoba by 1300 AD
+		# second goal: settle six great prophets, scientists or engineers in Cordoba by 1490 AD
 		if isPossible(iMoors, 1):
 			iCounter = 0
 			iCounter += countCitySpecialists(iMoors, (51, 41), iSpecialistGreatProphet)
 			iCounter += countCitySpecialists(iMoors, (51, 41), iSpecialistGreatScientist)
 			iCounter += countCitySpecialists(iMoors, (51, 41), iSpecialistGreatEngineer)
 			
-			if iCounter >= 5:
+			if iCounter >= 6:
 				win(iMoors, 1)
 				
-		if iGameTurn == getTurnForYear(1300):
+		if iGameTurn == getTurnForYear(1490):
 			expire(iMoors, 1)
 				
-		# third goal: acquire 3000 gold through piracy by 1650 AD
+		# third goal: acquire 3000 gold through piracy by 1680 AD
 		if isPossible(iMoors, 2):
 			if sd.getMoorishGold() >= utils.getTurns(3000):
 				win(iMoors, 2)
 				
-		if iGameTurn == getTurnForYear(1650):
+		if iGameTurn == getTurnForYear(1680):
 			expire(iMoors, 2)
 			
 	elif iPlayer == iSpain:
@@ -883,8 +883,8 @@ def checkTurn(iGameTurn, iPlayer):
 			else:
 				lose(iFrance, 0)
 				
-		# second goal: control 40% of Europe and North America in 1800 AD
-		if iGameTurn == getTurnForYear(1800):
+		# second goal: control 40% of Europe and North America in 1815 AD
+		if iGameTurn == getTurnForYear(1815):
 			iEurope, iTotalEurope = countControlledTiles(iFrance, tEuropeTL, tEuropeBR, True)
 			iEasternEurope, iTotalEasternEurope = countControlledTiles(iFrance, tEasternEuropeTL, tEasternEuropeBR, True)
 			iNorthAmerica, iTotalNorthAmerica = countControlledTiles(iFrance, tNorthAmericaTL, tNorthAmericaBR, True)
@@ -897,17 +897,17 @@ def checkTurn(iGameTurn, iPlayer):
 			else:
 				lose(iFrance, 1)
 				
-		# third goal: build Notre Dame, Versailles, the Statue of Liberty and the Eiffel Tower by 1900 AD
-		if iGameTurn == getTurnForYear(1900):
+		# third goal: build Notre Dame, Versailles, the Statue of Liberty and the Eiffel Tower by 1890 AD
+		if iGameTurn == getTurnForYear(1890):
 			expire(iFrance, 2)
 			
 	elif iPlayer == iEngland:
 	
-		# first goal: colonize every continent by 1730 AD
-		if iGameTurn == getTurnForYear(1730):
+		# first goal: colonize every continent by 1850 AD
+		if iGameTurn == getTurnForYear(1850):
 			expire(iEngland, 0)
 			
-		# second goal: control a total of 25 frigates and ships of the line and sink 50 enemy ships by 1800 AD
+		# second goal: control a total of 25 frigates and ships of the line and sink 50 enemy ships by 1815 AD
 		if isPossible(iEngland, 1):
 			iEnglishNavy = 0
 			iEnglishNavy += pEngland.getUnitClassCount(gc.getUnitInfo(iFrigate).getUnitClassType())
@@ -916,7 +916,7 @@ def checkTurn(iGameTurn, iPlayer):
 			if iEnglishNavy >= 25 and sd.getEnglishSinks() >= 50:
 				win(iEngland, 1)
 		
-		if iGameTurn == getTurnForYear(1800):
+		if iGameTurn == getTurnForYear(1815):
 			expire(iEngland, 1)
 			
 		# third goal: be the first to enter the Industrial and Modern eras
@@ -934,19 +934,19 @@ def checkTurn(iGameTurn, iPlayer):
 				
 		# second goal: found Protestantism
 		
-		# third goal: settle three great artists in Vienna by 1700 AD
+		# third goal: settle three great artists in Vienna by 1805 AD
 		if isPossible(iHolyRome, 2):
-			if countCitySpecialists(iHolyRome, tVienna, iSpecialistGreatArtist) >= 3:
+			if countCitySpecialists(iHolyRome, tVienna, iSpecialistGreatArtist) >= 4:
 				win(iHolyRome, 2)
 				
-		if iGameTurn == getTurnForYear(1700):
+		if iGameTurn == getTurnForYear(1805):
 			expire(iHolyRome, 2)
 			
 	elif iPlayer == iRussia:
 	
-		# first goal: found seven cities in Siberia by 1700 AD and build the Trans-Siberian Railway by 1920 AD
-		if iGameTurn == getTurnForYear(1700):
-			if getNumFoundedCitiesInArea(iRussia, utils.getPlotList(tSiberiaTL, tSiberiaBR)) < 7:
+		# first goal: found nine cities in Siberia by 1800 AD and build the Trans-Siberian Railway by 1920 AD
+		if iGameTurn == getTurnForYear(1800):
+			if getNumFoundedCitiesInArea(iRussia, utils.getPlotList(tSiberiaTL, tSiberiaBR)) < 9:
 				lose(iRussia, 0)
 				
 		if isPossible(iRussia, 0):
@@ -959,12 +959,12 @@ def checkTurn(iGameTurn, iPlayer):
 			
 		# second goal: be the first civilization to complete the Manhattan Project and the Apollo Program
 		
-		# third goal: have friendly relations with five communist civilizations by 1950 AD
+		# third goal: have friendly relations with five communist civilizations by 1960 AD
 		if isPossible(iRussia, 2):
 			if countPlayersWithAttitudeAndCivic(iPlayer, AttitudeTypes.ATTITUDE_FRIENDLY, (3, iCivicCentralPlanning)) >= 5:
 				win(iRussia, 2)
 				
-		if iGameTurn == getTurnForYear(1950):
+		if iGameTurn == getTurnForYear(1960):
 			expire(iRussia, 2)
 			
 	elif iPlayer == iMali:
@@ -982,13 +982,13 @@ def checkTurn(iGameTurn, iPlayer):
 		if iGameTurn == getTurnForYear(1500):
 			expire(iMali, 1)
 			
-		# third goal: have 5000 gold in 1500 AD and 15000 gold in 1700 AD
+		# third goal: have 5000 gold in 1500 AD and 10000 gold in 1600 AD
 		if iGameTurn == getTurnForYear(1500):
 			if pMali.getGold() < utils.getTurns(5000):
 				lose(iMali, 2)
 				
-		if iGameTurn == getTurnForYear(1700) and isPossible(iMali, 2):
-			if pMali.getGold() >= utils.getTurns(15000):
+		if iGameTurn == getTurnForYear(1600) and isPossible(iMali, 2):
+			if pMali.getGold() >= utils.getTurns(10000):
 				win(iMali, 2)
 			else:
 				lose(iMali, 2)
@@ -1027,8 +1027,8 @@ def checkTurn(iGameTurn, iPlayer):
 		if iGameTurn == getTurnForYear(1650):
 			expire(iPortugal, 1)
 			
-		# third goal: control 15 cities in Brazil, Africa and Asia in 1700 AD
-		if iGameTurn == getTurnForYear(1700):
+		# third goal: control 15 cities in Brazil, Africa and Asia in 1750 AD
+		if iGameTurn == getTurnForYear(1750):
 			iCount = 0
 			iCount += getNumCitiesInArea(iPortugal, utils.getPlotList(tBrazilTL, tBrazilBR))
 			iCount += getNumCitiesInArea(iPortugal, utils.getPlotList(tAfricaTL, tAfricaBR))
@@ -1040,27 +1040,27 @@ def checkTurn(iGameTurn, iPlayer):
 				
 	elif iPlayer == iInca:
 	
-		# first goal: build five Tambos and a road along the Andean coast by 1500 AD
+		# first goal: build five Tambos and a road along the Andean coast by 1530 AD
 		if isPossible(iInca, 0):
 			if isRoad(iInca, lAndeanCoast) and getNumBuildings(iInca, iIncanTambo) >= 5:
 				win(iInca, 0)
 				
-		if iGameTurn == getTurnForYear(1500):
+		if iGameTurn == getTurnForYear(1530):
 			expire(iInca, 0)
 			
-		# second goal: have 2500 gold in 1550 AD
-		if iGameTurn == getTurnForYear(1550):
+		# second goal: have 2500 gold in 1530 AD
+		if iGameTurn == getTurnForYear(1530):
 			if pInca.getGold() >= utils.getTurns(2500):
 				win(iInca, 1)
 			else:
 				lose(iInca, 1)
 			
-		# third goal: control 60% of South America in 1700 AD
-		if iGameTurn == getTurnForYear(1700):
+		# third goal: control 40% of South America in 1600 AD
+		if iGameTurn == getTurnForYear(1600):
 			iControl, iTotal = countControlledTiles(iInca, tSAmericaTL, tSAmericaBR, False, tSouthAmericaExceptions)
 			fControl = iControl * 100.0 / iTotal
 			
-			if fControl >= 60.0:
+			if fControl >= 40.0:
 				win(iInca, 2)
 			else:
 				lose(iInca, 2)
@@ -1071,23 +1071,23 @@ def checkTurn(iGameTurn, iPlayer):
 		if iGameTurn == getTurnForYear(1500):
 			expire(iItaly, 0)
 			
-		# second goal: have three cities with influential culture by 1600 AD
+		# second goal: have three cities with influential culture by 1560 AD
 		if isPossible(iItaly, 1):
 			if countCitiesWithCultureLevel(iItaly, 5) >= 3:
 				win(iItaly, 1)
 				
-		if iGameTurn == getTurnForYear(1600):
+		if iGameTurn == getTurnForYear(1560):
 			expire(iItaly, 1)
 			
-		# third goal: control 65% of the Mediterranean by 1930 AD
+		# third goal: control 70% of the Mediterranean by 1945 AD
 		if isPossible(iItaly, 2):
 			iMediterranean, iTotalMediterranean = countControlledTiles(iItaly, tMediterraneanTL, tMediterraneanBR, False, tMediterraneanExceptions, True)
 			fMediterranean = iMediterranean * 100.0 / iTotalMediterranean
 			
-			if fMediterranean >= 65.0:
+			if fMediterranean >= 70.0:
 				win(iItaly, 2)
 				
-		if iGameTurn == getTurnForYear(1930):
+		if iGameTurn == getTurnForYear(1945):
 			expire(iItaly, 2)
 			
 	elif iPlayer == iMongolia:
@@ -1112,8 +1112,8 @@ def checkTurn(iGameTurn, iPlayer):
 					
 	elif iPlayer == iMughals:
 	
-		# first goal: build three Muslim Cathedrals by 1500 AD
-		if iGameTurn == getTurnForYear(1500):
+		# first goal: build three Muslim Cathedrals by 1525 AD
+		if iGameTurn == getTurnForYear(1525):
 			expire(iMughals, 0)
 			
 		# second goal: build the Red Fort, Harmandir Sahib and the Taj Mahal by 1660 AD
@@ -1139,12 +1139,12 @@ def checkTurn(iGameTurn, iPlayer):
 				else:
 					lose(iAztecs, 0)
 					
-			# second goal: build six pagan temples and sacrificial altars by 1650 AD
+			# second goal: build four pagan temples and sacrificial altars by 1520 AD
 			if isPossible(iAztecs, 1):
-				if getNumBuildings(iAztecs, iPaganTemple) >= 6 and getNumBuildings(iAztecs, iAztecSacrificialAltar) >= 6:
+				if getNumBuildings(iAztecs, iPaganTemple) >= 4 and getNumBuildings(iAztecs, iAztecSacrificialAltar) >= 4:
 					win(iAztecs, 1)
 			
-			if iGameTurn == getTurnForYear(1650):
+			if iGameTurn == getTurnForYear(1520):
 				expire(iAztecs, 1)
 				
 			# third goal: enslave 20 old world units
@@ -1244,30 +1244,30 @@ def checkTurn(iGameTurn, iPlayer):
 		
 	elif iPlayer == iNetherlands:
 	
-		# first goal: settle three great merchants in Amsterdam by 1745 AD
+		# first goal: settle three great merchants in Amsterdam by 1750 AD
 		if isPossible(iNetherlands, 0):
 			if countCitySpecialists(iNetherlands, Areas.getCapital(iNetherlands), iSpecialistGreatMerchant) >= 3:
 				win(iNetherlands, 0)
 				
-		if iGameTurn == getTurnForYear(1745):
+		if iGameTurn == getTurnForYear(1750):
 			expire(iNetherlands, 0)
 			
-		# second goal: conquer four European colonies by 1745 AD
-		if iGameTurn == getTurnForYear(1745):
+		# second goal: conquer four European colonies by 1750 AD
+		if iGameTurn == getTurnForYear(1750):
 			expire(iNetherlands, 1)
 			
-		# third goal: secure or get by trade seven spice resources by 1775 AD
+		# third goal: secure or get by trade eight spice resources by 1795 AD
 		if isPossible(iNetherlands, 2):
-			if pNetherlands.getNumAvailableBonuses(iSpices) >= 7:
+			if pNetherlands.getNumAvailableBonuses(iSpices) >= 8:
 				win(iNetherlands, 2)
 				
-		if iGameTurn == getTurnForYear(1775):
+		if iGameTurn == getTurnForYear(1795):
 			expire(iNetherlands, 2)
 			
 	elif iPlayer == iGermany:
 	
-		# first goal: settle seven great people in Berlin in 1900 AD
-		if iGameTurn == getTurnForYear(1900):
+		# first goal: settle seven great people in Berlin in 1875 AD
+		if iGameTurn == getTurnForYear(1875):
 			iCount = 0
 			for iSpecialist in lGreatPeople:
 				iCount += countCitySpecialists(iPrussia, Areas.getCapital(iGermany), iSpecialist)
@@ -1277,7 +1277,7 @@ def checkTurn(iGameTurn, iPlayer):
 				lose(iGermany, 0)
 				
 		# second goal: control Italy, France, England, Scandinavia and Russia
-		if iGameTurn == getTurnForYear(1940):
+		if iGameTurn == getTurnForYear(1945):
 			bItaly = checkOwnedCiv(iGermany, iItaly)
 			bFrance = checkOwnedCiv(iGermany, iFrance)
 			bEngland = checkOwnedCiv(iGermany, iEngland)
@@ -1342,8 +1342,8 @@ def checkTurn(iGameTurn, iPlayer):
 			
 	elif iPlayer == iBrazil:
 	
-		# first goal: control 10 slave plantations and 4 pastures in 1880 AD
-		if iGameTurn == getTurnForYear(1880):
+		# first goal: control 10 slave plantations and 4 pastures in 1885 AD
+		if iGameTurn == getTurnForYear(1885):
 			if countImprovements(iBrazil, iSlavePlantation) >= 10 and countImprovements(iBrazil, iPasture) >= 4:
 				win(iBrazil, 0)
 			else:
@@ -1501,14 +1501,14 @@ def onCityBuilt(iPlayer, city):
 			if pTibet.getNumCities() >= 5:
 				win(iTibet, 0)
 					
-	# first English goal: colonize every continent by 1730 AD
+	# first English goal: colonize every continent by 1850 AD
 	elif iPlayer == iEngland:
 		if isPossible(iEngland, 0):
-			bNAmerica = getNumCitiesInArea(iEngland, utils.getPlotList(tNorthAmericaTL, tNorthAmericaBR)) >= 5
-			bSCAmerica = getNumCitiesInArea(iEngland, utils.getPlotList(tSouthCentralAmericaTL, tSouthCentralAmericaBR)) >= 3
-			bAfrica = getNumCitiesInArea(iEngland, utils.getPlotList(tAfricaTL, tAfricaBR)) >= 4
-			bAsia = getNumCitiesInArea(iEngland, utils.getPlotList(tAsiaTL, tAsiaBR)) >= 5
-			bOceania = getNumCitiesInArea(iEngland, utils.getPlotList(tOceaniaTL, tOceaniaBR)) >= 3
+			bNAmerica = getNumCitiesInArea(iEngland, utils.getPlotList(tNorthAmericaTL, tNorthAmericaBR)) >= 6
+			bSCAmerica = getNumCitiesInArea(iEngland, utils.getPlotList(tSouthCentralAmericaTL, tSouthCentralAmericaBR)) >= 4
+			bAfrica = getNumCitiesInArea(iEngland, utils.getPlotList(tAfricaTL, tAfricaBR)) >= 5
+			bAsia = getNumCitiesInArea(iEngland, utils.getPlotList(tAsiaTL, tAsiaBR)) >= 6
+			bOceania = getNumCitiesInArea(iEngland, utils.getPlotList(tOceaniaTL, tOceaniaBR)) >= 4
 			if bNAmerica and bSCAmerica and bAfrica and bAsia and bOceania:
 				win(iEngland, 0)
 				
@@ -1528,18 +1528,18 @@ def onCityAcquired(iPlayer, iOwner, city, bConquest):
 			if pTibet.getNumCities() >= 5:
 				win(iTibet, 0)
 					
-	# first English goal: colonize every continent by 1730 AD
+	# first English goal: colonize every continent by 1850 AD
 	elif iPlayer == iEngland:
 		if isPossible(iEngland, 0):
-			bNAmerica = getNumCitiesInArea(iEngland, utils.getPlotList(tNorthAmericaTL, tNorthAmericaBR)) >= 5
-			bSCAmerica = getNumCitiesInArea(iEngland, utils.getPlotList(tSouthCentralAmericaTL, tSouthCentralAmericaBR)) >= 3
-			bAfrica = getNumCitiesInArea(iEngland, utils.getPlotList(tAfricaTL, tAfricaBR)) >= 4
-			bAsia = getNumCitiesInArea(iEngland, utils.getPlotList(tAsiaTL, tAsiaBR)) >= 5
-			bOceania = getNumCitiesInArea(iEngland, utils.getPlotList(tOceaniaTL, tOceaniaBR)) >= 3
+			bNAmerica = getNumCitiesInArea(iEngland, utils.getPlotList(tNorthAmericaTL, tNorthAmericaBR)) >= 6
+			bSCAmerica = getNumCitiesInArea(iEngland, utils.getPlotList(tSouthCentralAmericaTL, tSouthCentralAmericaBR)) >= 4
+			bAfrica = getNumCitiesInArea(iEngland, utils.getPlotList(tAfricaTL, tAfricaBR)) >= 5
+			bAsia = getNumCitiesInArea(iEngland, utils.getPlotList(tAsiaTL, tAsiaBR)) >= 6
+			bOceania = getNumCitiesInArea(iEngland, utils.getPlotList(tOceaniaTL, tOceaniaBR)) >= 4
 			if bNAmerica and bSCAmerica and bAfrica and bAsia and bOceania:
 				win(iEngland, 0)
 				
-	# second Dutch goal: conquer four European colonies by 1745 AD
+	# second Dutch goal: conquer four European colonies by 1750 AD
 	elif iPlayer == iNetherlands:
 		if isPossible(iNetherlands, 1):
 			if iOwner in [iSpain, iFrance, iEngland, iPortugal, iVikings, iItaly, iRussia, iGermany, iHolyRome, iPoland]:
@@ -1683,7 +1683,7 @@ def onBuildingBuilt(iPlayer, iBuilding):
 				if iCounter >= 20:
 					win(iIndia, 1)
 	
-	# first Roman goal: build 6 Barracks, 5 Aqueducts, 4 Amphitheatres and 3 Forums by 100 AD
+	# first Roman goal: build 6 Barracks, 5 Aqueducts, 4 Amphitheatres and 3 Forums by 180 AD
 	elif iPlayer == iRome:
 		if isPossible(iRome, 0):
 			if iBuilding in [iBarracks, iAqueduct, iAmphitheatre, iRomanForum]:
@@ -1724,13 +1724,13 @@ def onBuildingBuilt(iPlayer, iBuilding):
 				
 	elif iPlayer == iAztecs:
 	
-		# second Aztec goal: build 6 pagan temples and sacrificial altars
+		# second Aztec goal: build 4 pagan temples and sacrificial altars
 		if not pAztecs.isReborn():
 			if isPossible(iAztecs, 1):
 				if iBuilding in [iPaganTemple, iAztecSacrificialAltar]:
 					iTemples = getNumBuildings(iAztecs, iPaganTemple)
 					iAltars = getNumBuildings(iAztecs, iAztecSacrificialAltar)
-					if iTemples >= 6 and iAltars >= 6:
+					if iTemples >= 4 and iAltars >= 4:
 						win(iAztecs, 1)
 						
 		# first Mexican goal: build three cathedrals of your state religion by 1880 AD
@@ -1743,14 +1743,14 @@ def onBuildingBuilt(iPlayer, iBuilding):
 						if getNumBuildings(iAztecs, iStateReligionCathedral) >= 3:
 							win(iAztecs, 0)
 	
-	# first Mughal goal: build three Islamic Mosques by 1500 AD
+	# first Mughal goal: build three Islamic Mosques by 1525 AD
 	elif iPlayer == iMughals:
 		if isPossible(iMughals, 0):
 			if iBuilding == iIslamicCathedral:
 				if getNumBuildings(iMughals, iIslamicCathedral) >= 3:
 					win(iMughals, 0)
 		
-	# first Incan goal: build 5 tambos and a road along the Andean coast by 1500 AD
+	# first Incan goal: build 5 tambos and a road along the Andean coast by 1530 AD
 	elif iPlayer == iInca:
 		if isPossible(iInca, 0):
 			if iBuilding == iIncanTambo:
@@ -1825,7 +1825,7 @@ def onCombatResult(pWinningUnit, pLosingUnit):
 	pLosingUnitInfo = gc.getUnitInfo(pLosingUnit.getUnitType())
 	iDomainSea = gc.getInfoTypeForString("DOMAIN_SEA")
 	
-	# second English goal: control a total of 25 frigates and ships of the line and sink 50 ships in 1800 AD
+	# second English goal: control a total of 25 frigates and ships of the line and sink 50 ships by 1815 AD
 	if iWinningPlayer == iEngland:
 		if isPossible(iEngland, 1):
 			if pLosingUnitInfo.getDomainType() == iDomainSea:
@@ -1912,7 +1912,7 @@ def onPeaceBrokered(iBroker, iPlayer1, iPlayer2):
 			
 def onBlockade(iPlayer, iGold):
 
-	# third Moorish goal: acquire 3000 gold through piracy by 1650 AD
+	# third Moorish goal: acquire 3000 gold through piracy by 1680 AD
 	if iPlayer == iMoors:
 		if isPossible(iMoors, 2):
 			sd.changeMoorishGold(iGold)
@@ -3128,7 +3128,7 @@ def getUHVHelp(iPlayer, iGoal):
 		if not pPersia.isReborn():
 			if iGoal == 0:
 				landPercent = getLandPercent(iPersia)
-				aHelp.append(getIcon(landPercent >= 6.995) + localText.getText("TXT_KEY_VICTORY_PERCENTAGE_WORLD_TERRITORY", (str(u"%.2f%%" % landPercent), str(7))))
+				aHelp.append(getIcon(landPercent >= 5.995) + localText.getText("TXT_KEY_VICTORY_PERCENTAGE_WORLD_TERRITORY", (str(u"%.2f%%" % landPercent), str(6))))
 			elif iGoal == 1:
 				iCounter = countWonders(iPersia)
 				aHelp.append(getIcon(iCounter >= 7) + localText.getText("TXT_KEY_VICTORY_NUM_WONDERS", (iCounter, 7)))
@@ -3188,7 +3188,7 @@ def getUHVHelp(iPlayer, iGoal):
 	elif iPlayer == iEthiopia:
 		if iGoal == 1:
 			iNumIncense = pEthiopia.getNumAvailableBonuses(iIncense)
-			aHelp.append(getIcon(iNumIncense >= 3) + localText.getText("TXT_KEY_VICTORY_AVAILABLE_INCENSE_RESOURCES", (iNumIncense, 3)))
+			aHelp.append(getIcon(iNumIncense >= 4) + localText.getText("TXT_KEY_VICTORY_AVAILABLE_INCENSE_RESOURCES", (iNumIncense, 4)))
 		elif iGoal == 2:
 			bAfrica = isAreaFreeOfCivs(utils.getPlotList(tSomaliaTL, tSomaliaBR), lCivGroups[0]) and isAreaFreeOfCivs(utils.getPlotList(tSubeqAfricaTL, tSubeqAfricaBR), lCivGroups[0])
 			aHelp.append(getIcon(bAfrica) + localText.getText("TXT_KEY_VICTORY_NO_AFRICAN_COLONIES_CURRENT", ()))
@@ -3325,7 +3325,7 @@ def getUHVHelp(iPlayer, iGoal):
 			iCounter += countCitySpecialists(iMoors, (51, 41), iSpecialistGreatProphet)
 			iCounter += countCitySpecialists(iMoors, (51, 41), iSpecialistGreatScientist)
 			iCounter += countCitySpecialists(iMoors, (51, 41), iSpecialistGreatEngineer)
-			aHelp.append(getIcon(iCounter >= 5) + localText.getText("TXT_KEY_VICTORY_GREAT_PEOPLE_IN_CITY_MOORS", ("Cordoba", iCounter, 5)))
+			aHelp.append(getIcon(iCounter >= 6) + localText.getText("TXT_KEY_VICTORY_GREAT_PEOPLE_IN_CITY_MOORS", ("Cordoba", iCounter, 6)))
 		elif iGoal == 2:
 			iRaidGold = sd.getMoorishGold()
 			aHelp.append(getIcon(iRaidGold >= utils.getTurns(3000)) + localText.getText("TXT_KEY_VICTORY_PIRACY", (iRaidGold, utils.getTurns(3000))))
@@ -3365,9 +3365,9 @@ def getUHVHelp(iPlayer, iGoal):
 			iAfrica = getNumCitiesInArea(iEngland, utils.getPlotList(tAfricaTL, tAfricaBR))
 			iAsia = getNumCitiesInArea(iEngland, utils.getPlotList(tAsiaTL, tAsiaBR))
 			iOceania = getNumCitiesInArea(iEngland, utils.getPlotList(tOceaniaTL, tOceaniaBR))
-			aHelp.append(getIcon(iNAmerica >= 5) + localText.getText("TXT_KEY_VICTORY_ENGLAND_CONTROL_NORTH_AMERICA", (iNAmerica, 5)) + ' ' + getIcon(iAsia >= 5) + localText.getText("TXT_KEY_VICTORY_ENGLAND_CONTROL_ASIA", (iAsia, 5)) + ' ' + getIcon(iAfrica >= 4) + localText.getText("TXT_KEY_VICTORY_ENGLAND_CONTROL_AFRICA", (iAfrica, 4)))
-			aHelp.append(getIcon(iSCAmerica >= 3) + localText.getText("TXT_KEY_VICTORY_ENGLAND_CONTROL_SOUTH_AMERICA", (iSCAmerica, 3)))
-			aHelp.append(getIcon(iOceania >= 3) + localText.getText("TXT_KEY_VICTORY_ENGLAND_CONTROL_OCEANIA", (iOceania, 3)))
+			aHelp.append(getIcon(iNAmerica >= 6) + localText.getText("TXT_KEY_VICTORY_ENGLAND_CONTROL_NORTH_AMERICA", (iNAmerica, 6)) + ' ' + getIcon(iAsia >= 6) + localText.getText("TXT_KEY_VICTORY_ENGLAND_CONTROL_ASIA", (iAsia, 6)) + ' ' + getIcon(iAfrica >= 5) + localText.getText("TXT_KEY_VICTORY_ENGLAND_CONTROL_AFRICA", (iAfrica, 5)))
+			aHelp.append(getIcon(iSCAmerica >= 4) + localText.getText("TXT_KEY_VICTORY_ENGLAND_CONTROL_SOUTH_AMERICA", (iSCAmerica, 4)))
+			aHelp.append(getIcon(iOceania >= 4) + localText.getText("TXT_KEY_VICTORY_ENGLAND_CONTROL_OCEANIA", (iOceania, 4)))
 		elif iGoal == 1:
 			iEnglishNavy = 0
 			iEnglishNavy += pEngland.getUnitClassCount(gc.getUnitInfo(iFrigate).getUnitClassType())
@@ -3386,13 +3386,13 @@ def getUHVHelp(iPlayer, iGoal):
 			aHelp.append(getIcon(bSaintPeters) + localText.getText("TXT_KEY_BUILDING_CATHOLIC_SHRINE", ()) + ' ' + getIcon(bAnastasis) + localText.getText("TXT_KEY_BUILDING_ORTHODOX_SHRINE", ()))
 		elif iGoal == 2:
 			iGreatArtists = countCitySpecialists(iHolyRome, tVienna, iSpecialistGreatArtist)
-			aHelp.append(getIcon(iGreatArtists >= 3) + localText.getText("TXT_KEY_VICTORY_GREAT_ARTISTS_SETTLED", ('Vienna', iGreatArtists, 3)))
+			aHelp.append(getIcon(iGreatArtists >= 4) + localText.getText("TXT_KEY_VICTORY_GREAT_ARTISTS_SETTLED", ('Vienna', iGreatArtists, 4)))
 
 	elif iPlayer == iRussia:
 		if iGoal == 0:
 			iSiberia = getNumFoundedCitiesInArea(iRussia, utils.getPlotList(tSiberiaTL, tSiberiaBR))
 			bSiberianRailway = isConnectedByRailroad(iRussia, Areas.getCapital(iRussia), lSiberianCoast)
-			aHelp.append(getIcon(iSiberia >= 7) + localText.getText("TXT_KEY_VICTORY_RUSSIA_CONTROL_SIBERIA", (iSiberia, 7)) + ' ' + getIcon(bSiberianRailway) + localText.getText("TXT_KEY_VICTORY_TRANSSIBERIAN_RAILWAY", ()))
+			aHelp.append(getIcon(iSiberia >= 9) + localText.getText("TXT_KEY_VICTORY_RUSSIA_CONTROL_SIBERIA", (iSiberia, 9)) + ' ' + getIcon(bSiberianRailway) + localText.getText("TXT_KEY_VICTORY_TRANSSIBERIAN_RAILWAY", ()))
 		elif iGoal == 1:
 			bManhattanProject = teamRussia.getProjectCount(iManhattanProject) > 0
 			bApolloProgram = teamRussia.getProjectCount(iApolloProgram) > 0
@@ -3414,7 +3414,7 @@ def getUHVHelp(iPlayer, iGoal):
 		elif iGoal == 2:
 			iTreasury = pMali.getGold()
 			iThreshold = 5000
-			if gc.getGame().getGameTurn() > getTurnForYear(1500): iThreshold = 15000
+			if gc.getGame().getGameTurn() > getTurnForYear(1500): iThreshold = 10000
 			aHelp.append(getIcon(iTreasury >= utils.getTurns(iThreshold)) + localText.getText("TXT_KEY_VICTORY_TOTAL_GOLD", (iTreasury, utils.getTurns(iThreshold))))
 		
 	elif iPlayer == iPoland:
@@ -3458,7 +3458,7 @@ def getUHVHelp(iPlayer, iGoal):
 		elif iGoal == 2:
 			iControl, iTotal = countControlledTiles(iInca, tSAmericaTL, tSAmericaBR, False, tSouthAmericaExceptions)
 			fControl = iControl * 100.0 / iTotal
-			aHelp.append(getIcon(fControl >= 60.0) + localText.getText("TXT_KEY_VICTORY_SOUTH_AMERICAN_TERRITORY", (str(u"%.2f%%" % fControl), str(60))))
+			aHelp.append(getIcon(fControl >= 40.0) + localText.getText("TXT_KEY_VICTORY_SOUTH_AMERICAN_TERRITORY", (str(u"%.2f%%" % fControl), str(40))))
 
 	elif iPlayer == iItaly:
 		if iGoal == 0:
@@ -3472,7 +3472,7 @@ def getUHVHelp(iPlayer, iGoal):
 		elif iGoal == 2:
 			iMediterranean, iTotalMediterranean = countControlledTiles(iItaly, tMediterraneanTL, tMediterraneanBR, False, tMediterraneanExceptions, True)
 			fMediterranean = iMediterranean * 100.0 / iTotalMediterranean
-			aHelp.append(getIcon(fMediterranean >= 65.0) + localText.getText("TXT_KEY_VICTORY_MEDITERRANEAN_TERRITORY", (str(u"%.2f%%" % fMediterranean), str(65))))
+			aHelp.append(getIcon(fMediterranean >= 70.0) + localText.getText("TXT_KEY_VICTORY_MEDITERRANEAN_TERRITORY", (str(u"%.2f%%" % fMediterranean), str(70))))
 
 	elif iPlayer == iMongolia:
 		if iGoal == 1:
@@ -3504,7 +3504,7 @@ def getUHVHelp(iPlayer, iGoal):
 			elif iGoal == 1:
 				iTemples = getNumBuildings(iAztecs, iPaganTemple)
 				iAltars = getNumBuildings(iAztecs, iAztecSacrificialAltar)
-				aHelp.append(getIcon(iTemples >= 6) + localText.getText("TXT_KEY_VICTORY_NUM_TEMPLES", (iTemples, 6)) + " " + getIcon(iAltars >= 6) + localText.getText("TXT_KEY_VICTORY_NUM_ALTARS", (iAltars, 6)))
+				aHelp.append(getIcon(iTemples >= 4) + localText.getText("TXT_KEY_VICTORY_NUM_TEMPLES", (iTemples, 4)) + " " + getIcon(iAltars >= 4) + localText.getText("TXT_KEY_VICTORY_NUM_ALTARS", (iAltars, 4)))
 			elif iGoal == 2:
 				iEnslavedUnits = sd.getAztecSlaves()
 				aHelp.append(getIcon(iEnslavedUnits >= 20) + localText.getText("TXT_KEY_VICTORY_ENSLAVED_UNITS", (iEnslavedUnits, 20)))
@@ -3575,7 +3575,7 @@ def getUHVHelp(iPlayer, iGoal):
 			aHelp.append(getIcon(iColonies >= 4) + localText.getText("TXT_KEY_VICTORY_EUROPEAN_COLONIES_CONQUERED", (iColonies, 4)))
 		elif iGoal == 2:
 			iNumSpices = pNetherlands.getNumAvailableBonuses(iSpices)
-			aHelp.append(getIcon(iNumSpices >= 7) + localText.getText("TXT_KEY_VICTORY_AVAILABLE_SPICE_RESOURCES", (iNumSpices, 7)))
+			aHelp.append(getIcon(iNumSpices >= 8) + localText.getText("TXT_KEY_VICTORY_AVAILABLE_SPICE_RESOURCES", (iNumSpices, 8)))
 
 	elif iPlayer == iGermany:
 		if iGoal == 0:
