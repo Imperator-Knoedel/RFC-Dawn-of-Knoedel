@@ -165,30 +165,13 @@ class RFCUtils:
 
 
 	def isMortalUnit(self, unit):
-		if (unit.isHasPromotion(42)): #leader
-			if (not gc.getPlayer(unit.getOwner()).isHuman()):
-				return False
-			else:
-				if (gc.getGame().getSorenRandNum(100, 'random modifier') >= 50):
-					return False	      
-		iUnitType = unit.getUnitType()
-		if (iUnitType <= con.iKhmerBallistaElephant \
-		     and iUnitType != con.iSettler and iUnitType != con.iMechanizedInfantry):
-			return True
-		if (iUnitType >= con.iCatapult and iUnitType <= con.iMobileArtillery ):
-			if (gc.getPlayer(unit.getOwner()).isHuman()):
-				return True
-			else:
-				if (gc.getGame().getSorenRandNum(100, 'random modifier') >= 30):
-					return True
-		if (iUnitType == con.iSettler ):
-			if (gc.getPlayer(unit.getOwner()).isHuman()):
-				if (gc.getGame().getSorenRandNum(100, 'random modifier') >= 50):
-					return True
-			else:
-				if (gc.getGame().getSorenRandNum(100, 'random modifier') >= 20):
-					return True
-		return False
+		if unit.getUpgradeDiscount() >= 100: return False
+		
+		if gc.getUnitInfo(unit.getUnitType()).isMechUnit(): return False
+		
+		if not unit.canFight(): return False
+		
+		return True
 
 	def isDefenderUnit(self, unit):
 		iUnitType = unit.getUnitType()
@@ -414,12 +397,8 @@ class RFCUtils:
 									if unit.getUnitType() in [con.iWorker, con.iIndianPunjabiWorker, con.iBrazilianMadeireiro]:
 										continue
 									
-									if (bKillSettlers):
-										if ((unit.getUnitType() > iSettler)):
-											self.makeUnit(unit.getUnitType(), iNewOwner, [0, 67], 1)
-									else:
-										if ((unit.getUnitType() >= iSettler)): #skip animals
-											self.makeUnit(unit.getUnitType(), iNewOwner, [0, 67], 1)
+									if not (unit.isFound() and not bKillSettlers) and not unit.isAnimal():
+										self.makeUnit(unit.getUnitType(), iNewOwner, [0, 67], 1)
 							else:
 								j += 1
 						tempPlot = gc.getMap().plot(0,67)
@@ -700,7 +679,7 @@ class RFCUtils:
 				if (unit.getDomainType() == 2): #land unit
 					unit.setXYOld(tDestination[0], tDestination[1])
 				else:
-					j = j + 1
+					j += 1
 
 	def relocateGarrisons(self, tCityPlot, iOldOwner):
 		if iOldOwner < con.iNumPlayers:
@@ -714,7 +693,7 @@ class RFCUtils:
 					if (unit.getDomainType() == 2): #land
 						unit.setXYOld(pCity.getX(), pCity.getY())
 					else:
-						j = j + 1
+						j += 1
 		else:
 			plot = gc.getMap().plot(tCityPlot[0], tCityPlot[1])
 			iNumUnits = plot.getNumUnits()
@@ -769,7 +748,7 @@ class RFCUtils:
 				if (unit.getDomainType() == 0): #sea unit
 					unit.setXYOld(tDestination[0], tDestination[1])
 				else:
-					j = j + 1
+					j += 1
 
 
 	#Congresses, RiseAndFall
@@ -2076,7 +2055,10 @@ class RFCUtils:
 		
 	def setStateReligionBeforeBirth(self, lPlayers, iReligion):
 		for iPlayer in lPlayers:
-			if gc.getGame().getGameTurn() < getTurnForYear(con.tBirth[iPlayer]):
+			if gc.getGame().getGameTurn() < getTurnForYear(con.tBirth[iPlayer]) and gc.getPlayer(iPlayer).getStateReligion() != iReligion:
 				gc.getPlayer(iPlayer).setLastStateReligion(iReligion)
+				
+	def playerNames(self, lPlayers):
+		return str([gc.getPlayer(iPlayer).getCivilizationShortDescription(0) for iPlayer in lPlayers])
 
 utils = RFCUtils()
