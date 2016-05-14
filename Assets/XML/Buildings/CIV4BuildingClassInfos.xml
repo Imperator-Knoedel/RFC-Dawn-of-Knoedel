@@ -405,7 +405,7 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iExtraPlayerInstances>0</iExtraPlayerInstances>
 			<DefaultBuilding>BUILDING_SECURITY_BUREAU</DefaultBuilding>
-		</BuildingClassInfo>
+		</BuildingClassInfo><!--
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_CITY_HALL</Type>
 			<Description>TXT_KEY_BUILDING_CITY_HALL</Description>
@@ -414,7 +414,7 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iExtraPlayerInstances>0</iExtraPlayerInstances>
 			<DefaultBuilding>BUILDING_CITY_HALL</DefaultBuilding>
-		</BuildingClassInfo>
+		</BuildingClassInfo>-->
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_JEWISH_TEMPLE</Type>
 			<Description>TXT_KEY_BUILDING_JEWISH_TEMPLE</Description>
