@@ -137,8 +137,8 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iFoodKept>10</iFoodKept>
+			<iMaintenanceModifier>-20</iMaintenanceModifier>
 			<iWarWearinessModifier>-10</iWarWearinessModifier>
-			<iTradeRoutes>1</iTradeRoutes>
 			<iDefense>50</iDefense>
 			<iBombardDefense>25</iBombardDefense>
 			<iAsset>2</iAsset>
@@ -232,8 +232,8 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iFoodKept>10</iFoodKept>
+			<iMaintenanceModifier>-20</iMaintenanceModifier>
 			<iWarWearinessModifier>-10</iWarWearinessModifier>
-			<iTradeRoutes>1</iTradeRoutes>
 			<iDefense>50</iDefense>
 			<iBombardDefense>25</iBombardDefense>
 			<iAsset>2</iAsset>
@@ -328,8 +328,8 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iFoodKept>10</iFoodKept>
+			<iMaintenanceModifier>-20</iMaintenanceModifier>
 			<iWarWearinessModifier>-10</iWarWearinessModifier>
-			<iTradeRoutes>1</iTradeRoutes>
 			<iDefense>50</iDefense>
 			<iBombardDefense>25</iBombardDefense>
 			<iAsset>2</iAsset>
@@ -507,6 +507,22 @@
 					</YieldModifiers>
 				</BonusYieldModifier>
 			</BonusYieldModifiers>
+			<BonusYieldChanges>
+				<BonusYieldChange>
+					<BonusType>BONUS_HORSE</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+				<BonusYieldChange>
+					<BonusType>BONUS_IVORY</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+			</BonusYieldChanges>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -560,7 +576,8 @@
 				<BonusYieldChange>
 					<BonusType>BONUS_HORSE</BonusType>
 					<YieldChanges>
-						<iYield>2</iYield>
+						<iYield>1</iYield>
+						<iYield>1</iYield>
 					</YieldChanges>
 				</BonusYieldChange>
 				<BonusYieldChange>
@@ -572,6 +589,13 @@
 				<BonusYieldChange>
 					<BonusType>BONUS_SHEEP</BonusType>
 					<YieldChanges>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+				<BonusYieldChange>
+					<BonusType>BONUS_IVORY</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
 						<iYield>1</iYield>
 					</YieldChanges>
 				</BonusYieldChange>
@@ -667,6 +691,14 @@
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<ConstructSound>AS2D_BUILD_GRANARY</ConstructSound>
 			<BonusYieldChanges>
+				<BonusYieldChange>
+					<BonusType>BONUS_BANANA</BonusType>
+					<YieldChanges>
+						<iYield>1</iYield>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
 				<BonusYieldChange>
 					<BonusType>BONUS_CORN</BonusType>
 					<YieldChanges>
@@ -1476,6 +1508,46 @@
 					</YieldModifiers>
 				</BonusYieldModifier>
 			</BonusYieldModifiers>
+			<BonusYieldChanges>
+				<BonusYieldChange>
+					<BonusType>BONUS_COPPER</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+				<BonusYieldChange>
+					<BonusType>BONUS_GEMS</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+				<BonusYieldChange>
+					<BonusType>BONUS_GOLD</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+				<BonusYieldChange>
+					<BonusType>BONUS_IRON</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+				<BonusYieldChange>
+					<BonusType>BONUS_SILVER</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+			</BonusYieldChanges>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -1547,6 +1619,46 @@
 					</YieldModifiers>
 				</BonusYieldModifier>
 			</BonusYieldModifiers>
+			<BonusYieldChanges>
+				<BonusYieldChange>
+					<BonusType>BONUS_COPPER</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+				<BonusYieldChange>
+					<BonusType>BONUS_GEMS</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+				<BonusYieldChange>
+					<BonusType>BONUS_GOLD</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+				<BonusYieldChange>
+					<BonusType>BONUS_IRON</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+				<BonusYieldChange>
+					<BonusType>BONUS_SILVER</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+			</BonusYieldChanges>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -1628,6 +1740,46 @@
 					</YieldModifiers>
 				</BonusYieldModifier>
 			</BonusYieldModifiers>
+			<BonusYieldChanges>
+				<BonusYieldChange>
+					<BonusType>BONUS_COPPER</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+				<BonusYieldChange>
+					<BonusType>BONUS_GEMS</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+				<BonusYieldChange>
+					<BonusType>BONUS_GOLD</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+				<BonusYieldChange>
+					<BonusType>BONUS_IRON</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+				<BonusYieldChange>
+					<BonusType>BONUS_SILVER</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+			</BonusYieldChanges>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -1703,6 +1855,46 @@
 					</YieldModifiers>
 				</BonusYieldModifier>
 			</BonusYieldModifiers>
+			<BonusYieldChanges>
+				<BonusYieldChange>
+					<BonusType>BONUS_COPPER</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+				<BonusYieldChange>
+					<BonusType>BONUS_GEMS</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+				<BonusYieldChange>
+					<BonusType>BONUS_GOLD</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+				<BonusYieldChange>
+					<BonusType>BONUS_IRON</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+				<BonusYieldChange>
+					<BonusType>BONUS_SILVER</BonusType>
+					<YieldChanges>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</YieldChanges>
+				</BonusYieldChange>
+			</BonusYieldChanges>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>

@@ -1800,6 +1800,14 @@
 						<iYield>1</iYield>
 					</TechYields>
 				</TechYieldChange>
+				<TechYieldChange>
+					<PrereqTech>TECH_GENETICS</PrereqTech>
+					<TechYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</TechYields>
+				</TechYieldChange>
 			</TechYieldChanges>
 			<RouteYieldChanges/>
 			<bGraphicalOnly>0</bGraphicalOnly>
@@ -1878,6 +1886,9 @@
 			<Description>TXT_KEY_IMPROVEMENT_HAMLET</Description>
 			<Civilopedia>TXT_KEY_IMPROVEMENT_HAMLET_PEDIA</Civilopedia>
 			<ArtDefineTag>ART_DEF_IMPROVEMENT_HAMLET</ArtDefineTag>
+			<PrereqNatureYields>
+				<iYield>1</iYield>
+			</PrereqNatureYields>
 			<YieldChanges>
 				<iYieldChange>0</iYieldChange>
 				<iYieldChange>0</iYieldChange>
@@ -1885,7 +1896,7 @@
 			</YieldChanges>
 			<bActsAsCity>0</bActsAsCity>
 			<bHillsMakesValid>0</bHillsMakesValid>
-			<bFreshWaterMakesValid>0</bFreshWaterMakesValid>
+			<bFreshWaterMakesValid>1</bFreshWaterMakesValid>
 			<bRiverSideMakesValid>0</bRiverSideMakesValid>
 			<bNoFreshWater>0</bNoFreshWater>
 			<bRequiresFlatlands>0</bRequiresFlatlands>

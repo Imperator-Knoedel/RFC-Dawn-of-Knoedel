@@ -2901,6 +2901,7 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
+			<iFirstStrikes>1</iFirstStrikes>
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
@@ -3521,6 +3522,7 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
+			<iFirstStrikes>1</iFirstStrikes>
 			<iConscription>4</iConscription>
 			<iCultureGarrison>7</iCultureGarrison>
 			<iAsset>3</iAsset>
@@ -4051,6 +4053,7 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
+			<iFirstStrikes>1</iFirstStrikes>
 			<iWithdrawalProb>20</iWithdrawalProb>
 			<iCityAttack>25</iCityAttack>
 			<iHillsAttack>25</iHillsAttack>
@@ -6659,6 +6662,7 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
+			<iFirstStrikes>1</iFirstStrikes>
 			<iWithdrawalProb>35</iWithdrawalProb>
 			<iCollateralDamageLimit>100</iCollateralDamageLimit>
 			<iCollateralDamageMaxUnits>6</iCollateralDamageMaxUnits>
@@ -7489,6 +7493,7 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
+			<iFirstStrikes>1</iFirstStrikes>
 			<iWithdrawalProb>35</iWithdrawalProb>
 			<iCollateralDamageLimit>100</iCollateralDamageLimit>
 			<iCollateralDamageMaxUnits>6</iCollateralDamageMaxUnits>
