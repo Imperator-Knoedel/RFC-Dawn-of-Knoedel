@@ -8,7 +8,7 @@ BeginGame
 	GameTurn=0
 	StartYear=-3000
 	Description=TXT_KEY_RHYES_WB_DESC
-	ModPath=Mods\RFC Dawn of Knoedel
+	ModPath=Mods\RFC Dawn of Civilization
 EndGame
 BeginTeam
 	TeamID=0, (Egypt)

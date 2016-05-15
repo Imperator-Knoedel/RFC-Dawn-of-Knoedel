@@ -3463,10 +3463,13 @@ class RiseAndFall:
 		utils.makeUnit(iWorker, iChina, tCapital, 2)
 		
 		tCapital = Areas.getCapital(iJapan)
+<<<<<<< HEAD
 		tSeaPlot = self.findSeaPlots(tCapital, 1, iJapan)
 		if (tSeaPlot):				
 			utils.makeUnit(iWorkboat, iJapan, tSeaPlot, 2)
 			
+=======
+>>>>>>> 56b7bc5c7fee29edfc31af3c3516ce25ab4a9c19
 		if utils.getHumanID() != iJapan:
 			utils.makeUnit(iCrossbowman, iJapan, tCapital, 2)
 			utils.makeUnit(iJapaneseSamurai, iJapan, tCapital, 3)
@@ -3484,8 +3487,11 @@ class RiseAndFall:
 				utils.makeUnitAI(iGalley, iVikings, tSeaPlot, UnitAITypes.UNITAI_SETTLER_SEA, 1)
 				utils.makeUnit(iSettler, iVikings, tSeaPlot, 1)
 				utils.makeUnit(iLongbowman, iVikings, tSeaPlot, 1)
+<<<<<<< HEAD
 				utils.makeUnitAI(iGalley, iVikings, tSeaPlot, UnitAITypes.UNITAI_EXPLORE_SEA, 2)
 				
+=======
+>>>>>>> 56b7bc5c7fee29edfc31af3c3516ce25ab4a9c19
 		# start AI settler and garrison in Denmark and Sweden
 		if utils.getHumanID() != iVikings:
 			utils.makeUnit(iSettler, iVikings, (60, 56), 1)
@@ -3511,6 +3517,7 @@ class RiseAndFall:
 	
 		for iPlayer in range(iNumPlayers):
 			tCapital = Areas.getCapital(iPlayer)
+<<<<<<< HEAD
 			
 			if tBirth[iPlayer] > utils.getScenarioStartYear() and gc.getPlayer(iPlayer).isHuman():
 				utils.makeUnit(iSettler, iPlayer, tCapital, 1)
@@ -3519,6 +3526,13 @@ class RiseAndFall:
 			if iPlayer == iHarappa and (self.getPlayerEnabled(iPlayer) or gc.getPlayer(iPlayer).isHuman()):
 				utils.makeUnit(iHarappanCityBuilder, iPlayer, tCapital, 1)
 				utils.makeUnit(iWarrior, iPlayer, tCapital, 1)
+=======
+			if iPlayer == iHarappa and (self.getPlayerEnabled(iPlayer) or gc.getPlayer(iPlayer).isHuman()):
+				utils.makeUnit(iHarappanCityBuilder, iPlayer, tCapital, 1)
+				utils.makeUnit(iWarrior, iPlayer, tCapital, 1)
+			
+		
+>>>>>>> 56b7bc5c7fee29edfc31af3c3516ce25ab4a9c19
 		
 	def assignTechs(self, iPlayer):
 		Civilizations.initPlayerTechs(iPlayer)
