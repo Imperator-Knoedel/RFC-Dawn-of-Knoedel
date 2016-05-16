@@ -178,7 +178,7 @@
 			<Plural>0</Plural>
 		</Italian>
 		<Spanish>
-			<Text>Philosophy&#243;n</Text>
+			<Text>Philosophy</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>
@@ -203,6 +203,78 @@
 		</Italian>
 		<Spanish>
 			<Text>Art</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROCESS_EFFICIENT_WEALTH</Tag>
+		<English>Public Welfare</English>
+		<French>
+			<Text>Public Welfare</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Öffentliche Wohlfart</Text>
+			<Gender>Neutral</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Public Welfare</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Public Welfare</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROCESS_EFFICIENT_RESEARCH</Tag>
+		<English>Space Exploration</English>
+		<French>
+			<Text>Space Exploration</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Weltraumforschung</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Space Exploration</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Space Exploration</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROCESS_EFFICIENT_CULTURE</Tag>
+		<English>Tourism</English>
+		<French>
+			<Text>Tourism</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Tourismus</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Tourism</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Tourism</Text>
 			<Gender>Female</Gender>
 			<Plural>0</Plural>
 		</Spanish>

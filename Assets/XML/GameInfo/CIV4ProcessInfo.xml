@@ -7,7 +7,79 @@
 <Civ4ProcessInfo xmlns="x-schema:CIV4GameInfoSchema.xml">
 	<ProcessInfos>
 		<ProcessInfo>
+			<Type>PROCESS_EFFICIENT_WEALTH</Type>
+			<Description>TXT_KEY_PROCESS_EFFICIENT_WEALTH</Description>
+			<Strategy>TXT_KEY_PROCESS_WEALTH_STRATEGY</Strategy>
+			<TechPrereq>TECH_SUPERCONDUCTORS</TechPrereq>
+			<ProductionToCommerceModifiers>
+				<iProductionToCommerceModifier>150</iProductionToCommerceModifier>
+				<iProductionToCommerceModifier>0</iProductionToCommerceModifier>
+				<iProductionToCommerceModifier>0</iProductionToCommerceModifier>
+			</ProductionToCommerceModifiers>
+			<Button>Art/Interface/Buttons/Process/ProcessWealth.dds</Button>
+		</ProcessInfo>
+		<ProcessInfo>
+			<Type>PROCESS_EFFICIENT_RESEARCH</Type>
+			<Description>TXT_KEY_PROCESS_EFFICIENT_RESEARCH</Description>
+			<Strategy>TXT_KEY_PROCESS_RESEARCH_STRATEGY</Strategy>
+			<TechPrereq>TECH_SATELLITES</TechPrereq>
+			<ProductionToCommerceModifiers>
+				<iProductionToCommerceModifier>0</iProductionToCommerceModifier>
+				<iProductionToCommerceModifier>150</iProductionToCommerceModifier>
+				<iProductionToCommerceModifier>0</iProductionToCommerceModifier>
+			</ProductionToCommerceModifiers>
+			<Button>Art/Interface/Buttons/Process/ProcessResearch.dds</Button>
+		</ProcessInfo>
+		<ProcessInfo>
+			<Type>PROCESS_EFFICIENT_CULTURE</Type>
+			<Description>TXT_KEY_PROCESS_EFFICIENT_CULTURE</Description>
+			<Strategy>TXT_KEY_PROCESS_CULTURE_STRATEGY</Strategy>
+			<TechPrereq>TECH_FIBER_OPTICS</TechPrereq>
+			<ProductionToCommerceModifiers>
+				<iProductionToCommerceModifier>0</iProductionToCommerceModifier>
+				<iProductionToCommerceModifier>0</iProductionToCommerceModifier>
+				<iProductionToCommerceModifier>150</iProductionToCommerceModifier>
+			</ProductionToCommerceModifiers>
+			<Button>Art/Interface/Buttons/Process/ProcessCulture.dds</Button>
+		</ProcessInfo>
+		<ProcessInfo>
 			<Type>PROCESS_WEALTH</Type>
+			<Description>TXT_KEY_PROCESS_WEALTH</Description>
+			<Strategy>TXT_KEY_PROCESS_WEALTH_STRATEGY</Strategy>
+			<TechPrereq>TECH_CORPORATION</TechPrereq>
+			<ProductionToCommerceModifiers>
+				<iProductionToCommerceModifier>100</iProductionToCommerceModifier>
+				<iProductionToCommerceModifier>0</iProductionToCommerceModifier>
+				<iProductionToCommerceModifier>0</iProductionToCommerceModifier>
+			</ProductionToCommerceModifiers>
+			<Button>Art/Interface/Buttons/Process/ProcessWealth.dds</Button>
+		</ProcessInfo>
+		<ProcessInfo>
+			<Type>PROCESS_RESEARCH</Type>
+			<Description>TXT_KEY_PROCESS_RESEARCH</Description>
+			<Strategy>TXT_KEY_PROCESS_RESEARCH_STRATEGY</Strategy>
+			<TechPrereq>TECH_PHYSICS</TechPrereq>
+			<ProductionToCommerceModifiers>
+				<iProductionToCommerceModifier>0</iProductionToCommerceModifier>
+				<iProductionToCommerceModifier>100</iProductionToCommerceModifier>
+				<iProductionToCommerceModifier>0</iProductionToCommerceModifier>
+			</ProductionToCommerceModifiers>
+			<Button>Art/Interface/Buttons/Process/ProcessResearch.dds</Button>
+		</ProcessInfo>
+		<ProcessInfo>
+			<Type>PROCESS_CULTURE</Type>
+			<Description>TXT_KEY_PROCESS_CULTURE</Description>
+			<Strategy>TXT_KEY_PROCESS_CULTURE_STRATEGY</Strategy>
+			<TechPrereq>TECH_MASS_MEDIA</TechPrereq>
+			<ProductionToCommerceModifiers>
+				<iProductionToCommerceModifier>0</iProductionToCommerceModifier>
+				<iProductionToCommerceModifier>0</iProductionToCommerceModifier>
+				<iProductionToCommerceModifier>100</iProductionToCommerceModifier>
+			</ProductionToCommerceModifiers>
+			<Button>Art/Interface/Buttons/Process/ProcessCulture.dds</Button>
+		</ProcessInfo>
+		<ProcessInfo>
+			<Type>PROCESS_INEFFICIENT_WEALTH</Type>
 			<Description>TXT_KEY_PROCESS_INEFFICIENT_WEALTH</Description>
 			<Strategy>TXT_KEY_PROCESS_WEALTH_STRATEGY</Strategy>
 			<TechPrereq>TECH_CURRENCY</TechPrereq>
@@ -19,7 +91,7 @@
 			<Button>Art/Interface/Buttons/Process/ProcessWealth.dds</Button>
 		</ProcessInfo>
 		<ProcessInfo>
-			<Type>PROCESS_RESEARCH</Type>
+			<Type>PROCESS_INEFFICIENT_RESEARCH</Type>
 			<Description>TXT_KEY_PROCESS_INEFFICIENT_RESEARCH</Description>
 			<Strategy>TXT_KEY_PROCESS_RESEARCH_STRATEGY</Strategy>
 			<TechPrereq>TECH_ALPHABET</TechPrereq>
@@ -31,44 +103,8 @@
 			<Button>Art/Interface/Buttons/Process/ProcessResearch.dds</Button>
 		</ProcessInfo>
 		<ProcessInfo>
-			<Type>PROCESS_CULTURE</Type>
+			<Type>PROCESS_INEFFICIENT_CULTURE</Type>
 			<Description>TXT_KEY_PROCESS_INEFFICIENT_CULTURE</Description>
-			<Strategy>TXT_KEY_PROCESS_CULTURE_STRATEGY</Strategy>
-			<TechPrereq>TECH_MUSIC</TechPrereq>
-			<ProductionToCommerceModifiers>
-				<iProductionToCommerceModifier>0</iProductionToCommerceModifier>
-				<iProductionToCommerceModifier>0</iProductionToCommerceModifier>
-				<iProductionToCommerceModifier>50</iProductionToCommerceModifier>
-			</ProductionToCommerceModifiers>
-			<Button>Art/Interface/Buttons/Process/ProcessCulture.dds</Button>
-		</ProcessInfo>
-		<ProcessInfo>
-			<Type>PROCESS_WEALTH</Type>
-			<Description>TXT_KEY_PROCESS_WEALTH</Description>
-			<Strategy>TXT_KEY_PROCESS_WEALTH_STRATEGY</Strategy>
-			<TechPrereq>TECH_CURRENCY</TechPrereq>
-			<ProductionToCommerceModifiers>
-				<iProductionToCommerceModifier>50</iProductionToCommerceModifier>
-				<iProductionToCommerceModifier>0</iProductionToCommerceModifier>
-				<iProductionToCommerceModifier>0</iProductionToCommerceModifier>
-			</ProductionToCommerceModifiers>
-			<Button>Art/Interface/Buttons/Process/ProcessWealth.dds</Button>
-		</ProcessInfo>
-		<ProcessInfo>
-			<Type>PROCESS_RESEARCH</Type>
-			<Description>TXT_KEY_PROCESS_RESEARCH</Description>
-			<Strategy>TXT_KEY_PROCESS_RESEARCH_STRATEGY</Strategy>
-			<TechPrereq>TECH_ALPHABET</TechPrereq>
-			<ProductionToCommerceModifiers>
-				<iProductionToCommerceModifier>0</iProductionToCommerceModifier>
-				<iProductionToCommerceModifier>50</iProductionToCommerceModifier>
-				<iProductionToCommerceModifier>0</iProductionToCommerceModifier>
-			</ProductionToCommerceModifiers>
-			<Button>Art/Interface/Buttons/Process/ProcessResearch.dds</Button>
-		</ProcessInfo>
-		<ProcessInfo>
-			<Type>PROCESS_CULTURE</Type>
-			<Description>TXT_KEY_PROCESS_CULTURE</Description>
 			<Strategy>TXT_KEY_PROCESS_CULTURE_STRATEGY</Strategy>
 			<TechPrereq>TECH_MUSIC</TechPrereq>
 			<ProductionToCommerceModifiers>
