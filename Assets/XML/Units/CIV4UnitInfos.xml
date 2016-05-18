@@ -8254,7 +8254,7 @@
 			</UnitAIs>
 			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
 			<BonusType>BONUS_IVORY</BonusType>
-			<iCost>60</iCost>
+			<iCost>50</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>1</iMoves>
