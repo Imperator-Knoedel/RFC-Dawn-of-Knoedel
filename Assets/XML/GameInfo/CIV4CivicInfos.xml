@@ -303,43 +303,6 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_LABOR</CivicOptionType>
-			<Type>CIVIC_CASTE_SYSTEM</Type>
-			<Description>TXT_KEY_CIVIC_CASTE_SYSTEM</Description>
-			<Civilopedia>TXT_KEY_CIVIC_CASTE_SYSTEM_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_CIVIC_CASTE_SYSTEM_KNOEDEL_STRATEGY</Strategy>
-			<Button>,Art/Interface/Buttons/Civics/Caste_System.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,3,1</Button>
-			<TechPrereq>TECH_WRITING</TechPrereq>
-			<iAnarchyLength>1</iAnarchyLength>
-			<Upkeep>UPKEEP_MEDIUM</Upkeep>
-			<SpecialistExtraYields>
-				<iYield>0</iYield>
-				<iYield>1</iYield>
-			</SpecialistExtraYields>
-			<SpecialistValids>
-				<SpecialistValid>
-					<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
-					<bValid>1</bValid>
-				</SpecialistValid>
-				<SpecialistValid>
-					<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
-					<bValid>1</bValid>
-				</SpecialistValid>
-				<SpecialistValid>
-					<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
-					<bValid>1</bValid>
-				</SpecialistValid>
-				<SpecialistValid>
-					<SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-					<bValid>1</bValid>
-				</SpecialistValid>
-				<SpecialistValid>
-					<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
-					<bValid>1</bValid>
-				</SpecialistValid>
-			</SpecialistValids>
-		</CivicInfo>
-		<CivicInfo>
-			<CivicOptionType>CIVICOPTION_LABOR</CivicOptionType>
 			<Type>CIVIC_SERFDOM</Type>
 			<Description>TXT_KEY_CIVIC_SERFDOM</Description>
 			<Civilopedia>TXT_KEY_CIVIC_SERFDOM_PEDIA</Civilopedia>
@@ -392,6 +355,43 @@
 					<bHurry>1</bHurry>
 				</Hurry>
 			</Hurrys>
+		</CivicInfo>
+		<CivicInfo>
+			<CivicOptionType>CIVICOPTION_LABOR</CivicOptionType>
+			<Type>CIVIC_CASTE_SYSTEM</Type>
+			<Description>TXT_KEY_CIVIC_CASTE_SYSTEM</Description>
+			<Civilopedia>TXT_KEY_CIVIC_CASTE_SYSTEM_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_CIVIC_CASTE_SYSTEM_KNOEDEL_STRATEGY</Strategy>
+			<Button>,Art/Interface/Buttons/Civics/Caste_System.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,3,1</Button>
+			<TechPrereq>TECH_WRITING</TechPrereq>
+			<iAnarchyLength>1</iAnarchyLength>
+			<Upkeep>UPKEEP_MEDIUM</Upkeep>
+			<SpecialistExtraYields>
+				<iYield>0</iYield>
+				<iYield>1</iYield>
+			</SpecialistExtraYields>
+			<SpecialistValids>
+				<SpecialistValid>
+					<SpecialistType>SPECIALIST_ARTIST</SpecialistType>
+					<bValid>1</bValid>
+				</SpecialistValid>
+				<SpecialistValid>
+					<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+					<bValid>1</bValid>
+				</SpecialistValid>
+				<SpecialistValid>
+					<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+					<bValid>1</bValid>
+				</SpecialistValid>
+				<SpecialistValid>
+					<SpecialistType>SPECIALIST_PRIEST</SpecialistType>
+					<bValid>1</bValid>
+				</SpecialistValid>
+				<SpecialistValid>
+					<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+					<bValid>1</bValid>
+				</SpecialistValid>
+			</SpecialistValids>
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_LABOR</CivicOptionType>

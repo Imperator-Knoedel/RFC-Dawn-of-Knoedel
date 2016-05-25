@@ -1573,7 +1573,7 @@ iNumBuildingsPlague = iNumBuildings+1
 iNumCivics = 36
 (iCivicTyranny, iCivicDynasticism, iCivicCityStates, iCivicOligarchy, iCivicAutocracy, iCivicRepublic,
 iCivicDirectRule, iCivicVassalage, iCivicAbsolutism, iCivicRepresentation, iCivicTotalitarianism, iCivicEgalitarianism,
-iCivicTribalism, iCivicSlavery, iCivicCasteSystem, iCivicSerfdom, iCivicCapitalism, iCivicCollaboration,
+iCivicTribalism, iCivicSlavery, iCivicSerfdom, iCivicCapitalism, iCivicCasteSystem, iCivicCollaboration,
 iCivicSubsistence, iCivicGuilds, iCivicMercantilism, iCivicFreeMarket, iCivicCentralPlanning, iCivicPublicWelfare,
 iCivicAnimism, iCivicPantheon, iCivicOrganizedReligion, iCivicTheocracy, iCivicTolerance, iCivicSecularism,
 iCivicMilitia, iCivicMercenaries, iCivicLevyArmies, iCivicStandingArmy, iCivicNavalSupremacy, iCivicMultilateralism) = range(iNumCivics)
