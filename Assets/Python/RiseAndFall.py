@@ -868,7 +868,8 @@ class RiseAndFall:
 			else:
 				pSeljuks.found(tEsfahan[0], tEsfahan[1])
 				esfahan.getPlotCity().setName('Isfahan', False)
-			utils.makeUnitAI(iLongbowman, iSeljuks, tEsfahan, UnitAITypes.UNITAI_CITY_DEFENSE, 2)
+			utils.makeUnitAI(iLongbowman, iSeljuks, tEsfahan, UnitAITypes.UNITAI_CITY_DEFENSE, 4)
+			utils.makeUnitAI(SeljukGhulamWarrior, iSeljuks, tEsfahan, UnitAITypes.UNITAI_ATTACK_CITY, 3)
 			utils.makeUnit(iIslamicMissionary, iSeljuks, tEsfahan, 1)
 			utils.makeUnit(iWorker, iSeljuks, tEsfahan, 3)
 			utils.cultureManager(tEsfahan, 100, iSeljuks, esfahan.getOwner(), True, False, False)
@@ -880,8 +881,8 @@ class RiseAndFall:
 						
 			utils.updateMinorTechs(iSeljuks, iBarbarian)
 
-			tSeljukAreaTL = (78, 37)
-			tSeljukAreaBR = (85, 46)
+			tSeljukAreaTL = (79, 39)
+			tSeljukAreaBR = (84, 45)
 			targetCityList = []
 			targetPlayerList = []
 			dummy, lCityPlotList = utils.squareSearch(tSeljukAreaTL, tSeljukAreaBR, utils.cityPlots, -1)
@@ -917,11 +918,11 @@ class RiseAndFall:
 				CyInterface().addMessage(CyGame().getActivePlayer(), True , iDuration, CyTranslator().getText("TXT_KEY_SELJUK_HORDES", ()), "", 1 , "", ColorTypes(iRed),0,0,False,False)
 
 		if iGameTurn == getTurnForYear(1070 + utils.getSeed()%10 - 5): #Linkman226- Seljuks
-			tSpawnPlots = ((77,41), (74, 43), (72, 44), (74, 39))
+			tSpawnPlots = ((78,42), (77, 45), (78, 44), (78, 43))
 			for plot in tSpawnPlots:
 				spawnPlot = utils.getFreePlot(plot[0], plot[1])
-				utils.makeUnitAI(iSeljukGhulamWarrior, iSeljuks, spawnPlot, UnitAITypes.UNITAI_ATTACK_CITY, 2)
-				utils.makeUnitAI(iSeljukGhulamWarrior, iSeljuks, spawnPlot, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING, 2)
+				utils.makeUnitAI(iSeljukGhulamWarrior, iSeljuks, spawnPlot, UnitAITypes.UNITAI_ATTACK_CITY, 1)
+				utils.makeUnitAI(iSeljukGhulamWarrior, iSeljuks, spawnPlot, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING, 1)
 				utils.makeUnitAI(iTrebuchet, iSeljuks, spawnPlot, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING, 1)
 				pSeljuks.setLastStateReligion(iIslam)
 				teamSeljuks.declareWar(iByzantium, True, WarPlanTypes.WARPLAN_TOTAL)
