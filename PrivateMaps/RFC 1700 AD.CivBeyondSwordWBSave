@@ -25671,6 +25671,30 @@ BeginPlot
 	x=58,y=42
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
+	BeginUnit
+		UnitType=UNIT_MUSKETMAN, UnitOwner=44, (Independent)
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_MUSKETMAN, UnitOwner=44, (Independent)
+	EndUnit
+	BeginCity
+		CityOwner=44, (Independent)
+		CityName=Ajaccio
+		CityPopulation=3
+		BuildingType=BUILDING_WALLS
+		BuildingType=BUILDING_GRANARY
+		BuildingType=BUILDING_SMOKEHOUSE
+		BuildingType=BUILDING_LIGHTHOUSE
+		BuildingType=BUILDING_HARBOR
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_LIBRARY
+		BuildingType=BUILDING_MARKET
+		BuildingType=BUILDING_CATHOLIC_TEMPLE
+		BuildingType=BUILDING_CATHOLIC_MONASTERY
+		ReligionType=RELIGION_CATHOLICISM
+		HolyCityReligionType=RELIGION_CATHOLICISM
+		Player44Culture=20, (Independent)
+	EndCity
 	TeamReveal=16,22,23,24,25,35,38,44,45,
 EndPlot
 BeginPlot
@@ -31733,6 +31757,24 @@ BeginPlot
 	x=69,y=39
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
+	BeginUnit
+		UnitType=UNIT_OTTOMAN_JANISSARY, UnitOwner=35, (Turkey)
+	EndUnit
+	BeginCity
+		CityOwner=35, (Turkey)
+		CityName=Heraklion
+		CityPopulation=3
+		BuildingType=BUILDING_GRANARY
+		BuildingType=BUILDING_SMOKEHOUSE
+		BuildingType=BUILDING_HARBOR
+		BuildingType=BUILDING_FORGE
+		BuildingType=BUILDING_ORTHODOX_TEMPLE
+		BuildingType=BUILDING_ISLAMIC_TEMPLE
+		BuildingType=BUILDING_ISLAMIC_MONASTERY
+		ReligionType=RELIGION_ORTHODOXY
+		ReligionType=RELIGION_ISLAM
+		Player35Culture=10, (Turkey)
+	EndCity
 	TeamReveal=35,44,
 EndPlot
 BeginPlot

@@ -22301,6 +22301,17 @@ BeginPlot
 	x=58,y=42
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
+	BeginUnit
+		UnitType=UNIT_LONGBOWMAN, UnitOwner=45, (Independent2)
+	EndUnit
+	BeginCity
+		CityOwner=45, (Independent2)
+		CityName=Carales
+		CityPopulation=2
+		BuildingType=BUILDING_GRANARY
+		BuildingType=BUILDING_HARBOR
+		ReligionType=RELIGION_CATHOLICISM
+	EndCity
 EndPlot
 BeginPlot
 	x=58,y=43
@@ -26903,6 +26914,17 @@ BeginPlot
 	x=69,y=39
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
+	BeginUnit
+		UnitType=UNIT_ARCHER, UnitOwner=14, (Byzantium)
+	EndUnit
+	BeginCity
+		CityOwner=14, (Byzantium)
+		CityName=Knossos
+		CityPopulation=2
+		BuildingType=BUILDING_GRANARY
+		ReligionType=RELIGION_CATHOLICISM
+		Player14Culture=10, (Byzantium)
+	EndCity
 EndPlot
 BeginPlot
 	x=69,y=40

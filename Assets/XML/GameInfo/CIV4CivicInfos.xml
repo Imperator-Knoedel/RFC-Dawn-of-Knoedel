@@ -289,7 +289,7 @@
 			<Type>CIVIC_SLAVERY</Type>
 			<Description>TXT_KEY_CIVIC_SLAVERY</Description>
 			<Civilopedia>TXT_KEY_CIVIC_SLAVERY_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_CIVIC_FORCED_LABOR_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_CIVIC_SLAVERY_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/Civics/Slavery.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,8,2</Button>
 			<TechPrereq>TECH_MASONRY</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
