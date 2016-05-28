@@ -53,11 +53,19 @@
 					<BuildingClassType>BUILDINGCLASS_SUPERMARKET</BuildingClassType>
 					<BuildingType>BUILDING_AMERICAN_MALL</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+					<BuildingType>BUILDING_AMERICA_PUBLIC_UNIVERSITY</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
 					<UnitType>UNIT_AMERICAN_MINUTEMAN</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_MARINE</UnitClassType>
+					<UnitType>UNIT_AMERICAN_NAVY_SEAL</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -143,11 +151,19 @@
 					<BuildingClassType>BUILDINGCLASS_FORGE</BuildingClassType>
 					<BuildingType>BUILDING_ARABIAN_ALCHEMIST</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_SMOKEHOUSE</BuildingClassType>
+					<BuildingType>BUILDING_ARABIA_DHABIHAH</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
 					<UnitType>UNIT_ARABIAN_CAMEL_ARCHER</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_HEAVY_SWORDSMAN</UnitClassType>
+					<UnitType>UNIT_ARABIA_GHAZI</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -231,11 +247,19 @@
 					<BuildingClassType>BUILDINGCLASS_SUPERMARKET</BuildingClassType>
 					<BuildingType>BUILDING_ARGENTINE_REFRIGERATION_PLANT</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_STABLE</BuildingClassType>
+					<BuildingType>BUILDING_ARGENTINA_ESTANCIA</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_CAVALRY</UnitClassType>
 					<UnitType>UNIT_ARGENTINE_GRENADIER_CAVALRY</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
+					<UnitType>UNIT_ARGENTINA_PATRICIOS</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -343,11 +367,19 @@
 					<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
 					<BuildingType>BUILDING_AZTEC_SACRIFICIAL_ALTAR</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_AQUEDUCT</BuildingClassType>
+					<BuildingType>BUILDING_AZTEC_CHINAMPA</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
 					<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_SPEARMAN</UnitClassType>
+					<UnitType>UNIT_AZTEC_EAGLE_WARRIOR</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_SLAVE</UnitClassType>
@@ -439,11 +471,19 @@
 					<BuildingClassType>BUILDINGCLASS_PAGAN_TEMPLE</BuildingClassType>
 					<BuildingType>BUILDING_BABYLONIAN_ZIGGURAT</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_AMPHITHEATRE</BuildingClassType>
+					<BuildingType>BUILDING_BABYLONIAN_GARDEN</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
 					<UnitType>UNIT_BABYLONIAN_ASHARITTU_BOWMAN</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CATAPULT</UnitClassType>
+					<UnitType>UNIT_BABYLON_RAM</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -527,11 +567,19 @@
 					<BuildingClassType>BUILDINGCLASS_GROCER</BuildingClassType>
 					<BuildingType>BUILDING_BRAZILIAN_FAZENDA</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_AMPHITHEATRE</BuildingClassType>
+					<BuildingType>BUILDING_BRAZIL_SAMBADROME</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_WORKER</UnitClassType>
 					<UnitType>UNIT_BRAZILIAN_MADEIREIRO</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_MARINE</UnitClassType>
+					<UnitType>UNIT_BRAZIL_GUARDA_NACIONAL</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -624,11 +672,19 @@
 					<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
 					<BuildingType>BUILDING_BYZANTINE_HIPPODROME</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_AMPHITHEATRE</BuildingClassType>
+					<BuildingType>BUILDING_BYZANTIUM_BASILICA</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
 					<UnitType>UNIT_BYZANTINE_CATAPHRACT</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+					<UnitType>UNIT_BYZANTIUM_TAGMATA</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -728,11 +784,19 @@
 					<BuildingClassType>BUILDINGCLASS_JAIL</BuildingClassType>
 					<BuildingType>BUILDING_CANADIAN_ROYAL_MOUNTED_POLICE</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_BROADCAST_TOWER</BuildingClassType>
+					<BuildingType>BUILDING_CANADA_MICROWAVE</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_DESTROYER</UnitClassType>
 					<UnitType>UNIT_CANADIAN_CORVETTE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_JET_FIGHTER</UnitClassType>
+					<UnitType>UNIT_CANADA_ARROW</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -828,11 +892,19 @@
 					<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
 					<BuildingType>BUILDING_PHOENICIAN_GLASSMAKER</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
+					<BuildingType>BUILDING_PHOENICIA_COTHON</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_WAR_ELEPHANT</UnitClassType>
 					<UnitType>UNIT_PHOENICIAN_AFRICAN_WAR_ELEPHANT</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_GALLEY</UnitClassType>
+					<UnitType>UNIT_PHOENICIAN_BIREME</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -1143,11 +1215,19 @@
 					<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
 					<BuildingType>BUILDING_CHINESE_TAIXUE</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
+					<BuildingType>BUILDING_CHINESE_PAVILLION</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_CROSSBOWMAN</UnitClassType>
 					<UnitType>UNIT_CHINESE_CHOKONU</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_TREBUCHET</UnitClassType>
+					<UnitType>UNIT_CHINA_CANNON</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -1235,11 +1315,19 @@
 					<BuildingClassType>BUILDINGCLASS_GROCER</BuildingClassType>
 					<BuildingType>BUILDING_COLOMBIAN_HACIENDA</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_JAIL</BuildingClassType>
+					<BuildingType>BUILDING_COLOMBIA_LANCERO_SCHOOL</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_GRENADIER</UnitClassType>
 					<UnitType>UNIT_COLOMBIAN_ALBION_LEGION</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CAVALRY</UnitClassType>
+					<UnitType>UNIT_COLOMBIA_LLANERO</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -1345,11 +1433,19 @@
 					<BuildingClassType>BUILDINGCLASS_PAGAN_TEMPLE</BuildingClassType>
 					<BuildingType>BUILDING_EGYPTIAN_OBELISK</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_OBSERVATORY</BuildingClassType>
+					<BuildingType>BUILDING_EGYPT_PYRAMID</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_CHARIOT</UnitClassType>
 					<UnitType>UNIT_EGYPTIAN_WARCHARIOT</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_AXEMAN</UnitClassType>
+					<UnitType>UNIT_EGYPT_AXEMAN</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -1449,11 +1545,19 @@
 					<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
 					<BuildingType>BUILDING_ENGLISH_ROYAL_EXCHANGE</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_JAIL</BuildingClassType>
+					<BuildingType>BUILDING_ENGLAND_DUNGEON</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
 					<UnitType>UNIT_ENGLISH_REDCOAT</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_SHIP_OF_THE_LINE</UnitClassType>
+					<UnitType>UNIT_ENGLAND_MAN_O_WAR</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -1565,11 +1669,19 @@
 					<BuildingClassType>BUILDINGCLASS_PAGAN_TEMPLE</BuildingClassType>
 					<BuildingType>BUILDING_ETHIOPIAN_STELE</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+					<BuildingType>BUILDING_ETHIOPIA_XEER</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
 					<UnitType>UNIT_ETHIOPIAN_ASKARI</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CAVALRY</UnitClassType>
+					<UnitType>UNIT_ETHIOPIA_SAVANNA_HUNTER</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_SLAVE</UnitClassType>
@@ -1662,11 +1774,19 @@
 					<BuildingClassType>BUILDINGCLASS_JAIL</BuildingClassType>
 					<BuildingType>BUILDING_FRENCH_SALON</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+					<BuildingType>BUILDING_FRANCE_CHATEAU</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_CANNON</UnitClassType>
 					<UnitType>UNIT_FRENCH_HEAVY_CANNON</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
+					<UnitType>UNIT_FRANCE_CHEVALIER</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -1784,11 +1904,19 @@
 					<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
 					<BuildingType>BUILDING_GERMAN_ASSEMBLY_PLANT</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_BUNKER</BuildingClassType>
+					<BuildingType>BUILDING_PRUSSIA_PILLBOX</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_TANK</UnitClassType>
 					<UnitType>UNIT_GERMAN_PANZER</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_ARTILLERY</UnitClassType>
+					<UnitType>UNIT_PRUSSIA_HOWITZER</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -1908,11 +2036,19 @@
 					<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
 					<BuildingType>BUILDING_GREEK_ODEON</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+					<BuildingType>BUILDING_GREEK_AGORA</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_SPEARMAN</UnitClassType>
 					<UnitType>UNIT_GREEK_HOPLITE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_HORSE_ARCHER</UnitClassType>
+					<UnitType>UNIT_GREEK_HETAIROI</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -2013,11 +2149,19 @@
 					<BuildingClassType>BUILDINGCLASS_AQUEDUCT</BuildingClassType>
 					<BuildingType>BUILDING_HARAPPAN_BATH</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+					<BuildingType>BUILDING_HARAPPA_STOREHOUSE</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
 					<UnitType>UNIT_HARAPPAN_CITY_BUILDER</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+					<UnitType>UNIT_HARAPPA_CITY_GUARD</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -2105,11 +2249,19 @@
 					<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
 					<BuildingType>BUILDING_HOLY_ROMAN_RATHAUS</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
+					<BuildingType>BUILDING_HRE_OPERA</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
 					<UnitType>UNIT_HOLY_ROMAN_LANDSKNECHT</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_HEAVY_SWORDSMAN</UnitClassType>
+					<UnitType>UNIT_GERMANY_DOPPELSOLDNER</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -2196,11 +2348,19 @@
 					<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
 					<BuildingType>BUILDING_INCAN_TAMBO</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_FORGE</BuildingClassType>
+					<BuildingType>BUILDING_INCA_STONECUTTER</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_AXEMAN</UnitClassType>
 					<UnitType>UNIT_INCAN_AUCAC</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CROSSBOWMAN</UnitClassType>
+					<UnitType>UNIT_INCA_SLINGER</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -2297,11 +2457,19 @@
 					<BuildingClassType>BUILDINGCLASS_PAGAN_TEMPLE</BuildingClassType>
 					<BuildingType>BUILDING_INDIAN_EDICT</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_GROCER</BuildingClassType>
+					<BuildingType>BUILDING_INDIA_SHRENI</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_LONGBOWMAN</UnitClassType>
 					<UnitType>UNIT_INDIAN_PATIYODHA</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_WAR_ELEPHANT</UnitClassType>
+					<UnitType>UNIT_INDIA_MAHOUT</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -2397,11 +2565,19 @@
 					<BuildingClassType>BUILDINGCLASS_PAGAN_TEMPLE</BuildingClassType>
 					<BuildingType>BUILDING_INDONESIAN_CANDI</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_AMPHITHEATRE</BuildingClassType>
+					<BuildingType>BUILDING_INDONESIA_PENDOPO</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_PRIVATEER</UnitClassType>
 					<UnitType>UNIT_INDONESIAN_ORANG_LAUT</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+					<UnitType>UNIT_INDONESIA_BAMBOO_RUNCING</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -2500,11 +2676,19 @@
 					<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
 					<BuildingType>BUILDING_IRANIAN_CARAVANSERAI</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_AQUEDUCT</BuildingClassType>
+					<BuildingType>BUILDING_IRAN_AB_ANBAR</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
 					<UnitType>UNIT_IRANIAN_QIZILBASH</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_GRENADIER</UnitClassType>
+					<UnitType>UNIT_IRAN_NAFFATUN</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -2593,11 +2777,19 @@
 					<BuildingClassType>BUILDINGCLASS_FORGE</BuildingClassType>
 					<BuildingType>BUILDING_ITALIAN_ART_STUDIO</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_CUSTOM_HOUSE</BuildingClassType>
+					<BuildingType>BUILDING_ITALY_COLLEGANTIA</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
 					<UnitType>UNIT_ITALIAN_BERSAGLIERE</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CUIRASSIER</UnitClassType>
+					<UnitType>UNIT_ITALY_CONDOTTIERI</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -2696,11 +2888,19 @@
 					<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
 					<BuildingType>BUILDING_JAPANESE_ZAIBATSU</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_AMPHITHEATRE</BuildingClassType>
+					<BuildingType>BUILDING_JAPAN_JINJA</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_HEAVY_SWORDSMAN</UnitClassType>
 					<UnitType>UNIT_JAPANESE_SAMURAI</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+					<UnitType>UNIT_JAPAN_ASHIGARU</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -2806,11 +3006,19 @@
 					<BuildingClassType>BUILDINGCLASS_AQUEDUCT</BuildingClassType>
 					<BuildingType>BUILDING_KHMER_BARAY</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_OBSERVATORY</BuildingClassType>
+					<BuildingType>BUILDING_KHMER_PAGODA</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_WAR_ELEPHANT</UnitClassType>
 					<UnitType>UNIT_KHMER_BALLISTA_ELEPHANT</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+					<UnitType>UNIT_KHMER_PHAKAK</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -2904,11 +3112,19 @@
 					<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
 					<BuildingType>BUILDING_CONGOLESE_MBWADI</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_GRANARY</BuildingClassType>
+					<BuildingType>BUILDING_CONGO_WENE</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_HEAVY_SWORDSMAN</UnitClassType>
 					<UnitType>UNIT_CONGOLESE_POMBOS</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_LONGBOWMAN</UnitClassType>
+					<UnitType>UNIT_CONGO_NGOLO</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_SLAVE</UnitClassType>
@@ -3000,11 +3216,19 @@
 					<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
 					<BuildingType>BUILDING_KOREAN_SEOWON</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+					<BuildingType>BUILDING_KOREA_MOUNTAIN_FORTRESS</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_CATAPULT</UnitClassType>
 					<UnitType>UNIT_KOREAN_HWACHA</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_IRONCLAD</UnitClassType>
+					<UnitType>UNIT_KOREA_KOBUKSON</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -3112,11 +3336,19 @@
 					<BuildingClassType>BUILDINGCLASS_FORGE</BuildingClassType>
 					<BuildingType>BUILDING_MANDE_MINT</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
+					<BuildingType>BUILDING_MALI_SALT_MINE</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
 					<UnitType>UNIT_MANDE_SKIRMISHER</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_EXPLORER</UnitClassType>
+					<UnitType>UNIT_MALI_CARAVAN</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_SLAVE</UnitClassType>
@@ -3226,11 +3458,19 @@
 					<BuildingClassType>BUILDINGCLASS_AMPHITHEATRE</BuildingClassType>
 					<BuildingType>BUILDING_MAYAN_BALL_COURT</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_OBSERVATORY</BuildingClassType>
+					<BuildingType>BUILDING_MAYA_KATUN</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
 					<UnitType>UNIT_MAYAN_HOLKAN</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_SPEARMAN</UnitClassType>
+					<UnitType>UNIT_MAYA_SPEARMAN</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -3314,11 +3554,19 @@
 					<BuildingClassType>BUILDINGCLASS_AMPHITHEATRE</BuildingClassType>
 					<BuildingType>BUILDING_MEXICAN_CHARREADA</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
+					<BuildingType>BUILDING_MEXICO_MENDICANT_ORDER</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_CAVALRY</UnitClassType>
 					<UnitType>UNIT_MEXICAN_RURALES</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
+					<UnitType>UNIT_MEXICO_EJERCITO</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses/>
@@ -3406,11 +3654,19 @@
 					<BuildingClassType>BUILDINGCLASS_STABLE</BuildingClassType>
 					<BuildingType>BUILDING_MONGOLIAN_GER</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_AMPHITHEATRE</BuildingClassType>
+					<BuildingType>BUILDING_MONGOL_YAM</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
 					<UnitType>UNIT_MONGOLIAN_KESHIK</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_BOMBARD</UnitClassType>
+					<UnitType>UNIT_MONGOL_SIEGE_ENGINEER</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -3517,11 +3773,19 @@
 					<BuildingClassType>BUILDINGCLASS_AQUEDUCT</BuildingClassType>
 					<BuildingType>BUILDING_MOORISH_NORIA</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_HOSPITAL</BuildingClassType>
+					<BuildingType>BUILDING_MOORS_PHARMACY</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_PRIVATEER</UnitClassType>
 					<UnitType>UNIT_MOORISH_CORSAIR</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_HORSE_ARCHER</UnitClassType>
+					<UnitType>UNIT_MOORS_BERBER_CAVALRY</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -3618,11 +3882,19 @@
 					<BuildingClassType>BUILDINGCLASS_JAIL</BuildingClassType>
 					<BuildingType>BUILDING_MUGHAL_MAUSOLEUM</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_STABLE</BuildingClassType>
+					<BuildingType>BUILDING_MUGHAL_FORT</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_BOMBARD</UnitClassType>
 					<UnitType>UNIT_MUGHAL_SIEGE_ELEPHANT</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
+					<UnitType>UNIT_MUGHAL_SEPOY</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -3852,11 +4124,19 @@
 					<BuildingClassType>BUILDINGCLASS_LEVEE</BuildingClassType>
 					<BuildingType>BUILDING_DUTCH_DIKE</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_FORGE</BuildingClassType>
+					<BuildingType>BUILDING_DUTCH_MILL</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_GALLEON</UnitClassType>
 					<UnitType>UNIT_DUTCH_EAST_INDIAMAN</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_GRENADIER</UnitClassType>
+					<UnitType>UNIT_DUTCH_GARDIST</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -3945,11 +4225,19 @@
 					<BuildingClassType>BUILDINGCLASS_AQUEDUCT</BuildingClassType>
 					<BuildingType>BUILDING_OTTOMAN_HAMMAM</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+					<BuildingType>BUILDING_TURKS_BAZAAR</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
 					<UnitType>UNIT_OTTOMAN_JANISSARY</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_BOMBARD</UnitClassType>
+					<UnitType>UNIT_TURKEY_GREAT_BOMBARD</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -4062,11 +4350,19 @@
 					<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
 					<BuildingType>BUILDING_PERSIAN_APOTHECARY</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+					<BuildingType>BUILDING_PERSIA_SATRAP_COURT</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_SPEARMAN</UnitClassType>
 					<UnitType>UNIT_PERSIAN_IMMORTAL</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CHARIOT</UnitClassType>
+					<UnitType>UNIT_PERSIA_SCYTHED_CHARIOT</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -4174,11 +4470,19 @@
 					<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
 					<BuildingType>BUILDING_POLISH_SEJMIK</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_GROCER</BuildingClassType>
+					<BuildingType>BUILDING_POLAND_FOLWARK</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_CUIRASSIER</UnitClassType>
 					<UnitType>UNIT_POLISH_WINGED_HUSSAR</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_BOMBARD</UnitClassType>
+					<UnitType>UNIT_POLAND_TABOR</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -4295,11 +4599,19 @@
 					<BuildingClassType>BUILDINGCLASS_AMPHITHEATRE</BuildingClassType>
 					<BuildingType>BUILDING_POLYNESIAN_MALAE</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_HARBOR</BuildingClassType>
+					<BuildingType>BUILDING_POLYNESIA_FISHERY</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_GALLEY</UnitClassType>
 					<UnitType>UNIT_POLYNESIAN_WAKA</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+					<UnitType>UNIT_POLYNESIA_KOA</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -4399,6 +4711,10 @@
 					<BuildingType>BUILDING_PORTUGUESE_FEITORIA</BuildingType>
 				</Building>
 				<Building>
+					<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+					<BuildingType>BUILDING_PORTUGAL_COLONY_ADMINISTRATION</BuildingType>
+				</Building>
+				<Building>
 					<BuildingClassType>BUILDINGCLASS_TRADING_COMPANY</BuildingClassType>
 					<BuildingType>BUILDING_IBERIAN_TRADING_COMPANY</BuildingType>
 				</Building>
@@ -4407,6 +4723,10 @@
 				<Unit>
 					<UnitClassType>UNITCLASS_CARAVEL</UnitClassType>
 					<UnitType>UNIT_PORTUGUESE_CARRACK</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+					<UnitType>UNIT_PORTUGAL_BANDEIRANTES</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -4518,11 +4838,19 @@
 					<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
 					<BuildingType>BUILDING_ROMAN_FORUM</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
+					<BuildingType>BUILDING_ROME_CASTRA</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
 					<UnitType>UNIT_ROMAN_LEGION</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_CATAPULT</UnitClassType>
+					<UnitType>UNIT_ROME_BALLISTA</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -4599,11 +4927,19 @@
 					<BuildingClassType>BUILDINGCLASS_LABORATORY</BuildingClassType>
 					<BuildingType>BUILDING_RUSSIAN_RESEARCH_INSTITUTE</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
+					<BuildingType>BUILDING_RUSSIA_KREMLIN</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_CAVALRY</UnitClassType>
 					<UnitType>UNIT_RUSSIAN_COSSACK</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+					<UnitType>UNIT_RUSSIA_STRELETS</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -4902,6 +5238,10 @@
 					<BuildingType>BUILDING_SPANISH_CITADEL</BuildingType>
 				</Building>
 				<Building>
+					<BuildingClassType>BUILDINGCLASS_STABLE</BuildingClassType>
+					<BuildingType>BUILDING_SPAIN_BULLRING</BuildingType>
+				</Building>
+				<Building>
 					<BuildingClassType>BUILDINGCLASS_TRADING_COMPANY</BuildingClassType>
 					<BuildingType>BUILDING_IBERIAN_TRADING_COMPANY</BuildingType>
 				</Building>
@@ -4910,6 +5250,10 @@
 				<Unit>
 					<UnitClassType>UNITCLASS_CUIRASSIER</UnitClassType>
 					<UnitType>UNIT_SPANISH_CONQUISTADOR</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+					<UnitType>UNIT_SPAIN_TERCIO</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -5106,11 +5450,19 @@
 					<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
 					<BuildingType>BUILDING_TAMIL_SANGAM</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_GROCER</BuildingClassType>
+					<BuildingType>BUILDING_TAMIL_TRADE_GUILD</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_CARAVEL</UnitClassType>
 					<UnitType>UNIT_TAMIL_DHARANI</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_HEAVY_SWORDSMAN</UnitClassType>
+					<UnitType>UNIT_TAMIL_KALLARANI</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -5212,11 +5564,19 @@
 					<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
 					<BuildingType>BUILDING_THAI_HO_TRAI</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_LEVEE</BuildingClassType>
+					<BuildingType>BUILDING_THAI_FLOATING_MARKET</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
 					<UnitType>UNIT_THAI_CHANG_SUEK</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+					<UnitType>UNIT_THAI_MAHARDLEK</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -5338,11 +5698,19 @@
 					<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
 					<BuildingType>BUILDING_TIBETAN_GOMPA</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_PAGAN_TEMPLE</BuildingClassType>
+					<BuildingType>BUILDING_TIBET_STATUE</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_HORSE_ARCHER</UnitClassType>
 					<UnitType>UNIT_TIBETAN_KHAMPA</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+					<UnitType>UNIT_TIBET_DOB_DOB</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -5436,11 +5804,19 @@
 					<BuildingClassType>BUILDINGCLASS_LIGHTHOUSE</BuildingClassType>
 					<BuildingType>BUILDING_VIKING_TRADING_POST</BuildingType>
 				</Building>
+				<Building>
+					<BuildingClassType>BUILDINGCLASS_GROCER</BuildingClassType>
+					<BuildingType>BUILDING_VIKING_MEAD_HALL</BuildingType>
+				</Building>
 			</Buildings>
 			<Units>
 				<Unit>
 					<UnitClassType>UNITCLASS_HEAVY_SWORDSMAN</UnitClassType>
 					<UnitType>UNIT_VIKING_HUSCARL</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_GALLEY</UnitClassType>
+					<UnitType>UNIT_VIKING_LONGSHIP</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>

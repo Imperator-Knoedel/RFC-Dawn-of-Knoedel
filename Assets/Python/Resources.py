@@ -308,6 +308,14 @@ class Resources:
 				
 			if gc.getDefineINT("PLAYER_REBIRTH_COLOMBIA") != 0:
 				self.createResource(28, 31, iIron) # Colombia
+				# 2nd UU: Move banana 1W, add horse on old spot
+				self.removeResource(27, 31)
+				self.createResource(27, 31, iHorse) # Colombia
+				self.createResource(26, 31, iBanana) # Colombia
+				gc.getMap().plot(27, 31).setFeatureType(-1, 0)
+				if gc.getMap().plot(27, 31).getImprovementType() != -1:
+					gc.getMap().plot(26, 31).setImprovementType(con.iPlantation)
+					gc.getMap().plot(27, 31).setImprovementType(-1)
 			
 			if utils.getPlayerEnabled(con.iArgentina):
 				self.createResource(31, 10, iWine) # Mendoza, Argentina

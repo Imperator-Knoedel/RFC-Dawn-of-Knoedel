@@ -1686,8 +1686,8 @@ def onBuildingBuilt(iPlayer, iBuilding):
 	# first Roman goal: build 6 Barracks, 5 Aqueducts, 4 Amphitheatres and 3 Forums by 180 AD
 	elif iPlayer == iRome:
 		if isPossible(iRome, 0):
-			if iBuilding in [iBarracks, iAqueduct, iAmphitheatre, iRomanForum]:
-				iNumBarracks = getNumBuildings(iRome, iBarracks)
+			if iBuilding in [iRomeCastra, iAqueduct, iAmphitheatre, iRomanForum]:
+				iNumBarracks = getNumBuildings(iRome, iRomeCastra)
 				iNumAqueducts = getNumBuildings(iRome, iAqueduct)
 				iNumAmphitheatres = getNumBuildings(iRome, iAmphitheatre)
 				iNumForums = getNumBuildings(iRome, iRomanForum)
@@ -1886,7 +1886,7 @@ def onPlayerSlaveTrade(iPlayer, iGold):
 			if sd.getCongoSlaveCounter() >= utils.getTurns(1000):
 				win(iCongo, 1)
 				
-def onTradeMission(iPlayer, iX, iY, iGold):
+def onTradeMission(iPlayer, iX, iY, iGold, iUnitType):
 
 	# third Tamil goal: acquire 4000 gold by trade by 1200 AD
 	if iPlayer == iTamils:
@@ -1894,13 +1894,14 @@ def onTradeMission(iPlayer, iX, iY, iGold):
 		
 	# first Mande goal: conduct a trade mission in your state religion's holy city by 1350 AD
 	elif iPlayer == iMali:
-		if isPossible(iMali, 0):
-			iStateReligion = pMali.getStateReligion()
-			if iStateReligion != -1:
-				pHolyCity = gc.getGame().getHolyCity(iStateReligion)
-				
-				if pHolyCity.getX() == iX and pHolyCity.getY() == iY:
-					win(iMali, 0)
+		if iUnitType in [iGreatMerchant, iFemaleGreatMerchant]:
+			if isPossible(iMali, 0):
+				iStateReligion = pMali.getStateReligion()
+				if iStateReligion != -1:
+					pHolyCity = gc.getGame().getHolyCity(iStateReligion)
+					
+					if pHolyCity.getX() == iX and pHolyCity.getY() == iY:
+						win(iMali, 0)
 					
 def onPeaceBrokered(iBroker, iPlayer1, iPlayer2):
 
@@ -3151,7 +3152,7 @@ def getUHVHelp(iPlayer, iGoal):
 				
 	elif iPlayer == iRome:
 		if iGoal == 0:
-			iNumBarracks = getNumBuildings(iRome, iBarracks)
+			iNumBarracks = getNumBuildings(iRome, iRomeCastra)
 			iNumAqueducts = getNumBuildings(iRome, iAqueduct)
 			iNumAmphitheatres = getNumBuildings(iRome, iAmphitheatre)
 			iNumForums = getNumBuildings(iRome, iRomanForum)

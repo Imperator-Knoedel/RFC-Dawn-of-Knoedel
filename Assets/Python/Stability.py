@@ -1706,7 +1706,7 @@ def getCivicCombinationStability(iPlayer, iCivic1, iCivic2):
 		if only(lCivics, iCivicCapitalism, iCivicCollaboration): return -5
 
 		if iCurrentEra == iMedieval:
-			if iCivicDynasticism in lCivics: return 2
+			if iCivicDynasty in lCivics: return 2
 			if iCivicSerfdom in lCivics: return 3
 
 	if iCivicCityStates in lCivics:
@@ -1722,7 +1722,7 @@ def getCivicCombinationStability(iPlayer, iCivic1, iCivic2):
 		if iCivicOrganizedReligion in lCivics: return 2
 
 		if iCurrentEra == iRenaissance:
-			if iCivicDynasticism in lCivics: return 2
+			if iCivicDynasty in lCivics: return 2
 
 	if iCivicRepublic in lCivics:
 		if iCivicDirectRule in lCivics: return -2

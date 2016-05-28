@@ -1493,24 +1493,29 @@ iSatellites, iRobotics, iFutureTech) = range(iNumTechs)
 
 # initialise unit variables to unit indices from XML
 
-iNumUnits = 168
-(iLion, iBear, iPanther, iWolf, iSettler, iHarappanCityBuilder, iWorker, iBrazilianMadeireiro, iIndianPunjabiWorker, iScout, iExplorer, iSpy, iReligiousPersecutor,
-iJewishMissionary, iOrthodoxMissionary, iCatholicMissionary, iProtestantMissionary, iIslamicMissionary, iHinduMissionary, iBuddhistMissionary, iConfucianMissionary,
-iTaoistMissionary, iZoroastrianMissionary, iWarrior, iSwordsman, iAztecJaguar, iRomanLegion, iCelticGallicWarrior,
-iAxeman, iGreekHoplite, iIncanAucac, iSumerianVulture, iNativeAmericanDogSoldier, iHeavySwordsman, iJapaneseSamurai, iVikingHuscarl, iCongolesePombos,
-iSpearman, iPersianImmortal, iZuluImpi, iPikeman, iHolyRomanLandsknecht, iMusketman, iOttomanJanissary, iEthiopianAskari, 
-iIranianQizilbash, iIroquoisMohawk, iFrenchMusketeer, iRifleman, iEnglishRedcoat, iAmericanMinuteman, iGrenadier, iColombianAlbionLegion, iAtInfantry, iInfantry, iItalianBersagliere,
-iSamInfantry, iMobileSam, iMarine, iAmericanNavySeal, iParatrooper, iMechanizedInfantry, iArcher, iMandeSkirmisher, iBabylonAsharittuBowman, iMayanHolkan, iNubianMedjay,
-iLongbowman, iIndianPatiyodha, iCrossbowman, iChineseChokonu, iChariot, iEgyptianWarChariot, iHittiteHuluganni, iCelticCidainh, iHorseArcher, iTibetanKhampa,
-iNumidianCavalry, iKushanAsvaka, iKnight, iMongolianKeshik, iArabianCamelArcher, iByzantineCataphract, iThaiChangSuek, iSeljukGhulamWarrior,
-iMandeFarari, iCuirassier, iSpanishConquistador, iPolishWingedHussar, iSiouxMountedBrave, iMoorishCamelGunner, iCavalry, iRussianCossack, iMexicanRurales,
-iArgentineGrenadierCavalry, iWarElephant, iKhmerBallistaElephant, iPhoenicianAfricanWarElephant, iTank, iGermanPanzer, iMainBattleTank, iGunship, iCatapult, iKoreanHwacha,
-iTrebuchet, iBombard, iMughalSiegeElephant, iCannon, iFrenchHeavyCannon, iMachineGun, iArtillery, iMobileArtillery, iWorkboat, iGalley, iPolynesianWaka, iPhoenicianBireme, iTrireme,
-iCaravel, iPortugalCarrack, iTamilDharani, iGalleon, iDutchEastIndiaman, iPrivateer, iIndonesianOrangLaut, iMoorishCorsair, iFrigate,
-iShipOfTheLine, iIronclad, iTransport, iDestroyer, iCanadianCorvette, iBattleship, iMissileCruiser, iStealthDestroyer, iSubmarine, iAttackSubmarine, iCarrier, iAirship, iFighter,
-iJetFighter, iBomber, iStealthBomber, iGuidedMissile, iTacticalNuke, iIcbm, iGreatProphet, iGreatArtist, iGreatScientist, iGreatMerchant, iGreatEngineer, iGreatStatesman, iGreatGeneral,
-iGreatSpy, iFemaleGreatProphet, iFemaleGreatArtist, iFemaleGreatScientist, iFemaleGreatMerchant, iFemaleGreatEngineer, iFemaleGreatStatesman, iFemaleGreatGeneral,
-iFemaleGreatSpy, iSlave, iNativeSlave, iAztecSlave, iHeavyHorseman, iModernInfantry, iPolice, iOceanLiner) = range(iNumUnits)
+iNumUnits = 213 #originally 164, 209 in 2ndUUB mod
+(iLion, iBear, iPanther, iWolf, iSettler, iHarappanCityBuilder, iWorker, iBrazilianMadeireiro, iIndianPunjabiWorker, iScout, iExplorer, iMaliCaravan, iSpy,
+iReligiousPersecutor, iJewishMissionary, iOrthodoxMissionary, iCatholicMissionary, iProtestantMissionary, iIslamicMissionary, iHinduMissionary,
+iBuddhistMissionary, iConfucianMissionary, iTaoistMissionary, iZoroastrianMissionary, iWarrior, iHarappanCityGuard, iPolynesiaKoa, iSwordsman, iAztecJaguar,
+iRomanLegion, iCelticGallicWarrior, iAxeman, iGreekHoplite, iIncanAucac, iEgyptianAxeman, iSumerianVulture, iNativeAmericanDogSoldier, iHeavySwordsman,
+iJapaneseSamurai, iVikingHuscarl, iCongolesePombos, iArabiaGhazi, iGermanDoppelsoldner, iTamilKallarani, iSpearman, iPersianImmortal, iAztecEagleWarrior,
+iMayaSpearman, iZuluImpi, iPikeman, iHolyRomanLandsknecht, iByantineTagmata, iIndonesiaBambooRuncing, iJapanAshigaru, iKhmerPhakak, iTibetDobDob, iMusketman,
+iOttomanJanissary, iEthiopianAskari, iIranianQizilbash, iPortugalBandeirantes, iRussiaStrelets, iSpainTercio, iIroquoisMohawk, iFrenchMusketeer, iRifleman,
+iEnglishRedcoat, iAmericanMinuteman, iThaiMahardlek, iGrenadier, iColombianAlbionLegion, iDutchGardist, iIranNaffatun, iAtInfantry, iInfantry, iItalianBersagliere,
+iArgentinaPatricios, iMexicoEjercito, iMughalSepoy, iSamInfantry, iMobileSam, iMarine, iAmericanNavySeal, iBrazilianGuardaNacional, iParatrooper, iMechanizedInfantry,
+iArcher, iMandeSkirmisher, iBabylonAsharittuBowman, iMayanHolkan, iNubianMedjay, iLongbowman, iIndianPatiyodha, iCongoNgolo, iCrossbowman, iChineseChokonu,
+iIncanSlinger, iChariot, iEgyptianWarChariot, iPersiaScythedChariot, iHittiteHuluganni, iCelticCidainh, iHorseArcher, iTibetanKhampa, iGreekHetairoi, iMoorsCavalry,
+iNumidianCavalry, iKushanAsvaka, iKnight, iMongolianKeshik, iArabianCamelArcher, iByzantineCataphract, iThaiChangSuek, iFranceChevalier, iSeljukGhulamWarrior,
+iMandeFarari, iCuirassier, iSpanishConquistador, iPolishWingedHussar, iItalianCondotierro, iSiouxMountedBrave, iMoorishCamelGunner, iCavalry, iRussianCossack,
+iMexicanRurales, iArgentineGrenadierCavalry, iColombianLlanero, iEthiopianSavannaHunter, iWarElephant, iKhmerBallistaElephant, iPhoenicianAfricanWarElephant,
+iIndiaMahout, iTank, iGermanPanzer, iMainBattleTank, iGunship, iCatapult, iKoreanHwacha, iBabylonRam, iRomanBallista, iTrebuchet, iChinaCannon, iBombard,
+iMughalSiegeElephant, iMongolSiegeEngineer, iPolandTabor, iTurkeyGreatBombard, iCannon, iFrenchHeavyCannon, iMachineGun, iArtillery, iPrussiaHowitzer,
+iMobileArtillery, iWorkboat, iGalley, iPolynesianWaka, iPhoenicianBireme, iVikingLongboat, iTrireme, iCaravel, iPortugalCarrack, iTamilDharani, iGalleon,
+iDutchEastIndiaman, iPrivateer, iIndonesianOrangLaut, iMoorishCorsair, iFrigate, iShipOfTheLine, iEnglishManOWar, iIronclad, iKoreaKobukson, iTransport,
+iDestroyer, iCanadianCorvette, iBattleship, iMissileCruiser, iStealthDestroyer, iSubmarine, iAttackSubmarine, iCarrier, iAirship, iFighter, iJetFighter,
+iCanadaAvroArrow, iBomber, iStealthBomber, iGuidedMissile, iTacticalNuke, iIcbm, iGreatProphet, iGreatArtist, iGreatScientist, iGreatMerchant, iGreatEngineer,
+iGreatStatesman, iGreatGeneral, iGreatSpy, iFemaleGreatProphet, iFemaleGreatArtist, iFemaleGreatScientist, iFemaleGreatMerchant, iFemaleGreatEngineer,
+iFemaleGreatStatesman, iFemaleGreatGeneral, iFemaleGreatSpy, iSlave, iNativeSlave, iAztecSlave, iHeavyHorseman, iSquadInfantry, iPolice, iOceanLiner) = range(iNumUnits)
 
 iMissionary = iJewishMissionary # generic
 
@@ -1569,9 +1574,16 @@ iShrine = iJewishShrine #generic
 iPlague = iNumBuildings
 iNumBuildingsPlague = iNumBuildings+1
 
+iNumSecondUB = 45
+(iAmericaPublicUniversity, iArabiaDhabihah, iArgentinaEstancia, iAztecChinampa, iBrazilianSambadrome, iByzantiumBasilica, iCanadaMicrowaveTower, iPhoeniciaCothon,
+iColombiaLanceroSchool, iEgyptianPyramid, iEnglandDungeon, iEthiopiaXeer, iFranceChateau, iPrussiaPillbox, iGreekAgora, iHarappaStorehouse, iHolyRomanOpera,
+iIncaStoneCutter, iIndiaShreni, iIndonesiaPendopo, iIranAbAnbar, iItalianCollegantia, iJapanJinja, iKhmerPagoda, iCongoWene, iKoreaMountainFortress, iMaliSaltMine,
+iMayaKatun, iMexicoMendicantOrder, iMongolYam, iMoorsPharmacy, iMughalQila, iDutchMolen, iTurksBazaar, iPersiaSatrapCourt, iPolandFolwark, iPolynesiaFishery,
+iPortugalColonialAdministration, iRomeCastra, iRussiaKremlin, iSpainBullring, iTamilTradeGuild, iThaiFloatingMarket, iTibetStatue, iVikingMeadHall) = range(iNumBuildingsPlague,iNumBuildingsPlague+iNumSecondUB)
+
 #Civics
 iNumCivics = 36
-(iCivicTyranny, iCivicDynasticism, iCivicCityStates, iCivicOligarchy, iCivicAutocracy, iCivicRepublic,
+(iCivicTyranny, iCivicDynasty, iCivicCityStates, iCivicOligarchy, iCivicAutocracy, iCivicRepublic,
 iCivicDirectRule, iCivicVassalage, iCivicAbsolutism, iCivicRepresentation, iCivicTotalitarianism, iCivicEgalitarianism,
 iCivicTribalism, iCivicSlavery, iCivicSerfdom, iCivicCapitalism, iCivicCasteSystem, iCivicCollaboration,
 iCivicSubsistence, iCivicGuilds, iCivicMercantilism, iCivicFreeMarket, iCivicCentralPlanning, iCivicPublicWelfare,

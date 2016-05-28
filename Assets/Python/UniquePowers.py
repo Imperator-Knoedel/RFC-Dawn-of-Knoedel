@@ -329,7 +329,7 @@ class UniquePowers:
 				if utils.getHumanID() != iRome and utils.getHumanID() != iEnemy: iExtra = 1
 				
 				utils.makeUnitAI(con.iRomanLegion, iRome, tPlot, UnitAITypes.UNITAI_ATTACK_CITY, 2+iExtra)
-				utils.makeUnitAI(con.iCatapult, iRome, tPlot, UnitAITypes.UNITAI_ATTACK_CITY, 1+iExtra*2)
+				utils.makeUnitAI(con.iRomanBallista, iRome, tPlot, UnitAITypes.UNITAI_ATTACK_CITY, 1+iExtra*2)
 
 		#if (pTargetCity != -1):
 		#	print ("City found, searching free land plot.")

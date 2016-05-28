@@ -474,7 +474,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_GREEK_HOPLITE_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Hoplite[COLOR_REVERT], the Greek replacement for the [COLOR_UNIT_TEXT]Axeman[COLOR_REVERT], begins with the [COLOR_HIGHLIGHT_TEXT]Shock[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Formation[COLOR_REVERT].</English>
+		<English>The [COLOR_UNIT_TEXT]Hoplite[COLOR_REVERT], the Greek replacement for the [COLOR_UNIT_TEXT]Axeman[COLOR_REVERT], has a higher strength.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_HORSE_ARCHER_STRATEGY</Tag>
@@ -482,7 +482,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_HOLY_ROMAN_LANDSKNECHT_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Landsknecht[COLOR_REVERT], the German replacement for the the [COLOR_UNIT_TEXT]Pikeman[COLOR_REVERT], has a combat bonus against [COLOR_UNIT_TEXT]Melee Units[COLOR_REVERT].</English>
+		<English>The [COLOR_UNIT_TEXT]Landsknecht[COLOR_REVERT], the German replacement for the [COLOR_UNIT_TEXT]Pikeman[COLOR_REVERT], has a big bonus against [COLOR_UNIT_TEXT]Melee[COLOR_REVERT] and [COLOR_UNIT_TEXT]Mounted Units[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_HARAPPAN_CITY_BUILDER</Tag>
@@ -1025,7 +1025,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ROMAN_LEGION_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Legion[COLOR_REVERT], the Roman replacement for the the [COLOR_UNIT_TEXT]Swordsman[COLOR_REVERT], has two additional strength points, is more expensive, loses the attack bonus when attacking cities, has a combat bonus against the [COLOR_UNIT_TEXT]Axeman[COLOR_REVERT] unit, can construct [COLOR_HIGHLIGHT_TEXT]Roman Roads[COLOR_REVERT] and can be trained until the [COLOR_TECH_TEXT]Rifling[COLOR_REVERT] and [COLOR_TECH_TEXT]Chemistry[COLOR_REVERT] technologies have been discovered.</English>
+		<English>The [COLOR_UNIT_TEXT]Legion[COLOR_REVERT], the Roman replacement for the the [COLOR_UNIT_TEXT]Swordsman[COLOR_REVERT], has two additional strength points, is more expensive, loses the attack bonus when attacking cities, can construct [COLOR_HIGHLIGHT_TEXT]Roman Roads[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Forts[COLOR_REVERT] and can be trained until the [COLOR_TECH_TEXT]Rifling[COLOR_REVERT] and [COLOR_TECH_TEXT]Chemistry[COLOR_REVERT] technologies have been discovered.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_RIFLEMAN_STRATEGY</Tag>

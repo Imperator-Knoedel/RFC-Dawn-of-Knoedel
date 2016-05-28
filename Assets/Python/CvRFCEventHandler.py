@@ -287,7 +287,7 @@ class CvRFCEventHandler:
 					carthage.setPopulation(3)
 					
 					utils.makeUnitAI(iWorkboat, iCarthage, (58, 39), UnitAITypes.UNITAI_WORKER_SEA, 1)
-					utils.makeUnitAI(iGalley, iCarthage, (57, 40), UnitAITypes.UNITAI_SETTLER_SEA, 1)
+					utils.makeUnitAI(iPhoenicianBireme, iCarthage, (57, 40), UnitAITypes.UNITAI_SETTLER_SEA, 1)
 					utils.makeUnitAI(iSettler, iCarthage, (57, 40), UnitAITypes.UNITAI_SETTLE, 1)
 					
 				utils.setReborn(iCarthage, True)
@@ -464,7 +464,7 @@ class CvRFCEventHandler:
 		iUnitType, iPlayer, iX, iY, iGold = argsList
 		
 		if iPlayer in [iTamils, iMali]:
-			vic.onTradeMission(iPlayer, iX, iY, iGold)
+			vic.onTradeMission(iPlayer, iX, iY, iGold, iUnitType)
 		
 	def onPlayerSlaveTrade(self, argsList):
 		iPlayer, iGold = argsList

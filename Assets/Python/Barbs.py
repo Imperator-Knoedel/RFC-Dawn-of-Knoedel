@@ -146,7 +146,7 @@ class Barbs:
 
 		#norse
 		if (iGameTurn >= getTurnForYear(-650) and iGameTurn <= getTurnForYear(550)):
-			self.checkSpawn(iBarbarian, con.iGalley, 1, (50, 49), (61, 55), self.spawnPirates, iGameTurn, 20, 0, ["TXT_KEY_ADJECTIVE_NORSE"])
+			self.checkSpawn(iBarbarian, con.iVikingLongboat, 1, (50, 49), (61, 55), self.spawnPirates, iGameTurn, 20, 0, ["TXT_KEY_ADJECTIVE_NORSE"])
 			
 		#mongolia
 		if (iGameTurn >= getTurnForYear(-210) and iGameTurn < getTurnForYear(300)):
@@ -284,7 +284,7 @@ class Barbs:
 			iNumUnits = iHandicap
 			if utils.getScenario() == con.i3000BC: iNumUnits += 1
 			if iGameTurn >= getTurnForYear(400): iNumUnits += 2
-			self.checkSpawn(iBarbarian, con.iNubianMedjay, iNumUnits, (66, 28), (71, 34), self.spawnUprising, iGameTurn, 12, 4, ["TXT_KEY_ADJECTIVE_NUBIAN"])
+			self.checkSpawn(iBarbarian, con.iNubianMedjay, iNumUnits, (66, 28), (71, 31), self.spawnUprising, iGameTurn, 12, 4, ["TXT_KEY_ADJECTIVE_NUBIAN"])
 		if (iGameTurn >= getTurnForYear(450) and iGameTurn <= getTurnForYear(1600)):
 			if utils.getScenario() == con.i3000BC:
 				self.checkSpawn(iNative, con.iZuluImpi, 2 + iHandicap, (60, 10), (72, 27), self.spawnNatives, iGameTurn, 10, 4)
