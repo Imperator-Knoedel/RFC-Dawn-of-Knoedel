@@ -669,11 +669,11 @@
 			</Cities>
 			<Buildings>
 				<Building>
-					<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_AMPHITHEATRE</BuildingClassType>
 					<BuildingType>BUILDING_BYZANTINE_HIPPODROME</BuildingType>
 				</Building>
 				<Building>
-					<BuildingClassType>BUILDINGCLASS_AMPHITHEATRE</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
 					<BuildingType>BUILDING_BYZANTIUM_BASILICA</BuildingType>
 				</Building>
 			</Buildings>
@@ -2250,7 +2250,7 @@
 					<BuildingType>BUILDING_HOLY_ROMAN_RATHAUS</BuildingType>
 				</Building>
 				<Building>
-					<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_AMPHITHEATRE</BuildingClassType>
 					<BuildingType>BUILDING_HRE_OPERA</BuildingType>
 				</Building>
 			</Buildings>
@@ -2889,7 +2889,7 @@
 					<BuildingType>BUILDING_JAPANESE_ZAIBATSU</BuildingType>
 				</Building>
 				<Building>
-					<BuildingClassType>BUILDINGCLASS_AMPHITHEATRE</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_PAGAN_TEMPLE</BuildingClassType>
 					<BuildingType>BUILDING_JAPAN_JINJA</BuildingType>
 				</Building>
 			</Buildings>
@@ -3655,7 +3655,7 @@
 					<BuildingType>BUILDING_MONGOLIAN_GER</BuildingType>
 				</Building>
 				<Building>
-					<BuildingClassType>BUILDINGCLASS_AMPHITHEATRE</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_BARRACKS</BuildingClassType>
 					<BuildingType>BUILDING_MONGOL_YAM</BuildingType>
 				</Building>
 			</Buildings>
@@ -3883,7 +3883,7 @@
 					<BuildingType>BUILDING_MUGHAL_MAUSOLEUM</BuildingType>
 				</Building>
 				<Building>
-					<BuildingClassType>BUILDINGCLASS_STABLE</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
 					<BuildingType>BUILDING_MUGHAL_FORT</BuildingType>
 				</Building>
 			</Buildings>
@@ -5238,7 +5238,7 @@
 					<BuildingType>BUILDING_SPANISH_CITADEL</BuildingType>
 				</Building>
 				<Building>
-					<BuildingClassType>BUILDINGCLASS_STABLE</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_AMPHITHEATRE</BuildingClassType>
 					<BuildingType>BUILDING_SPAIN_BULLRING</BuildingType>
 				</Building>
 				<Building>

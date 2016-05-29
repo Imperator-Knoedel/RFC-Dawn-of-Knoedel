@@ -2905,7 +2905,7 @@ class RiseAndFall:
 			if (tSeaPlot):
 				pGreece.initUnit(iGalley, tSeaPlot[0], tSeaPlot[1], UnitAITypes.UNITAI_SETTLER_SEA, DirectionTypes.DIRECTION_SOUTH)
 				utils.makeUnit(iSettler, iCiv, tSeaPlot, 1)
-				utils.makeUnit(iWarrior, iCiv, tSeaPlot, 1)
+				utils.makeUnit(iGreekHoplite, iCiv, tSeaPlot, 1)
 		if (iCiv == iPersia):
 			utils.createSettlers(iCiv, 3)
 			utils.makeUnitAI(iArcher, iCiv, tPlot, UnitAITypes.UNITAI_CITY_DEFENSE, 3)

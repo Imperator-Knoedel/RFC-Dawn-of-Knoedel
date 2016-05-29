@@ -24929,6 +24929,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=65,y=40
+	BonusType=BONUS_MARBLE
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
@@ -25339,7 +25340,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=66,y=40
-	BonusType=BONUS_MARBLE
+	BonusType=BONUS_SILVER
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot

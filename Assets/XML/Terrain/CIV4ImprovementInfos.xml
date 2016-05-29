@@ -218,7 +218,7 @@
 			<iFeatureGrowth>0</iFeatureGrowth>
 			<iUpgradeTime>0</iUpgradeTime>
 			<iAirBombDefense>5</iAirBombDefense>
-			<iDefenseModifier>0</iDefenseModifier>
+			<iDefenseModifier>10</iDefenseModifier>
 			<iHappiness>0</iHappiness>
 			<iPillageGold>5</iPillageGold>
 			<bOutsideBorders>0</bOutsideBorders>
@@ -1468,7 +1468,7 @@
 			<iFeatureGrowth>0</iFeatureGrowth>
 			<iUpgradeTime>0</iUpgradeTime>
 			<iAirBombDefense>5</iAirBombDefense>
-			<iDefenseModifier>0</iDefenseModifier>
+			<iDefenseModifier>10</iDefenseModifier>
 			<iHappiness>0</iHappiness>
 			<iPillageGold>5</iPillageGold>
 			<bOutsideBorders>0</bOutsideBorders>
@@ -1915,7 +1915,7 @@
 			<iFeatureGrowth>0</iFeatureGrowth>
 			<iUpgradeTime>20</iUpgradeTime>
 			<iAirBombDefense>5</iAirBombDefense>
-			<iDefenseModifier>0</iDefenseModifier>
+			<iDefenseModifier>10</iDefenseModifier>
 			<iHappiness>0</iHappiness>
 			<iPillageGold>15</iPillageGold>
 			<bOutsideBorders>0</bOutsideBorders>
@@ -1981,7 +1981,7 @@
 			<iFeatureGrowth>0</iFeatureGrowth>
 			<iUpgradeTime>40</iUpgradeTime>
 			<iAirBombDefense>5</iAirBombDefense>
-			<iDefenseModifier>10</iDefenseModifier>
+			<iDefenseModifier>20</iDefenseModifier>
 			<iHappiness>0</iHappiness>
 			<iPillageGold>20</iPillageGold>
 			<bOutsideBorders>0</bOutsideBorders>

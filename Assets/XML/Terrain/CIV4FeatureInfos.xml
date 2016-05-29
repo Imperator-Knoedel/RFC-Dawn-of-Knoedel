@@ -126,7 +126,7 @@
 			<iMovement>2</iMovement>
 			<iSeeThrough>1</iSeeThrough>
 			<iHealthPercent>-25</iHealthPercent>
-			<iDefense>50</iDefense>
+			<iDefense>100</iDefense>
 			<iCultureCost>10</iCultureCost>
 			<iAppearance>0</iAppearance>
 			<iDisappearance>0</iDisappearance>
@@ -468,7 +468,7 @@
 			<iMovement>2</iMovement>
 			<iSeeThrough>1</iSeeThrough>
 			<iHealthPercent>50</iHealthPercent>
-			<iDefense>50</iDefense>
+			<iDefense>100</iDefense>
 			<iCultureCost>0</iCultureCost>
 			<iAppearance>0</iAppearance>
 			<iDisappearance>0</iDisappearance>
@@ -586,7 +586,7 @@
 			<iMovement>2</iMovement>
 			<iSeeThrough>1</iSeeThrough>
 			<iHealthPercent>-40</iHealthPercent>
-			<iDefense>50</iDefense>
+			<iDefense>100</iDefense>
 			<iCultureCost>10</iCultureCost>
 			<iAppearance>0</iAppearance>
 			<iDisappearance>0</iDisappearance>
@@ -907,7 +907,7 @@
 			<iMovement>2</iMovement>
 			<iSeeThrough>1</iSeeThrough>
 			<iHealthPercent>0</iHealthPercent>
-			<iDefense>50</iDefense>
+			<iDefense>100</iDefense>
 			<iCultureCost>5</iCultureCost>
 			<iAppearance>0</iAppearance>
 			<iDisappearance>0</iDisappearance>
@@ -1021,12 +1021,12 @@
 			<iMovement>2</iMovement>
 			<iSeeThrough>0</iSeeThrough>
 			<iHealthPercent>-50</iHealthPercent>
-			<iDefense>0</iDefense>
+			<iDefense>-10</iDefense>
 			<iCultureCost>20</iCultureCost>
 			<iAppearance>0</iAppearance>
 			<iDisappearance>500</iDisappearance>
 			<iGrowth>0</iGrowth>
-			<iTurnDamage>0</iTurnDamage>
+			<iTurnDamage>10</iTurnDamage>
 			<bNoCoast>0</bNoCoast>
 			<bNoRiver>0</bNoRiver>
 			<bNoAdjacent>0</bNoAdjacent>

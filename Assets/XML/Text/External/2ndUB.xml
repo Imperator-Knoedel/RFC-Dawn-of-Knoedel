@@ -94,7 +94,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_BYZANTIUM_BASILICA_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Basilica[COLOR_REVERT], the Byzantine replacement for the [COLOR_BUILDING_TEXT]Amphitheatre[COLOR_REVERT], provides 1 free [COLOR_HIGHLIGHT_TEXT]Priest[COLOR_REVERT].</English>
+		<English>The [COLOR_BUILDING_TEXT]Basilica[COLOR_REVERT], the Byzantine replacement for the [COLOR_BUILDING_TEXT]Courthouse[COLOR_REVERT], provides 1 free [COLOR_HIGHLIGHT_TEXT]Priest[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CANADA_MICROWAVE</Tag>
@@ -238,7 +238,7 @@
 	</TEXT>-->
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_HRE_OPERA_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Opera House[COLOR_REVERT], the Holy Roman replacement for the [COLOR_BUILDING_TEXT]Theatre[COLOR_REVERT], has an increase culture and happiness output.</English>
+		<English>The [COLOR_BUILDING_TEXT]Opera House[COLOR_REVERT], the Holy Roman replacement for the [COLOR_BUILDING_TEXT]Amphitheatre[COLOR_REVERT], has an increase culture and happiness output.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_GREEK_AGORA</Tag>
@@ -366,7 +366,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_JAPAN_JINJA_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Jinja[COLOR_REVERT], the Japanese replacement for the [COLOR_BUILDING_TEXT]Amphitheatre[COLOR_REVERT], increases the espionage output.</English>
+		<English>The [COLOR_BUILDING_TEXT]Jinja[COLOR_REVERT], the Japanese replacement for the [COLOR_BUILDING_TEXT]Pagan Temple[COLOR_REVERT], increases the espionage output.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_KHMER_PAGODA</Tag>
@@ -462,7 +462,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MONGOL_YAM_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Yam[COLOR_REVERT], the Mongolian replacement for the [COLOR_BUILDING_TEXT]Amphitheatre[COLOR_REVERT], is cheaper and gives the [COLOR_HIGHLIGHT_TEXT]Flanking I[COLOR_REVERT] promotion.</English>
+		<English>The [COLOR_BUILDING_TEXT]Yam[COLOR_REVERT], the Mongolian replacement for the [COLOR_BUILDING_TEXT]Barracks[COLOR_REVERT], is cheaper and gives the [COLOR_HIGHLIGHT_TEXT]Flanking I[COLOR_REVERT] promotion.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MOORS_PHARMACY</Tag>
@@ -494,7 +494,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MUGHAL_FORT_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Qila[COLOR_REVERT], the Mughal replacement for the [COLOR_BUILDING_TEXT]Stable[COLOR_REVERT], increases a city's defenses against pre-gunpowder units and grants experience points to [COLOR_UNIT_TEXT]Gunpowder Units[COLOR_REVERT] build in its city.</English>
+		<English>The [COLOR_BUILDING_TEXT]Qila[COLOR_REVERT], the Mughal replacement for the [COLOR_BUILDING_TEXT]Castle[COLOR_REVERT], increases a city's defenses against pre-gunpowder units and grants experience points to [COLOR_UNIT_TEXT]Gunpowder Units[COLOR_REVERT] build in its city.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_PERSIA_SATRAP_COURT</Tag>
@@ -607,7 +607,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_RUSSIA_KREMLIN_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Kremlin[COLOR_REVERT], the Russian replacement for the [COLOR_BUILDING_TEXT]Castle[COLOR_REVERT], obseletes with [COLOR_TECH_TEXT]Satellites[COLOR_REVERT], helps thwart rival spies, increases espionage output and grants 2 experience points to [COLOR_UNIT_TEXT]Spies[COLOR_REVERT] build in its city.</English>
+		<English>The [COLOR_BUILDING_TEXT]Kremlin[COLOR_REVERT], the Russian replacement for the [COLOR_BUILDING_TEXT]Castle[COLOR_REVERT], obseletes with [COLOR_TECH_TEXT]Railroad[COLOR_REVERT], helps thwart rival spies, increases espionage output and grants 2 experience points to [COLOR_UNIT_TEXT]Spies[COLOR_REVERT] build in its city.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_SPAIN_BULLRING</Tag>
