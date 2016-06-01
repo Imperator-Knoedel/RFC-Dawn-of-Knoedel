@@ -5709,7 +5709,7 @@
 					<UnitType>UNIT_TIBETAN_KHAMPA</UnitType>
 				</Unit>
 				<Unit>
-					<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
+					<UnitClassType>UNITCLASS_SWORDSMAN</UnitClassType>
 					<UnitType>UNIT_TIBET_DOB_DOB</UnitType>
 				</Unit>
 			</Units>

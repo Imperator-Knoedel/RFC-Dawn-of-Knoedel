@@ -2016,44 +2016,20 @@
 					<bFeatureImpassable>1</bFeatureImpassable>
 				</FeatureImpassable>
 			</FeatureImpassables>
-			<iCombat>4</iCombat>
+			<iCombat>5</iCombat>
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iCityAttack>25</iCityAttack>
-			<iCityDefense>25</iCityDefense>
-			<FeatureAttacks>
-				<FeatureAttack>
-					<FeatureType>FEATURE_FOREST</FeatureType>
-					<iFeatureAttack>25</iFeatureAttack>
-				</FeatureAttack>
-				<FeatureAttack>
-					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<iFeatureAttack>25</iFeatureAttack>
-				</FeatureAttack>
-				<FeatureAttack>
-					<FeatureType>FEATURE_RAINFOREST</FeatureType>
-					<iFeatureAttack>25</iFeatureAttack>
-				</FeatureAttack>
-			</FeatureAttacks>
-			<FeatureDefenses>
-				<FeatureDefense>
-					<FeatureType>FEATURE_FOREST</FeatureType>
-					<iFeatureDefense>25</iFeatureDefense>
-				</FeatureDefense>
-				<FeatureDefense>
-					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<iFeatureDefense>25</iFeatureDefense>
-				</FeatureDefense>
-				<FeatureDefense>
-					<FeatureType>FEATURE_RAINFOREST</FeatureType>
-					<iFeatureDefense>25</iFeatureDefense>
-				</FeatureDefense>
-			</FeatureDefenses>
+			<UnitCombatMods>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iUnitCombatMod>25</iUnitCombatMod>
+				</UnitCombatMod>
+			</UnitCombatMods>
 			<iConscription>2</iConscription>
 			<iCultureGarrison>4</iCultureGarrison>
 			<iAsset>2</iAsset>
-			<iPower>4</iPower>
+			<iPower>5</iPower>
 			<UnitMeshGroups>
 				<iGroupSize>3</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -2227,41 +2203,15 @@
 					<bFeatureImpassable>1</bFeatureImpassable>
 				</FeatureImpassable>
 			</FeatureImpassables>
-			<iCombat>4</iCombat>
+			<iCombat>5</iCombat>
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iCityAttack>25</iCityAttack>
-			<iCityDefense>25</iCityDefense>
-			<FeatureAttacks>
-				<FeatureAttack>
-					<FeatureType>FEATURE_FOREST</FeatureType>
-					<iFeatureAttack>25</iFeatureAttack>
-				</FeatureAttack>
-				<FeatureAttack>
-					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<iFeatureAttack>25</iFeatureAttack>
-				</FeatureAttack>
-				<FeatureAttack>
-					<FeatureType>FEATURE_RAINFOREST</FeatureType>
-					<iFeatureAttack>25</iFeatureAttack>
-				</FeatureAttack>
-			</FeatureAttacks>
-			<FeatureDefenses>
-				<FeatureDefense>
-					<FeatureType>FEATURE_FOREST</FeatureType>
-					<iFeatureDefense>25</iFeatureDefense>
-				</FeatureDefense>
-				<FeatureDefense>
-					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<iFeatureDefense>25</iFeatureDefense>
-				</FeatureDefense>
-				<FeatureDefense>
-					<FeatureType>FEATURE_RAINFOREST</FeatureType>
-					<iFeatureDefense>25</iFeatureDefense>
-				</FeatureDefense>
-			</FeatureDefenses>
 			<UnitCombatMods>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iUnitCombatMod>25</iUnitCombatMod>
+				</UnitCombatMod>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
 					<iUnitCombatMod>50</iUnitCombatMod>
@@ -2270,7 +2220,7 @@
 			<iConscription>2</iConscription>
 			<iCultureGarrison>4</iCultureGarrison>
 			<iAsset>2</iAsset>
-			<iPower>6</iPower>
+			<iPower>5</iPower>
 			<UnitMeshGroups>
 				<iGroupSize>3</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -2360,44 +2310,20 @@
 					<bFeatureImpassable>1</bFeatureImpassable>
 				</FeatureImpassable>
 			</FeatureImpassables>
-			<iCombat>5</iCombat>
+			<iCombat>6</iCombat>
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iCityAttack>25</iCityAttack>
-			<iCityDefense>25</iCityDefense>
-			<FeatureAttacks>
-				<FeatureAttack>
-					<FeatureType>FEATURE_FOREST</FeatureType>
-					<iFeatureAttack>25</iFeatureAttack>
-				</FeatureAttack>
-				<FeatureAttack>
-					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<iFeatureAttack>25</iFeatureAttack>
-				</FeatureAttack>
-				<FeatureAttack>
-					<FeatureType>FEATURE_RAINFOREST</FeatureType>
-					<iFeatureAttack>25</iFeatureAttack>
-				</FeatureAttack>
-			</FeatureAttacks>
-			<FeatureDefenses>
-				<FeatureDefense>
-					<FeatureType>FEATURE_FOREST</FeatureType>
-					<iFeatureDefense>25</iFeatureDefense>
-				</FeatureDefense>
-				<FeatureDefense>
-					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<iFeatureDefense>25</iFeatureDefense>
-				</FeatureDefense>
-				<FeatureDefense>
-					<FeatureType>FEATURE_RAINFOREST</FeatureType>
-					<iFeatureDefense>25</iFeatureDefense>
-				</FeatureDefense>
-			</FeatureDefenses>
+			<UnitCombatMods>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iUnitCombatMod>25</iUnitCombatMod>
+				</UnitCombatMod>
+			</UnitCombatMods>
 			<iConscription>2</iConscription>
 			<iCultureGarrison>4</iCultureGarrison>
 			<iAsset>2</iAsset>
-			<iPower>6</iPower>
+			<iPower>5</iPower>
 			<UnitMeshGroups>
 				<iGroupSize>3</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -2473,44 +2399,20 @@
 					<bFeatureImpassable>1</bFeatureImpassable>
 				</FeatureImpassable>
 			</FeatureImpassables>
-			<iCombat>3</iCombat>
+			<iCombat>4</iCombat>
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iCityAttack>25</iCityAttack>
-			<iCityDefense>25</iCityDefense>
-			<FeatureAttacks>
-				<FeatureAttack>
-					<FeatureType>FEATURE_FOREST</FeatureType>
-					<iFeatureAttack>25</iFeatureAttack>
-				</FeatureAttack>
-				<FeatureAttack>
-					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<iFeatureAttack>25</iFeatureAttack>
-				</FeatureAttack>
-				<FeatureAttack>
-					<FeatureType>FEATURE_RAINFOREST</FeatureType>
-					<iFeatureAttack>25</iFeatureAttack>
-				</FeatureAttack>
-			</FeatureAttacks>
-			<FeatureDefenses>
-				<FeatureDefense>
-					<FeatureType>FEATURE_FOREST</FeatureType>
-					<iFeatureDefense>25</iFeatureDefense>
-				</FeatureDefense>
-				<FeatureDefense>
-					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<iFeatureDefense>25</iFeatureDefense>
-				</FeatureDefense>
-				<FeatureDefense>
-					<FeatureType>FEATURE_RAINFOREST</FeatureType>
-					<iFeatureDefense>25</iFeatureDefense>
-				</FeatureDefense>
-			</FeatureDefenses>
+			<UnitCombatMods>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<iUnitCombatMod>25</iUnitCombatMod>
+				</UnitCombatMod>
+			</UnitCombatMods>
 			<iConscription>2</iConscription>
 			<iCultureGarrison>4</iCultureGarrison>
 			<iAsset>2</iAsset>
-			<iPower>6</iPower>
+			<iPower>5</iPower>
 			<UnitMeshGroups>
 				<iGroupSize>3</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -2583,40 +2485,10 @@
 					<bFeatureImpassable>1</bFeatureImpassable>
 				</FeatureImpassable>
 			</FeatureImpassables>
-			<iCombat>3</iCombat>
+			<iCombat>4</iCombat>
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iCityAttack>25</iCityAttack>
-			<iCityDefense>25</iCityDefense>
-			<FeatureAttacks>
-				<FeatureAttack>
-					<FeatureType>FEATURE_FOREST</FeatureType>
-					<iFeatureAttack>25</iFeatureAttack>
-				</FeatureAttack>
-				<FeatureAttack>
-					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<iFeatureAttack>25</iFeatureAttack>
-				</FeatureAttack>
-				<FeatureAttack>
-					<FeatureType>FEATURE_RAINFOREST</FeatureType>
-					<iFeatureAttack>25</iFeatureAttack>
-				</FeatureAttack>
-			</FeatureAttacks>
-			<FeatureDefenses>
-				<FeatureDefense>
-					<FeatureType>FEATURE_FOREST</FeatureType>
-					<iFeatureDefense>25</iFeatureDefense>
-				</FeatureDefense>
-				<FeatureDefense>
-					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<iFeatureDefense>25</iFeatureDefense>
-				</FeatureDefense>
-				<FeatureDefense>
-					<FeatureType>FEATURE_RAINFOREST</FeatureType>
-					<iFeatureDefense>25</iFeatureDefense>
-				</FeatureDefense>
-			</FeatureDefenses>
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
@@ -3341,7 +3213,7 @@
 				<BonusType>BONUS_COPPER</BonusType>
 				<BonusType>BONUS_IRON</BonusType>
 			</PrereqBonuses>
-			<iCost>35</iCost>
+			<iCost>30</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -3367,11 +3239,7 @@
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
-				</UnitCombatMod>
-				<UnitCombatMod>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
+					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
 			</UnitCombatMods>
 			<iConscription>2</iConscription>
@@ -3475,11 +3343,7 @@
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
-				</UnitCombatMod>
-				<UnitCombatMod>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
+					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
 			</UnitCombatMods>
 			<iConscription>2</iConscription>
@@ -3543,7 +3407,7 @@
 			<TechTypes>
 				<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			</TechTypes>
-			<iCost>30</iCost>
+			<iCost>25</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -3561,10 +3425,6 @@
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iUnitCombatMod>25</iUnitCombatMod>
-				</UnitCombatMod>
-				<UnitCombatMod>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
 					<iUnitCombatMod>50</iUnitCombatMod>
 				</UnitCombatMod>
 			</UnitCombatMods>
@@ -3623,7 +3483,7 @@
 			<TechTypes>
 				<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			</TechTypes>
-			<iCost>25</iCost>
+			<iCost>20</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -3641,11 +3501,7 @@
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
-				</UnitCombatMod>
-				<UnitCombatMod>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
+					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
 			</UnitCombatMods>
 			<iConscription>2</iConscription>
@@ -3708,7 +3564,7 @@
 				<BonusType>BONUS_COPPER</BonusType>
 				<BonusType>BONUS_IRON</BonusType>
 			</PrereqBonuses>
-			<iCost>35</iCost>
+			<iCost>30</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -3728,11 +3584,7 @@
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
-				</UnitCombatMod>
-				<UnitCombatMod>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
+					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
@@ -3828,11 +3680,11 @@
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
+					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
+					<iUnitCombatMod>25</iUnitCombatMod>
 				</UnitCombatMod>
 			</UnitCombatMods>
 			<iConscription>3</iConscription>
@@ -4013,11 +3865,11 @@
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
+					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
+					<iUnitCombatMod>25</iUnitCombatMod>
 				</UnitCombatMod>
 			</UnitCombatMods>
 			<iConscription>3</iConscription>
@@ -4095,11 +3947,11 @@
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
+					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
+					<iUnitCombatMod>25</iUnitCombatMod>
 				</UnitCombatMod>
 			</UnitCombatMods>
 			<iConscription>3</iConscription>
@@ -4191,11 +4043,11 @@
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
+					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
+					<iUnitCombatMod>25</iUnitCombatMod>
 				</UnitCombatMod>
 			</UnitCombatMods>
 			<iConscription>3</iConscription>
@@ -4276,11 +4128,11 @@
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
+					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
+					<iUnitCombatMod>25</iUnitCombatMod>
 				</UnitCombatMod>
 			</UnitCombatMods>
 			<iConscription>3</iConscription>
@@ -4307,7 +4159,7 @@
 			</FreePromotions>
 		</UnitInfo>
 		<UnitInfo>
-			<Class>UNITCLASS_PIKEMAN</Class>
+			<Class>UNITCLASS_SWORDSMAN</Class>
 			<Type>UNIT_TIBET_DOB_DOB</Type>
 			<Combat>UNITCOMBAT_MELEE</Combat>
 			<Domain>DOMAIN_LAND</Domain>
@@ -4321,6 +4173,10 @@
 			<bMilitaryProduction>1</bMilitaryProduction>
 			<bPillage>1</bPillage>
 			<UnitClassUpgrades>
+				<UnitClassUpgrade>
+					<UnitClassUpgradeType>UNITCLASS_HEAVY_SWORDSMAN</UnitClassUpgradeType>
+					<bUnitClassUpgrade>1</bUnitClassUpgrade>
+				</UnitClassUpgrade>
 				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_RIFLEMAN</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
@@ -4344,8 +4200,8 @@
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</UnitAIs>
-			<PrereqTech>TECH_ENGINEERING</PrereqTech>
-			<iCost>50</iCost>
+			<PrereqTech>TECH_IRON_WORKING</PrereqTech>
+			<iCost>30</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -4368,16 +4224,7 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<UnitCombatMods>
-				<UnitCombatMod>
-					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
-				</UnitCombatMod>
-				<UnitCombatMod>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
-				</UnitCombatMod>
-			</UnitCombatMods>
+			<iCityAttack>10</iCityAttack>
 			<iConscription>3</iConscription>
 			<iCultureGarrison>6</iCultureGarrison>
 			<iAsset>2</iAsset>
