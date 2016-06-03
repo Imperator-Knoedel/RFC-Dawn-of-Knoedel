@@ -217,6 +217,8 @@
 			<iGreatPeopleRateModifier>-10</iGreatPeopleRateModifier>
 			<iMilitaryProductionModifier>25</iMilitaryProductionModifier>
 			<iWarWearinessModifier>-30</iWarWearinessModifier>
+			<iHappyPerMilitaryUnit>1</iHappyPerMilitaryUnit>
+			<iMilitaryHappinessLimit>4</iMilitaryHappinessLimit>
 			<iMaxConscript>1</iMaxConscript>
 			<SpecialistExtraCommerces>
 				<iCommerce>0</iCommerce>
@@ -497,8 +499,9 @@
 			<TechPrereq>TECH_BANKING</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>UPKEEP_MEDIUM</Upkeep>
+			<iDistanceMaintenanceModifier>-50</iDistanceMaintenanceModifier>
 			<CommerceModifiers>
-				<iCommerce>20</iCommerce>
+				<iCommerce>10</iCommerce>
 			</CommerceModifiers>
 			<iCapitalTradeModifier>50</iCapitalTradeModifier>
 			<bNoForeignTradeModifier>1</bNoForeignTradeModifier>
@@ -564,6 +567,7 @@
 			<TechPrereq>TECH_COMMUNISM</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>UPKEEP_HIGH</Upkeep>
+			<iNumCitiesMaintenanceModifier>-50</iNumCitiesMaintenanceModifier>
 			<YieldModifiers>
 				<iYield>0</iYield>
 				<iYield>10</iYield>
