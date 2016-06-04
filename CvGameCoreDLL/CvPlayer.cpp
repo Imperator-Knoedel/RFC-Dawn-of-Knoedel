@@ -8142,14 +8142,22 @@ void CvPlayer::foundReligion(ReligionTypes eReligion, ReligionTypes eSlotReligio
 
 	for (pLoopCity = firstCity(&iLoop); pLoopCity != NULL; pLoopCity = nextCity(&iLoop))
 	{
-		if (!bStarting || !(pLoopCity->isHolyCity() && getNumCities() > 1) || (eSlotReligion == PROTESTANTISM))
+		//if (!bStarting || !(pLoopCity->isHolyCity() && getNumCities() > 1) || (eSlotReligion == PROTESTANTISM))
+		if (true)
 		{
 			iValue = 10;
 			iValue += pLoopCity->getPopulation();
 			iValue += GC.getGameINLINE().getSorenRandNum(GC.getDefineINT("FOUND_RELIGION_CITY_RAND"), "Found Religion");
 
             if (eReligion != BUDDHISM && eReligion != TAOISM)
+			{
                 iValue /= (pLoopCity->getReligionCount() + 1);
+			}
+
+			if (pLoopCity->isHolyCity())
+			{
+				iValue /= 10;
+			}
 
 			if (pLoopCity->isCapital())
 			{
@@ -24906,7 +24914,7 @@ bool CvPlayer::isTolerating(ReligionTypes eReligion) const
 
 ReligionSpreadTypes CvPlayer::getSpreadType(CvPlot* pPlot, ReligionTypes eReligion, bool bDistant) const
 {
-	bool bStateReligion = getStateReligion() == eReligion;
+	bool bStateReligion = getStateReligion() == eReligion || isTolerating(eReligion);
 	int iSpreadFactor = pPlot->getSpreadFactor(eReligion);
 
 	if (!bStateReligion && isNoNonStateReligionSpread()) return RELIGION_SPREAD_NONE;

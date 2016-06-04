@@ -5317,12 +5317,6 @@ public:
 
 	int getCityDefenseModifier() const;		//	Exposed to Python
 
-	int getCultureHappiness() const;	//KNOEDEL
-
-	int getCultureGreatPeopleRateModifier() const;	//KNOEDEL
-
-	int getCultureTradeRouteModifier() const;	//KNOEDEL
-
 	int getSpeedThreshold(int i) const;		//	Exposed to Python
 
 	bool read(CvXMLLoadUtility* pXML);
@@ -5331,12 +5325,6 @@ public:
 protected:
 
 	int m_iCityDefenseModifier;
-
-	int m_iCultureHappiness;	//KNOEDEL
-
-	int m_iCultureGreatPeopleRateModifier;	//KNOEDEL
-
-	int m_iCultureTradeRouteModifier;	//KNOEDEL
 
 	int* m_paiSpeedThreshold;
 

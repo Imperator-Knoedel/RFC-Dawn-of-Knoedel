@@ -19361,9 +19361,6 @@ bool CvUpkeepInfo::read(CvXMLLoadUtility* pXml)
 
 CvCultureLevelInfo::CvCultureLevelInfo() :
 m_iCityDefenseModifier(0),
-m_iCultureHappiness(0),	//KNOEDEL
-m_iCultureGreatPeopleRateModifier(0),	//KNOEDEL
-m_iCultureTradeRouteModifier(0),	//KNOEDEL
 m_paiSpeedThreshold(NULL)
 {
 }
@@ -19377,22 +19374,7 @@ int CvCultureLevelInfo::getCityDefenseModifier() const
 {
 	return m_iCityDefenseModifier;
 }
-//KNOEDELbegin
-int CvCultureLevelInfo::getCultureHappiness() const
-{
-	return m_iCultureHappiness;
-}
 
-int CvCultureLevelInfo::getCultureGreatPeopleRateModifier() const
-{
-	return m_iCultureGreatPeopleRateModifier;
-}
-
-int CvCultureLevelInfo::getCultureTradeRouteModifier() const
-{
-	return m_iCultureTradeRouteModifier;
-}
-//KNOEDELend
 int CvCultureLevelInfo::getSpeedThreshold(int i) const
 {
 	FAssert(i < GC.getNumGameSpeedInfos());
@@ -19408,12 +19390,6 @@ bool CvCultureLevelInfo::read(CvXMLLoadUtility* pXml)
 	}
 
 	pXml->GetChildXmlValByName(&m_iCityDefenseModifier, "iCityDefenseModifier");
-
-	pXml->GetChildXmlValByName(&m_iCultureHappiness, "iCultureHappiness");	//KNOEDEL
-
-	pXml->GetChildXmlValByName(&m_iCultureGreatPeopleRateModifier, "iCultureGreatPeopleRateModifier");	//KNOEDEL
-
-	pXml->GetChildXmlValByName(&m_iCultureTradeRouteModifier, "iCultureTradeRouteModifier");	//KNOEDEL
 
 	pXml->SetVariableListTagPair(&m_paiSpeedThreshold, "SpeedThresholds", sizeof(GC.getGameSpeedInfo((GameSpeedTypes)0)), GC.getNumGameSpeedInfos());
 

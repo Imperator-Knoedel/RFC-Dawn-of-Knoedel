@@ -1,4 +1,4 @@
-# Dynamic Civs - edead
+# encoding: utf-8
 
 from CvPythonExtensions import *
 import CvUtil
@@ -557,7 +557,7 @@ def setup():
 	elif iScenario == i1700AD:
 		sd.changeResurrections(iEgypt, 1)
 	
-	for iPlayer in range(iNumPlayers):	
+	for iPlayer in range(iNumPlayers):
 		setDesc(iPlayer, peoplesName(iPlayer))
 		
 		if gc.getPlayer(iPlayer).getNumCities() > 0:
@@ -708,7 +708,7 @@ def isCommunist(iPlayer):
 	if iEconomy != iCivicCentralPlanning:
 		return False
 	
-	if iGovernment == iCivicDynasticism:
+	if iGovernment == iCivicDynasty:
 		return False
 		
 	if iOrganization in [iCivicVassalage, iCivicAbsolutism]:
