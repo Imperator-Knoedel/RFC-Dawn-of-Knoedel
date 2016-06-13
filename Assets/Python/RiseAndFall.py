@@ -869,7 +869,7 @@ class RiseAndFall:
 				pSeljuks.found(tEsfahan[0], tEsfahan[1])
 				esfahan.getPlotCity().setName('Isfahan', False)
 			utils.makeUnitAI(iLongbowman, iSeljuks, tEsfahan, UnitAITypes.UNITAI_CITY_DEFENSE, 4)
-			utils.makeUnitAI(SeljukGhulamWarrior, iSeljuks, tEsfahan, UnitAITypes.UNITAI_ATTACK_CITY, 3)
+			utils.makeUnitAI(iSeljukGhulamWarrior, iSeljuks, tEsfahan, UnitAITypes.UNITAI_ATTACK_CITY, 3)
 			utils.makeUnit(iIslamicMissionary, iSeljuks, tEsfahan, 1)
 			utils.makeUnit(iWorker, iSeljuks, tEsfahan, 3)
 			utils.cultureManager(tEsfahan, 100, iSeljuks, esfahan.getOwner(), True, False, False)
