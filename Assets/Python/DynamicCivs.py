@@ -1,4 +1,4 @@
-# encoding: utf-8
+# encoding: utf8
 
 from CvPythonExtensions import *
 import CvUtil
@@ -640,7 +640,10 @@ def checkLeader(iPlayer):
 ### Setter methods for player object ###
 
 def setDesc(iPlayer, sName):
-	gc.getPlayer(iPlayer).setCivDescription(sName)
+	try:
+		gc.getPlayer(iPlayer).setCivDescription(sName)
+	except:
+		pass
 	
 def setShort(iPlayer, sShort):
 	gc.getPlayer(iPlayer).setCivShortDescription(sShort)
@@ -1000,7 +1003,7 @@ def specificName(iPlayer):
 			return "TXT_KEY_CIV_HOLY_ROME_GERMANY"
 			
 	elif iPlayer == iRussia:
-		if not bEmpire and not isAreaControlled(iPlayer, tEuropeanRussiaTL, tEuropeanRussiaBR, 5, tEuropeanRussiaExceptions):
+		if not (bEmpire and iEra >= iRenaissance) and not isAreaControlled(iPlayer, tEuropeanRussiaTL, tEuropeanRussiaBR, 5, tEuropeanRussiaExceptions):
 			if isCapital(iPlayer, ["Moskva"]):
 				return "TXT_KEY_CIV_RUSSIA_MUSCOVY"
 				
@@ -1370,6 +1373,9 @@ def fascistTitle(iPlayer):
 	return key(iPlayer, "FASCIST")
 	
 def republicTitle(iPlayer):
+
+	if iPlayer == iHolyRome:
+		return "TXT_KEY_REPUBLIC_ADJECTIVE"
 	
 	if iPlayer == iPoland:
 		if gc.getPlayer(iPlayer).getCurrentEra() <= iIndustrial:
@@ -1751,6 +1757,12 @@ def specificTitle(iPlayer, lPreviousOwners=[]):
 			return "TXT_KEY_CIV_AZTEC_ALTEPETL"
 				
 	elif iPlayer == iMughals:
+		if bResurrected:
+			if bEmpire:
+				return "TXT_KEY_EMPIRE_OF"
+				
+			return "SULTANATE_OF"
+	
 		if iEra == iMedieval and not bEmpire:
 			return "TXT_KEY_SULTANATE_OF"
 			

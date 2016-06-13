@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- National Wonders -->
 <Civ4GameText>
 	<TEXT>
@@ -27,7 +27,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_OPERA_HOUSE_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]National Theatre[COLOR_REVERT] increases the cultural output of the city as well as increasing the city's happiness. It increases its city's chance of generating a [COLOR_UNIT_TEXT]Great Artist[COLOR_REVERT].</English>
+		<English>The [COLOR_BUILDING_TEXT]Opera House[COLOR_REVERT] increases the cultural output of the city as well as increasing the city's happiness. It increases its city's chance of generating a [COLOR_UNIT_TEXT]Great Artist[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_NATIONAL_GALLERY</Tag>

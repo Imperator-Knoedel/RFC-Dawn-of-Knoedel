@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Stability -->
 <Civ4GameText>
 	<TEXT>
@@ -792,11 +792,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_WARS_BROTHERS_OF_FAITH</Tag>
-		<English>Fanaticism: Fighting Brothers of Faith</English>
+		<English>Theocracy: Fighting Brothers of Faith</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_WARS_HEATHENS</Tag>
-		<English>Fanaticism: Fighting Heathens</English>
+		<English>Theocracy: Fighting Heathens</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_STABILITY_WARS_MULTILATERALISM</Tag>
