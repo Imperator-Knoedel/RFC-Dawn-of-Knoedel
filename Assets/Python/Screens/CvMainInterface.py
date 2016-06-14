@@ -77,10 +77,6 @@ localText = CyTranslator()
 import GameUtil
 # BUG - 3.17 No Espionage - end
 
-# BUG - Reminders - start
-import ReminderEventManager
-# BUG - Reminders - end
-
 # BUG - Great General Bar - start
 import GGUtil
 # BUG - Great General Bar - end
@@ -820,7 +816,6 @@ class CvMainInterface:
 		screen.setStackedBarColors( "ResearchBar", InfoBarTypes.INFOBAR_EMPTY, gc.getInfoTypeForString("COLOR_EMPTY") )
 		screen.hide( "ResearchBar" )
 
-
 # BUG - Great General Bar - start
 		screen.addStackedBarGFC( "GreatGeneralBar", xCoord, 27, 100, iStackBarHeight, InfoBarTypes.NUM_INFOBAR_TYPES, WidgetTypes.WIDGET_HELP_GREAT_GENERAL, -1, -1 )
 		screen.setStackedBarColors( "GreatGeneralBar", InfoBarTypes.INFOBAR_STORED, gc.getInfoTypeForString("COLOR_NEGATIVE_RATE") ) #gc.getInfoTypeForString("COLOR_GREAT_PEOPLE_STORED") )
@@ -1173,12 +1168,6 @@ class CvMainInterface:
 					screen.setEndTurnState( "EndTurnText", acOutput )
 					bShow = True
 				elif ( CyInterface().shouldDisplayEndTurn() ):
-# BUG - Reminders - start
-					if ( ReminderEventManager.g_turnReminderTexts ):
-						acOutput = u"%s" % ReminderEventManager.g_turnReminderTexts
-					else:
-						acOutput = localText.getText("SYSTEM_END_TURN", ())
-# BUG - Reminders - end
 					#screen.modifyLabel( "EndTurnText", acOutput, CvUtil.FONT_CENTER_JUSTIFY )
 					screen.setEndTurnState( "EndTurnText", acOutput )
 					bShow = True
@@ -3232,7 +3221,6 @@ class CvMainInterface:
 						screen.setBarPercentage( szResearchBar, InfoBarTypes.INFOBAR_RATE, 0.0 )
 
 					screen.show( szResearchBar )
-
 
 # BUG - Progress Bar - Tick Marks - start
 					if MainOpt.isShowpBarTickMarks():
