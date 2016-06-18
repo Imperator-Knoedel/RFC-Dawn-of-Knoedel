@@ -1168,6 +1168,7 @@ class CvMainInterface:
 					screen.setEndTurnState( "EndTurnText", acOutput )
 					bShow = True
 				elif ( CyInterface().shouldDisplayEndTurn() ):
+					acOutput = localText.getText("SYSTEM_END_TURN", ())
 					#screen.modifyLabel( "EndTurnText", acOutput, CvUtil.FONT_CENTER_JUSTIFY )
 					screen.setEndTurnState( "EndTurnText", acOutput )
 					bShow = True

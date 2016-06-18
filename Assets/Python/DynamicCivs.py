@@ -671,6 +671,9 @@ def getOrElse(dDictionary, iPlayer, sDefault=None):
 
 def key(iPlayer, sSuffix):
 	if sSuffix: sSuffix = "_" + sSuffix
+	print "short(iPlayer) %s" % (short(iPlayer),)
+	print "short(iPlayer).replace() %s" % (short(iPlayer).replace(" ", "_"),)
+	print "short(iPlayer).replace().upper() %s" % (short(iPlayer).replace(" ", "_").upper(),)
 	return "TXT_KEY_CIV_" + short(iPlayer).replace(" ", "_").upper() + sSuffix
 
 def text(sTextKey, tInput=()):
