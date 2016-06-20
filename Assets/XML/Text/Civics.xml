@@ -134,19 +134,19 @@
 		<English>Increased commerce in all cities; food and production from trade routes; can spend gold to finish production of buildings</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_CIVIC_COLLABORATION</Tag>
-		<English>Collaboration</English>
+		<Tag>TXT_KEY_CIVIC_SOCIALISM</Tag>
+		<English>Socialism</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_CIVIC_COLLABORATION_PEDIA</Tag>
-		<English>[TAB]Collaboration describes the act of working together towards a common goal. In an ideal society everybody would voluntarily do their part to contribute to the greater good, regardless of personal profit. Anarchist Catalonia, the Paris Commune and Zapatist controlled Chiapas are historical examples of such a way of life.</English>
-		<French>[TAB]Collaboration describes the act of working together towards a common goal. In an ideal society everybody would voluntarily do their part to contribute to the greater good, regardless of personal profit. Anarchist Catalonia, the Paris Commune and Zapatist controlled Chiapas are historical examples of such a way of life.</French>
-		<German>[TAB]Collaboration describes the act of working together towards a common goal. In an ideal society everybody would voluntarily do their part to contribute to the greater good, regardless of personal profit. Anarchist Catalonia, the Paris Commune and Zapatist controlled Chiapas are historical examples of such a way of life.</German>
-		<Italian>[TAB]Collaboration describes the act of working together towards a common goal. In an ideal society everybody would voluntarily do their part to contribute to the greater good, regardless of personal profit. Anarchist Catalonia, the Paris Commune and Zapatist controlled Chiapas are historical examples of such a way of life.</Italian>
-		<Spanish>[TAB]Collaboration describes the act of working together towards a common goal. In an ideal society everybody would voluntarily do their part to contribute to the greater good, regardless of personal profit. Anarchist Catalonia, the Paris Commune and Zapatist controlled Chiapas are historical examples of such a way of life.</Spanish>
+		<Tag>TXT_KEY_CIVIC_SOCIALISM_PEDIA</Tag>
+		<English>[TAB]Socialism describes a society in which the means of production are owned by the workers. In an ideal society everybody would voluntarily do their part to contribute to the greater good, regardless of personal profit. Anarchist Catalonia, the Paris Commune and Zapatist controlled Chiapas are historical examples of such a way of life.</English>
+		<French>[TAB]Socialism describes a society in which the means of production are owned by the workers. In an ideal society everybody would voluntarily do their part to contribute to the greater good, regardless of personal profit. Anarchist Catalonia, the Paris Commune and Zapatist controlled Chiapas are historical examples of such a way of life.</French>
+		<German>[TAB]Socialism describes a society in which the means of production are owned by the workers. In an ideal society everybody would voluntarily do their part to contribute to the greater good, regardless of personal profit. Anarchist Catalonia, the Paris Commune and Zapatist controlled Chiapas are historical examples of such a way of life.</German>
+		<Italian>[TAB]Socialism describes a society in which the means of production are owned by the workers. In an ideal society everybody would voluntarily do their part to contribute to the greater good, regardless of personal profit. Anarchist Catalonia, the Paris Commune and Zapatist controlled Chiapas are historical examples of such a way of life.</Italian>
+		<Spanish>[TAB]Socialism describes a society in which the means of production are owned by the workers. In an ideal society everybody would voluntarily do their part to contribute to the greater good, regardless of personal profit. Anarchist Catalonia, the Paris Commune and Zapatist controlled Chiapas are historical examples of such a way of life.</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_CIVIC_COLLABORATION_STRATEGY</Tag>
+		<Tag>TXT_KEY_CIVIC_SOCIALISM_STRATEGY</Tag>
 		<English>Research from specialists; production from towns; less unhappiness and unhealth</English>
 	</TEXT>
 	<TEXT>

@@ -397,10 +397,10 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_LABOR</CivicOptionType>
-			<Type>CIVIC_COLLABORATION</Type>
-			<Description>TXT_KEY_CIVIC_COLLABORATION</Description>
-			<Civilopedia>TXT_KEY_CIVIC_COLLABORATION_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_CIVIC_COLLABORATION_STRATEGY</Strategy>
+			<Type>CIVIC_SOCIALISM</Type>
+			<Description>TXT_KEY_CIVIC_SOCIALISM</Description>
+			<Civilopedia>TXT_KEY_CIVIC_SOCIALISM_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_CIVIC_SOCIALISM_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/Civics/Pacifism.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,3,2</Button>
 			<TechPrereq>TECH_COMMUNISM</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>

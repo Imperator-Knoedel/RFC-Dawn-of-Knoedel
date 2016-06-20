@@ -1666,11 +1666,11 @@ def getCivicCombinationStability(iPlayer, iCivic1, iCivic2):
 
 	if iCivicTyranny in lCivics:
 		if iCivicEgalitarianism in lCivics: return -4
-		if iCivicCollaboration in lCivics: return -3
+		if iCivicSocialism in lCivics: return -3
 		if iCivicMultilateralism in lCivics: return -2
 
 	if iCivicDirectRule in lCivics:
-		if iCivicCollaboration in lCivics: return -2
+		if iCivicSocialism in lCivics: return -2
 
 	if iCivicTribalism in lCivics:
 		if only(lCivics, iCivicTotalitarianism, iCivicEgalitarianism): return -2
@@ -1682,12 +1682,12 @@ def getCivicCombinationStability(iPlayer, iCivic1, iCivic2):
 		if only(lCivics, iCivicAnimism, iCivicTolerance): return -2
 
 	if iCivicCentralPlanning in lCivics:
-		if iCivicCollaboration in lCivics: return 3
-		if other(lCivics, iCivicCapitalism, iCivicCollaboration) & lCivics: return -5
+		if iCivicSocialism in lCivics: return 3
+		if other(lCivics, iCivicCapitalism, iCivicSocialism) & lCivics: return -5
 
 	if iCivicEgalitarianism in lCivics:
 		if iCivicRepublic in lCivics: return 2
-		if iCivicCollaboration in lCivics: return 2
+		if iCivicSocialism in lCivics: return 2
 		if iCivicPublicWelfare in lCivics: return 2
 		if only(lCivics, iCivicTolerance, iCivicSecularism): return 2
 		if only(lCivics, iCivicSlavery, iCivicSerfdom, iCivicCasteSystem): return -4
@@ -1706,7 +1706,7 @@ def getCivicCombinationStability(iPlayer, iCivic1, iCivic2):
 		if iCivicLevyArmies in lCivics: return 3
 		if other(lCivics, iCivicMilitia, iCivicMercenaries, iCivicLevyArmies): return -5
 
-		if only(lCivics, iCivicCapitalism, iCivicCollaboration): return -5
+		if only(lCivics, iCivicCapitalism, iCivicSocialism): return -5
 
 		if iCurrentEra == iMedieval:
 			if iCivicDynasty in lCivics: return 2
@@ -1729,7 +1729,7 @@ def getCivicCombinationStability(iPlayer, iCivic1, iCivic2):
 
 	if iCivicRepublic in lCivics:
 		if iCivicDirectRule in lCivics: return -2
-		if other(lCivics, iCivicCapitalism, iCivicCollaboration): return -3
+		if other(lCivics, iCivicCapitalism, iCivicSocialism): return -3
 		if iCivicRepresentation in lCivics: return 2
 		if iCivicSubsistence in lCivics: return -2
 
