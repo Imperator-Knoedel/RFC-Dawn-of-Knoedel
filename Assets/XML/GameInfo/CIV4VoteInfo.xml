@@ -206,8 +206,8 @@
 			</DiploVotes>
 		</VoteInfo>
 		<VoteInfo>
-			<Type>VOTE_COLLABORATION</Type>
-			<Description>TXT_KEY_VOTE_COLLABORATION</Description>
+			<Type>VOTE_SOCIALISM</Type>
+			<Description>TXT_KEY_VOTE_SOCIALISM</Description>
 			<iPopulationThreshold>51</iPopulationThreshold>
 			<bCityVoting>0</bCityVoting>
 			<bCivVoting>0</bCivVoting>
@@ -226,7 +226,7 @@
 			<bAssignCity>0</bAssignCity>
 			<ForceCivics>
 				<ForceCivic>
-					<CivicType>CIVIC_COLLABORATION</CivicType>
+					<CivicType>CIVIC_SOCIALISM</CivicType>
 					<bForce>1</bForce>
 				</ForceCivic>
 			</ForceCivics>

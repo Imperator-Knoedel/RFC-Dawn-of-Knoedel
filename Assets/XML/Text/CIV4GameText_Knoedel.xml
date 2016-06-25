@@ -96,12 +96,12 @@
 		<Spanish>"We Love the Party Day"</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_VOTE_COLLABORATION</Tag>
-		<English>U.N. Resolution #1138 (Global Civic - Collaboration)</English>
-		<French>U.N. Resolution #1138 (Global Civic - Collaboration)</French>
-		<German>U.N. Resolution #1138 (Global Civic - Collaboration)</German>
-		<Italian>U.N. Resolution #1138 (Global Civic - Collaboration)</Italian>
-		<Spanish>U.N. Resolution #1138 (Global Civic - Collaboration)</Spanish>
+		<Tag>TXT_KEY_VOTE_SOCIALISM</Tag>
+		<English>U.N. Resolution #1138 (Global Civic - Socialism)</English>
+		<French>U.N. Resolution #1138 (Global Civic - Socialism)</French>
+		<German>U.N. Resolution #1138 (Global Civic - Socialism)</German>
+		<Italian>U.N. Resolution #1138 (Global Civic - Socialism)</Italian>
+		<Spanish>U.N. Resolution #1138 (Global Civic - Socialism)</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILD_HAMLET</Tag>

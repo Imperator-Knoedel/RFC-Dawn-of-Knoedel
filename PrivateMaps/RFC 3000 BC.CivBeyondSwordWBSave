@@ -25773,6 +25773,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=67,y=44
+	BonusType=BONUS_GOLD
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -26890,13 +26891,13 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=70,y=31
-	BonusType=BONUS_GOLD
+	BonusType=BONUS_INCENSE
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 EndPlot
 BeginPlot
 	x=70,y=32
-	BonusType=BONUS_INCENSE
+	BonusType=BONUS_GOLD
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 EndPlot
