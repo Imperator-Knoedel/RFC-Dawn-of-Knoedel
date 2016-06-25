@@ -8169,7 +8169,7 @@
 			<bTeamShare>1</bTeamShare>
 			<bWater>1</bWater>
 			<bNukeImmune>1</bNukeImmune>
-			<iCost>150</iCost>
+			<iCost>200</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>10</iMinAreaSize>
@@ -8194,6 +8194,12 @@
 				<bCommerceChangeOriginalOwner>1</bCommerceChangeOriginalOwner>
 			</CommerceChangeOriginalOwners>
 			<ConstructSound>AS2D_BUILD_LIGHTHOUSE</ConstructSound>
+			<BonusProductionModifiers>
+				<BonusProductionModifier>
+					<BonusType>BONUS_MARBLE</BonusType>
+					<iProductonModifier>100</iProductonModifier>
+				</BonusProductionModifier>
+			</BonusProductionModifiers>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_GROWTH</FlavorType>
@@ -12269,6 +12275,16 @@
 				<SpecialistCount>
 					<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 					<iSpecialistCount>2</iSpecialistCount>
+				</SpecialistCount>
+			<SpecialistCounts>
+				<SpecialistCount>
+					<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+					<iSpecialistCount>1</iSpecialistCount>
+				</SpecialistCount>
+			<SpecialistCounts>
+				<SpecialistCount>
+					<SpecialistType>SPECIALIST_STATESMAN</SpecialistType>
+					<iSpecialistCount>1</iSpecialistCount>
 				</SpecialistCount>
 			</SpecialistCounts>
 			<FreeSpecialistCounts>

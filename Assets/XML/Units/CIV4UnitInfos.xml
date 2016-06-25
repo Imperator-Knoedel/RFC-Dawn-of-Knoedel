@@ -2067,7 +2067,7 @@
 			<bPillage>1</bPillage>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
-					<UnitClassUpgradeType>UNITCLASS_HEAVY_SWORDSMAN</UnitClassUpgradeType>
+					<UnitClassUpgradeType>UNITCLASS_PIKEMAN</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
@@ -2124,7 +2124,7 @@
 				</UnitCombatMod>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iUnitCombatMod>25</iUnitCombatMod>
+					<iUnitCombatMod>50</iUnitCombatMod>
 				</UnitCombatMod>
 			</UnitCombatMods>
 			<iConscription>2</iConscription>
