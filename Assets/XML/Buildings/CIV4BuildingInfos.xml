@@ -12276,12 +12276,10 @@
 					<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
 					<iSpecialistCount>2</iSpecialistCount>
 				</SpecialistCount>
-			<SpecialistCounts>
 				<SpecialistCount>
 					<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
 					<iSpecialistCount>1</iSpecialistCount>
 				</SpecialistCount>
-			<SpecialistCounts>
 				<SpecialistCount>
 					<SpecialistType>SPECIALIST_STATESMAN</SpecialistType>
 					<iSpecialistCount>1</iSpecialistCount>
