@@ -68,7 +68,7 @@ iCivRome : 	[iMining, iBronzeWorking, iIronWorking, iMetalCasting, iMysticism, i
 iCivTamils : 	[iMining, iBronzeWorking, iMysticism, iPolytheism, iMeditation, iPriesthood, iMasonry, iFishing, iSailing, iMonarchy, 
 		 iTheWheel, iPottery, iWriting, iHunting, iArchery, iAnimalHusbandry, iHorsebackRiding, iAgriculture, iAesthetics, iIronWorking],
 iCivEthiopia : 	[iMining, iBronzeWorking, iMysticism, iPolytheism, iMeditation, iPriesthood, iMonotheism, iMasonry, iFishing, iSailing, 
-		 iMonarchy, iTheWheel, iPottery, iWriting, iHunting, iArchery, iAnimalHusbandry, iHorsebackRiding],
+		 iMonarchy, iTheWheel, iPottery, iWriting, iHunting, iArchery, iAnimalHusbandry, iHorsebackRiding, iLiterature, iAesthetics],
 iCivKorea : 	[iMining, iBronzeWorking, iIronWorking, iMysticism, iPolytheism, iMeditation, iPriesthood, iMasonry, iMonarchy, iFishing, 
 		 iSailing, iTheWheel, iPottery, iAgriculture, iWriting, iMathematics, iCalendar, iConstruction, iCurrency, iCodeOfLaws, 
 		 iHunting, iArchery, iAnimalHusbandry, iHorsebackRiding, iAesthetics],	 

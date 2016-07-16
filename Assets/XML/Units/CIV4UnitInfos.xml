@@ -2094,7 +2094,7 @@
 				<BonusType>BONUS_COPPER</BonusType>
 				<BonusType>BONUS_IRON</BonusType>
 			</PrereqBonuses>
-			<iCost>35</iCost>
+			<iCost>30</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -2119,12 +2119,8 @@
 			<iXPValueDefense>2</iXPValueDefense>
 			<UnitCombatMods>
 				<UnitCombatMod>
-					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
-					<iUnitCombatMod>25</iUnitCombatMod>
-				</UnitCombatMod>
-				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iUnitCombatMod>50</iUnitCombatMod>
+					<iUnitCombatMod>100</iUnitCombatMod>
 				</UnitCombatMod>
 			</UnitCombatMods>
 			<iConscription>2</iConscription>
