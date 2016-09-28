@@ -1660,6 +1660,7 @@
 			<Civilopedia>TXT_KEY_BONUS_HIT_FOOTBALL_EVENT_PEDIA</Civilopedia>
 			<BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_HIT_FOOTBALL_EVENT</ArtDefineTag>
+			<TechReveal>TECH_RADIO</TechReveal>
 			<iHappiness>1</iHappiness>
 			<iPlacementOrder>-1</iPlacementOrder>
 			<iMinAreaSize>-1</iMinAreaSize>
@@ -1678,6 +1679,7 @@
 			<Civilopedia>TXT_KEY_BONUS_HIT_SINGLES_PEDIA</Civilopedia>
 			<BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_HIT_SINGLES</ArtDefineTag>
+			<TechReveal>TECH_RADIO</TechReveal>
 			<iHappiness>1</iHappiness>
 			<iPlacementOrder>-1</iPlacementOrder>
 			<iMinAreaSize>-1</iMinAreaSize>
@@ -1696,6 +1698,7 @@
 			<Civilopedia>TXT_KEY_BONUS_HIT_MOVIES_PEDIA</Civilopedia>
 			<BonusClassType>BONUSCLASS_GENERAL</BonusClassType>
 			<ArtDefineTag>ART_DEF_BONUS_HIT_MOVIES</ArtDefineTag>
+			<TechReveal>TECH_MASS_MEDIA</TechReveal>
 			<iHappiness>1</iHappiness>
 			<iPlacementOrder>-1</iPlacementOrder>
 			<iMinAreaSize>-1</iMinAreaSize>

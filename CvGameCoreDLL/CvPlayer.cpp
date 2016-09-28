@@ -7800,13 +7800,19 @@ bool CvPlayer::canDoCivics(CivicTypes eCivic) const
 
 	// Egyptian UP: starts with Dynasticism, Slavery and Pantheon
 	if (getID() == EGYPT)
-		if (eCivic == CIVIC_DYNASTICISM || eCivic == CIVIC_SLAVERY || eCivic == CIVIC_PANTHEON)
+		if (eCivic == CIVIC_DYNASTY || eCivic == CIVIC_CASTE_SYSTEM || eCivic == CIVIC_PANTHEON)	//KNOEDEL
 			return true;
 
 	// Phoenician UP: starts with Mercenaries
 	if (getID() == PHOENICIA)
 		if (eCivic == CIVIC_MERCENARIES)
 			return true;
+
+	//KNOEDELbegin
+	if (getID() == PERSIA)
+		if (eCivic == CIVIC_VASSALAGE)
+			return true;
+	//KNOEDELend
 
 	if (!isHasCivicOption((CivicOptionTypes)(GC.getCivicInfo(eCivic).getCivicOptionType())) && !(GET_TEAM(getTeam()).isHasTech((TechTypes)(GC.getCivicInfo(eCivic).getTechPrereq()))))
 	{

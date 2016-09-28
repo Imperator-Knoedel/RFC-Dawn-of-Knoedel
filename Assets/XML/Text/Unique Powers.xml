@@ -189,9 +189,9 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UP_EGY</Tag>
-		<English>Dynasticism, Slavery and Pantheon are enabled at start</English>
+		<English>Dynasty, Caste System and Pantheon are enabled at start</English>
 		<French>Le droit h&#233;r&#233;ditaire et l'esclavage sont disponibles au d&#233;part</French>
-		<German>Aktivierung von Dynastizismus, Sklaverei und Pantheon beim Spielstart</German>
+		<German>Dynastie, Kastensystem und Pantheon sind von Beginn an erhaeltlich</German>
 		<Italian>All'avvio sono abilitati governo ereditario e schiavit&#249;</Italian>
 		<Spanish>Gobierno hereditario y Esclavitud est&#225;n activados al principio</Spanish>
 	</TEXT>
@@ -555,7 +555,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UP_PER</Tag>
-		<English>No stability penalties for controlling cities with foreign culture</English>
+		<English>No stability penalties for controlling cities with foreign culture, Vassalage enabled at start</English>
 		<French>+2 points de stabilit&#233; par ville conquise</French>
 		<German>Keine Stabilit&#228;ts-Mali f&#252;r die Kontrolle von St&#228;dten mit fremder Kultur</German>
 		<Italian>+2 punti stabilit&#224; addizionali per ogni citt&#224; conquistata</Italian>
