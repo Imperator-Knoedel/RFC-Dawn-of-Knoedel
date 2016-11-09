@@ -2679,6 +2679,15 @@ bool CvUnit::canMoveInto(const CvPlot* pPlot, bool bAttack, bool bDeclareWar, bo
 /* UNOFFICIAL_PATCH                        END                                                  */
 /************************************************************************************************/
 
+// Vincentz Rangestrike cannot move	//KNOEDELbegin
+	if (bAttack)
+	{
+		if ((getDomainType() == DOMAIN_LAND) && (canRangeStrike()))
+		{
+			return false;
+		}
+	}	//KNOEDELend
+
 	if (getDomainType() == DOMAIN_AIR)
 	{
 		if (bAttack)
@@ -8946,8 +8955,13 @@ int CvUnit::rangeCombatDamage(const CvUnit* pDefender) const
 
 	iStrengthFactor = ((iOurStrength + iTheirStrength + 1) / 2);
 
-	iDamage = std::max(1, ((GC.getDefineINT("RANGE_COMBAT_DAMAGE") * (iOurStrength + iStrengthFactor)) / (iTheirStrength + iStrengthFactor)));
-
+//	iDamage = std::max(1, ((GC.getDefineINT("RANGE_COMBAT_DAMAGE") * (iOurStrength + iStrengthFactor)) / (iTheirStrength + iStrengthFactor)) * );	//KNOEDELbegin
+	iDamage = std::max(1, (((GC.getGameINLINE().getSorenRandNum(100, "Random")) * (GC.getDefineINT("RANGE_COMBAT_DAMAGE") * (iOurStrength + iStrengthFactor)) / (iTheirStrength + iStrengthFactor)) / 100));
+// Vincentz Rangestrik Random Damage start
+//	iDamage *= ((GC.getGameINLINE().getSorenRandNum(100, "Random")) / 100);
+//	iDamage /= 100;
+//	iDamage += 1;
+// Vincentz Rangestrike Random Damage end	//KNOEDELend
 	return iDamage;
 }
 
@@ -12830,15 +12844,22 @@ bool CvUnit::canRangeStrike() const
 		return false;
 	}
 
-	if (isMadeAttack() && !isBlitz())
+//Vincentz Rangestrike start	//KNOEDELbegin
+	if (isMadeAttack() && !isBlitz() && (getTeam() == GC.getGameINLINE().getActiveTeam()))
 	{
 		return false;
 	}
 
-	if (!canMove() && getMoves() > 0)
+	if ((!canMove() && getMoves() > 0) && (getTeam() == GC.getGameINLINE().getActiveTeam()))
 	{
 		return false;
 	}
+
+	if (isCargo())
+	{
+		return false;
+	}
+// Vincentz Rangestrike end	//KNOEDELend
 
 	return true;
 }
@@ -12940,28 +12961,42 @@ bool CvUnit::rangeStrike(int iX, int iY)
 	changeMoves(GC.getMOVE_DENOMINATOR());
 
 	iDamage = rangeCombatDamage(pDefender);
-
 	iUnitDamage = std::max(pDefender->getDamage(), std::min((pDefender->getDamage() + iDamage), airCombatLimit()));
+//Vincentz Rangestrike check	//KNOEDELbegin
+	if ((GC.getGameINLINE().getSorenRandNum(100, "Random")) > 50 + airBaseCombatStr() + pPlot->getNumUnits() - pDefender->baseCombatStr())	
+	{
+		szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR_MISS", pDefender->getNameKey(), getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100) / pDefender->maxHitPoints()));
+		//red icon over attacking unit
+		gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_COMBAT", MESSAGE_TYPE_INFO, getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), this->getX_INLINE(), this->getY_INLINE(), true, true);
+		//white icon over defending unit
+		gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), false, 0, L"", "AS2D_COMBAT", MESSAGE_TYPE_DISPLAY_ONLY, pDefender->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE"), pDefender->getX_INLINE(), pDefender->getY_INLINE(), true, true);
 
-	szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR", pDefender->getNameKey(), getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100) / pDefender->maxHitPoints()));
-	//red icon over attacking unit
-	gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_COMBAT", MESSAGE_TYPE_INFO, getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), this->getX_INLINE(), this->getY_INLINE(), true, true);
-	//white icon over defending unit
-	gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), false, 0, L"", "AS2D_COMBAT", MESSAGE_TYPE_DISPLAY_ONLY, pDefender->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE"), pDefender->getX_INLINE(), pDefender->getY_INLINE(), true, true);
+		szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ATTACK_BY_AIR_MISS", getNameKey(), pDefender->getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100) / pDefender->maxHitPoints()));
+		gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_COMBAT", MESSAGE_TYPE_INFO, pDefender->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
+	}
+	else
+	{
+		szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ARE_ATTACKED_BY_AIR", pDefender->getNameKey(), getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100) / pDefender->maxHitPoints()));
+		//red icon over attacking unit
+		gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_COMBAT", MESSAGE_TYPE_INFO, getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), this->getX_INLINE(), this->getY_INLINE(), true, true);
+		//white icon over defending unit
+		gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), false, 0, L"", "AS2D_COMBAT", MESSAGE_TYPE_DISPLAY_ONLY, pDefender->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE"), pDefender->getX_INLINE(), pDefender->getY_INLINE(), true, true);
 
-	szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ATTACK_BY_AIR", getNameKey(), pDefender->getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100) / pDefender->maxHitPoints()));
-	gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_COMBAT", MESSAGE_TYPE_INFO, pDefender->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
-
-	collateralCombat(pPlot, pDefender);
+		szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ATTACK_BY_AIR", getNameKey(), pDefender->getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100) / pDefender->maxHitPoints()));
+		gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_COMBAT", MESSAGE_TYPE_INFO, pDefender->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
+	
+		collateralCombat(pPlot, pDefender);
 
 	//set damage but don't update entity damage visibility
 	pDefender->setDamage(iUnitDamage, getOwnerINLINE(), false);
+	}	//KNOEDELend
+
 
 	if (pPlot->isActiveVisible(false))
 	{
 		// Range strike entity mission
 		CvMissionDefinition kDefiniton;
-		kDefiniton.setMissionTime(GC.getMissionInfo(MISSION_RANGE_ATTACK).getTime() * gDLL->getSecsPerTurn());
+		kDefiniton.setMissionTime(GC.getMissionInfo(MISSION_RANGE_ATTACK).getTime() * gDLL->getSecsPerTurn() * 2); //Vincentz Rangestrike	//KNOEDEL
 		kDefiniton.setMissionType(MISSION_RANGE_ATTACK);
 		kDefiniton.setPlot(pDefender->plot());
 		kDefiniton.setUnit(BATTLE_UNIT_ATTACKER, this);
@@ -12985,6 +13020,46 @@ bool CvUnit::rangeStrike(int iX, int iY)
 /************************************************************************************************/
 	}
 
+//Vincentz Rangestrike Strikeback	//KNOEDELbegin
+	if (pDefender->canRangeStrikeAt(plot(), plot()->getX_INLINE(), plot()->getY_INLINE()))
+	{
+		iDamage = rangeCombatDamage(this);
+		iUnitDamage = std::max(this->getDamage(), std::min((this->getDamage() + iDamage), pDefender->airCombatLimit()));
+
+		if ((GC.getGameINLINE().getSorenRandNum(100, "Random")) > 50 + airBaseCombatStr() - pDefender->airBaseCombatStr() * 2)	
+		{
+			szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_RETURN_ATTACK_BY_AIR", pDefender->getNameKey(), getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100) / pDefender->maxHitPoints()));
+			gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_COMBAT", MESSAGE_TYPE_INFO, getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), this->getX_INLINE(), this->getY_INLINE(), true, true);
+			szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ARE_RETURN_ATTACKED_BY_AIR", getNameKey(), pDefender->getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100) / pDefender->maxHitPoints()));
+			gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_COMBAT", MESSAGE_TYPE_INFO, pDefender->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), pPlot->getX_INLINE(), pPlot->getY_INLINE());
+			
+			this->setDamage(iUnitDamage, getOwnerINLINE(), false);
+			collateralCombat(plot(), this);
+		}
+		else
+		{
+			szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_RETURN_ATTACK_BY_AIR_MISS", pDefender->getNameKey(), getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100) / pDefender->maxHitPoints()));
+			gDLL->getInterfaceIFace()->addMessage(pDefender->getOwnerINLINE(), false, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_COMBAT", MESSAGE_TYPE_INFO, getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_RED"), this->getX_INLINE(), this->getY_INLINE(), true, true);
+			szBuffer = gDLL->getText("TXT_KEY_MISC_YOU_ARE_RETURN_ATTACKED_BY_AIR_MISS", getNameKey(), pDefender->getNameKey(), -(((iUnitDamage - pDefender->getDamage()) * 100) / pDefender->maxHitPoints()));
+			gDLL->getInterfaceIFace()->addMessage(getOwnerINLINE(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_COMBAT", MESSAGE_TYPE_INFO, pDefender->getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), pPlot->getX_INLINE(), pPlot->getY_INLINE());		
+		}
+			
+		if (pPlot->isActiveVisible(false))
+		{
+			// Range strike entity mission
+			CvMissionDefinition kDefiniton;
+			kDefiniton.setMissionTime(GC.getMissionInfo(MISSION_RANGE_ATTACK).getTime() * gDLL->getSecsPerTurn() * 3);
+			kDefiniton.setMissionType(MISSION_RANGE_ATTACK);
+			kDefiniton.setPlot(this->plot());
+			kDefiniton.setUnit(BATTLE_UNIT_ATTACKER, pDefender);
+			kDefiniton.setUnit(BATTLE_UNIT_DEFENDER, this);
+
+			gDLL->getEntityIFace()->AddMission(&kDefiniton);
+
+			//delay death
+			this->getGroup()->setMissionTimer(GC.getMissionInfo(MISSION_RANGE_ATTACK).getTime());
+		}
+	}	//KNOEDELend
 	return true;
 }
 

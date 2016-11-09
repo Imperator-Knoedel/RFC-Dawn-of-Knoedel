@@ -11848,9 +11848,11 @@ bool CvUnitAI::AI_rangeAttack(int iRange)
 				if (pLoopPlot->isVisibleEnemyUnit(this) || (pLoopPlot->isCity() && AI_potentialEnemy(pLoopPlot->getTeam())))
 				{
 					if (!atPlot(pLoopPlot) && canRangeStrikeAt(plot(), pLoopPlot->getX_INLINE(), pLoopPlot->getY_INLINE()))
-					{
-						int iValue = getGroup()->AI_attackOdds(pLoopPlot, true);
-
+					{	//KNOEDELbegin
+//						int iValue = getGroup()->AI_attackOdds(pLoopPlot, true);
+						int iValue = GET_PLAYER(getOwnerINLINE()).AI_getEnemyPlotStrength(pLoopPlot, 2, false, false);
+						iValue += 1000;	//KNOEDELend
+						
 						if (iValue > iBestValue)
 						{
 							iBestValue = iValue;

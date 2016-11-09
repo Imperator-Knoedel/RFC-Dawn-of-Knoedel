@@ -14,8 +14,8 @@ import Popup
 gc = CyGlobalContext()
 iChange = 1
 
-from StoredData import sd
-import Consts as con
+from StoredData import data
+from Consts import *
 import Modifiers
 localText = CyTranslator()
 
@@ -61,6 +61,12 @@ class WBPlayerScreen:
 				if pPlayerX.isTurnActive():
 					sText = "[" + sText + "]"
 				screen.addPullDownString("CurrentPlayer", sText, i, i, i == iPlayer)
+
+		sText = u"<font=3b>" + CyTranslator().getText("TXT_KEY_PEDIA_HIDE_INACTIVE", ()) + "</font>"
+		sColor = CyTranslator().getText("[COLOR_WARNING_TEXT]", ())
+		if CvPlatyBuilderScreen.bHideInactive:
+			sColor = CyTranslator().getText("[COLOR_POSITIVE_TEXT]", ())
+		screen.setText("HideInactive", "Background", sColor + sText + "</color>", CvUtil.FONT_LEFT_JUSTIFY, screen.getXResolution()/4 - 25, iY, -0.1, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
 
 		iY += 30
 		screen.addDropDownBoxGFC("ChangeBy", 20, iY, screen.getXResolution()/5, WidgetTypes.WIDGET_GENERAL, -1, -1, FontTypes.GAME_FONT)
@@ -167,8 +173,8 @@ class WBPlayerScreen:
 
 		#Merijn: Place Civenabled buttons
 		iY += 30
-		if iPlayer in con.lSecondaryCivs:
-			if sd.isPlayerEnabled(iPlayer):
+		if iPlayer in lSecondaryCivs:
+			if data.isPlayerEnabled(iPlayer):
 				screen.setButtonGFC("CivEnabledButton", "", gc.getMissionInfo(gc.getInfoTypeForString("MISSION_FOUND")).getButton(), iX, iY, 64, 64, WidgetTypes.WIDGET_PYTHON, 22001, 0, ButtonStyles.BUTTON_STYLE_STANDARD)
 			else:
 				screen.setButtonGFC("CivEnabledButton", "", CyArtFileMgr().getInterfaceArtInfo("INTERFACE_BUTTONS_CANCEL").getPath(), iX, iY, 64, 64, WidgetTypes.WIDGET_PYTHON, 22001, 1, ButtonStyles.BUTTON_STYLE_STANDARD)
@@ -255,7 +261,7 @@ class WBPlayerScreen:
 				screen.setButtonGFC("ModifierButtonDecrease"+str(iRow), "", "", iXx, iY + iRow*24, 24, 24, WidgetTypes.WIDGET_PYTHON, 22300+iModifier, iChange, ButtonStyles.BUTTON_STYLE_CITY_MINUS)
 				screen.setButtonGFC("ModifierButtonIncrease"+str(iRow), "", "", iXx+24, iY + iRow*24, 24, 24, WidgetTypes.WIDGET_PYTHON, 22400+iModifier, iChange, ButtonStyles.BUTTON_STYLE_CITY_PLUS)
 			else:
-				if not iValue == Modifiers.getModifier(iPlayer, iModifier):
+				if not iValue == Modifiers.getAdjustedModifier(iPlayer, iModifier):
 					screen.setButtonGFC("ModifierRevertButton"+str(iRow), "I", "", iXx, iY + iRow*24, 2*24, 24, WidgetTypes.WIDGET_PYTHON, iModifier, -1, ButtonStyles.BUTTON_STYLE_STANDARD)
 				else:
 					screen.setButtonGFC("ModifierRevertButton"+str(iRow), "O", "", iXx, iY + iRow*24, 2*24, 24, WidgetTypes.WIDGET_PYTHON, iModifier, -1, ButtonStyles.BUTTON_STYLE_STANDARD)
@@ -477,7 +483,7 @@ class WBPlayerScreen:
 			self.interfaceScreen(iPlayer)
 			
 		elif inputClass.getFunctionName() == "CivEnabledButton":
-			sd.setPlayerEnabled(iPlayer, not sd.isPlayerEnabled(iPlayer))
+			data.setPlayerEnabled(iPlayer, not data.isPlayerEnabled(iPlayer))
 			self.interfaceScreen(iPlayer)
 			
 		elif inputClass.getFunctionName() == "PlayerEditScriptData":
@@ -508,9 +514,20 @@ class WBPlayerScreen:
 
 		elif inputClass.getFunctionName().find("ModifierRevertButton") > -1:
 			iModifier = inputClass.getData1()
-			iModifierValue = Modifiers.getModifier(iPlayer, iModifier)
+			iModifierValue = Modifiers.getAdjustedModifier(iPlayer, iModifier)
 			pPlayer.setModifier(iModifier, iModifierValue)
 			self.placeModifiers(True)
+
+		elif inputClass.getFunctionName() == "HideInactive":
+			CvPlatyBuilderScreen.bHideInactive = not CvPlatyBuilderScreen.bHideInactive
+			CvPlatyBuilderScreen.CvWorldBuilderScreen().refreshSideMenu()
+			sText = u"<font=3b>" + CyTranslator().getText("TXT_KEY_PEDIA_HIDE_INACTIVE", ()) + "</font>"
+			sColor = CyTranslator().getText("[COLOR_WARNING_TEXT]", ())
+			if CvPlatyBuilderScreen.bHideInactive:
+				sColor = CyTranslator().getText("[COLOR_POSITIVE_TEXT]", ())
+			screen.setText("HideInactive", "Background", sColor + sText + "</color>", CvUtil.FONT_LEFT_JUSTIFY, screen.getXResolution()/4 - 25, 20, -0.1, FontTypes.TITLE_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1)
+			self.placeReligions()
+			self.placeCivics()
 
 		return 1
 

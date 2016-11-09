@@ -12868,13 +12868,13 @@ void CvCity::setNumRealBuildingTimed(BuildingTypes eIndex, int iNewValue, bool b
 						}
 					}
 
-					for (iI = 0; iI < GC.getNumReligionInfos(); iI++)
+					/*for (iI = 0; iI < GC.getNumReligionInfos(); iI++)
 					{
 						if (GC.getBuildingInfo(eIndex).getReligionChange(iI) > 0)
 						{
 							setHasReligion(((ReligionTypes)iI), true, true, true);
 						}
-					}
+					}*/
 
 					if (GC.getBuildingInfo(eIndex).getFreeTechs() > 0)
 					{
@@ -17481,12 +17481,13 @@ int CvCity::calculateCultureCost(CvPlot* pPlot, bool bOrdering) const
 	if (pPlot->getImprovementType() != NO_IMPROVEMENT && GC.getImprovementInfo(pPlot->getImprovementType()).isActsAsCity()) return 0;
 
 	int iCost = pPlot->calculateCultureCost();
-	int iDistance = std::max(plotDistance(getX(), getY(), pPlot->getX(), pPlot->getY()), GC.getMap().calculatePathDistance(plot(), pPlot));
+	int iDistance = std::max(plotDistance(getX(), getY(), pPlot->getX(), pPlot->getY()), GC.getMap().calculatePathDistance(plot(), pPlot, MOVE_IGNORE_DANGER | MOVE_THROUGH_ENEMY));
 
 	if (bOrdering)
 	{
 		if (pPlot->getBonusType() < 0 && iCost >= 15) iCost += 100; 
 		iCost += 100 * iDistance;
+
 		if (pPlot->isWater() && !pPlot->isLake() && pPlot->getBonusType() == -1 && iDistance > 1)
 		{
 			if (!isCoastal(20)) iCost += 1000;
@@ -17870,7 +17871,7 @@ ReligionTypes CvCity::disappearingReligion(ReligionTypes eNewReligion) const
 		eReligion = (ReligionTypes)iI;
 		if (eReligion != eNewReligion)
 		{
-			if (isHasReligion(eReligion) && GET_PLAYER(getOwnerINLINE()).getSpreadType(plot(), eReligion) == RELIGION_SPREAD_NONE)
+			if (isHasReligion(eReligion) && !isHolyCity(eReligion) && GET_PLAYER(getOwnerINLINE()).getSpreadType(plot(), eReligion) == RELIGION_SPREAD_NONE)
 			{
 				religions.push_back(eReligion);
 			}
