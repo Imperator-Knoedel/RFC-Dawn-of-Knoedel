@@ -779,7 +779,7 @@
 			<Description>TXT_KEY_PROMOTION_GUERILLA3</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereqOr1>PROMOTION_GUERILLA2</PromotionPrereqOr1>
-			<iWithdrawalChange>30</iWithdrawalChange>
+			<iWithdrawalChange>25</iWithdrawalChange>
 			<iHillsAttack>25</iHillsAttack>
 			<UnitCombats>
 				<UnitCombat>
@@ -1186,10 +1186,6 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
@@ -1214,10 +1210,6 @@
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_NAVAL</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
@@ -1239,10 +1231,6 @@
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-					<bUnitCombat>1</bUnitCombat>
-				</UnitCombat>
-				<UnitCombat>
-					<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
 				</UnitCombat>
 				<UnitCombat>
@@ -1298,7 +1286,7 @@
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereqOr1>PROMOTION_FLANKING1</PromotionPrereqOr1>
 			<bImmuneToFirstStrikes>1</bImmuneToFirstStrikes>
-			<iWithdrawalChange>20</iWithdrawalChange>
+			<iWithdrawalChange>15</iWithdrawalChange>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
@@ -1889,7 +1877,8 @@
 			<Description>TXT_KEY_PROMOTION_TACTICS</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereq>PROMOTION_LEADER</PromotionPrereq>
-			<iWithdrawalChange>30</iWithdrawalChange>
+			<iWithdrawalChange>25</iWithdrawalChange>
+			<iFirstStrikesChange>2</iFirstStrikesChange>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>

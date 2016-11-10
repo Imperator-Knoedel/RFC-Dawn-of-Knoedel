@@ -9305,7 +9305,7 @@
 			<iCost>90</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>3</iMoves>
+			<iMoves>2</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<FeatureImpassables>
 				<FeatureImpassable>
@@ -10988,7 +10988,7 @@
 			<iCost>60</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>3</iMoves>
+			<iMoves>2</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<FeatureImpassables>
 				<FeatureImpassable>
@@ -11068,7 +11068,7 @@
 			<iCost>60</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>3</iMoves>
+			<iMoves>2</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<FeatureImpassables>
 				<FeatureImpassable>
@@ -11139,7 +11139,7 @@
 			<iCost>50</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>3</iMoves>
+			<iMoves>2</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<FeatureImpassables>
 				<FeatureImpassable>
@@ -11222,7 +11222,7 @@
 			<iCost>60</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>3</iMoves>
+			<iMoves>2</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<FeatureImpassables>
 				<FeatureImpassable>
@@ -12132,12 +12132,6 @@
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_MACHINE</FormationType>
-			<FreePromotions>
-				<FreePromotion>
-					<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
-					<bFreePromotion>1</bFreePromotion>
-				</FreePromotion>
-			</FreePromotions>
 		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_TREBUCHET</Class>
@@ -15628,7 +15622,7 @@
 			<iCost>100</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>2</iMoves>
+			<iMoves>1</iMoves>
 			<iAirRange>8</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
 			<iNukeRange>-1</iNukeRange>
@@ -15688,7 +15682,7 @@
 			<iCost>120</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>2</iMoves>
+			<iMoves>1</iMoves>
 			<iAirRange>6</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
 			<iNukeRange>-1</iNukeRange>
@@ -15747,7 +15741,7 @@
 			<iCost>200</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>2</iMoves>
+			<iMoves>1</iMoves>
 			<iAirRange>10</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
 			<iNukeRange>-1</iNukeRange>
@@ -15806,7 +15800,7 @@
 			<iCost>180</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>2</iMoves>
+			<iMoves>1</iMoves>
 			<iAirRange>12</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
 			<iNukeRange>-1</iNukeRange>
@@ -15866,7 +15860,7 @@
 			<iCost>160</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>2</iMoves>
+			<iMoves>1</iMoves>
 			<iAirRange>8</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
 			<iNukeRange>-1</iNukeRange>
@@ -15931,7 +15925,7 @@
 			<iCost>250</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>2</iMoves>
+			<iMoves>1</iMoves>
 			<iAirRange>12</iAirRange>
 			<iAirUnitCap>1</iAirUnitCap>
 			<iNukeRange>-1</iNukeRange>
@@ -15994,7 +15988,7 @@
 			<iCost>80</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>2</iMoves>
+			<iMoves>1</iMoves>
 			<iAirRange>4</iAirRange>
 			<iNukeRange>-1</iNukeRange>
 			<iAirCombat>40</iAirCombat>
@@ -16046,7 +16040,7 @@
 			<iCost>300</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>2</iMoves>
+			<iMoves>1</iMoves>
 			<iAirRange>6</iAirRange>
 			<iNukeRange>1</iNukeRange>
 			<iXPValueDefense>4</iXPValueDefense>
@@ -16095,7 +16089,7 @@
 			<iCost>500</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>2</iMoves>
+			<iMoves>1</iMoves>
 			<iNukeRange>1</iNukeRange>
 			<iAsset>10</iAsset>
 			<iPower>50</iPower>

@@ -53,7 +53,7 @@
 		<CultureLevelInfo>
 			<Type>CULTURELEVEL_FLEDGLING</Type>
 			<Description>TXT_KEY_CULTURELEVEL_FLEDGLING</Description>
-			<iCityDefenseModifier>25</iCityDefenseModifier>
+			<iCityDefenseModifier>10</iCityDefenseModifier>
 			<iCultureHappiness>0</iCultureHappiness>
 			<iCultureGreatPeopleRateModifier>0</iCultureGreatPeopleRateModifier>
 			<iCultureTradeRouteModifier>0</iCultureTradeRouteModifier>
@@ -75,7 +75,7 @@
 		<CultureLevelInfo>
 			<Type>CULTURELEVEL_DEVELOPING</Type>
 			<Description>TXT_KEY_CULTURELEVEL_DEVELOPING</Description>
-			<iCityDefenseModifier>50</iCityDefenseModifier>
+			<iCityDefenseModifier>25</iCityDefenseModifier>
 			<iCultureHappiness>1</iCultureHappiness>
 			<iCultureGreatPeopleRateModifier>25</iCultureGreatPeopleRateModifier>
 			<iCultureTradeRouteModifier>25</iCultureTradeRouteModifier>
@@ -97,22 +97,22 @@
 		<CultureLevelInfo>
 			<Type>CULTURELEVEL_REFINED</Type>
 			<Description>TXT_KEY_CULTURELEVEL_REFINED</Description>
-			<iCityDefenseModifier>75</iCityDefenseModifier>
+			<iCityDefenseModifier>60</iCityDefenseModifier>
 			<iCultureHappiness>2</iCultureHappiness>
 			<iCultureGreatPeopleRateModifier>50</iCultureGreatPeopleRateModifier>
 			<iCultureTradeRouteModifier>50</iCultureTradeRouteModifier>
 			<SpeedThresholds>
 				<SpeedThreshold>
 					<GameSpeedType>GAMESPEED_MARATHON</GameSpeedType>
-					<iThreshold>1500</iThreshold>
+					<iThreshold>3000</iThreshold>
 				</SpeedThreshold>
 				<SpeedThreshold>
 					<GameSpeedType>GAMESPEED_EPIC</GameSpeedType>
-					<iThreshold>750</iThreshold>
+					<iThreshold>1500</iThreshold>
 				</SpeedThreshold>
 				<SpeedThreshold>
 					<GameSpeedType>GAMESPEED_NORMAL</GameSpeedType>
-					<iThreshold>500</iThreshold>
+					<iThreshold>1000</iThreshold>
 				</SpeedThreshold>
 			</SpeedThresholds>
 		</CultureLevelInfo>
@@ -126,22 +126,22 @@
 			<SpeedThresholds>
 				<SpeedThreshold>
 					<GameSpeedType>GAMESPEED_MARATHON</GameSpeedType>
-					<iThreshold>15000</iThreshold>
+					<iThreshold>30000</iThreshold>
 				</SpeedThreshold>
 				<SpeedThreshold>
 					<GameSpeedType>GAMESPEED_EPIC</GameSpeedType>
-					<iThreshold>7500</iThreshold>
+					<iThreshold>15000</iThreshold>
 				</SpeedThreshold>
 				<SpeedThreshold>
 					<GameSpeedType>GAMESPEED_NORMAL</GameSpeedType>
-					<iThreshold>5000</iThreshold>
+					<iThreshold>10000</iThreshold>
 				</SpeedThreshold>
 			</SpeedThresholds>
 		</CultureLevelInfo>
 		<CultureLevelInfo>
 			<Type>CULTURELEVEL_LEGENDARY</Type>
 			<Description>TXT_KEY_CULTURELEVEL_LEGENDARY</Description>
-			<iCityDefenseModifier>150</iCityDefenseModifier>
+			<iCityDefenseModifier>200</iCityDefenseModifier>
 			<iCultureHappiness>4</iCultureHappiness>
 			<iCultureGreatPeopleRateModifier>200</iCultureGreatPeopleRateModifier>
 			<iCultureTradeRouteModifier>200</iCultureTradeRouteModifier>
