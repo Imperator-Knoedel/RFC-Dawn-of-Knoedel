@@ -916,6 +916,11 @@
 			<Upkeep>UPKEEP_LOW</Upkeep>
 			<iGoldPerMilitaryUnit>1</iGoldPerMilitaryUnit>
 			<iWarWearinessModifier>50</iWarWearinessModifier>
+			<TradeYieldModifiers>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+				<iYield>10</iYield>
+			</TradeYieldModifiers>
 			<iDefensivePactTradeModifier>50</iDefensivePactTradeModifier>
 		</CivicInfo>
 	</CivicInfos>

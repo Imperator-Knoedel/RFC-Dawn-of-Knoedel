@@ -779,7 +779,8 @@
 			<Description>TXT_KEY_PROMOTION_GUERILLA3</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereqOr1>PROMOTION_GUERILLA2</PromotionPrereqOr1>
-			<iWithdrawalChange>25</iWithdrawalChange>
+			<iWithdrawalChange>20</iWithdrawalChange>
+			<iFirstStrikesChange>1</iFirstStrikesChange>
 			<iHillsAttack>25</iHillsAttack>
 			<UnitCombats>
 				<UnitCombat>

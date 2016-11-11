@@ -271,14 +271,6 @@
 			<DefaultUnit>UNIT_MOBILE_SAM</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_MARINE</Type>
-			<Description>TXT_KEY_UNIT_MARINE</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<DefaultUnit>UNIT_MARINE</DefaultUnit>
-		</UnitClassInfo>
-		<UnitClassInfo>
 			<Type>UNITCLASS_PARATROOPER</Type>
 			<Description>TXT_KEY_UNIT_PARATROOPER</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>

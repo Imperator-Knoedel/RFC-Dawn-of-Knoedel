@@ -1443,7 +1443,7 @@ class RFCUtils:
 		
 	def getBestInfantry(self, iPlayer):
 		pPlayer = gc.getPlayer(iPlayer)
-		lInfantryList = [iInfantry, iRifleman, iMusketman, iHeavySwordsman, iCrossbowman, iSwordsman, iAxeman, iWarrior]
+		lInfantryList = [iSquadInfantry, iInfantry, iRifleman, iMusketman, iHeavySwordsman, iCrossbowman, iSwordsman, iAxeman, iWarrior]
 		
 		for iBaseUnit in lInfantryList:
 			iUnit = self.getUniqueUnitType(iPlayer, gc.getUnitInfo(iBaseUnit).getUnitClassType())
@@ -1454,7 +1454,7 @@ class RFCUtils:
 		
 	def getBestCavalry(self, iPlayer):
 		pPlayer = gc.getPlayer(iPlayer)
-		lCavalryList = [iCavalry, iCuirassier, iKnight, iHorseArcher, iChariot]
+		lCavalryList = [iGunship, iCavalry, iCuirassier, iKnight, iHeavyHorseman, iWarElephant, iHorseArcher, iChariot]
 		
 		for iBaseUnit in lCavalryList:
 			iUnit = self.getUniqueUnitType(iPlayer, gc.getUnitInfo(iBaseUnit).getUnitClassType())
@@ -1465,7 +1465,7 @@ class RFCUtils:
 		
 	def getBestSiege(self, iPlayer):
 		pPlayer = gc.getPlayer(iPlayer)
-		lSiegeList = [iCannon, iBombard, iTrebuchet, iCatapult]
+		lSiegeList = [iMobileArtillery, iArtillery, iCannon, iBombard, iTrebuchet, iCatapult]
 		
 		for iBaseUnit in lSiegeList:
 			iUnit = self.getUniqueUnitType(iPlayer, gc.getUnitInfo(iBaseUnit).getUnitClassType())
@@ -1476,7 +1476,7 @@ class RFCUtils:
 				
 	def getBestCounter(self, iPlayer):
 		pPlayer = gc.getPlayer(iPlayer)
-		lCounterList = [iMarine, iGrenadier, iPikeman, iSpearman]
+		lCounterList = [iMobileSam, iSamInfantry, iAtInfantry, iMachineGun, iGrenadier, iPikeman, iSpearman]
 		
 		for iBaseUnit in lCounterList:
 			iUnit = self.getUniqueUnitType(iPlayer, gc.getUnitInfo(iBaseUnit).getUnitClassType())
@@ -1490,7 +1490,7 @@ class RFCUtils:
 		if iPlayer == iBarbarian: iPlayer = iIndependent
 		
 		pPlayer = gc.getPlayer(iPlayer)
-		lDefenderList = [iInfantry, iMachineGun, iRifleman, iLongbowman, iCrossbowman, iArcher, iWarrior]
+		lDefenderList = [iSquadInfantry, iInfantry, iMachineGun, iRifleman, iMusketman, iLongbowman, iCrossbowman, iArcher, iWarrior]
 		
 		for iBaseUnit in lDefenderList:
 			iUnit = self.getUniqueUnitType(iPlayer, gc.getUnitInfo(iBaseUnit).getUnitClassType())

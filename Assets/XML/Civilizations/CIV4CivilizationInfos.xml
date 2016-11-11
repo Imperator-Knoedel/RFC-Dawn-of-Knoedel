@@ -64,7 +64,7 @@
 					<UnitType>UNIT_AMERICAN_MINUTEMAN</UnitType>
 				</Unit>
 				<Unit>
-					<UnitClassType>UNITCLASS_MARINE</UnitClassType>
+					<UnitClassType>UNITCLASS_PARATROOPER</UnitClassType>
 					<UnitType>UNIT_AMERICAN_NAVY_SEAL</UnitType>
 				</Unit>
 			</Units>
@@ -578,7 +578,7 @@
 					<UnitType>UNIT_BRAZILIAN_MADEIREIRO</UnitType>
 				</Unit>
 				<Unit>
-					<UnitClassType>UNITCLASS_MARINE</UnitClassType>
+					<UnitClassType>UNITCLASS_POLICE</UnitClassType>
 					<UnitType>UNIT_BRAZIL_GUARDA_NACIONAL</UnitType>
 				</Unit>
 			</Units>

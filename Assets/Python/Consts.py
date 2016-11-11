@@ -1493,7 +1493,7 @@ iSatellites, iRobotics, iFutureTech) = range(iNumTechs)
 
 # initialise unit variables to unit indices from XML
 
-iNumUnits = 213 #originally 164, 209 in 2ndUUB mod
+iNumUnits = 212 #originally 164, 209 in 2ndUUB mod
 (iLion, iBear, iPanther, iWolf, iSettler, iHarappanCityBuilder, iWorker, iBrazilianMadeireiro, iIndianPunjabiWorker, iScout, iExplorer, iMaliCaravan, iSpy,
 iReligiousPersecutor, iJewishMissionary, iOrthodoxMissionary, iCatholicMissionary, iProtestantMissionary, iIslamicMissionary, iHinduMissionary,
 iBuddhistMissionary, iConfucianMissionary, iTaoistMissionary, iZoroastrianMissionary, iWarrior, iHarappanCityGuard, iPolynesiaKoa, iSwordsman, iAztecJaguar,
@@ -1502,7 +1502,7 @@ iJapaneseSamurai, iVikingHuscarl, iCongolesePombos, iArabiaGhazi, iGermanDoppels
 iMayaSpearman, iZuluImpi, iPikeman, iHolyRomanLandsknecht, iByantineTagmata, iIndonesiaBambooRuncing, iJapanAshigaru, iKhmerPhakak, iTibetDobDob, iMusketman,
 iOttomanJanissary, iEthiopianAskari, iIranianQizilbash, iPortugalBandeirantes, iRussiaStrelets, iSpainTercio, iIroquoisMohawk, iFrenchMusketeer, iRifleman,
 iEnglishRedcoat, iAmericanMinuteman, iThaiMahardlek, iGrenadier, iColombianAlbionLegion, iDutchGardist, iIranNaffatun, iAtInfantry, iInfantry, iItalianBersagliere,
-iArgentinaPatricios, iMexicoEjercito, iMughalSepoy, iSamInfantry, iMobileSam, iMarine, iAmericanNavySeal, iBrazilianGuardaNacional, iParatrooper, iMechanizedInfantry,
+iArgentinaPatricios, iMexicoEjercito, iMughalSepoy, iSamInfantry, iMobileSam, iAmericanNavySeal, iBrazilianGuardaNacional, iParatrooper, iMechanizedInfantry,
 iArcher, iMandeSkirmisher, iBabylonAsharittuBowman, iMayanHolkan, iNubianMedjay, iLongbowman, iIndianPatiyodha, iCongoNgolo, iCrossbowman, iChineseChokonu,
 iIncanSlinger, iChariot, iEgyptianWarChariot, iPersiaScythedChariot, iHittiteHuluganni, iCelticCidainh, iHorseArcher, iTibetanKhampa, iGreekHetairoi, iMoorsCavalry,
 iNumidianCavalry, iKushanAsvaka, iKnight, iMongolianKeshik, iArabianCamelArcher, iByzantineCataphract, iThaiChangSuek, iFranceChevalier, iSeljukGhulamWarrior,
