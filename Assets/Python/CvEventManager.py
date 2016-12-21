@@ -82,11 +82,6 @@ class CvEventManager(object):
 		self.__LOG_ENDGOLDENAGE = 0
 		self.__LOG_WARPEACE = 0
 		self.__LOG_PUSH_MISSION = 0
-
-## Happy Variables ##
-		self.iHGA = 1000
-		self.iHHB = 1000
-## Happy Variables ##
 		
 		## EVENTLIST
 		self.EventHandlerMap = {
@@ -400,47 +395,6 @@ class CvEventManager(object):
 	def onEndPlayerTurn(self, argsList):
 		'Called at the end of a players turn'
 		iGameTurn, iPlayer = argsList
-
-## Happy Golden Age ##
-		pPlayer = gc.getPlayer(iPlayer)
-		if pPlayer.isAlive() and not pPlayer.isAnarchy():
-			sScript = pPlayer.getScriptData()
-			sHappy = sScript[:sScript.find("Split")]
-			sHealth = sScript[sScript.find("Split") +5:]
-			if not pPlayer.isGoldenAge():
-				iGoldenAgePercent = gc.getGameSpeedInfo(CyGame().getGameSpeedType()).getGoldenAgePercent()
-				if sHappy.find("HGA") == -1:
-					iCurrent = 0
-					iThreshold = self.iHGA * iGoldenAgePercent /100
-				else:
-					iCurrent = int(sHappy[:sHappy.find("HGA")])
-					iThreshold = int(sHappy[sHappy.find("HGA") +3:])
-				iCurrent = max(0, iCurrent + pPlayer.calculateTotalCityHappiness() - pPlayer.calculateTotalCityUnhappiness())
-				if iCurrent >= iThreshold:
-					iThreshold += self.iHGA * iGoldenAgePercent /100
-					pPlayer.changeGoldenAgeTurns(pPlayer.getGoldenAgeLength())
-					iCurrent = 0
-					CyInterface().addMessage(iPlayer,True,15,CyTranslator().getText("TXT_KEY_TRIGGER_GOLDEN_AGE",()),'',0, '', -1, -1, -1, True,True)
-				sHappy = str(iCurrent) + "HGA" + str(iThreshold)
-			iGrowthPercent = gc.getGameSpeedInfo(CyGame().getGameSpeedType()).getGrowthPercent()
-			if sHealth.find("HHB") == -1:
-				iHealthCurrent = 0
-				iHealthThreshold = self.iHHB * iGrowthPercent /100
-			else:
-				iHealthCurrent = int(sHealth[:sHealth.find("HHB")])
-				iHealthThreshold = int(sHealth[sHealth.find("HHB") +3:])
-			iHealthCurrent = max(0, iHealthCurrent + pPlayer.calculateTotalCityHealthiness() - pPlayer.calculateTotalCityUnhealthiness())
-			if iHealthCurrent >= iHealthThreshold:
-				iHealthThreshold += self.iHHB * iGrowthPercent /100
-				(loopCity, iter) = pPlayer.firstCity(False)
-				while(loopCity):
-					loopCity.changePopulation(1)
-					(loopCity, iter) = pPlayer.nextCity(iter, False)
-				iHealthCurrent = 0
-				CyInterface().addMessage(iPlayer,True,15,CyTranslator().getText("TXT_KEY_TRIGGER_GOLDEN_HEALTH",()),'',0, '', -1, -1, -1, True,True)
-			sScript = sHappy + "Split" + str(iHealthCurrent) + "HHB" + str(iHealthThreshold)
-			pPlayer.setScriptData(sScript)
-## Happy Golden Age ##
 		
 		if (gc.getGame().getElapsedGameTurns() == 1):
 			if (gc.getPlayer(iPlayer).isHuman()):

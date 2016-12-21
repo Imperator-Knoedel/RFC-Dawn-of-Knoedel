@@ -279,4 +279,12 @@
 			<Plural>0</Plural>
 		</Spanish>
 	</TEXT>
+	<TEXT>
+        <Tag>TXT_KEY_MISC_CULTURAL_GOLDEN_AGE_PROGRESS</Tag>
+        <English>Cultural Golden Age: %d1_Progress/%d2_Threshold (%D3[ICON_CULTURE] this turn)</English>
+        <French>Cultural Golden Age: %d1_Progress/%d2_Threshold (%D3[ICON_CULTURE] this turn)</French>
+        <German>Kulturelles Goldenes Zeitalter: %d1_Progress/%d2_Threshold (%D3[ICON_CULTURE] in dieser Runde)</German>
+        <Italian>Cultural Golden Age: %d1_Progress/%d2_Threshold (%D3[ICON_CULTURE] this turn)</Italian>
+        <Spanish>Cultural Golden Age: %d1_Progress/%d2_Threshold (%D3[ICON_CULTURE] this turn)</Spanish>
+    </TEXT>
 </Civ4GameText>

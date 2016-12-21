@@ -437,4 +437,8 @@
 		<DefineName>ACO_SHOW_SHIFT_INSTRUCTIONS</DefineName>
 		<iDefineIntVal>1</iDefineIntVal>
 	</Define>
+	<Define>
+		<DefineName>CULTURE_GOLDEN_AGE_THRESHOLD</DefineName>
+		<iDefineIntVal>500</iDefineIntVal>
+	</Define>
 </Civ4Defines>

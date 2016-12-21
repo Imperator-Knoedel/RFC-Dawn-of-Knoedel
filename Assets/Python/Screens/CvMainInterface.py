@@ -7,10 +7,6 @@ import CvScreenEnums
 import CvEventInterface
 import time
 
-## Happy Golden Age ##
-import CvEventManager
-## Happy Golden Age ##
-
 import RFCUtils
 from StoredData import data
 from Consts import *
@@ -878,21 +874,6 @@ class CvMainInterface:
 		screen.hide( "GreatPersonBar-w" )
 # BUG - Bars on single line for higher resolution screens - end
 
-## Happy Golden Age ##
-		screen.addStackedBarGFC( "GoldenAgeBar", 10, 120, 240, iStackBarHeight, InfoBarTypes.NUM_INFOBAR_TYPES, WidgetTypes.WIDGET_GENERAL, -1, -1 )
-		screen.setStackedBarColors( "GoldenAgeBar", InfoBarTypes.INFOBAR_STORED, gc.getInfoTypeForString("COLOR_MAGENTA") )
-		screen.setStackedBarColorsAlpha( "GoldenAgeBar", InfoBarTypes.INFOBAR_RATE, gc.getInfoTypeForString("COLOR_MAGENTA"), 0.8 )
-		screen.setStackedBarColors( "GoldenAgeBar", InfoBarTypes.INFOBAR_RATE_EXTRA, gc.getInfoTypeForString("COLOR_NEGATIVE_RATE") )
-		screen.setStackedBarColors( "GoldenAgeBar", InfoBarTypes.INFOBAR_EMPTY, gc.getInfoTypeForString("COLOR_EMPTY") )
-		screen.hide( "GoldenAgeBar" )
-
-		screen.addStackedBarGFC( "GoldenHealthBar", 10, 120 + iStackBarHeight, 240, iStackBarHeight, InfoBarTypes.NUM_INFOBAR_TYPES, WidgetTypes.WIDGET_GENERAL, -1, -1 )
-		screen.setStackedBarColors( "GoldenHealthBar", InfoBarTypes.INFOBAR_STORED, gc.getInfoTypeForString("COLOR_CYAN") )
-		screen.setStackedBarColorsAlpha( "GoldenHealthBar", InfoBarTypes.INFOBAR_RATE, gc.getInfoTypeForString("COLOR_CYAN"), 0.8 )
-		screen.setStackedBarColors( "GoldenHealthBar", InfoBarTypes.INFOBAR_RATE_EXTRA, gc.getInfoTypeForString("COLOR_NEGATIVE_RATE") )
-		screen.setStackedBarColors( "GoldenHealthBar", InfoBarTypes.INFOBAR_EMPTY, gc.getInfoTypeForString("COLOR_EMPTY") )
-		screen.hide( "GoldenHealthBar" )
-## Happy Golden Age ##
 		# *********************************************************************************
 		# SELECTION DATA BUTTONS/STRINGS
 		# *********************************************************************************
@@ -3067,12 +3048,6 @@ class CvMainInterface:
 		self.pBarResearchBar_w.hide(screen)
 # BUG - Progress Bar - Tick Marks - end
 
-## Happy Golden Age ##
-		screen.hide( "GoldenAgeBar" )
-		screen.hide( "GoldenAgeText" )
-		screen.hide( "GoldenHealthBar" )
-		screen.hide( "GoldenHealthText" )
-## Happy Golden Age ##
 		bShift = CyInterface().shiftKey()
 		
 		xResolution = screen.getXResolution()
@@ -3242,92 +3217,6 @@ class CvMainInterface:
 # Leoreth - Great Spy Bar - start
 				self.updateGreatSpyBar(screen)
 # Leoreth - Great Spy Bar - end
-
-## Happy Golden Age ##
-				if not CyInterface().isCityScreenUp():
-					pPlayer = gc.getPlayer(ePlayer)
-					sScript = pPlayer.getScriptData()
-					sHappy = sScript[:sScript.find("Split")]
-					sHealth = sScript[sScript.find("Split") +5:]
-
-					if pPlayer.isAnarchy():
-						szText = localText.getText("TXT_KEY_IS_ANARCHY", ())
-						screen.setBarPercentage( "GoldenAgeBar", InfoBarTypes.INFOBAR_STORED, 0.0)
-						screen.setBarPercentage( "GoldenAgeBar", InfoBarTypes.INFOBAR_RATE, 0.0 )
-						screen.setBarPercentage( "GoldenAgeBar", InfoBarTypes.INFOBAR_RATE_EXTRA, 100.0)
-						szHealth = localText.getText("TXT_KEY_IS_ANARCHY", ())
-						screen.setBarPercentage( "GoldenHealthBar", InfoBarTypes.INFOBAR_STORED, 0.0)
-						screen.setBarPercentage( "GoldenHealthBar", InfoBarTypes.INFOBAR_RATE, 0.0 )
-						screen.setBarPercentage( "GoldenHealthBar", InfoBarTypes.INFOBAR_RATE_EXTRA, 100.0)
-					else:
-						if pPlayer.isGoldenAge():
-							szText = localText.getText("TXT_KEY_IS_GOLDEN_AGE", ())
-							screen.setBarPercentage( "GoldenAgeBar", InfoBarTypes.INFOBAR_STORED, 100.0)
-							screen.setBarPercentage( "GoldenAgeBar", InfoBarTypes.INFOBAR_RATE, 0.0 )
-							screen.setBarPercentage( "GoldenAgeBar", InfoBarTypes.INFOBAR_RATE_EXTRA, 0.0)
-						else:
-							iGoldenAgePercent = gc.getGameSpeedInfo(CyGame().getGameSpeedType()).getGoldenAgePercent()
-							if sHappy.find("HGA") == -1:
-								iHappyCurrent = 0
-								iHappyThreshold = CvEventManager.CvEventManager().iHGA * iGoldenAgePercent /100
-							else:
-								iHappyCurrent = int(sHappy[:sHappy.find("HGA")])
-								iHappyThreshold = int(sHappy[sHappy.find("HGA") +3:])
-							iHappyRate = pPlayer.calculateTotalCityHappiness() - pPlayer.calculateTotalCityUnhappiness()
-							if iHappyRate < 0:
-								szText = localText.getText("TXT_KEY_SAD_GOLDEN_AGE", (iHappyCurrent, iHappyRate, iHappyThreshold))
-							else:
-								szText = localText.getText("TXT_KEY_HAPPY_GOLDEN_AGE", (iHappyCurrent, iHappyRate, iHappyThreshold))
-
-							if iHappyRate < 0:
-								iHappyDelta = max(0, iHappyCurrent + iHappyRate)
-								iHappyExtra = min(iHappyCurrent, -iHappyRate)
-								screen.setBarPercentage( "GoldenAgeBar", InfoBarTypes.INFOBAR_STORED, float(iHappyDelta) / iHappyThreshold)
-								screen.setBarPercentage( "GoldenAgeBar", InfoBarTypes.INFOBAR_RATE, 0.0 )
-								if iHappyThreshold > iHappyDelta:
-									screen.setBarPercentage( "GoldenAgeBar", InfoBarTypes.INFOBAR_RATE_EXTRA, float(iHappyExtra) / (iHappyThreshold - iHappyDelta))
-								else:
-									screen.setBarPercentage( "GoldenAgeBar", InfoBarTypes.INFOBAR_RATE_EXTRA, 0.0)
-					
-							else:
-								screen.setBarPercentage( "GoldenAgeBar", InfoBarTypes.INFOBAR_STORED, float(iHappyCurrent) / iHappyThreshold)
-								screen.setBarPercentage( "GoldenAgeBar", InfoBarTypes.INFOBAR_RATE, float(iHappyRate) / (iHappyThreshold - iHappyCurrent))
-								screen.setBarPercentage( "GoldenAgeBar", InfoBarTypes.INFOBAR_RATE_EXTRA, 0.0 )
-					
-						iGrowthPercent = gc.getGameSpeedInfo(CyGame().getGameSpeedType()).getGrowthPercent()
-						if sHealth.find("HHB") == -1:
-							iHealthCurrent = 0
-							iHealthThreshold = CvEventManager.CvEventManager().iHHB * iGrowthPercent /100
-						else:
-							iHealthCurrent = int(sHealth[:sHealth.find("HHB")])
-							iHealthThreshold = int(sHealth[sHealth.find("HHB") +3:])
-						iHealthRate = pPlayer.calculateTotalCityHealthiness() - pPlayer.calculateTotalCityUnhealthiness()
-						if iHealthRate < 0:
-							szHealth = localText.getText("TXT_KEY_SAD_HEALTH_BAR", (iHealthCurrent, iHealthRate, iHealthThreshold))
-						else:
-							szHealth = localText.getText("TXT_KEY_HAPPY_HEALTH_BAR", (iHealthCurrent, iHealthRate, iHealthThreshold))
-						
-						if iHealthRate < 0:
-							iHealthDelta = max(0, iHealthCurrent + iHealthRate)
-							iHealthExtra = min(iHealthCurrent, -iHealthRate)
-							screen.setBarPercentage( "GoldenHealthBar", InfoBarTypes.INFOBAR_STORED, float(iHealthDelta) / iHealthThreshold)
-							screen.setBarPercentage( "GoldenHealthBar", InfoBarTypes.INFOBAR_RATE, 0.0 )
-							if iHealthThreshold > iHealthDelta:
-								screen.setBarPercentage( "GoldenHealthBar", InfoBarTypes.INFOBAR_RATE_EXTRA, float(iHealthExtra) / (iHealthThreshold - iHealthDelta))
-							else:
-								screen.setBarPercentage( "GoldenHealthBar", InfoBarTypes.INFOBAR_RATE_EXTRA, 0.0)
-				
-						else:
-							screen.setBarPercentage( "GoldenHealthBar", InfoBarTypes.INFOBAR_STORED, float(iHealthCurrent) / iHealthThreshold)
-							screen.setBarPercentage( "GoldenHealthBar", InfoBarTypes.INFOBAR_RATE, float(iHealthRate) / (iHealthThreshold - iHealthCurrent))
-							screen.setBarPercentage( "GoldenHealthBar", InfoBarTypes.INFOBAR_RATE_EXTRA, 0.0 )
-					screen.setText( "GoldenAgeText", "Background", szText, CvUtil.FONT_CENTER_JUSTIFY, 125, 120, -0.4, FontTypes.GAME_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
-					screen.show( "GoldenAgeText" )
-					screen.show( "GoldenAgeBar" )
-					screen.setText( "GoldenHealthText", "Background", szHealth, CvUtil.FONT_CENTER_JUSTIFY, 125, 120 + iStackBarHeight, -0.4, FontTypes.GAME_FONT, WidgetTypes.WIDGET_GENERAL, -1, -1 )
-					screen.show( "GoldenHealthText" )
-					screen.show( "GoldenHealthBar" )
-## Happy Golden Age ##
 
 		return 0
 		

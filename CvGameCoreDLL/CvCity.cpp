@@ -14143,7 +14143,7 @@ void CvCity::doCulture()
 		changeCultureTimes100(getOwnerINLINE(), getCommerceRateTimes100(COMMERCE_CULTURE), false, true);
 		return;
 	}
-
+	
 	PlayerTypes eOwner = getOwnerINLINE();
 	int iCultureModifier = GET_PLAYER(eOwner).getModifier(MODIFIER_CULTURE);
 
@@ -14162,6 +14162,13 @@ void CvCity::doCulture()
 			changeCultureTimes100(ePlayer, -iTotalCultureTimes100 / 100, false, true);
 		}
 	}
+	
+//KNOEDELbegin
+//	if (GET_PLAYER(getOwnerINLINE()).isMiriam())
+//	{
+		GET_PLAYER(getOwnerINLINE()).changeCultureGoldenAgeProgress(getCommerceRate(COMMERCE_CULTURE));
+//	}
+//KNOEDELend oy vey truth be told I have no idea what to do about this here
 }
 
 

@@ -29,15 +29,15 @@
 #
 # Note: $(PROGRAMFILES) converts to "C:\Program Files", "C:\Program Files (x86)" or whatever fits your system.
 # run "nmake.exe /P" in cmd.exe to see what it is on your system
-TOOLKIT=$(PROGRAMFILES)\Microsoft Visual C++ Toolkit 2003
-PSDK=$(PROGRAMFILES)\Microsoft SDKs\Windows\v7.0A
+TOOLKIT=C:\Microsoft Visual C++ Toolkit 2003
+PSDK=C:\WindowsSDK
 ## Uncomment to have newly compiled dlls copied to your mod's Assets directory
-YOURMOD=..
+YOURMOD=C:\Games\Sid Meier's Civilization 4 Complete\Beyond the Sword\Mods\RFC Dawn of Knoedel
 
 ## Civ install path
 ## Path to the directory where boost and python is stored
 ## Overwritten by enviroment variable CIV4_LIB_INSTALL_PATH
-CIV4_PATH=$(PROGRAMFILES)\2K Games\Firaxis Games\Sid Meier's Civilization IV Colonization\CvGameCoreDLL
+CIV4_PATH=C:\Games\Sid Meier's Civilization 4 Complete\Beyond the Sword\CvGameCoreDLL
 
 #### Tools ####
 CC="$(TOOLKIT)\bin\cl.exe"

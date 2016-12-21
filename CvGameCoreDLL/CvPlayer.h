@@ -1552,6 +1552,18 @@ protected:
 	void getReligionLayerColors(ReligionTypes eSelectedReligion, std::vector<NiColorA>& aColors, std::vector<CvPlotIndicatorData>& aIndicators) const;  // used by Globeview religion layer
 	void getCultureLayerColors(std::vector<NiColorA>& aColors, std::vector<CvPlotIndicatorData>& aIndicators) const;  // used by Globeview culture layer
 
+//KNOEDELbegin
+public:
+	int getCultureGoldenAgeProgress() const;
+	void changeCultureGoldenAgeProgress(int iChange);
+	int getCultureGoldenAgeThreshold() const;
+	int getCultureGoldenAgesStarted() const;																																		// Exposed to Python
+	void incrementCultureGoldenAgeStarted();
+
+protected:
+	int m_iCultureGoldenAgeProgress;
+	int m_iCultureGoldenAgesStarted;
+//KNOEDELend
 };
 
 #endif
