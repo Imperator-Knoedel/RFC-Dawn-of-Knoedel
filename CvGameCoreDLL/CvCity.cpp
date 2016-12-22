@@ -14138,7 +14138,7 @@ void CvCity::doGrowth()
 
 void CvCity::doCulture()
 {
-	if 	(getCommerceRate(COMMERCE_CULTURE) <= 4)
+	if 	(getCommerceRate(COMMERCE_CULTURE) <= 0)	//KNOEDEL changed 4 to 0
 	{
 		changeCultureTimes100(getOwnerINLINE(), getCommerceRateTimes100(COMMERCE_CULTURE), false, true);
 		return;

@@ -7825,7 +7825,7 @@ bool CvPlayer::canDoCivics(CivicTypes eCivic) const
 
 	//KNOEDELbegin
 	if (getID() == PERSIA)
-		if (eCivic == CIVIC_VASSALAGE)
+		if (eCivic == CIVIC_VASSALAGE || eCivic == CIVIC_SERFDOM)
 			return true;
 	//KNOEDELend
 

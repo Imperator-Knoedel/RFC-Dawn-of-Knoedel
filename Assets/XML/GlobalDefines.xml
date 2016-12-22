@@ -431,7 +431,7 @@
 	</Define>
 	<Define>
 		<DefineName>HILLS_EXTRA_DEFENSE</DefineName>
-		<iDefineIntVal>50</iDefineIntVal>
+		<iDefineIntVal>25</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>RIVER_ATTACK_MODIFIER</DefineName>
