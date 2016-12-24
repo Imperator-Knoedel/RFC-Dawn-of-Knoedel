@@ -1709,6 +1709,8 @@ def getCivicCombinationStability(iPlayer, iCivic1, iCivic2):
 		if iCivicAutocracy in lCivics: return 5
 		if iCivicCentralPlanning in lCivics: return 3
 		if only(lCivics, iCivicAnimism, iCivicTolerance): return -2
+		if iCivicTheocracy in lCivics: return 2
+		if iCivicSecularism in lCivics: return 3
 
 	if iCivicCentralPlanning in lCivics:
 		if iCivicSocialism in lCivics: return 3
