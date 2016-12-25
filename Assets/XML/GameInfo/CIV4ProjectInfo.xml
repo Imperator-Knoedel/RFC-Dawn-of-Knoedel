@@ -17,7 +17,7 @@
 			<AnyonePrereqProject>NONE</AnyonePrereqProject>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iCost>1500</iCost>
+			<iCost>1000</iCost>
 			<iNukeInterception>0</iNukeInterception>
 			<iTechShare>0</iTechShare>
 			<EveryoneSpecialUnit>NONE</EveryoneSpecialUnit>
@@ -81,7 +81,7 @@
 			<AnyonePrereqProject>PROJECT_MANHATTAN_PROJECT</AnyonePrereqProject>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>1</iMaxTeamInstances>
-			<iCost>1000</iCost>
+			<iCost>2500</iCost>
 			<iNukeInterception>50</iNukeInterception>
 			<iTechShare>0</iTechShare>
 			<EveryoneSpecialUnit>NONE</EveryoneSpecialUnit>
@@ -109,11 +109,11 @@
 			<Civilopedia>TXT_KEY_PROJECT_APOLLO_PROGRAM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_PROJECT_APOLLO_PROGRAM_STRATEGY</Strategy>
 			<VictoryPrereq>VICTORY_SPACE_RACE</VictoryPrereq>
-			<TechPrereq>TECH_ROCKETRY</TechPrereq>
+			<TechPrereq>TECH_SATELLITES</TechPrereq>
 			<AnyonePrereqProject>NONE</AnyonePrereqProject>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>1</iMaxTeamInstances>
-			<iCost>1600</iCost>
+			<iCost>1500</iCost>
 			<iNukeInterception>0</iNukeInterception>
 			<iTechShare>0</iTechShare>
 			<EveryoneSpecialUnit>NONE</EveryoneSpecialUnit>
@@ -145,7 +145,7 @@
 			<AnyonePrereqProject>NONE</AnyonePrereqProject>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>1</iMaxTeamInstances>
-			<iCost>700</iCost>
+			<iCost>1000</iCost>
 			<iNukeInterception>0</iNukeInterception>
 			<iTechShare>0</iTechShare>
 			<EveryoneSpecialUnit>NONE</EveryoneSpecialUnit>
@@ -187,7 +187,7 @@
 			<AnyonePrereqProject>NONE</AnyonePrereqProject>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>1</iMaxTeamInstances>
-			<iCost>800</iCost>
+			<iCost>1000</iCost>
 			<iNukeInterception>0</iNukeInterception>
 			<iTechShare>0</iTechShare>
 			<EveryoneSpecialUnit>NONE</EveryoneSpecialUnit>
@@ -229,7 +229,7 @@
 			<AnyonePrereqProject>NONE</AnyonePrereqProject>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>1</iMaxTeamInstances>
-			<iCost>900</iCost>
+			<iCost>1000</iCost>
 			<iNukeInterception>0</iNukeInterception>
 			<iTechShare>0</iTechShare>
 			<EveryoneSpecialUnit>NONE</EveryoneSpecialUnit>
@@ -266,7 +266,7 @@
 			<AnyonePrereqProject>NONE</AnyonePrereqProject>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>1</iMaxTeamInstances>
-			<iCost>1700</iCost>
+			<iCost>2000</iCost>
 			<iNukeInterception>0</iNukeInterception>
 			<iTechShare>0</iTechShare>
 			<EveryoneSpecialUnit>NONE</EveryoneSpecialUnit>
@@ -308,7 +308,7 @@
 			<AnyonePrereqProject>NONE</AnyonePrereqProject>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>2</iMaxTeamInstances>
-			<iCost>1300</iCost>
+			<iCost>1500</iCost>
 			<iNukeInterception>0</iNukeInterception>
 			<iTechShare>0</iTechShare>
 			<EveryoneSpecialUnit>NONE</EveryoneSpecialUnit>
@@ -350,7 +350,7 @@
 			<AnyonePrereqProject>NONE</AnyonePrereqProject>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>5</iMaxTeamInstances>
-			<iCost>600</iCost>
+			<iCost>1000</iCost>
 			<iNukeInterception>0</iNukeInterception>
 			<iTechShare>0</iTechShare>
 			<EveryoneSpecialUnit>NONE</EveryoneSpecialUnit>
@@ -397,7 +397,7 @@
 			<AnyonePrereqProject>NONE</AnyonePrereqProject>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>5</iMaxTeamInstances>
-			<iCost>900</iCost>
+			<iCost>1000</iCost>
 			<iNukeInterception>0</iNukeInterception>
 			<iTechShare>0</iTechShare>
 			<EveryoneSpecialUnit>NONE</EveryoneSpecialUnit>

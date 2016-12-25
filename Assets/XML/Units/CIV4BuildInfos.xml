@@ -217,7 +217,7 @@
 		<BuildInfo>
 			<Type>BUILD_LUMBERMILL</Type>
 			<Description>TXT_KEY_BUILD_LUMBERMILL</Description>
-			<PrereqTech>TECH_MATHEMATICS</PrereqTech>
+			<PrereqTech>TECH_MACHINERY</PrereqTech>
 			<iTime>700</iTime>
 			<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
 			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>

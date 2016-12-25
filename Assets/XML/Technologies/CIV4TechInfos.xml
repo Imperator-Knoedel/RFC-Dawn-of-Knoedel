@@ -2291,6 +2291,40 @@
 			<bTrade>1</bTrade>
 			<iGridX>18</iGridX>
 			<iGridY>1</iGridY>
+			<TerrainTrades>
+				<TerrainTrade>
+					<TerrainType>TERRAIN_DESERT</TerrainType>
+					<bTerrainTrade>1</bTerrainTrade>
+				</TerrainTrade>
+				<TerrainTrade>
+					<TerrainType>TERRAIN_GRASS</TerrainType>
+					<bTerrainTrade>1</bTerrainTrade>
+				</TerrainTrade>
+				<TerrainTrade>
+					<TerrainType>TERRAIN_HILL</TerrainType>
+					<bTerrainTrade>1</bTerrainTrade>
+				</TerrainTrade>
+				<TerrainTrade>
+					<TerrainType>TERRAIN_SNOW</TerrainType>
+					<bTerrainTrade>1</bTerrainTrade>
+				</TerrainTrade>
+				<TerrainTrade>
+					<TerrainType>TERRAIN_MARSH</TerrainType>
+					<bTerrainTrade>1</bTerrainTrade>
+				</TerrainTrade>
+				<TerrainTrade>
+					<TerrainType>TERRAIN_PEAK</TerrainType>
+					<bTerrainTrade>1</bTerrainTrade>
+				</TerrainTrade>
+				<TerrainTrade>
+					<TerrainType>TERRAIN_PLAINS</TerrainType>
+					<bTerrainTrade>1</bTerrainTrade>
+				</TerrainTrade>
+				<TerrainTrade>
+					<TerrainType>TERRAIN_TUNDRA</TerrainType>
+					<bTerrainTrade>1</bTerrainTrade>
+				</TerrainTrade>
+			</TerrainTrades>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>

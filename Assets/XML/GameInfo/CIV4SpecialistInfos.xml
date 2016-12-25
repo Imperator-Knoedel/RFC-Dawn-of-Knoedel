@@ -73,7 +73,7 @@
 			<Yields/>
 			<Commerces>
 				<iCommerce>0</iCommerce>
-				<iCommerce>1</iCommerce>
+				<iCommerce>0</iCommerce>
 				<iCommerce>4</iCommerce>
 			</Commerces>
 			<iExperience>0</iExperience>
@@ -173,9 +173,14 @@
 			<Yields>
 				<iYield>0</iYield>
 				<iYield>0</iYield>
-				<iYield>2</iYield>
+				<iYield>1</iYield>
 			</Yields>
-			<Commerces/>
+			<Commerces>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>2</iCommerce>
+			</Commerces>
 			<iExperience>0</iExperience>
 			<Flavors/>
 			<HotKey/>
@@ -201,9 +206,9 @@
 				<iYield>0</iYield>
 			</Yields>
 			<Commerces>
-				<iCommerce>4</iCommerce>
-				<iCommerce>0</iCommerce>
 				<iCommerce>2</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>3</iCommerce>
 			</Commerces>
 			<iExperience>0</iExperience>
 			<Flavors/>
@@ -226,9 +231,9 @@
 			<iGreatPeopleRateChange>0</iGreatPeopleRateChange>
 			<Yields/>
 			<Commerces>
-				<iCommerce>3</iCommerce>
+				<iCommerce>2</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>12</iCommerce>
+				<iCommerce>10</iCommerce>
 			</Commerces>
 			<iExperience>0</iExperience>
 			<iHappiness>1</iHappiness>
@@ -340,9 +345,14 @@
 			<Yields>
 				<iYield>0</iYield>
 				<iYield>0</iYield>
-				<iYield>4</iYield>
+				<iYield>3</iYield>
 			</Yields>
-			<Commerces/>
+			<Commerces>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>4</iCommerce>
+			</Commerces>
 			<iExperience>0</iExperience>
 			<Flavors/>
 			<HotKey/>
@@ -371,6 +381,7 @@
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
+				<iCommerce>2</iCommerce>
 			</Commerces>
 			<iExperience>2</iExperience>
 			<Flavors/>
@@ -394,9 +405,9 @@
 			<Yields/>
 			<Commerces>
 				<iCommerce>0</iCommerce>
-				<iCommerce>3</iCommerce>
+				<iCommerce>2</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>12</iCommerce>
+				<iCommerce>10</iCommerce>
 			</Commerces>
 			<iExperience>0</iExperience>
 			<Flavors/>

@@ -217,10 +217,7 @@ class Barbs:
 		#barbarians in central asia
 		if (iGameTurn >= getTurnForYear(-1600) and iGameTurn < getTurnForYear(-850)):
 			self.checkSpawn(iBarbarian, iSumerianVulture, 1, (74, 34), (78, 44), self.spawnNomads, iGameTurn, 6-iHandicap, 2, ["TXT_KEY_ADJECTIVE_ASSYRIAN"])
-		if (iGameTurn >= getTurnForYear(-850) and iGameTurn < getTurnForYear(300)):
-			self.checkSpawn(iBarbarian, iSumerianVulture, 1, (73, 38), (78, 44), self.spawnNomads, iGameTurn, 8-iHandicap, 2, ["TXT_KEY_ADJECTIVE_ASSYRIAN"])
-			self.checkSpawn(iBarbarian, iHorseArcher, 2 + iHandicap, (79, 41), (84, 49), self.spawnInvaders, iGameTurn, 7-iHandicap, 2, ["TXT_KEY_ADJECTIVE_PARTHIAN"])
-		if (iGameTurn >= getTurnForYear(300) and iGameTurn <= getTurnForYear(700)):
+		if (iGameTurn >= getTurnForYear(-300) and iGameTurn <= getTurnForYear(700)):
 			#if utils.getScenario() == i3000BC:  #late start condition
 			self.checkSpawn(iBarbarian, iHorseArcher, 2 + iHandicap, (78, 42), (88, 50), self.spawnNomads, iGameTurn, 8-iHandicap, 2, ["TXT_KEY_ADJECTIVE_TURKIC"])
 		if (iGameTurn > getTurnForYear(700) and iGameTurn <= getTurnForYear(1040)):

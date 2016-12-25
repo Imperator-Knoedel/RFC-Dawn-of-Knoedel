@@ -705,6 +705,7 @@
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
+			<bIgnoreTerrainCost>1</bIgnoreTerrainCost>
 			<UnitAIs>
 				<UnitAI>
 					<UnitAIType>UNITAI_EXPLORE</UnitAIType>
@@ -776,6 +777,25 @@
 			<iXPValueDefense>2</iXPValueDefense>
 			<iAsset>2</iAsset>
 			<iPower>2</iPower>
+			<iHillsDefense>50</iHillsDefense>
+			<FeatureDefenses>
+				<FeatureDefense>
+					<FeatureType>FEATURE_FOREST</FeatureType>
+					<iFeatureDefense>50</iFeatureDefense>
+				</FeatureDefense>
+				<FeatureDefense>
+					<FeatureType>FEATURE_JUNGLE</FeatureType>
+					<iFeatureDefense>50</iFeatureDefense>
+				</FeatureDefense>
+				<FeatureDefense>
+					<FeatureType>FEATURE_MARSH</FeatureType>
+					<iFeatureDefense>50</iFeatureDefense>
+				</FeatureDefense>
+				<FeatureDefense>
+					<FeatureType>FEATURE_RAINFOREST</FeatureType>
+					<iFeatureDefense>50</iFeatureDefense>
+				</FeatureDefense>
+			</FeatureDefenses>
 			<UnitMeshGroups>
 				<iGroupSize>2</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -789,14 +809,6 @@
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<FreePromotions>
-				<FreePromotion>
-					<PromotionType>PROMOTION_GUERILLA1</PromotionType>
-					<bFreePromotion>1</bFreePromotion>
-				</FreePromotion>
-				<FreePromotion>
-					<PromotionType>PROMOTION_WOODSMAN1</PromotionType>
-					<bFreePromotion>1</bFreePromotion>
-				</FreePromotion>
 				<FreePromotion>
 					<PromotionType>PROMOTION_SENTRY</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
@@ -1359,6 +1371,10 @@
 					<UnitClassUpgradeType>UNITCLASS_SPEARMAN</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
+				<UnitClassUpgrade>
+					<UnitClassUpgradeType>UNITCLASS_SWORDSMAN</UnitClassUpgradeType>
+					<bUnitClassUpgrade>1</bUnitClassUpgrade>
+				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<UnitAIs>
 				<UnitAI>
@@ -1448,6 +1464,10 @@
 					<UnitClassUpgradeType>UNITCLASS_ARCHER</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
+				<UnitClassUpgrade>
+					<UnitClassUpgradeType>UNITCLASS_SWORDSMAN</UnitClassUpgradeType>
+					<bUnitClassUpgrade>1</bUnitClassUpgrade>
+				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<UnitAIs>
 				<UnitAI>
@@ -1523,6 +1543,10 @@
 				</UnitClassUpgrade>
 				<UnitClassUpgrade>
 					<UnitClassUpgradeType>UNITCLASS_SPEARMAN</UnitClassUpgradeType>
+					<bUnitClassUpgrade>1</bUnitClassUpgrade>
+				</UnitClassUpgrade>
+				<UnitClassUpgrade>
+					<UnitClassUpgradeType>UNITCLASS_SWORDSMAN</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
@@ -1995,7 +2019,6 @@
 			<PrereqTech>TECH_BRONZE_WORKING</PrereqTech>
 			<PrereqBonuses>
 				<BonusType>BONUS_COPPER</BonusType>
-				<BonusType>BONUS_IRON</BonusType>
 			</PrereqBonuses>
 			<iCost>35</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
@@ -2395,7 +2418,7 @@
 					<bFeatureImpassable>1</bFeatureImpassable>
 				</FeatureImpassable>
 			</FeatureImpassables>
-			<iCombat>4</iCombat>
+			<iCombat>3</iCombat>
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -5427,6 +5450,12 @@
 					<iFeatureAttack>25</iFeatureAttack>
 				</FeatureAttack>
 			</FeatureAttacks>
+			<UnitClassAttackMods>
+				<UnitClassAttackMod>
+					<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+					<iUnitClassMod>10</iUnitClassMod>
+				</UnitClassAttackMod>
+			</UnitClassAttackMods>
 			<iConscription>1</iConscription>
 			<iCultureGarrison>7</iCultureGarrison>
 			<iAsset>3</iAsset>
@@ -5525,6 +5554,12 @@
 					<iFeatureAttack>25</iFeatureAttack>
 				</FeatureAttack>
 			</FeatureAttacks>
+			<UnitClassAttackMods>
+				<UnitClassAttackMod>
+					<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+					<iUnitClassMod>10</iUnitClassMod>
+				</UnitClassAttackMod>
+			</UnitClassAttackMods>
 			<iConscription>1</iConscription>
 			<iCultureGarrison>7</iCultureGarrison>
 			<iAsset>3</iAsset>
@@ -5639,6 +5674,12 @@
 					<iFeatureAttack>25</iFeatureAttack>
 				</FeatureAttack>
 			</FeatureAttacks>
+			<UnitClassAttackMods>
+				<UnitClassAttackMod>
+					<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+					<iUnitClassMod>10</iUnitClassMod>
+				</UnitClassAttackMod>
+			</UnitClassAttackMods>
 			<iConscription>1</iConscription>
 			<iCultureGarrison>7</iCultureGarrison>
 			<iAsset>3</iAsset>
@@ -5758,6 +5799,12 @@
 					<iFeatureAttack>25</iFeatureAttack>
 				</FeatureAttack>
 			</FeatureAttacks>
+			<UnitClassAttackMods>
+				<UnitClassAttackMod>
+					<UnitClassType>UNITCLASS_RIFLEMAN</UnitClassType>
+					<iUnitClassMod>10</iUnitClassMod>
+				</UnitClassAttackMod>
+			</UnitClassAttackMods>
 			<iConscription>1</iConscription>
 			<iCultureGarrison>7</iCultureGarrison>
 			<iAsset>3</iAsset>
@@ -5929,7 +5976,7 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>2</iFirstStrikes>
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
@@ -6019,7 +6066,7 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>2</iFirstStrikes>
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
@@ -6110,7 +6157,7 @@
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
 			<iWithdrawalProb>20</iWithdrawalProb>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>2</iFirstStrikes>
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
@@ -6206,7 +6253,7 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>2</iFirstStrikes>
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
@@ -6288,7 +6335,7 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>2</iFirstStrikes>
 			<iChanceFirstStrikes>1</iChanceFirstStrikes>
 			<UnitCombatMods>
 				<UnitCombatMod>
@@ -6449,11 +6496,11 @@
 					<bFeatureImpassable>1</bFeatureImpassable>
 				</FeatureImpassable>
 			</FeatureImpassables>
-			<iCombat>22</iCombat>
+			<iCombat>20</iCombat>
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>2</iFirstStrikes>
 			<iInterceptionProbability>60</iInterceptionProbability>
 			<UnitCombatMods>
 				<UnitCombatMod>
@@ -6464,7 +6511,7 @@
 			<iConscription>1</iConscription>
 			<iCultureGarrison>11</iCultureGarrison>
 			<iAsset>5</iAsset>
-			<iPower>22</iPower>
+			<iPower>20</iPower>
 			<UnitMeshGroups>
 				<iGroupSize>1</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -6525,8 +6572,9 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>2</iFirstStrikes>
 			<iChanceFirstStrikes>1</iChanceFirstStrikes>
+			<iWithdrawalProb>25</iWithdrawalProb>
 			<iCityAttack>25</iCityAttack>
 			<iCityDefense>25</iCityDefense>
 			<UnitCombatMods>
@@ -6685,7 +6733,8 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>2</iFirstStrikes>
+			<iWithdrawalProb>20</iWithdrawalProb>
 			<iEvasionProbability>25</iEvasionProbability>
 			<iCityAttack>25</iCityAttack>
 			<iCityDefense>25</iCityDefense>
@@ -6767,9 +6816,9 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>3</iFirstStrikes>
 			<iInterceptionProbability>25</iInterceptionProbability>
-			<iWithdrawalProb>10</iWithdrawalProb>
+			<iWithdrawalProb>25</iWithdrawalProb>
 			<iCityAttack>10</iCityAttack>
 			<iCityDefense>10</iCityDefense>
 			<iCultureGarrison>16</iCultureGarrison>
@@ -6827,9 +6876,13 @@
 					<UnitAIType>UNITAI_CITY_DEFENSE</UnitAIType>
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_COLLATERAL</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_ARCHERY</PrereqTech>
-			<iCost>35</iCost>
+			<iCost>30</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -6854,6 +6907,9 @@
 			<iXPValueDefense>2</iXPValueDefense>
 			<iFirstStrikes>1</iFirstStrikes>
 			<iWithdrawalProb>40</iWithdrawalProb>
+			<iCollateralDamage>50</iCollateralDamage>
+			<iCollateralDamageLimit>20</iCollateralDamageLimit>
+			<iCollateralDamageMaxUnits>2</iCollateralDamageMaxUnits>
 			<iCityDefense>50</iCityDefense>
 			<iHillsDefense>25</iHillsDefense>
 			<UnitCombatMods>
@@ -6911,6 +6967,10 @@
 					<UnitAIType>UNITAI_CITY_DEFENSE</UnitAIType>
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_COLLATERAL</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_ARCHERY</PrereqTech>
 			<iCost>35</iCost>
@@ -6926,6 +6986,9 @@
 			<iFirstStrikes>1</iFirstStrikes>
 			<iChanceFirstStrikes>1</iChanceFirstStrikes>
 			<iWithdrawalProb>40</iWithdrawalProb>
+			<iCollateralDamage>50</iCollateralDamage>
+			<iCollateralDamageLimit>20</iCollateralDamageLimit>
+			<iCollateralDamageMaxUnits>2</iCollateralDamageMaxUnits>
 			<iCityDefense>50</iCityDefense>
 			<iHillsDefense>25</iHillsDefense>
 			<UnitCombatMods>
@@ -7014,7 +7077,7 @@
 			<iXPValueDefense>2</iXPValueDefense>
 			<iFirstStrikes>1</iFirstStrikes>
 			<iWithdrawalProb>45</iWithdrawalProb>
-			<iCollateralDamage>100</iCollateralDamage>
+			<iCollateralDamage>50</iCollateralDamage>
 			<iCollateralDamageLimit>40</iCollateralDamageLimit>
 			<iCollateralDamageMaxUnits>4</iCollateralDamageMaxUnits>
 			<iCityDefense>50</iCityDefense>
@@ -7075,6 +7138,10 @@
 					<UnitAIType>UNITAI_CITY_DEFENSE</UnitAIType>
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_COLLATERAL</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_HUNTING</PrereqTech>
 			<iCost>30</iCost>
@@ -7094,6 +7161,9 @@
 			<iXPValueDefense>2</iXPValueDefense>
 			<iFirstStrikes>1</iFirstStrikes>
 			<iWithdrawalProb>50</iWithdrawalProb>
+			<iCollateralDamage>50</iCollateralDamage>
+			<iCollateralDamageLimit>20</iCollateralDamageLimit>
+			<iCollateralDamageMaxUnits>2</iCollateralDamageMaxUnits>
 			<iCityDefense>50</iCityDefense>
 			<iHillsDefense>25</iHillsDefense>
 			<UnitCombatMods>
@@ -7151,6 +7221,10 @@
 					<UnitAIType>UNITAI_CITY_DEFENSE</UnitAIType>
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_COLLATERAL</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_ARCHERY</PrereqTech>
 			<iCost>25</iCost>
@@ -7178,6 +7252,9 @@
 			<iXPValueDefense>2</iXPValueDefense>
 			<iFirstStrikes>2</iFirstStrikes>
 			<iWithdrawalProb>25</iWithdrawalProb>
+			<iCollateralDamage>50</iCollateralDamage>
+			<iCollateralDamageLimit>20</iCollateralDamageLimit>
+			<iCollateralDamageMaxUnits>2</iCollateralDamageMaxUnits>
 			<iCityDefense>50</iCityDefense>
 			<iHillsDefense>25</iHillsDefense>
 			<iCultureGarrison>4</iCultureGarrison>
@@ -7225,12 +7302,16 @@
 					<UnitAIType>UNITAI_CITY_DEFENSE</UnitAIType>
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_COLLATERAL</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_FEUDALISM</PrereqTech>
 			<TechTypes>
 				<PrereqTech>TECH_ARCHERY</PrereqTech>
 			</TechTypes>
-			<iCost>65</iCost>
+			<iCost>60</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -7254,7 +7335,11 @@
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
 			<iFirstStrikes>1</iFirstStrikes>
+			<iChanceFirstStrikes>1</iChanceFirstStrikes>
 			<iWithdrawalProb>50</iWithdrawalProb>
+			<iCollateralDamage>50</iCollateralDamage>
+			<iCollateralDamageLimit>30</iCollateralDamageLimit>
+			<iCollateralDamageMaxUnits>3</iCollateralDamageMaxUnits>
 			<iCityDefense>25</iCityDefense>
 			<iHillsDefense>25</iHillsDefense>
 			<UnitCombatMods>
@@ -7308,6 +7393,10 @@
 					<UnitAIType>UNITAI_CITY_DEFENSE</UnitAIType>
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_COLLATERAL</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_MONARCHY</PrereqTech>
 			<TechTypes>
@@ -7330,7 +7419,11 @@
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
 			<iFirstStrikes>1</iFirstStrikes>
+			<iChanceFirstStrikes>1</iChanceFirstStrikes>
 			<iWithdrawalProb>50</iWithdrawalProb>
+			<iCollateralDamage>50</iCollateralDamage>
+			<iCollateralDamageLimit>30</iCollateralDamageLimit>
+			<iCollateralDamageMaxUnits>3</iCollateralDamageMaxUnits>
 			<iCityDefense>25</iCityDefense>
 			<iHillsDefense>25</iHillsDefense>
 			<UnitCombatMods>
@@ -7402,6 +7495,10 @@
 					<UnitAIType>UNITAI_CITY_DEFENSE</UnitAIType>
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_COLLATERAL</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_FEUDALISM</PrereqTech>
 			<TechTypes>
@@ -7417,6 +7514,7 @@
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
 			<iFirstStrikes>1</iFirstStrikes>
+			<iChanceFirstStrikes>1</iChanceFirstStrikes>
 			<iWithdrawalProb>60</iWithdrawalProb>
 			<iCollateralDamage>50</iCollateralDamage>
 			<iCollateralDamageLimit>50</iCollateralDamageLimit>
@@ -7511,6 +7609,9 @@
 			<iXPValueDefense>2</iXPValueDefense>
 			<iFirstStrikes>1</iFirstStrikes>
 			<iWithdrawalProb>20</iWithdrawalProb>
+			<iCollateralDamage>50</iCollateralDamage>
+			<iCollateralDamageLimit>10</iCollateralDamageLimit>
+			<iCollateralDamageMaxUnits>1</iCollateralDamageMaxUnits>
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
@@ -7576,6 +7677,10 @@
 				</UnitAI>
 				<UnitAI>
 					<UnitAIType>UNITAI_CITY_COUNTER</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_COLLATERAL</UnitAIType>
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</UnitAIs>
@@ -7706,6 +7811,9 @@
 			<iXPValueDefense>2</iXPValueDefense>
 			<iFirstStrikes>1</iFirstStrikes>
 			<iWithdrawalProb>25</iWithdrawalProb>
+			<iCollateralDamage>50</iCollateralDamage>
+			<iCollateralDamageLimit>10</iCollateralDamageLimit>
+			<iCollateralDamageMaxUnits>1</iCollateralDamageMaxUnits>
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
@@ -11246,8 +11354,8 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
-			<iWithdrawalProb>10</iWithdrawalProb>
+			<iFirstStrikes>2</iFirstStrikes>
+			<iWithdrawalProb>20</iWithdrawalProb>
 			<iCollateralDamageLimit>60</iCollateralDamageLimit>
 			<iCollateralDamageMaxUnits>5</iCollateralDamageMaxUnits>
 			<iCultureGarrison>12</iCultureGarrison>
@@ -11337,8 +11445,8 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
-			<iWithdrawalProb>10</iWithdrawalProb>
+			<iFirstStrikes>3</iFirstStrikes>
+			<iWithdrawalProb>25</iWithdrawalProb>
 			<iCollateralDamageLimit>60</iCollateralDamageLimit>
 			<iCollateralDamageMaxUnits>5</iCollateralDamageMaxUnits>
 			<UnitClassAttackMods>
@@ -11439,8 +11547,8 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>2</iFirstStrikes>
-			<iWithdrawalProb>10</iWithdrawalProb>
+			<iFirstStrikes>3</iFirstStrikes>
+			<iWithdrawalProb>30</iWithdrawalProb>
 			<iCollateralDamageLimit>60</iCollateralDamageLimit>
 			<iCollateralDamageMaxUnits>6</iCollateralDamageMaxUnits>
 			<iCultureGarrison>16</iCultureGarrison>
@@ -11525,7 +11633,7 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>3</iFirstStrikes>
 			<iWithdrawalProb>50</iWithdrawalProb>
 			<iCollateralDamageLimit>100</iCollateralDamageLimit>
 			<iCollateralDamageMaxUnits>8</iCollateralDamageMaxUnits>
@@ -12944,7 +13052,7 @@
 				</UnitCombatMod>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
-					<iUnitCombatMod>25</iUnitCombatMod>
+					<iUnitCombatMod>50</iUnitCombatMod>
 				</UnitCombatMod>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
@@ -13043,7 +13151,7 @@
 			<iAirCombatLimit>70</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>2</iFirstStrikes>
 			<iCollateralDamage>100</iCollateralDamage>
 			<iCollateralDamageLimit>80</iCollateralDamageLimit>
 			<iCollateralDamageMaxUnits>8</iCollateralDamageMaxUnits>
@@ -13146,7 +13254,7 @@
 			<iAirCombatLimit>80</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>2</iFirstStrikes>
 			<iCollateralDamage>100</iCollateralDamage>
 			<iCollateralDamageLimit>85</iCollateralDamageLimit>
 			<iCollateralDamageMaxUnits>8</iCollateralDamageMaxUnits>
@@ -13247,7 +13355,7 @@
 			<iAirCombatLimit>80</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>3</iFirstStrikes>
 			<iCollateralDamage>100</iCollateralDamage>
 			<iCollateralDamageLimit>90</iCollateralDamageLimit>
 			<iCollateralDamageMaxUnits>9</iCollateralDamageMaxUnits>
@@ -13395,7 +13503,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_SAILING</PrereqTech>
-			<iCost>50</iCost>
+			<iCost>40</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>3</iMoves>
@@ -13559,7 +13667,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_SAILING</PrereqTech>
-			<iCost>50</iCost>
+			<iCost>40</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>3</iMoves>
@@ -13635,7 +13743,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<PrereqTech>TECH_SAILING</PrereqTech>
-			<iCost>50</iCost>
+			<iCost>40</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>4</iMoves>
@@ -13732,7 +13840,7 @@
 			<TechTypes>
 				<PrereqTech>TECH_SAILING</PrereqTech>
 			</TechTypes>
-			<iCost>50</iCost>
+			<iCost>40</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>3</iMoves>
@@ -14257,7 +14365,7 @@
 				<BonusType>BONUS_COPPER</BonusType>
 				<BonusType>BONUS_IRON</BonusType>
 			</PrereqBonuses>
-			<iCost>80</iCost>
+			<iCost>90</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>6</iMoves>
@@ -14336,7 +14444,7 @@
 				<BonusType>BONUS_COPPER</BonusType>
 				<BonusType>BONUS_IRON</BonusType>
 			</PrereqBonuses>
-			<iCost>50</iCost>
+			<iCost>60</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>5</iMoves>
@@ -14455,7 +14563,7 @@
 				<BonusType>BONUS_COPPER</BonusType>
 				<BonusType>BONUS_IRON</BonusType>
 			</PrereqBonuses>
-			<iCost>50</iCost>
+			<iCost>60</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>5</iMoves>
@@ -14556,7 +14664,7 @@
 				<PrereqTech>TECH_ASTRONOMY</PrereqTech>
 			</TechTypes>
 			<BonusType>BONUS_IRON</BonusType>
-			<iCost>90</iCost>
+			<iCost>100</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>6</iMoves>
@@ -14623,7 +14731,7 @@
 				<PrereqTech>TECH_ASTRONOMY</PrereqTech>
 			</TechTypes>
 			<BonusType>BONUS_IRON</BonusType>
-			<iCost>100</iCost>
+			<iCost>120</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>5</iMoves>
@@ -14635,7 +14743,7 @@
 			<iAirCombatLimit>100</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>2</iFirstStrikes>
 			<iBombardRate>12</iBombardRate>
 			<DomainCargo>DOMAIN_LAND</DomainCargo>
 			<iAsset>3</iAsset>
@@ -14690,7 +14798,7 @@
 				<PrereqTech>TECH_ASTRONOMY</PrereqTech>
 			</TechTypes>
 			<BonusType>BONUS_IRON</BonusType>
-			<iCost>110</iCost>
+			<iCost>120</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>5</iMoves>
@@ -14702,7 +14810,7 @@
 			<iAirCombatLimit>100</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>2</iFirstStrikes>
 			<iBombardRate>12</iBombardRate>
 			<DomainCargo>DOMAIN_LAND</DomainCargo>
 			<iAsset>3</iAsset>
@@ -14770,7 +14878,7 @@
 			<PrereqBonuses>
 				<BonusType>BONUS_IRON</BonusType>
 			</PrereqBonuses>
-			<iCost>120</iCost>
+			<iCost>140</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>8</iMoves>
@@ -14782,7 +14890,7 @@
 			<iAirCombatLimit>100</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>2</iFirstStrikes>
 			<iBombardRate>12</iBombardRate>
 			<iAsset>3</iAsset>
 			<iPower>12</iPower>
@@ -14836,7 +14944,7 @@
 				<PrereqTech>TECH_CHEMISTRY</PrereqTech>
 			</TechTypes>
 			<BonusType>BONUS_IRON</BonusType>
-			<iCost>100</iCost>
+			<iCost>120</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>6</iMoves>
@@ -14901,7 +15009,7 @@
 				<BonusType>BONUS_OIL</BonusType>
 				<BonusType>BONUS_URANIUM</BonusType>
 			</PrereqBonuses>
-			<iCost>150</iCost>
+			<iCost>160</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>10</iMoves>
@@ -14910,7 +15018,7 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>3</iFirstStrikes>
 			<DomainCargo>DOMAIN_LAND</DomainCargo>
 			<iCargo>4</iCargo>
 			<iAsset>3</iAsset>
@@ -14980,7 +15088,7 @@
 			<iAirCombatLimit>100</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>3</iFirstStrikes>
 			<iInterceptionProbability>30</iInterceptionProbability>
 			<iWithdrawalProb>10</iWithdrawalProb>
 			<UnitCombatMods>
@@ -15057,7 +15165,7 @@
 			<iAirCombatLimit>100</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>3</iFirstStrikes>
 			<iInterceptionProbability>30</iInterceptionProbability>
 			<iWithdrawalProb>10</iWithdrawalProb>
 			<UnitCombatMods>
@@ -15136,7 +15244,7 @@
 			<iAirCombatLimit>100</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>3</iFirstStrikes>
 			<iCollateralDamage>50</iCollateralDamage>
 			<iCollateralDamageLimit>60</iCollateralDamageLimit>
 			<iCollateralDamageMaxUnits>5</iCollateralDamageMaxUnits>
@@ -15203,7 +15311,7 @@
 			<iAirCombatLimit>100</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>4</iFirstStrikes>
 			<iCollateralDamage>50</iCollateralDamage>
 			<iCollateralDamageLimit>60</iCollateralDamageLimit>
 			<iCollateralDamageMaxUnits>5</iCollateralDamageMaxUnits>
@@ -15283,7 +15391,7 @@
 			<iAirCombatLimit>100</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>3</iFirstStrikes>
+			<iFirstStrikes>4</iFirstStrikes>
 			<iWithdrawalProb>20</iWithdrawalProb>
 			<iBombardRate>16</iBombardRate>
 			<iAsset>5</iAsset>
@@ -15349,7 +15457,7 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>3</iFirstStrikes>
 			<iWithdrawalProb>50</iWithdrawalProb>
 			<SpecialCargo>SPECIALUNIT_MISSILE</SpecialCargo>
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
@@ -15422,7 +15530,7 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>4</iFirstStrikes>
 			<iWithdrawalProb>60</iWithdrawalProb>
 			<UnitClassAttackMods>
 				<UnitClassAttackMod>
@@ -15490,7 +15598,7 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>3</iFirstStrikes>
 			<SpecialCargo>SPECIALUNIT_FIGHTER</SpecialCargo>
 			<DomainCargo>DOMAIN_AIR</DomainCargo>
 			<iCargo>3</iCargo>
@@ -15609,6 +15717,7 @@
 			<iAirCombatLimit>25</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>4</iXPValueDefense>
+			<iFirstStrikes>1</iFirstStrikes>
 			<iInterceptionProbability>100</iInterceptionProbability>
 			<iBombRate>8</iBombRate>
 			<iAsset>3</iAsset>
@@ -15668,6 +15777,7 @@
 			<iAirCombatLimit>40</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>4</iXPValueDefense>
+			<iFirstStrikes>2</iFirstStrikes>
 			<iInterceptionProbability>100</iInterceptionProbability>
 			<iBombRate>12</iBombRate>
 			<iAsset>4</iAsset>
@@ -15727,6 +15837,7 @@
 			<iAirCombatLimit>45</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>4</iXPValueDefense>
+			<iFirstStrikes>2</iFirstStrikes>
 			<iInterceptionProbability>100</iInterceptionProbability>
 			<iBombRate>12</iBombRate>
 			<iAsset>4</iAsset>
@@ -15787,6 +15898,7 @@
 			<iAirCombatLimit>50</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>4</iXPValueDefense>
+			<iFirstStrikes>1</iFirstStrikes>
 			<iCollateralDamage>100</iCollateralDamage>
 			<iCollateralDamageLimit>50</iCollateralDamageLimit>
 			<iCollateralDamageMaxUnits>5</iCollateralDamageMaxUnits>
@@ -15852,6 +15964,7 @@
 			<iAirCombatLimit>60</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>4</iXPValueDefense>
+			<iFirstStrikes>2</iFirstStrikes>
 			<iEvasionProbability>50</iEvasionProbability>
 			<iCollateralDamage>100</iCollateralDamage>
 			<iCollateralDamageLimit>50</iCollateralDamageLimit>
@@ -17340,7 +17453,7 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>3</iFirstStrikes>
 			<iCityAttack>25</iCityAttack>
 			<iCityDefense>25</iCityDefense>
 			<iConscription>9</iConscription>
@@ -17355,7 +17468,7 @@
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>3</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_AMERICAN_NAVY_SEAL</EarlyArtDefineTag>
+					<EarlyArtDefineTag>ART_DEF_UNIT_MARINE</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_RANGED</FormationType>
@@ -17413,7 +17526,7 @@
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
 			<iFirstStrikes>1</iFirstStrikes>
-			<iCityDefense>25</iCityDefense>
+			<iCityDefense>50</iCityDefense>
 			<iCultureGarrison>12</iCultureGarrison>
 			<iAsset>3</iAsset>
 			<iPower>8</iPower>
@@ -17464,7 +17577,7 @@
 			</UnitAIs>
 			<PrereqTech>TECH_STEAM_POWER</PrereqTech>
 			<BonusType>BONUS_COAL</BonusType>
-			<iCost>120</iCost>
+			<iCost>140</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>20</iMinAreaSize>
 			<iMoves>8</iMoves>
@@ -17473,7 +17586,7 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
+			<iFirstStrikes>2</iFirstStrikes>
 			<DomainCargo>DOMAIN_LAND</DomainCargo>
 			<iCargo>4</iCargo>
 			<iAsset>3</iAsset>

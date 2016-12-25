@@ -1607,7 +1607,7 @@
 			<ImprovementUpgrade/>
 			<TechYieldChanges>
 				<TechYieldChange>
-					<PrereqTech>TECH_CORPORATION</PrereqTech>
+					<PrereqTech>TECH_ARCHERY</PrereqTech>
 					<TechYields>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
@@ -1794,14 +1794,6 @@
 			<TechYieldChanges>
 				<TechYieldChange>
 					<PrereqTech>TECH_BIOLOGY</PrereqTech>
-					<TechYields>
-						<iYield>0</iYield>
-						<iYield>0</iYield>
-						<iYield>1</iYield>
-					</TechYields>
-				</TechYieldChange>
-				<TechYieldChange>
-					<PrereqTech>TECH_ECOLOGY</PrereqTech>
 					<TechYields>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
