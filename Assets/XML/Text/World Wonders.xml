@@ -161,7 +161,12 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_TEMPLE_OF_KUKULKAN_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Temple of Kukulkan[COLOR_REVERT] increases all cities' defenses by 25%%. It improves the odds of its city generating a [COLOR_UNIT_TEXT]Great Prophet[COLOR_REVERT].</English>
+		<English>The [COLOR_BUILDING_TEXT]Temple of Kukulkan[COLOR_REVERT] increases all cities' defenses by 10%%, and makes slavery unhappiness not increase with the amount of population sacrificed. It improves the odds of its city generating a [COLOR_UNIT_TEXT]Great Prophet[COLOR_REVERT].</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TEMPLE_OF_KUKULKAN_HELP</Tag>
+		<English>[ICON_BULLET]Hurry Unhappiness Does Not Increase with the Amount of Sacrificed Population</English>
+		<German>[ICON_BULLET]Die Unzufriedenheit durch Sklaverei steigt nicht mit der Anzahl der geopferten Bev&#246;lkerung</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CN_TOWER</Tag>
@@ -617,13 +622,8 @@
 		</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_BUILDING_PYRAMIDS_HELP</Tag>
-		<English>[ICON_BULLET]Hurry Unhappiness Does Not Increase with the Amount of Sacrificed Population</English>
-		<German>[ICON_BULLET]Die Unzufriedenheit durch Sklaverei steigt nicht mit der Anzahl der geopferten Bev&#246;lkerung</German>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_BUILDING_PYRAMIDS_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Pyramids[COLOR_REVERT] makes slavery unhappiness not increase with the amount of population sacrificed, makes workers build improvements faster and centers the world map. They also increase their city's chances of generating a [COLOR_UNIT_TEXT]Great Engineer[COLOR_REVERT].</English>
+		<English>The [COLOR_BUILDING_TEXT]Pyramids[COLOR_REVERT] makes workers build improvements faster and centers the world map. They also increase their city's chances of generating a [COLOR_UNIT_TEXT]Great Engineer[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_RED_FORT</Tag>

@@ -727,8 +727,8 @@
 			<Button>,Art/Interface/Buttons/Promotions/Combat5.dds,Art/Interface/Buttons/Warlords_Atlas_1.dds,8,16</Button>
 		</PromotionInfo>
 		<PromotionInfo>
-			<Type>PROMOTION_GUERILLA1</Type>
-			<Description>TXT_KEY_PROMOTION_GUERILLA1</Description>
+			<Type>PROMOTION_MOUNTAINEER1</Type>
+			<Description>TXT_KEY_PROMOTION_MOUNTAINEER1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<iHillsAttack>10</iHillsAttack>
 			<iHillsDefense>20</iHillsDefense>
@@ -749,11 +749,10 @@
 			<Button>,Art/Interface/Buttons/Promotions/Guerilla1.dds,Art/Interface/Buttons/Promotions_Atlas.dds,5,5</Button>
 		</PromotionInfo>
 		<PromotionInfo>
-			<Type>PROMOTION_GUERILLA2</Type>
-			<Description>TXT_KEY_PROMOTION_GUERILLA2</Description>
+			<Type>PROMOTION_MOUNTAINEER2</Type>
+			<Description>TXT_KEY_PROMOTION_MOUNTAINEER2</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
-			<PromotionPrereqOr1>PROMOTION_GUERILLA1</PromotionPrereqOr1>
-			<bHillsDoubleMove>1</bHillsDoubleMove>
+			<PromotionPrereqOr1>PROMOTION_MOUNTAINEER1</PromotionPrereqOr1>
 			<iHillsAttack>20</iHillsAttack>
 			<iHillsDefense>20</iHillsDefense>
 			<UnitCombats>
@@ -777,15 +776,18 @@
 			<Button>,Art/Interface/Buttons/Promotions/Guerilla2.dds,Art/Interface/Buttons/Promotions_Atlas.dds,6,5</Button>
 		</PromotionInfo>
 		<PromotionInfo>
-			<Type>PROMOTION_GUERILLA3</Type>
-			<Description>TXT_KEY_PROMOTION_GUERILLA3</Description>
+			<Type>PROMOTION_MOUNTAINEER3</Type>
+			<Description>TXT_KEY_PROMOTION_MOUNTAINEER3</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
-			<PromotionPrereqOr1>PROMOTION_GUERILLA2</PromotionPrereqOr1>
-			<iWithdrawalChange>20</iWithdrawalChange>
-			<iFirstStrikesChange>1</iFirstStrikesChange>
+			<PromotionPrereqOr1>PROMOTION_MOUNTAINEER2</PromotionPrereqOr1>
+			<bHillsDoubleMove>1</bHillsDoubleMove>
 			<iHillsAttack>20</iHillsAttack>
 			<iHillsDefense>10</iHillsDefense>
 			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
@@ -882,20 +884,6 @@
 					<iFeatureDefense>20</iFeatureDefense>
 				</FeatureDefense>
 			</FeatureDefenses>
-			<FeatureDoubleMoves>
-				<FeatureDoubleMove>
-					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<bFeatureDoubleMove>1</bFeatureDoubleMove>
-				</FeatureDoubleMove>
-				<FeatureDoubleMove>
-					<FeatureType>FEATURE_FOREST</FeatureType>
-					<bFeatureDoubleMove>1</bFeatureDoubleMove>
-				</FeatureDoubleMove>
-				<FeatureDoubleMove>
-					<FeatureType>FEATURE_RAINFOREST</FeatureType>
-					<bFeatureDoubleMove>1</bFeatureDoubleMove>
-				</FeatureDoubleMove>
-			</FeatureDoubleMoves>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
@@ -917,8 +905,6 @@
 			<Description>TXT_KEY_PROMOTION_WOODSMAN3</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereqOr1>PROMOTION_WOODSMAN2</PromotionPrereqOr1>
-			<iFirstStrikesChange>1</iFirstStrikesChange>
-			<iSameTileHealChange>15</iSameTileHealChange>
 			<FeatureAttacks>
 				<FeatureAttack>
 					<FeatureType>FEATURE_JUNGLE</FeatureType>
@@ -947,7 +933,25 @@
 					<iFeatureDefense>10</iFeatureDefense>
 				</FeatureDefense>
 			</FeatureDefenses>
+			<FeatureDoubleMoves>
+				<FeatureDoubleMove>
+					<FeatureType>FEATURE_JUNGLE</FeatureType>
+					<bFeatureDoubleMove>1</bFeatureDoubleMove>
+				</FeatureDoubleMove>
+				<FeatureDoubleMove>
+					<FeatureType>FEATURE_FOREST</FeatureType>
+					<bFeatureDoubleMove>1</bFeatureDoubleMove>
+				</FeatureDoubleMove>
+				<FeatureDoubleMove>
+					<FeatureType>FEATURE_RAINFOREST</FeatureType>
+					<bFeatureDoubleMove>1</bFeatureDoubleMove>
+				</FeatureDoubleMove>
+			</FeatureDoubleMoves>
 			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
 					<bUnitCombat>1</bUnitCombat>
@@ -2030,6 +2034,90 @@
 				</TerrainDoubleMove>
 			</TerrainDoubleMoves>
 			<Button>Art/Interface/Buttons/Promotions/DesertAdaptation.dds</Button>
+		</PromotionInfo>
+		<PromotionInfo>
+			<Type>PROMOTION_GUERILLA1</Type>
+			<Description>TXT_KEY_PROMOTION_GUERILLA1</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_MOUNTAINEER1</PromotionPrereqOr1>
+			<PromotionPrereqOr2>PROMOTION_WOODSMAN1</PromotionPrereqOr2>
+			<iWithdrawalChange>10</iWithdrawalChange>
+			<iChanceFirstStrikesChange>1</iChanceFirstStrikesChange>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<Button>Art/Interface/Buttons/Promotions/Instigator1.dds</Button>
+		</PromotionInfo>
+		<PromotionInfo>
+			<Type>PROMOTION_GUERILLA2</Type>
+			<Description>TXT_KEY_PROMOTION_GUERILLA2</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_GUERILLA1</PromotionPrereqOr1>
+			<iWithdrawalChange>10</iWithdrawalChange>
+			<iFirstStrikesChange>1</iFirstStrikesChange>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<Button>Art/Interface/Buttons/Promotions/Instigator2.dds</Button>
+		</PromotionInfo>
+		<PromotionInfo>
+			<Type>PROMOTION_GUERILLA3</Type>
+			<Description>TXT_KEY_PROMOTION_GUERILLA3</Description>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<PromotionPrereqOr1>PROMOTION_GUERILLA2</PromotionPrereqOr1>
+			<bImmuneToFirstStrikes>1</bImmuneToFirstStrikes>
+			<iWithdrawalChange>10</iWithdrawalChange>
+			<iFirstStrikesChange>1</iFirstStrikesChange>
+			<iChanceFirstStrikesChange>1</iChanceFirstStrikesChange>
+			<UnitCombats>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+				<UnitCombat>
+					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<bUnitCombat>1</bUnitCombat>
+				</UnitCombat>
+			</UnitCombats>
+			<Button>Art/Interface/Buttons/Promotions/Instigator3.dds</Button>
 		</PromotionInfo>
 	</PromotionInfos>
 </Civ4PromotionInfos>

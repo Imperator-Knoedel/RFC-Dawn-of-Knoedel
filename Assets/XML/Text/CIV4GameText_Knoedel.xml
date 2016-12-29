@@ -287,4 +287,76 @@
         <Italian>Cultural Golden Age: %d1_Progress/%d2_Threshold (%D3[ICON_CULTURE] this turn)</Italian>
         <Spanish>Cultural Golden Age: %d1_Progress/%d2_Threshold (%D3[ICON_CULTURE] this turn)</Spanish>
     </TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MOUNTAINEER1</Tag>
+		<English>Mountaineer I</English>
+		<French>
+			<Text>Mountaineer I</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Bergsteiger I</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Mountaineer I</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Mountaineer I</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MOUNTAINEER2</Tag>
+		<English>Mountaineer II</English>
+		<French>
+			<Text>Mountaineer II</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Bergsteiger II</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Mountaineer II</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Mountaineer II</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_PROMOTION_MOUNTAINEER3</Tag>
+		<English>Mountaineer III</English>
+		<French>
+			<Text>Mountaineer III</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Bergsteiger III</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Mountaineer III</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Mountaineer III</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
 </Civ4GameText>

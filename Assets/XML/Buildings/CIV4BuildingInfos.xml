@@ -8776,7 +8776,6 @@
 			<Description>TXT_KEY_BUILDING_PYRAMIDS</Description>
 			<Civilopedia>TXT_KEY_BUILDING_PYRAMIDS_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_PYRAMIDS_STRATEGY</Strategy>
-			<Help>TXT_KEY_BUILDING_PYRAMIDS_HELP</Help>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_PYRAMIDS</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_PYRAMIDS</MovieDefineTag>
@@ -8795,7 +8794,7 @@
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
-			<iWorkerSpeedModifier>25</iWorkerSpeedModifier>
+			<iWorkerSpeedModifier>100</iWorkerSpeedModifier>
 			<iAsset>12</iAsset>
 			<fVisibilityPriority>100.0</fVisibilityPriority>
 			<ObsoleteSafeCommerceChanges>
@@ -9958,6 +9957,7 @@
 			<Description>TXT_KEY_BUILDING_TEMPLE_OF_KUKULKAN</Description>
 			<Civilopedia>TXT_KEY_BUILDING_TEMPLE_OF_KUKULKAN_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_TEMPLE_OF_KUKULKAN_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_TEMPLE_OF_KUKULKAN_HELP</Help>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_TEMPLE_OF_KUKULKAN</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_TEMPLE_OF_KUKULKAN</MovieDefineTag>
@@ -9970,14 +9970,14 @@
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<bTeamShare>1</bTeamShare>
 			<bNukeImmune>1</bNukeImmune>
-			<iCost>450</iCost>
+			<iCost>300</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>100</iConquestProb>
-			<iAllCityDefense>25</iAllCityDefense>
+			<iAllCityDefense>10</iAllCityDefense>
 			<iAsset>12</iAsset>
-			<iPower>8</iPower>
+			<iPower>6</iPower>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<ObsoleteSafeCommerceChanges>
 				<iCommerce>0</iCommerce>

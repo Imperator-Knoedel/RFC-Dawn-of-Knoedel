@@ -483,7 +483,7 @@
 		<BuildInfo>
 			<Type>BUILD_WINERY</Type>
 			<Description>TXT_KEY_BUILD_WINERY</Description>
-			<PrereqTech>TECH_MONARCHY</PrereqTech>
+			<PrereqTech>TECH_CALENDAR</PrereqTech>
 			<iTime>600</iTime>
 			<ImprovementType>IMPROVEMENT_WINERY</ImprovementType>
 			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
@@ -1109,8 +1109,8 @@
 		<BuildInfo>
 			<Type>BUILD_HAMLET</Type>
 			<Description>TXT_KEY_BUILD_HAMLET</Description>
-			<PrereqTech>TECH_POTTERY</PrereqTech>
-			<iTime>500</iTime>
+			<PrereqTech>TECH_GUILDS</PrereqTech>
+			<iTime>600</iTime>
 			<bKill>1</bKill>
 			<ImprovementType>IMPROVEMENT_HAMLET</ImprovementType>
 			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>

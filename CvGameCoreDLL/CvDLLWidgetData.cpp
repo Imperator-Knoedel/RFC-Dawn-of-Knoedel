@@ -1995,7 +1995,7 @@ void CvDLLWidgetData::parseHurryHelp(CvWidgetDataStruct &widgetDataStruct, CvWSt
 		int iHurryAngerModifier = (1 + iHurryPopulation) / 2;
 
 		// Leoreth: Pyramids negate unhappiness scaling
-		if (GET_PLAYER(pHeadSelectedCity->getOwnerINLINE()).isHasBuildingEffect((BuildingTypes)PYRAMIDS))
+		if (GET_PLAYER(pHeadSelectedCity->getOwnerINLINE()).isHasBuildingEffect((BuildingTypes)TEMPLE_OF_KUKULKAN))	//KNOEDEL
 			iHurryAngerModifier = 1;
 
 		if (iHurryAngerLength > 0)

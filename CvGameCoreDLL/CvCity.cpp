@@ -3806,7 +3806,7 @@ void CvCity::hurry(HurryTypes eHurry)
 	iHurryAngerModifier = (iHurryPopulation + 1) / 2;
 
 	// Leoreth: Pyramids negate unhappiness scaling
-	if (GET_PLAYER(getOwnerINLINE()).isHasBuildingEffect((BuildingTypes)PYRAMIDS))
+	if (GET_PLAYER(getOwnerINLINE()).isHasBuildingEffect((BuildingTypes)TEMPLE_OF_KUKULKAN))	//KNOEDEL
 		iHurryAngerModifier = 1;
 
 	changeHurryAngerTimer(iHurryAngerLength * iHurryAngerModifier);
