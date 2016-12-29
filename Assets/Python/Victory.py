@@ -593,12 +593,12 @@ def checkTurn(iGameTurn, iPlayer):
 		# Maya
 		if not pMaya.isReborn():
 		
-			# first goal: discover Calendar by 650 AD
-			if iGameTurn == getTurnForYear(650):
+			# first goal: discover Calendar by 830AD, 830 because that's 10.0.0.0.0 in their Calendar
+			if iGameTurn == getTurnForYear(830):
 				expire(iMaya, 0)
 				
-			# second goal: build the Temple of Kukulkan by 1200 AD
-			if iGameTurn == getTurnForYear(1200):
+			# second goal: build the Temple of Kukulkan by 1225 AD, because 1224AD is 11.0.0.0.0
+			if iGameTurn == getTurnForYear(1225):
 				expire(iMaya, 1)
 				
 			# third goal: make contact with a European civilization before they discover America
