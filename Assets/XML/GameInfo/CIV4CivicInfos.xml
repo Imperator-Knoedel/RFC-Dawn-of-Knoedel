@@ -257,9 +257,8 @@
 			<Button>,Art/Interface/Buttons/Civics/Representation.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,6,2</Button>
 			<TechPrereq>TECH_CONSTITUTION</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
-			<Upkeep>UPKEEP_MEDIUM</Upkeep>
+			<Upkeep>UPKEEP_LOW</Upkeep>
 			<iLargestCityHappiness>2</iLargestCityHappiness>
-			<iCoreFreeSpecialist>1</iCoreFreeSpecialist>
 			<SpecialistValids>
 				<SpecialistValid>
 					<SpecialistType>SPECIALIST_STATESMAN</SpecialistType>
