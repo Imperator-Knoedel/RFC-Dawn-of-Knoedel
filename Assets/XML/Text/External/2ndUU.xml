@@ -6,8 +6,8 @@
 <!-- Game Text - New -->
 <Civ4GameText xmlns="http://www.firaxis.com">
 	<TEXT>
-		<Tag>TXT_KEY_UNIT_AMERICAN_NAVY_SEAL_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Navy SEAL[COLOR_REVERT], the American replacement for the [COLOR_UNIT_TEXT]Marine[COLOR_REVERT], has some first strikes and begins with the [COLOR_HIGHLIGHT_TEXT]March[COLOR_REVERT] promotion.</English>
+		<Tag>TXT_KEY_UNIT_AMERICAN_US_MARINE_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Marine[COLOR_REVERT], the American replacement for the [COLOR_UNIT_TEXT]Paratrooper[COLOR_REVERT], has an additional first strike chance, a small bonus against Gunpowder units and begins with the [COLOR_HIGHLIGHT_TEXT]Amphibious[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]March[COLOR_REVERT] promotions.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ARABIA_GHAZI</Tag>

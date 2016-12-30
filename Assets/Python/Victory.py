@@ -1139,9 +1139,9 @@ def checkTurn(iGameTurn, iPlayer):
 				else:
 					lose(iAztecs, 0)
 					
-			# second goal: build four pagan temples and sacrificial altars by 1520 AD
+			# second goal: build five pagan temples and sacrificial altars by 1520 AD
 			if isPossible(iAztecs, 1):
-				if getNumBuildings(iAztecs, iPaganTemple) >= 4 and getNumBuildings(iAztecs, iAztecSacrificialAltar) >= 4:
+				if getNumBuildings(iAztecs, iPaganTemple) >= 5 and getNumBuildings(iAztecs, iAztecSacrificialAltar) >= 5:
 					win(iAztecs, 1)
 			
 			if iGameTurn == getTurnForYear(1520):
@@ -1724,13 +1724,13 @@ def onBuildingBuilt(iPlayer, iBuilding):
 				
 	elif iPlayer == iAztecs:
 	
-		# second Aztec goal: build 4 pagan temples and sacrificial altars
+		# second Aztec goal: build 5 pagan temples and sacrificial altars
 		if not pAztecs.isReborn():
 			if isPossible(iAztecs, 1):
 				if iBuilding in [iPaganTemple, iAztecSacrificialAltar]:
 					iTemples = getNumBuildings(iAztecs, iPaganTemple)
 					iAltars = getNumBuildings(iAztecs, iAztecSacrificialAltar)
-					if iTemples >= 4 and iAltars >= 4:
+					if iTemples >= 5 and iAltars >= 5:
 						win(iAztecs, 1)
 						
 		# first Mexican goal: build three cathedrals of your state religion by 1880 AD
@@ -3504,7 +3504,7 @@ def getUHVHelp(iPlayer, iGoal):
 			elif iGoal == 1:
 				iTemples = getNumBuildings(iAztecs, iPaganTemple)
 				iAltars = getNumBuildings(iAztecs, iAztecSacrificialAltar)
-				aHelp.append(getIcon(iTemples >= 4) + localText.getText("TXT_KEY_VICTORY_NUM_TEMPLES", (iTemples, 4)) + " " + getIcon(iAltars >= 4) + localText.getText("TXT_KEY_VICTORY_NUM_ALTARS", (iAltars, 4)))
+				aHelp.append(getIcon(iTemples >= 5) + localText.getText("TXT_KEY_VICTORY_NUM_TEMPLES", (iTemples, 5)) + " " + getIcon(iAltars >= 5) + localText.getText("TXT_KEY_VICTORY_NUM_ALTARS", (iAltars, 5)))
 			elif iGoal == 2:
 				iEnslavedUnits = data.iAztecSlaves
 				aHelp.append(getIcon(iEnslavedUnits >= 20) + localText.getText("TXT_KEY_VICTORY_ENSLAVED_UNITS", (iEnslavedUnits, 20)))

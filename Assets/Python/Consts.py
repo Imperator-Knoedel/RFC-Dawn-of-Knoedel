@@ -1502,7 +1502,7 @@ iJapaneseSamurai, iVikingHuscarl, iCongolesePombos, iArabiaGhazi, iGermanDoppels
 iMayaSpearman, iZuluImpi, iPikeman, iHolyRomanLandsknecht, iByantineTagmata, iIndonesiaBambooRuncing, iJapanAshigaru, iKhmerPhakak, iTibetDobDob, iMusketman,
 iOttomanJanissary, iEthiopianAskari, iIranianQizilbash, iPortugalBandeirantes, iRussiaStrelets, iSpainTercio, iIroquoisMohawk, iFrenchMusketeer, iRifleman,
 iEnglishRedcoat, iAmericanMinuteman, iThaiMahardlek, iGrenadier, iColombianAlbionLegion, iDutchGardist, iIranNaffatun, iAtInfantry, iInfantry, iItalianBersagliere,
-iArgentinaPatricios, iMexicoEjercito, iMughalSepoy, iSamInfantry, iMobileSam, iAmericanNavySeal, iBrazilianGuardaNacional, iParatrooper, iMechanizedInfantry,
+iArgentinaPatricios, iMexicoEjercito, iMughalSepoy, iSamInfantry, iMobileSam, iAmericanUSMarine, iBrazilianGuardaNacional, iParatrooper, iMechanizedInfantry,
 iArcher, iMandeSkirmisher, iBabylonAsharittuBowman, iMayanHolkan, iNubianMedjay, iLongbowman, iIndianPatiyodha, iCongoNgolo, iCrossbowman, iChineseChokonu,
 iIncanSlinger, iChariot, iEgyptianWarChariot, iPersiaScythedChariot, iHittiteHuluganni, iCelticCidainh, iHorseArcher, iTibetanKhampa, iGreekHetairoi, iMoorsCavalry,
 iNumidianCavalry, iKushanAsvaka, iKnight, iMongolianKeshik, iArabianCamelArcher, iByzantineCataphract, iThaiChangSuek, iFranceChevalier, iSeljukGhulamWarrior,

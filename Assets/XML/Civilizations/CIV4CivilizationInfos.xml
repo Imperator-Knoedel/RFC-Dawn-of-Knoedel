@@ -65,7 +65,7 @@
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_PARATROOPER</UnitClassType>
-					<UnitType>UNIT_AMERICAN_NAVY_SEAL</UnitType>
+					<UnitType>UNIT_AMERICAN_US_MARINE</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>

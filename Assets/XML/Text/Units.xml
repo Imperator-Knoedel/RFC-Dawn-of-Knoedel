@@ -11,7 +11,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_AMERICAN_MINUTEMAN_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Minuteman[COLOR_REVERT], the American replacement for the the [COLOR_UNIT_TEXT]Rifleman[COLOR_REVERT], is cheaper and begins with the [COLOR_HIGHLIGHT_TEXT]March[COLOR_REVERT] promotion.</English>
+		<English>The [COLOR_UNIT_TEXT]Minuteman[COLOR_REVERT], the American replacement for the the [COLOR_UNIT_TEXT]Rifleman[COLOR_REVERT], is cheaper, faster and begins with the [COLOR_HIGHLIGHT_TEXT]Guerilla I[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]March[COLOR_REVERT] promotions, however it is a bit weaker than the unit it replaces. It also has a chance to withdraw and an extra first strike chance.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ARGENTINE_GRENADIER_CAVALRY</Tag>

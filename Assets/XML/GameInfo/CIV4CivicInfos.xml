@@ -293,7 +293,7 @@
 			<iMilitaryProductionModifier>20</iMilitaryProductionModifier>
 			<iBaseFreeUnits>10</iBaseFreeUnits>
 			<iFreeUnitsPopulationPercent>10</iFreeUnitsPopulationPercent>
-			<iWarWearinessModifier>-40</iWarWearinessModifier>
+			<iWarWearinessModifier>-50</iWarWearinessModifier>
 			<iHappyPerMilitaryUnit>1</iHappyPerMilitaryUnit>
 			<iMilitaryHappinessLimit>4</iMilitaryHappinessLimit>
 			<iMaxConscript>1</iMaxConscript>
