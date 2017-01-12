@@ -414,6 +414,7 @@
 			<Description>TXT_KEY_PROMOTION_CHARGE</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereqOr1>PROMOTION_COMBAT1</PromotionPrereqOr1>
+			<PromotionPrereqOr2>PROMOTION_DRILL1</PromotionPrereqOr2>
 			<UnitCombatMods>
 				<UnitCombatMod>
 					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
@@ -482,6 +483,7 @@
 			<Description>TXT_KEY_PROMOTION_AMPHIBIOUS</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
+			<PromotionPrereqOr2>PROMOTION_DRILL2</PromotionPrereqOr2>
 			<bAmphib>1</bAmphib>
 			<bRiver>1</bRiver>
 			<UnitCombats>
@@ -552,6 +554,7 @@
 			<Description>TXT_KEY_PROMOTION_BLITZ</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereqOr1>PROMOTION_COMBAT2</PromotionPrereqOr1>
+			<PromotionPrereqOr2>PROMOTION_DRILL2</PromotionPrereqOr2>
 			<TechPrereq>TECH_HORSEBACK_RIDING</TechPrereq>
 			<bBlitz>1</bBlitz>
 			<UnitCombats>
@@ -579,6 +582,7 @@
 			<Description>TXT_KEY_PROMOTION_COMMANDO</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<PromotionPrereqOr1>PROMOTION_COMBAT4</PromotionPrereqOr1>
+			<PromotionPrereqOr2>PROMOTION_DRILL4</PromotionPrereqOr2>
 			<TechPrereq>TECH_MILITARY_SCIENCE</TechPrereq>
 			<bEnemyRoute>1</bEnemyRoute>
 			<UnitCombats>
@@ -1086,6 +1090,7 @@
 			<Description>TXT_KEY_PROMOTION_DRILL1</Description>
 			<Sound>AS2D_IF_LEVELUP</Sound>
 			<iChanceFirstStrikesChange>1</iChanceFirstStrikesChange>
+			<iCollateralDamageProtection>20</iCollateralDamageProtection>
 			<UnitCombats>
 				<UnitCombat>
 					<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>

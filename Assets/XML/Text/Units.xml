@@ -51,11 +51,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ARABIAN_CAMEL_ARCHER_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Camel Archer[COLOR_REVERT], the Arabian replacement for the the [COLOR_UNIT_TEXT]Knight[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Feudalism[COLOR_REVERT] and [COLOR_TECH_TEXT]Archery[COLOR_REVERT] technologies, doesn't require the [COLOR_TECH_TEXT]Guilds[COLOR_REVERT] technology, doesn't require the [COLOR_HIGHLIGHT_TEXT]Horse[COLOR_REVERT] or [COLOR_HIGHLIGHT_TEXT]Iron[COLOR_REVERT] resources, is able to withdraw from combat and has double movement in Desert.</English>
+		<English>The [COLOR_UNIT_TEXT]Camel Archer[COLOR_REVERT], the Arabian replacement for the the [COLOR_UNIT_TEXT]Knight[COLOR_REVERT], is cheaper but weaker, requires the [COLOR_TECH_TEXT]Archery[COLOR_REVERT] technology, doesn't require the [COLOR_HIGHLIGHT_TEXT]Horse[COLOR_REVERT] or [COLOR_HIGHLIGHT_TEXT]Iron[COLOR_REVERT] resources, doesn't require the [COLOR_HIGHLIGHT_TEXT]Vassalage[COLOR_REVERT] civic, is able to withdraw from combat and has double movement in Desert.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ARGENTINE_GRENADIER_CAVALRY_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Grenadier Cavalry[COLOR_REVERT], the Argentine replacement for the [COLOR_UNIT_TEXT]Cavalry[COLOR_REVERT], loses the flank bonus against the [COLOR_UNIT_TEXT]Bombard[COLOR_REVERT] and has a combat bonus against the [COLOR_UNIT_TEXT]Rifleman[COLOR_REVERT] unit.</English>
+		<English>The [COLOR_UNIT_TEXT]Grenadier Cavalry[COLOR_REVERT], the Argentine replacement for the [COLOR_UNIT_TEXT]Cavalry[COLOR_REVERT], has a combat bonus against the [COLOR_UNIT_TEXT]Rifleman[COLOR_REVERT] unit, an additional first strike, and a higher chance to withdraw from combat.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ARTILLERY_STRATEGY</Tag>
@@ -63,7 +63,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_AZTEC_JAGUAR_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Jaguar[COLOR_REVERT], the Aztec replacement for the [COLOR_UNIT_TEXT]Swordsman[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Bronze Working[COLOR_REVERT] technology, doesn't require the [COLOR_TECH_TEXT]Iron Working[COLOR_REVERT] technology, is cheaper, doesn't require the [COLOR_HIGHLIGHT_TEXT]Iron[COLOR_REVERT] resource, is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT] and begins with the [COLOR_HIGHLIGHT_TEXT]Woodsman I[COLOR_REVERT] promotion.</English>
+		<English>The [COLOR_UNIT_TEXT]Jaguar[COLOR_REVERT], the Aztec replacement for the [COLOR_UNIT_TEXT]Swordsman[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Bronze Working[COLOR_REVERT] technology, doesn't require the [COLOR_TECH_TEXT]Iron Working[COLOR_REVERT] technology, doesn't require the [COLOR_HIGHLIGHT_TEXT]Iron[COLOR_REVERT] resource, is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT] and begins with the [COLOR_HIGHLIGHT_TEXT]Woodsman I[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Shock[COLOR_REVERT] promotions.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_KUSHAN_ASVAKA</Tag>
@@ -646,7 +646,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_KNIGHT_STRATEGY</Tag>
-		<English>[COLOR_UNIT_TEXT]Knights[COLOR_REVERT] are immune to first strikes, don't receive defensive bonuses and have a flank attack against [COLOR_UNIT_TEXT]Catapult[COLOR_REVERT] and [COLOR_UNIT_TEXT]Trebuchet[COLOR_REVERT] units.</English>
+		<English>[COLOR_UNIT_TEXT]Knights[COLOR_REVERT] are immune to first strikes, don't receive defensive bonuses and have a flank attack against [COLOR_UNIT_TEXT]Catapult[COLOR_REVERT] and [COLOR_UNIT_TEXT]Trebuchet[COLOR_REVERT] units. They require the Vassalage civic.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_KHMER_BALLISTA_ELEPHANT_STRATEGY</Tag>
@@ -667,7 +667,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_HEAVY_SWORDSMAN_STRATEGY</Tag>
-		<English>[COLOR_UNIT_TEXT]Heavy Swordsmen[COLOR_REVERT] have a combat bonus against [COLOR_UNIT_TEXT]Melee Units[COLOR_REVERT].</English>
+		<English>[COLOR_UNIT_TEXT]Heavy Swordsmen[COLOR_REVERT] have a city attack bonus.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_MANDE_SKIRMISHER</Tag>

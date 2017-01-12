@@ -405,16 +405,7 @@
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iExtraPlayerInstances>0</iExtraPlayerInstances>
 			<DefaultBuilding>BUILDING_SECURITY_BUREAU</DefaultBuilding>
-		</BuildingClassInfo><!--
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_CITY_HALL</Type>
-			<Description>TXT_KEY_BUILDING_CITY_HALL</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>0</iExtraPlayerInstances>
-			<DefaultBuilding>BUILDING_CITY_HALL</DefaultBuilding>
-		</BuildingClassInfo>-->
+		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_JEWISH_TEMPLE</Type>
 			<Description>TXT_KEY_BUILDING_JEWISH_TEMPLE</Description>
@@ -816,13 +807,13 @@
 			<DefaultBuilding>BUILDING_TRIUMPHAL_ARCH</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_OPERA_HOUSE</Type>
-			<Description>TXT_KEY_BUILDING_OPERA_HOUSE</Description>
+			<Type>BUILDINGCLASS_GRAND_OPERA_HOUSE</Type>
+			<Description>TXT_KEY_BUILDING_GRAND_OPERA_HOUSE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>1</iMaxPlayerInstances>
 			<iExtraPlayerInstances>0</iExtraPlayerInstances>
-			<DefaultBuilding>BUILDING_OPERA_HOUSE</DefaultBuilding>
+			<DefaultBuilding>BUILDING_GRAND_OPERA_HOUSE</DefaultBuilding>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
 			<Type>BUILDINGCLASS_NATIONAL_PARK</Type>

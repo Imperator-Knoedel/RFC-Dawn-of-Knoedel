@@ -258,8 +258,12 @@
 					<UnitType>UNIT_ARGENTINE_GRENADIER_CAVALRY</UnitType>
 				</Unit>
 				<Unit>
-					<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
+					<UnitClassType>UNITCLASS_PARATROOPER</UnitClassType>
 					<UnitType>UNIT_ARGENTINA_PATRICIOS</UnitType>
+				</Unit>
+				<Unit>
+					<UnitClassType>UNITCLASS_GREAT_GENERAL</UnitClassType>
+					<UnitType>UNIT_ARGENTINE_GREAT_GENERAL</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>
@@ -1022,7 +1026,7 @@
 					<BuildingType>NONE</BuildingType>
 				</Building>
 				<Building>
-					<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_GRAND_OPERA_HOUSE</BuildingClassType>
 					<BuildingType>NONE</BuildingType>
 				</Building>
 				<Building>
@@ -2251,7 +2255,7 @@
 				</Building>
 				<Building>
 					<BuildingClassType>BUILDINGCLASS_AMPHITHEATRE</BuildingClassType>
-					<BuildingType>BUILDING_HRE_OPERA</BuildingType>
+					<BuildingType>BUILDING_HRE_OPERA_HOUSE</BuildingType>
 				</Building>
 			</Buildings>
 			<Units>
@@ -5053,7 +5057,7 @@
 					<BuildingType>NONE</BuildingType>
 				</Building>
 				<Building>
-					<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_GRAND_OPERA_HOUSE</BuildingClassType>
 					<BuildingType>NONE</BuildingType>
 				</Building>
 				<Building>
@@ -6066,7 +6070,7 @@
 					<BuildingType>NONE</BuildingType>
 				</Building>
 				<Building>
-					<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_GRAND_OPERA_HOUSE</BuildingClassType>
 					<BuildingType>NONE</BuildingType>
 				</Building>
 				<Building>
@@ -6303,7 +6307,7 @@
 					<BuildingType>NONE</BuildingType>
 				</Building>
 				<Building>
-					<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_GRAND_OPERA_HOUSE</BuildingClassType>
 					<BuildingType>NONE</BuildingType>
 				</Building>
 				<Building>
@@ -6516,7 +6520,7 @@
 					<BuildingType>NONE</BuildingType>
 				</Building>
 				<Building>
-					<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_GRAND_OPERA_HOUSE</BuildingClassType>
 					<BuildingType>NONE</BuildingType>
 				</Building>
 				<Building>
@@ -6876,7 +6880,7 @@
 					<BuildingType>NONE</BuildingType>
 				</Building>
 				<Building>
-					<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_GRAND_OPERA_HOUSE</BuildingClassType>
 					<BuildingType>NONE</BuildingType>
 				</Building>
 				<Building>

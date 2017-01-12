@@ -14143,7 +14143,7 @@ void CvCity::doCulture()
 		changeCultureTimes100(getOwnerINLINE(), getCommerceRateTimes100(COMMERCE_CULTURE), false, true);
 		return;
 	}
-	
+
 	PlayerTypes eOwner = getOwnerINLINE();
 	int iCultureModifier = GET_PLAYER(eOwner).getModifier(MODIFIER_CULTURE);
 

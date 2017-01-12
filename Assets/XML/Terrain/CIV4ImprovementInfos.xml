@@ -835,6 +835,14 @@
 			<ImprovementUpgrade/>
 			<TechYieldChanges>
 				<TechYieldChange>
+					<PrereqTech>TECH_PAPER</PrereqTech>
+					<TechYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</TechYields>
+				</TechYieldChange>
+				<TechYieldChange>
 					<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 					<TechYields>
 						<iYield>0</iYield>

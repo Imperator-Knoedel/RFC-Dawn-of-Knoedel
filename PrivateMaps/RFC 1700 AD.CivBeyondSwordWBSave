@@ -26247,7 +26247,7 @@ BeginPlot
 		BuildingType=BUILDING_FORGE
 		BuildingType=BUILDING_LIBRARY
 		BuildingType=BUILDING_UNIVERSITY
-		BuildingType=BUILDING_HRE_OPERA
+		BuildingType=BUILDING_HRE_OPERA_HOUSE
 		BuildingType=BUILDING_MARKET
 		BuildingType=BUILDING_GROCER
 		BuildingType=BUILDING_BANK
@@ -27990,7 +27990,7 @@ BeginPlot
 		BuildingType=BUILDING_FORGE
 		BuildingType=BUILDING_LIBRARY
 		BuildingType=BUILDING_UNIVERSITY
-		BuildingType=BUILDING_HRE_OPERA
+		BuildingType=BUILDING_HRE_OPERA_HOUSE
 		BuildingType=BUILDING_MARKET
 		BuildingType=BUILDING_GROCER
 		BuildingType=BUILDING_BANK
@@ -31762,7 +31762,7 @@ BeginPlot
 	EndUnit
 	BeginCity
 		CityOwner=35, (Turkey)
-		CityName=Heraklion
+		CityName=Kandiye
 		CityPopulation=3
 		BuildingType=BUILDING_GRANARY
 		BuildingType=BUILDING_SMOKEHOUSE

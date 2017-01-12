@@ -5040,6 +5040,8 @@ dIdentifiers = {
 	'Singkhpor'		:	'Singapura',
 	'Malaka'		:	'Bandar Melaka',
 	'Melpum'		:	'Milano',
+	'Knossos'		:	'Knossos',
+	'Rabd al-Handaq'		:	'Knossos',
 }
 
 	
@@ -5326,6 +5328,7 @@ tRenames = (
 	'Larnaca'		:	'Larnaka',
 	'Parsa'			:	'Persepolis',
 	'Sardis'		:	'Sardeis',
+	'Knossos'		:	'Knossos',
 },
 #Language: Phoenician
 {
@@ -5824,6 +5827,7 @@ tRenames = (
 	'Kolachi'		:	'Debal',
 	'Chandax'		:	'Rabd al-Handaq',
 	'Iraklion'		:	'Rabd al-Handaq',
+	'Knossos'		:	'Rabd al-Handaq',
 },
 #Language: Khmer
 {

@@ -1329,12 +1329,12 @@ def checkTurn(iGameTurn, iPlayer):
 		if iGameTurn == getTurnForYear(1955):
 			expire(iArgentina, 1)
 			
-		# third goal: experience six golden ages by 1980 AD
+		# third goal: experience six golden ages by 1975 AD
 		if isPossible(iArgentina, 2):
-			if data.iArgentineGoldenAgeTurns >= utils.getTurns(40):
+			if data.iArgentineGoldenAgeTurns >= utils.getTurns(48):
 				win(iArgentina, 2)
 				
-		if iGameTurn == getTurnForYear(1980):
+		if iGameTurn == getTurnForYear(1975):
 			expire(iArgentina, 2)
 			
 		if pArgentina.isGoldenAge() and not pArgentina.isAnarchy():

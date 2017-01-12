@@ -23,7 +23,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ARABIA_GHAZI_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Ghazi[COLOR_REVERT], the Arabian replacement for the [COLOR_UNIT_TEXT]Heavy Swordsman[COLOR_REVERT], can withdraw from a combat and is immune to first strikes.</English>
+		<English>The [COLOR_UNIT_TEXT]Ghazi[COLOR_REVERT], the Arabian replacement for the [COLOR_UNIT_TEXT]Heavy Swordsman[COLOR_REVERT], can withdraw from combat and is faster, especially in Desert. It's also available with the [COLOR_HIGHLIGHT_TEXT]Feudalism[COLOR_REVERT] tech instead of [COLOR_HIGHLIGHT_TEXT]Civil Service[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ARGENTINA_PATRICIOS</Tag>
@@ -39,7 +39,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ARGENTINA_PATRICIOS_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Patricios[COLOR_REVERT], the Argentinian replacement for the [COLOR_UNIT_TEXT]Infantry[COLOR_REVERT], has a chance to withdraw from combat and begins with the [COLOR_HIGHLIGHT_TEXT]Drill I[COLOR_REVERT] promotion.</English>
+		<English>The [COLOR_UNIT_TEXT]Patricios[COLOR_REVERT], the Argentinian replacement for the [COLOR_UNIT_TEXT]Infantry[COLOR_REVERT], is cheaper, has a higher chance to withdraw from combat and begins with the [COLOR_HIGHLIGHT_TEXT]Drill I[COLOR_REVERT] promotion.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_AZTEC_EAGLE_WARRIOR</Tag>
@@ -55,7 +55,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_AZTEC_EAGLE_WARRIOR_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Eagle Warrior[COLOR_REVERT], the Aztec replacement for the [COLOR_UNIT_TEXT]Spearman[COLOR_REVERT], is stronger, has a smaller combat bonus against [COLOR_UNIT_TEXT]Mounted Units[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Bronze Working[COLOR_REVERT] technology, doesn't require the [COLOR_HIGHLIGHT_TEXT]Iron[COLOR_REVERT] or [COLOR_HIGHLIGHT_TEXT]Copper[COLOR_REVERT] resource and is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT].</English>
+		<English>The [COLOR_UNIT_TEXT]Eagle Warrior[COLOR_REVERT], the Aztec replacement for the [COLOR_UNIT_TEXT]Spearman[COLOR_REVERT], is stronger, has a smaller combat bonus against [COLOR_UNIT_TEXT]Mounted Units[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Bronze Working[COLOR_REVERT] technology, doesn't require the [COLOR_HIGHLIGHT_TEXT]Iron[COLOR_REVERT] or [COLOR_HIGHLIGHT_TEXT]Copper[COLOR_REVERT] resource and is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT]. It also has a first strike.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_BABYLON_RAM</Tag>

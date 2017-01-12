@@ -16,7 +16,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_AMERICAN_MALL_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Mall[COLOR_REVERT], the American replacement for the [COLOR_BUILDING_TEXT]Supermarket[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Electricity[COLOR_REVERT] technology, doesn't require the [COLOR_TECH_TEXT]Refrigeration[COLOR_REVERT] technology, increases the city's commerce output, allows you to hire a [COLOR_HIGHLIGHT_TEXT]Merchant[COLOR_REVERT] specialist and increases the city's happiness with access to [COLOR_HIGHLIGHT_TEXT]Hit Football Events[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Hit Singles[COLOR_REVERT], and [COLOR_HIGHLIGHT_TEXT]Hit Movies[COLOR_REVERT].</English>
+		<English>The [COLOR_BUILDING_TEXT]Mall[COLOR_REVERT], the American replacement for the [COLOR_BUILDING_TEXT]Supermarket[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Electricity[COLOR_REVERT] technology, doesn't require the [COLOR_TECH_TEXT]Refrigeration[COLOR_REVERT] technology, increases the city's commerce output, allows you to hire an extra [COLOR_HIGHLIGHT_TEXT]Merchant[COLOR_REVERT] specialist and increases the city's happiness with access to [COLOR_HIGHLIGHT_TEXT]Hit Football Events[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Hit Singles[COLOR_REVERT], and [COLOR_HIGHLIGHT_TEXT]Hit Movies[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ADMINISTRATIVE_CENTER_STRATEGY</Tag>
@@ -41,11 +41,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ARGENTINE_REFRIGERATION_PLANT_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Cold Storage Plant[COLOR_REVERT], the Argentine replacement for the [COLOR_BUILDING_TEXT]Supermarket[COLOR_REVERT], increases the improved tile yield of [COLOR_HIGHLIGHT_TEXT]Cows[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Deer[COLOR_REVERT], and [COLOR_HIGHLIGHT_TEXT]Pigs[COLOR_REVERT].</English>
+		<English>The [COLOR_BUILDING_TEXT]Cold Storage Plant[COLOR_REVERT], the Argentine replacement for the [COLOR_BUILDING_TEXT]Supermarket[COLOR_REVERT], increases the improved tile yield of [COLOR_HIGHLIGHT_TEXT]Cows[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Deer[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Sheep[COLOR_REVERT], and [COLOR_HIGHLIGHT_TEXT]Pigs[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_AZTEC_SACRIFICIAL_ALTAR_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Sacrificial Altar[COLOR_REVERT], the Aztec replacements for the [COLOR_BUILDING_TEXT]Courthouse[COLOR_REVERT], reduces the anger duration from sacrificing population and is cheaper.</English>
+		<English>The [COLOR_BUILDING_TEXT]Sacrificial Altar[COLOR_REVERT], the Aztec replacements for the [COLOR_BUILDING_TEXT]Courthouse[COLOR_REVERT], reduces the anger duration from sacrificing population, provides culture and grants a [COLOR_HIGHLIGHT_TEXT]Priest[COLOR_REVERT] slot.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_BANK_STRATEGY</Tag>
@@ -121,7 +121,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CASTLE_STRATEGY</Tag>
-		<English>[COLOR_BUILDING_TEXT]Castles[COLOR_REVERT] increase your cities' defense against pre-gunpowder units, increase espionage output, generate a small amount of culture and also provide one extra trade route.</English>
+		<English>[COLOR_BUILDING_TEXT]Castles[COLOR_REVERT] increase your cities' defense against pre-gunpowder units, increase all commerce output, generate a small amount of culture, grant one free specialist for every [COLOR_HIGHLIGHT_TEXT]Fort[COLOR_REVERT] improvement and give several specialist slots. It does however increase maintenance.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CHINESE_TAIXUE</Tag>
@@ -450,7 +450,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_UNIVERSITY_STRATEGY</Tag>
-		<English>[COLOR_BUILDING_TEXT]Universities[COLOR_REVERT] increase a city's research and provide culture. [COLOR_BUILDING_TEXT]Universities[COLOR_REVERT] are required to build the [COLOR_BUILDING_TEXT]CERN Research Complex[COLOR_REVERT] world wonder.</English>
+		<English>[COLOR_BUILDING_TEXT]Universities[COLOR_REVERT] increase a city's research and provide culture as well as several specialist slots and extra Great People Birth Rate. [COLOR_BUILDING_TEXT]Universities[COLOR_REVERT] are required to build the [COLOR_BUILDING_TEXT]CERN Research Complex[COLOR_REVERT] world wonder.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_VIKING_TRADING_POST_STRATEGY</Tag>
@@ -684,7 +684,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_SMOKEHOUSE_STRATEGY</Tag>
-		<English>[COLOR_BUILDING_TEXT]Smokehouses[COLOR_REVERT] increase the city's health with access to [COLOR_HIGHLIGHT_TEXT]Cows[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Deer[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Pigs[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Sheep[COLOR_REVERT].</English>
+		<English>[COLOR_BUILDING_TEXT]Smokehouses[COLOR_REVERT] increase the city's food with improved [COLOR_HIGHLIGHT_TEXT]Cows[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Deer[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Pigs[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Sheep[COLOR_REVERT] resources. They also increase food storage.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ROMAN_FORUM_STRATEGY</Tag>
@@ -720,7 +720,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_SUPERMARKET_STRATEGY</Tag>
-		<English>[COLOR_BUILDING_TEXT]Supermarkets[COLOR_REVERT] provide food and increase the city's health with access to [COLOR_HIGHLIGHT_TEXT]Corn[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Rice[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Wheat[COLOR_REVERT].</English>
+		<English>[COLOR_BUILDING_TEXT]Supermarkets[COLOR_REVERT] provide food and gold and increase the city's health with access to land food resources. They also grant a free [COLOR_HIGHLIGHT_TEXT]Merchant[COLOR_REVERT] specialist.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_TAMIL_SANGAM</Tag>
@@ -748,7 +748,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_THEATRE_STRATEGY</Tag>
-		<English>[COLOR_BUILDING_TEXT]Theatres[COLOR_REVERT] increase a city's culture and increase the happiness output from using the culture slider. [COLOR_BUILDING_TEXT]Theatres[COLOR_REVERT] also provide culture and is required to build the [COLOR_BUILDING_TEXT]Opera House[COLOR_REVERT] national wonder.</English>
+		<English>[COLOR_BUILDING_TEXT]Theatres[COLOR_REVERT] increase a city's culture and increase the happiness output from using the culture slider. [COLOR_BUILDING_TEXT]Theatres[COLOR_REVERT] also provide culture and is required to build the [COLOR_BUILDING_TEXT]Grand Opera House[COLOR_REVERT] national wonder.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_TIBETAN_GOMPA</Tag>

@@ -918,7 +918,7 @@
 			<iTradeRoutes>1</iTradeRoutes>
 			<iAsset>32</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>12</iGridX>
+			<iGridX>13</iGridX>
 			<iGridY>8</iGridY>
 			<Flavors>
 				<Flavor>
@@ -959,7 +959,7 @@
 			<Civilopedia>TXT_KEY_TECH_FASCISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_FASCISM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
-			<iCost>2200</iCost>
+			<iCost>2800</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_INDUSTRIAL</Era>
 			<FirstFreeUnitClass>UNITCLASS_GREAT_GENERAL</FirstFreeUnitClass>
@@ -1011,7 +1011,7 @@
 			<Civilopedia>TXT_KEY_TECH_COMMUNISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_COMMUNISM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
-			<iCost>2200</iCost>
+			<iCost>2400</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_INDUSTRIAL</Era>
 			<FirstFreeUnitClass>UNITCLASS_GREAT_SPY</FirstFreeUnitClass>
@@ -1059,7 +1059,7 @@
 			<Civilopedia>TXT_KEY_TECH_MASS_MEDIA_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_MASS_MEDIA_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
-			<iCost>3200</iCost>
+			<iCost>5000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MODERN</Era>
 			<iAsset>48</iAsset>
@@ -1091,6 +1091,9 @@
 			<OrPreReqs>
 				<PrereqTech>TECH_RADIO</PrereqTech>
 			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_ASSEMBLY_LINE</PrereqTech>
+			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_MASS_MEDIA_QUOTE</Quote>
 			<Sound>AS2D_TECH_MASS_MEDIA</Sound>
 			<SoundMP>AS2D_TECH_MP_MASS_MEDIA</SoundMP>
@@ -1103,7 +1106,7 @@
 			<Strategy>TXT_KEY_TECH_ECOLOGY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>4200</iCost>
+			<iCost>6000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MODERN</Era>
 			<iAsset>48</iAsset>
@@ -1821,14 +1824,14 @@
 			<Civilopedia>TXT_KEY_TECH_ECONOMICS_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_ECONOMICS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<iCost>1500</iCost>
+			<iCost>1600</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_RENAISSANCE</Era>
 			<FirstFreeUnitClass>UNITCLASS_GREAT_MERCHANT</FirstFreeUnitClass>
 			<iAsset>32</iAsset>
 			<bTrade>1</bTrade>
-			<iGridX>11</iGridX>
-			<iGridY>8</iGridY>
+			<iGridX>12</iGridX>
+			<iGridY>6</iGridY>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_PRODUCTION</FlavorType>
@@ -1852,11 +1855,10 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_EDUCATION</PrereqTech>
+				<PrereqTech>TECH_ASTRONOMY</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_BANKING</PrereqTech>
-				<PrereqTech>TECH_ASTRONOMY</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_ECONOMICS_QUOTE</Quote>
 			<Sound>AS2D_TECH_ECONOMICS</Sound>
@@ -1877,8 +1879,8 @@
 			<iPower>4</iPower>
 			<bTrade>1</bTrade>
 			<bGoodyTech>1</bGoodyTech>
-			<iGridX>12</iGridX>
-			<iGridY>10</iGridY>
+			<iGridX>11</iGridX>
+			<iGridY>8</iGridY>
 			<TerrainTrades>
 				<TerrainTrade>
 					<TerrainType>TERRAIN_OCEAN</TerrainType>
@@ -1899,6 +1901,9 @@
 					<iFlavor>5</iFlavor>
 				</Flavor>
 			</Flavors>
+			<OrPreReqs>
+				<PrereqTech>TECH_EDUCATION</PrereqTech>
+			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_CALENDAR</PrereqTech>
 				<PrereqTech>TECH_OPTICS</PrereqTech>
@@ -1947,7 +1952,7 @@
 			<Civilopedia>TXT_KEY_TECH_SCIENTIFIC_METHOD_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_SCIENTIFIC_METHOD_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>2800</iCost>
+			<iCost>3000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_RENAISSANCE</Era>
 			<iFirstFreeTechs>1</iFirstFreeTechs>
@@ -1988,7 +1993,7 @@
 			<Civilopedia>TXT_KEY_TECH_PHYSICS_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_PHYSICS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>3600</iCost>
+			<iCost>4000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_INDUSTRIAL</Era>
 			<FirstFreeUnitClass>UNITCLASS_GREAT_SCIENTIST</FirstFreeUnitClass>
@@ -2027,7 +2032,7 @@
 			<Civilopedia>TXT_KEY_TECH_BIOLOGY_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_BIOLOGY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>3400</iCost>
+			<iCost>4000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_INDUSTRIAL</Era>
 			<iHealth>1</iHealth>
@@ -2067,7 +2072,7 @@
 			<Civilopedia>TXT_KEY_TECH_MEDICINE_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_MEDICINE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
-			<iCost>3800</iCost>
+			<iCost>4500</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_INDUSTRIAL</Era>
 			<iHealth>1</iHealth>
@@ -2115,7 +2120,7 @@
 			<Strategy>TXT_KEY_TECH_ELECTRICITY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>4500</iCost>
+			<iCost>5000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_INDUSTRIAL</Era>
 			<iAsset>40</iAsset>
@@ -2145,6 +2150,7 @@
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_STEAM_POWER</PrereqTech>
+				<PrereqTech>TECH_STEEL</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_ELECTRICITY_QUOTE</Quote>
 			<Sound>AS2D_TECH_ELECTRICITY</Sound>
@@ -2157,7 +2163,7 @@
 			<Civilopedia>TXT_KEY_TECH_COMBUSTION_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_COMBUSTION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
-			<iCost>4000</iCost>
+			<iCost>4500</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_INDUSTRIAL</Era>
 			<iAsset>40</iAsset>
@@ -2197,13 +2203,13 @@
 			<Strategy>TXT_KEY_TECH_FISSION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>4800</iCost>
+			<iCost>5600</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<Era>ERA_INDUSTRIAL</Era>
+			<Era>ERA_MODERN</Era>
 			<iAsset>40</iAsset>
 			<iPower>8</iPower>
 			<bTrade>1</bTrade>
-			<iGridX>16</iGridX>
+			<iGridX>17</iGridX>
 			<iGridY>7</iGridY>
 			<Flavors>
 				<Flavor>
@@ -2220,7 +2226,7 @@
 				</Flavor>
 			</Flavors>
 			<OrPreReqs>
-				<PrereqTech>TECH_ELECTRICITY</PrereqTech>
+				<PrereqTech>TECH_INDUSTRIALISM</PrereqTech>
 			</OrPreReqs>
 			<Quote>TXT_KEY_TECH_FISSION_QUOTE</Quote>
 			<Sound>AS2D_TECH_FISSION</Sound>
@@ -2234,7 +2240,7 @@
 			<Strategy>TXT_KEY_TECH_FLIGHT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>3600</iCost>
+			<iCost>4500</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_INDUSTRIAL</Era>
 			<iAsset>48</iAsset>
@@ -2280,7 +2286,7 @@
 			<Strategy>TXT_KEY_TECH_ADVANCED_FLIGHT_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>4500</iCost>
+			<iCost>5000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MODERN</Era>
 			<iAsset>48</iAsset>
@@ -2349,7 +2355,7 @@
 			<Civilopedia>TXT_KEY_TECH_PLASTICS_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_PLASTICS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
-			<iCost>5600</iCost>
+			<iCost>6000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MODERN</Era>
 			<iAsset>48</iAsset>
@@ -2388,7 +2394,7 @@
 			<Strategy>TXT_KEY_TECH_COMPOSITES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>5800</iCost>
+			<iCost>6600</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MODERN</Era>
 			<iAsset>48</iAsset>
@@ -2424,7 +2430,7 @@
 			<Strategy>TXT_KEY_TECH_STEALTH_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>6200</iCost>
+			<iCost>7000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_FUTURE</Era>
 			<iAsset>48</iAsset>
@@ -2460,7 +2466,7 @@
 			<Strategy>TXT_KEY_TECH_GENETICS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>6000</iCost>
+			<iCost>7000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_FUTURE</Era>
 			<iHealth>1</iHealth>
@@ -2500,7 +2506,7 @@
 			<Strategy>TXT_KEY_TECH_FIBER_OPTICS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>6200</iCost>
+			<iCost>6800</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MODERN</Era>
 			<iAsset>48</iAsset>
@@ -2533,7 +2539,7 @@
 			<Strategy>TXT_KEY_TECH_FUSION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>7500</iCost>
+			<iCost>8000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_FUTURE</Era>
 			<FirstFreeUnitClass>UNITCLASS_GREAT_ENGINEER</FirstFreeUnitClass>
@@ -3422,7 +3428,7 @@
 			<Strategy>TXT_KEY_TECH_ASSEMBLY_LINE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>4200</iCost>
+			<iCost>4500</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_INDUSTRIAL</Era>
 			<iAsset>40</iAsset>
@@ -3463,7 +3469,7 @@
 			<Strategy>TXT_KEY_TECH_RAILROAD_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>3800</iCost>
+			<iCost>4000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_INDUSTRIAL</Era>
 			<iAsset>40</iAsset>
@@ -3510,7 +3516,7 @@
 			<Strategy>TXT_KEY_TECH_ARTILLERY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>3600</iCost>
+			<iCost>4000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_INDUSTRIAL</Era>
 			<iAsset>40</iAsset>
@@ -3547,7 +3553,7 @@
 			<Strategy>TXT_KEY_TECH_INDUSTRIALISM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_ECONOMY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>4800</iCost>
+			<iCost>5000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_INDUSTRIAL</Era>
 			<iAsset>40</iAsset>
@@ -3590,7 +3596,7 @@
 			<Civilopedia>TXT_KEY_TECH_RADIO_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_RADIO_STRATEGY</Strategy>
 			<Advisor>ADVISOR_CULTURE</Advisor>
-			<iCost>4500</iCost>
+			<iCost>5000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_INDUSTRIAL</Era>
 			<iAsset>48</iAsset>
@@ -3619,6 +3625,9 @@
 			<OrPreReqs>
 				<PrereqTech>TECH_ELECTRICITY</PrereqTech>
 			</OrPreReqs>
+			<AndPreReqs>
+				<PrereqTech>TECH_RAILROAD</PrereqTech>
+			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_RADIO_QUOTE</Quote>
 			<Sound>AS2D_TECH_RADIO</Sound>
 			<SoundMP>AS2D_TECH_MP_RADIO</SoundMP>
@@ -3630,9 +3639,9 @@
 			<Civilopedia>TXT_KEY_TECH_REFRIGERATION_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_REFRIGERATION_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
-			<iCost>4000</iCost>
+			<iCost>4800</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
-			<Era>ERA_MODERN</Era>
+			<Era>ERA_INDUSTRIAL</Era>
 			<iAsset>48</iAsset>
 			<bTrade>1</bTrade>
 			<iGridX>16</iGridX>
@@ -3674,7 +3683,7 @@
 			<Civilopedia>TXT_KEY_TECH_SUPERCONDUCTORS_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_SUPERCONDUCTORS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
-			<iCost>5500</iCost>
+			<iCost>6000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MODERN</Era>
 			<iAsset>48</iAsset>
@@ -3706,7 +3715,7 @@
 			<Civilopedia>TXT_KEY_TECH_COMPUTERS_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_COMPUTERS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
-			<iCost>5200</iCost>
+			<iCost>5600</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MODERN</Era>
 			<iAsset>48</iAsset>
@@ -3748,7 +3757,7 @@
 			<Civilopedia>TXT_KEY_TECH_LASER_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_TECH_LASER_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
-			<iCost>5800</iCost>
+			<iCost>6000</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MODERN</Era>
 			<iAsset>48</iAsset>
@@ -3784,7 +3793,7 @@
 			<Strategy>TXT_KEY_TECH_ROCKETRY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>4600</iCost>
+			<iCost>4800</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MODERN</Era>
 			<iAsset>48</iAsset>
@@ -3807,7 +3816,7 @@
 				<PrereqTech>TECH_ARTILLERY</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_RIFLING</PrereqTech>
+				<PrereqTech>TECH_COMBUSTION</PrereqTech>
 				<PrereqTech>TECH_INDUSTRIALISM</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_ROCKETRY_QUOTE</Quote>
@@ -3822,7 +3831,7 @@
 			<Strategy>TXT_KEY_TECH_SATELLITES_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>5500</iCost>
+			<iCost>5800</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MODERN</Era>
 			<iAsset>48</iAsset>
@@ -3863,7 +3872,7 @@
 			<Strategy>TXT_KEY_TECH_ROBOTICS_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iAITradeModifier>10</iAITradeModifier>
-			<iCost>6500</iCost>
+			<iCost>7500</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<Era>ERA_MODERN</Era>
 			<iWorkerSpeedModifier>50</iWorkerSpeedModifier>

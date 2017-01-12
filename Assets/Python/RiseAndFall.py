@@ -673,7 +673,7 @@ class RiseAndFall:
 			if plot.isCity():
 				city = plot.getPlotCity()
 				if city.getPopulation() > 14:
-					city.changePopulation(-3)
+					city.changePopulation(-2)
 				
 		if iGameTurn == getTurnForYear(1040):	# Leoreth: first Seljuk wave (flips independents, spawns armies for players)
 			tEsfahan = utils.getFreePlot(81, 41)
@@ -2564,6 +2564,7 @@ class RiseAndFall:
 		if (iCiv == iArabia):
 			utils.makeUnit(iLongbowman, iCiv, tPlot, 2)
 			utils.makeUnit(iArabianCamelArcher, iCiv, tPlot, 4)
+			utils.makeUnit(iArabianGhazi, iCiv, tPlot, 2)
 		if iCiv == iTibet:
 			utils.makeUnit(iTibetanKhampa, iCiv, tPlot, 2)
 		if (iCiv == iKhmer):
@@ -2773,6 +2774,7 @@ class RiseAndFall:
 			utils.createSettlers(iCiv, 2)
 			utils.makeUnitAI(iArcher, iCiv, tPlot, UnitAITypes.UNITAI_CITY_DEFENSE, 1)
 			utils.makeUnit(iArabianCamelArcher, iCiv, tPlot, 2)
+			utils.makeUnit(iArabianGhazi, iCiv, tPlot, 2)
 			utils.makeUnit(iWorker, iCiv, tPlot, 1)    
 			tSeaPlot = self.findSeaPlots(tPlot, 1, iCiv)
 			if tSeaPlot:

@@ -56,6 +56,11 @@
 			<TechPrereq>TECH_MONARCHY</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>UPKEEP_LOW</Upkeep>
+			<CapitalCommerceModifiers>
+				<iCommerce>10</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>20</iCommerce>
+			</CapitalCommerceModifiers>
 			<iHappyPerMilitaryUnit>1</iHappyPerMilitaryUnit>
 			<iMilitaryHappinessLimit>6</iMilitaryHappinessLimit>
 			<WeLoveTheKing>TXT_KEY_CIVIC_WE_LOVE_MONARCH</WeLoveTheKing>
@@ -134,7 +139,7 @@
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>20</iCommerce>
 			</CommerceModifiers>
 			<BuildingProductionModifiers>
 				<BuildingProductionModifier>
@@ -157,7 +162,7 @@
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>10</iCommerce>
+				<iCommerce>20</iCommerce>
 			</CommerceModifiers>
 			<SpecialistExtraYields>
 				<iYield>0</iYield>
@@ -194,8 +199,7 @@
 			<TechPrereq>TECH_FEUDALISM</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>NONE</Upkeep>
-			<iDistanceMaintenanceModifier>-50</iDistanceMaintenanceModifier>
-			<iNumCitiesMaintenanceModifier>-50</iNumCitiesMaintenanceModifier>
+			<iNumCitiesMaintenanceModifier>-100</iNumCitiesMaintenanceModifier>
 			<CommerceModifiers>
 				<iCommerce>-10</iCommerce>
 				<iCommerce>-10</iCommerce>
@@ -206,7 +210,7 @@
 			<BuildingHappinessChanges>
 				<BuildingHappinessChange>
 					<BuildingType>BUILDINGCLASS_CASTLE</BuildingType>
-					<iHappinessChange>1</iHappinessChange>
+					<iHappinessChange>2</iHappinessChange>
 				</BuildingHappinessChange>
 			</BuildingHappinessChanges>
 			<ImprovementYieldChanges>
@@ -215,7 +219,7 @@
 					<ImprovementYields>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
-						<iYield>1</iYield>
+						<iYield>2</iYield>
 					</ImprovementYields>
 				</ImprovementYieldChange>
 			</ImprovementYieldChanges>
@@ -436,10 +440,6 @@
 					</ImprovementYields>
 				</ImprovementYieldChange>
 			</ImprovementYieldChanges>
-			<YieldModifiers>
-				<iYield>0</iYield>
-				<iYield>-10</iYield>
-			</YieldModifiers>
 			<CommerceModifiers>
 				<iCommerce>0</iCommerce>
 				<iCommerce>-10</iCommerce>
@@ -652,7 +652,7 @@
 			<CommerceModifiers>
 				<iCommerce>10</iCommerce>
 			</CommerceModifiers>
-			<iCapitalTradeModifier>50</iCapitalTradeModifier>
+			<iCapitalTradeModifier>25</iCapitalTradeModifier>
 			<bNoForeignTradeModifier>1</bNoForeignTradeModifier>
 			<BuildingHappinessChanges>
 				<BuildingHappinessChange>
@@ -848,7 +848,7 @@
 			<Upkeep>UPKEEP_MEDIUM</Upkeep>
 			<bStateReligion>1</bStateReligion>
 			<iNonStateReligionHappiness>-1</iNonStateReligionHappiness>
-			<iStateReligionBuildingProductionModifier>25</iStateReligionBuildingProductionModifier>
+			<iStateReligionBuildingProductionModifier>20</iStateReligionBuildingProductionModifier>
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_RELIGION</CivicOptionType>

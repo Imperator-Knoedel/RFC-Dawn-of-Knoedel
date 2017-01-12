@@ -319,7 +319,7 @@
 	</Define>
 	<Define>
 		<DefineName>MAX_NATIONAL_WONDERS_PER_CITY_FOR_OCC</DefineName>
-		<iDefineIntVal>5</iDefineIntVal>
+		<iDefineIntVal>6</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>MAX_BUILDINGS_PER_CITY</DefineName>
@@ -383,7 +383,7 @@
 	</Define>
 	<Define>
 		<DefineName>MAX_TRADE_ROUTES</DefineName>
-		<iDefineIntVal>8</iDefineIntVal>
+		<iDefineIntVal>10</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>MIN_TIMER_UNIT_DOUBLE_MOVES</DefineName>
@@ -415,7 +415,7 @@
 	</Define>
 	<Define>
 		<DefineName>RANGE_COMBAT_DAMAGE</DefineName>
-		<iDefineIntVal>30</iDefineIntVal>
+		<iDefineIntVal>50</iDefineIntVal>
 	</Define>
 	<Define>
 		<DefineName>COLLATERAL_COMBAT_DAMAGE</DefineName>

@@ -388,7 +388,6 @@ tRenames = (
 	'Marsiliya'		:	'Massalia',
 	'Dyrrachium'		:	'Epidamnos',
 	'Dyrrachion'		:	'Epidamnos',
-	'Troia'		:	'Ephesos',
 	'Athenae'		:	'Athenai',
 	'Atina'			:	'Athenai',
 	'Athen'			:	'Athenai',
