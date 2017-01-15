@@ -65,6 +65,34 @@
 		<English>The [COLOR_BUILDING_TEXT]Chinampa[COLOR_REVERT], the Aztec replacement for the [COLOR_BUILDING_TEXT]Aqueduct[COLOR_REVERT], increases the tile yield of [COLOR_HIGHLIGHT_TEXT]Corn[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Spice[COLOR_REVERT]. It also provides more health.</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BABYLONIAN_GARDEN</Tag>
+		<English>Garden</English>
+		<French>
+			<Text>Jardin:Jardins</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</French>
+		<German>
+			<Text>Garten</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</German>
+		<Italian>
+			<Text>Giardino:Giardini</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Jard&#237;n:Jardines</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BABYLONIAN_GARDEN_STRATEGY</Tag>
+		<English>The [COLOR_BUILDING_TEXT]Garden[COLOR_REVERT], the Babylonian replacement for the [COLOR_BUILDING_TEXT]Aqueduct[COLOR_REVERT], is available earlier and provides bonus happiness and a bonus to culture.</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_BUILDING_BRAZIL_SAMBADROME</Tag>
 		<English>Sambadrome</English>
 		<French>Sambodrome</French>
@@ -78,7 +106,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_BRAZIL_SAMBADROME_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Sambadrome[COLOR_REVERT], the Brazilian replacement for the [COLOR_BUILDING_TEXT]Amphitheatre[COLOR_REVERT], increases happiness and culture.</English>
+		<English>The [COLOR_BUILDING_TEXT]Sambadrome[COLOR_REVERT], the Brazilian replacement for the [COLOR_BUILDING_TEXT]Amphitheatre[COLOR_REVERT], increases happiness and culture and provides an additional [COLOR_HIGHLIGHT_TEXT]Artist[COLOR_REVERT] slot.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_BYZANTIUM_BASILICA</Tag>

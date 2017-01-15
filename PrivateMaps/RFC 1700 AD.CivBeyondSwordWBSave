@@ -16467,7 +16467,7 @@ EndPlot
 BeginPlot
 	x=38,y=18
 	BonusType=BONUS_COFFEE
-	ImprovementType=IMPROVEMENT_PLANTATION
+	ImprovementType=IMPROVEMENT_SLAVE_PLANTATION
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=29,44,
@@ -16952,7 +16952,7 @@ EndPlot
 BeginPlot
 	x=39,y=25
 	BonusType=BONUS_SUGAR
-	ImprovementType=IMPROVEMENT_PLANTATION
+	ImprovementType=IMPROVEMENT_SLAVE_PLANTATION
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2

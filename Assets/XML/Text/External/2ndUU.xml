@@ -43,11 +43,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_AZTEC_EAGLE_WARRIOR</Tag>
-		<English>Eagle Warrior</English>
-		<French>Guerrier Aigle</French>
-		<German>Adlerkrieger</German>
-		<Italian>Guerriero Aquila</Italian>
-		<Spanish>Guerro Águila</Spanish>
+		<English>Eagle</English>
+		<French>Eagle</French>
+		<German>Adler</German>
+		<Italian>Eagle</Italian>
+		<Spanish>Eagle</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_AZTEC_EAGLE_WARRIOR_PEDIA</Tag>
@@ -55,7 +55,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_AZTEC_EAGLE_WARRIOR_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Eagle Warrior[COLOR_REVERT], the Aztec replacement for the [COLOR_UNIT_TEXT]Spearman[COLOR_REVERT], is stronger, has a smaller combat bonus against [COLOR_UNIT_TEXT]Mounted Units[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Bronze Working[COLOR_REVERT] technology, doesn't require the [COLOR_HIGHLIGHT_TEXT]Iron[COLOR_REVERT] or [COLOR_HIGHLIGHT_TEXT]Copper[COLOR_REVERT] resource and is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT]. It also has a first strike.</English>
+		<English>The [COLOR_UNIT_TEXT]Eagle[COLOR_REVERT], the Aztec replacement for the [COLOR_UNIT_TEXT]Spearman[COLOR_REVERT], is stronger, has a smaller combat bonus against [COLOR_UNIT_TEXT]Mounted Units[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Bronze Working[COLOR_REVERT] technology, doesn't require the [COLOR_HIGHLIGHT_TEXT]Iron[COLOR_REVERT] or [COLOR_HIGHLIGHT_TEXT]Copper[COLOR_REVERT] resource and is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT]. It also has a first strike and a chance to withdraw from combat.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_BABYLON_RAM</Tag>
@@ -71,7 +71,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_BABYLON_RAM_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Battering Ram[COLOR_REVERT], the Babylonian replacement for the [COLOR_UNIT_TEXT]Catapult[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Masonry[COLOR_REVERT] technology, doesn't require the [COLOR_TECH_TEXT]Mathematics[COLOR_REVERT] technology and is weaker.</English>
+		<English>The [COLOR_UNIT_TEXT]Battering Ram[COLOR_REVERT], the Babylonian replacement for the [COLOR_UNIT_TEXT]Catapult[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Masonry[COLOR_REVERT] technology, doesn't require the [COLOR_TECH_TEXT]Mathematics[COLOR_REVERT] technology, is weaker and doesn't have the ability to range attack. However it is significantly cheaper and very strong against cities.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_BRAZIL_GUARDA_NACIONAL</Tag>
@@ -87,7 +87,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_BRAZIL_GUARDA_NACIONAL_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Guarda Nacional[COLOR_REVERT], the Brazilian replacement for the [COLOR_UNIT_TEXT]Marine[COLOR_REVERT], is immune to first strikes and has a defense bonus when defending cities.</English>
+		<English>The [COLOR_UNIT_TEXT]Guarda Nacional[COLOR_REVERT], the Brazilian replacement for the [COLOR_UNIT_TEXT]Marine[COLOR_REVERT], is more expensive, but also a lot stronger. It has an additional first strike, can attack and has a bonus when attacking cities.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_BYZANTIUM_TAGMATA</Tag>

@@ -45,7 +45,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_AZTEC_SACRIFICIAL_ALTAR_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Sacrificial Altar[COLOR_REVERT], the Aztec replacements for the [COLOR_BUILDING_TEXT]Courthouse[COLOR_REVERT], reduces the anger duration from sacrificing population, provides culture and grants a [COLOR_HIGHLIGHT_TEXT]Priest[COLOR_REVERT] slot.</English>
+		<English>The [COLOR_BUILDING_TEXT]Sacrificial Altar[COLOR_REVERT], the Aztec replacements for the [COLOR_BUILDING_TEXT]Courthouse[COLOR_REVERT], reduces the anger duration from sacrificing population, provides culture and grants a [COLOR_HIGHLIGHT_TEXT]Priest[COLOR_REVERT] and a [COLOR_HIGHLIGHT_TEXT]Merchant[COLOR_REVERT] slot.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_BANK_STRATEGY</Tag>
@@ -716,7 +716,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_BABYLONIAN_ZIGGURAT_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Ziggurat[COLOR_REVERT], the Babylonian replacement for the [COLOR_BUILDING_TEXT]Pagan Temple[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Polytheism[COLOR_REVERT] technology, doesn't require the [COLOR_TECH_TEXT]Mysticism[COLOR_REVERT] technology, provides extra culture and gives a small science and culture boost.</English>
+		<English>The [COLOR_BUILDING_TEXT]Ziggurat[COLOR_REVERT], the Babylonian replacement for the [COLOR_BUILDING_TEXT]Pagan Temple[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Polytheism[COLOR_REVERT] technology, doesn't require the [COLOR_TECH_TEXT]Mysticism[COLOR_REVERT] technology, provides extra culture and gives a small science and culture boost. It also has an additional [COLOR_HIGHLIGHT_TEXT]Priest[COLOR_REVERT] slot, but is more expensive.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_SUPERMARKET_STRATEGY</Tag>

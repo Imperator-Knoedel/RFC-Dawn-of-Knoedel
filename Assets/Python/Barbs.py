@@ -267,7 +267,7 @@ class Barbs:
 				self.checkSpawn(iNative, iZuluImpi, 2 + iHandicap, (60, 10), (72, 27), self.spawnNatives, iGameTurn, 10, 4)
 			else:
 				self.checkSpawn(iNative, iZuluImpi, 2 + iHandicap, (60, 10), (72, 27), self.spawnNatives, iGameTurn, 15, 4)
-		if iGameTurn >= getTurnForYear(1600) and iGameTurn <= getTurnForYear(1800):
+		if iGameTurn >= getTurnForYear(1600) and iGameTurn <= getTurnForYear(1900):
 			self.checkSpawn(iNative, iCongolesePombos, 2 + iHandicap, (60, 10), (72, 27), self.spawnNatives, iGameTurn, 10, 4)
 			
 		#west africa

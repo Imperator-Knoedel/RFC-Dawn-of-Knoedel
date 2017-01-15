@@ -991,6 +991,13 @@
 			<ImprovementUpgrade/>
 			<TechYieldChanges>
 				<TechYieldChange>
+					<PrereqTech>TECH_GUILDS</PrereqTech>
+					<TechYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</TechYields>
+				</TechYieldChange>
+				<TechYieldChange>
 					<PrereqTech>TECH_REPLACEABLE_PARTS</PrereqTech>
 					<TechYields>
 						<iYield>0</iYield>
@@ -1879,11 +1886,19 @@
 			<TechYieldChanges/>
 			<RouteYieldChanges>
 				<RouteYieldChange>
-					<RouteType>ROUTE_RAILROAD</RouteType>
+					<RouteType>ROUTE_ROAD</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_RAILROAD</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>2</iYield>
 					</RouteYields>
 				</RouteYieldChange>
 			</RouteYieldChanges>
@@ -1948,11 +1963,19 @@
 			<TechYieldChanges/>
 			<RouteYieldChanges>
 				<RouteYieldChange>
-					<RouteType>ROUTE_RAILROAD</RouteType>
+					<RouteType>ROUTE_ROAD</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_RAILROAD</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>2</iYield>
 					</RouteYields>
 				</RouteYieldChange>
 			</RouteYieldChanges>
@@ -2025,11 +2048,19 @@
 			</TechYieldChanges>
 			<RouteYieldChanges>
 				<RouteYieldChange>
-					<RouteType>ROUTE_RAILROAD</RouteType>
+					<RouteType>ROUTE_ROAD</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
+					<RouteType>ROUTE_RAILROAD</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>2</iYield>
 					</RouteYields>
 				</RouteYieldChange>
 			</RouteYieldChanges>
@@ -2145,11 +2176,19 @@
 			</TechYieldChanges>
 			<RouteYieldChanges>
 				<RouteYieldChange>
+					<RouteType>ROUTE_ROAD</RouteType>
+					<RouteYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</RouteYields>
+				</RouteYieldChange>
+				<RouteYieldChange>
 					<RouteType>ROUTE_RAILROAD</RouteType>
 					<RouteYields>
 						<iYield>0</iYield>
 						<iYield>1</iYield>
-						<iYield>0</iYield>
+						<iYield>2</iYield>
 					</RouteYields>
 				</RouteYieldChange>
 			</RouteYieldChanges>
