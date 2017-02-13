@@ -17,13 +17,6 @@ class PlayerData:
 		self.iPlayer = iPlayer
 		
 		self.setup()
-		self.save()
-		
-	def load(self):
-		self.__dict__.update(pickle.loads(gc.getPlayer(self.iPlayer).getScriptData()))
-		
-	def save(self):
-		gc.getPlayer(self.iPlayer).setScriptData(pickle.dumps(self.__dict__))
 
 	def setup(self):
 		
@@ -122,19 +115,9 @@ class GameData:
 
 	def __init__(self):
 		self.setup()
-		self.save()
 		
-	def load(self):
-		self.__dict__.update(pickle.loads(gc.getGame().getScriptData()))
-		
-		for player in self.players:
-			player.load()
-		
-	def save(self):
-		gc.getGame().setScriptData(pickle.dumps(self.data()))
-		
-		for player in self.players:
-			player.save()
+	def update(self, data):
+		self.__dict__.update(data)
 
 	def setup(self):
 		self.players = [PlayerData(i) for i in range(iNumTotalPlayersB)]
@@ -147,11 +130,11 @@ class GameData:
 		self.lTimedConquests = []
 		
 		self.lPlayerEnabled = [True] * len(lSecondaryCivs)
-		self.bMinorCityFounded = [False] * iNumMinorCities
+		self.lMinorCityFounded = [False] * iNumMinorCities
 		
 		self.lDeleteMode = [-1] * 3
-		self.lFirstContactConquerors = [0] * 3
-		self.lFirstContactMongols = [0] * 5
+		self.lFirstContactConquerors = [False] * 3
+		self.lFirstContactMongols = [True] * 5
 		self.lTradingCompanyConquerorsTargets = [[] for _ in range(5)]
 		
 		self.lCheatersCheck = [0, -1]
@@ -188,7 +171,7 @@ class GameData:
 		
 		self.iNextTurnAIWar = -1
 		
-		self.bConquest = [False] * iNumConquests
+		self.lConquest = [False] * iNumConquests
 		
 		# Congresses
 		
@@ -206,7 +189,7 @@ class GameData:
 		
 		self.lGenericPlagueDates = [-1] * 4
 		
-		self.bNoPlagueOption = False
+		self.bNoPlagues = False
 		
 		# Victories
 		
@@ -249,12 +232,9 @@ class GameData:
 		self.bNoAIStability = False
 		
 		self.dSecedingCities = {}
-	
-	def data(self):
-		return dict((key, self.__dict__[key]) for key in self.__dict__ if key != "players")
 		
-	def timedConquest(self, iPlayer, x, y):
-		self.lTimedConquests.append((iPlayer, x, y))
+	def timedConquest(self, iPlayer, tPlot):
+		self.lTimedConquests.append((iPlayer, tPlot))
 		
 	def setPlayerEnabled(self, iPlayer, bNewValue):
 		self.lPlayerEnabled[lSecondaryCivs.index(iPlayer)] = bNewValue
@@ -287,13 +267,11 @@ class GameData:
 	def addNewCiv(self, iCiv):
 		self.lNewCivs.append(iCiv)
 		
-	def getFirstContactMongols(self, iPlayer):
-		lMongolCivs = [iPersia, iByzantium, iArabia, iRussia, iMughals]
+	def isFirstContactMongols(self, iPlayer):
 		return self.lFirstContactMongols[lMongolCivs.index(iPlayer)]
 		
-	def setFirstContactMongols(self, iPlayer, iValue):
-		lMongolCivs = [iPersia, iByzantium, iArabia, iRussia, iMughals]
-		self.lFirstContactMongols[lMongolCivs.index(iPlayer)] = iValue
+	def setFirstContactMongols(self, iPlayer, bValue):
+		self.lFirstContactMongols[lMongolCivs.index(iPlayer)] = bValue
 		
 	def getStabilityLevel(self, iPlayer):
 		return self.players[iPlayer].iStabilityLevel

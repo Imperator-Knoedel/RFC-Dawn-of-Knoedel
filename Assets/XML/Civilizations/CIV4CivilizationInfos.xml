@@ -486,8 +486,8 @@
 					<UnitType>UNIT_BABYLONIAN_ASHARITTU_BOWMAN</UnitType>
 				</Unit>
 				<Unit>
-					<UnitClassType>UNITCLASS_CATAPULT</UnitClassType>
-					<UnitType>UNIT_BABYLON_RAM</UnitType>
+					<UnitClassType>UNITCLASS_WARRIOR</UnitClassType>
+					<UnitType>UNIT_SUMERIAN_VULTURE</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>

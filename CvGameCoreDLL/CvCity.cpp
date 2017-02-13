@@ -17318,7 +17318,7 @@ bool CvCity::canEnslave(bool bGeneral) const
 				return false;
 			}
 
-			if (getPopulation() < GC.getDefineINT("CONSCRIPT_MIN_CITY_POPULATION")+2)
+			if (getPopulation() < conscriptMinCityPopulation())
 			{
 				return false;
 			}

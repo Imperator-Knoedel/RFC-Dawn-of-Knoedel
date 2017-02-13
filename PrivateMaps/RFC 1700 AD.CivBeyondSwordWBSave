@@ -27707,12 +27707,27 @@ BeginPlot
 		UnitType=UNIT_NATIVE_SLAVE, UnitOwner=37, (Congo)
 	EndUnit
 	BeginUnit
+		UnitType=UNIT_NATIVE_SLAVE, UnitOwner=37, (Congo)
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_NATIVE_SLAVE, UnitOwner=37, (Congo)
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_NATIVE_SLAVE, UnitOwner=37, (Congo)
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_NATIVE_SLAVE, UnitOwner=37, (Congo)
+	EndUnit
+	BeginUnit
+		UnitType=UNIT_NATIVE_SLAVE, UnitOwner=37, (Congo)
+	EndUnit
+	BeginUnit
 		UnitType=UNIT_SETTLER, UnitOwner=37, (Congo)
 	EndUnit
 	BeginCity
 		CityOwner=37, (Congo)
 		CityName=Mbanza Kongo
-		CityPopulation=8
+		CityPopulation=12
 		BuildingType=BUILDING_PALACE
 		BuildingType=BUILDING_CONGO_WENE
 		BuildingType=BUILDING_SMOKEHOUSE

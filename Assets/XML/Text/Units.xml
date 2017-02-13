@@ -1166,7 +1166,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SUMERIAN_VULTURE_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Vulture[COLOR_REVERT] is a Barbarian unit that spawns in the Middle East from 1600 BC to 300 AD.</English>
+		<English>The [COLOR_UNIT_TEXT]Vulture[COLOR_REVERT], the Babylonian replacement for the [COLOR_UNIT_TEXT]Warrior[COLOR_REVERT], is stronger.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_SPEARMAN_STRATEGY</Tag>

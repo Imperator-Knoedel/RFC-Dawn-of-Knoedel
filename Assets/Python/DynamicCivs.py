@@ -1948,7 +1948,7 @@ def leader(iPlayer):
 	elif iPlayer == iSpain:
 		if isFascist(iPlayer): return iFranco
 		
-		if 1 in data.lFirstContactConquerors: return iPhilip
+		if True in data.lFirstContactConquerors: return iPhilip
 		
 	elif iPlayer == iFrance:
 		if iEra >= iModern: return iDeGaulle

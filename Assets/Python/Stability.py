@@ -3,13 +3,11 @@
 from CvPythonExtensions import *
 from StoredData import data # edead
 from Consts import *
-import RFCUtils
+from RFCUtils import utils
 import DynamicCivs as dc
 from operator import itemgetter
 import math
 import Areas
-
-utils = RFCUtils.RFCUtils()
 
 # globals
 gc = CyGlobalContext()
@@ -81,6 +79,13 @@ def endTurn(iPlayer):
 		data.setSecedingCities(iPlayer, [])
 		
 def triggerCollapse(iPlayer):
+	# help overexpanding AI: collapse to core, unless fall date
+	if utils.getHumanID() != iPlayer:
+		if gc.getGame().getGameTurnYear() < tFall[iPlayer]:
+			if len(utils.getCoreCityList(iPlayer)) < len(utils.getCityList(iPlayer)):
+				collapseToCore(iPlayer)
+				return
+
 	data.players[iPlayer].iTurnsToCollapse = 1
 
 def onCityAcquired(city, iOwner, iPlayer):
@@ -2255,8 +2260,6 @@ def getResurrectionTechs(iPlayer):
 		lSourceCivs.append(iIndependent)
 		lSourceCivs.append(iIndependent2)
 		
-	utils.show("Resurrection tech source civs for " + pPlayer.getCivilizationShortDescription(0) + ": " + str([gc.getPlayer(i).getCivilizationShortDescription(0) for i in lSourceCivs]))
-	
 	for iTech in range(iNumTechs):
 			
 		# at least half of the source civs know this technology
@@ -2267,8 +2270,6 @@ def getResurrectionTechs(iPlayer):
 				
 		if 2 * iCount >= len(lSourceCivs):
 			lTechList.append(iTech)
-			
-	utils.show("Resurrection techs for " + pPlayer.getCivilizationShortDescription(0) + ": " + str([gc.getTechInfo(i).getText() for i in lTechList]))
 			
 	return lTechList
 	
