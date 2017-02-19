@@ -114,6 +114,7 @@
 			<TechPrereq>TECH_CODE_OF_LAWS</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>UPKEEP_MEDIUM</Upkeep>
+			<iWonderProductionModifier>-10</iWonderProductionModifier>
 			<iFreeSpecialist>1</iFreeSpecialist>
 			<WeLoveTheKing>TXT_KEY_CIVIC_WE_LOVE_PARTY</WeLoveTheKing>
 		</CivicInfo>

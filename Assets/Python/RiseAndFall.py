@@ -1237,7 +1237,7 @@ class RiseAndFall:
 			tBroaderTopLeft, tBroaderBottomRight = Areas.tBroaderArea[iCiv]
 			
 			if iCiv == iThailand:
-				i, j = Areas.getCapital(iKhmer)
+				i, j = Areas.tCapital[iKhmer]
 				if gc.getMap().plot(i, j).isCity():
 					angkor = gc.getMap().plot(i, j).getPlotCity()
 					bWonder = False
@@ -2504,8 +2504,8 @@ class RiseAndFall:
 				pVikings.initUnit(iVikingLongboat, tSeaPlot[0], tSeaPlot[1], UnitAITypes.UNITAI_SETTLER_SEA, DirectionTypes.DIRECTION_SOUTH)
 				utils.makeUnit(iSettler, iCiv, tSeaPlot, 1)
 				utils.makeUnit(iLongbowman, iCiv, tSeaPlot, 1)
-				pVikings.initUnit(iVikingLongboat, tSeaPlot[0], tSeaPlot[1], UnitAITypes.UNITAI_EXPLORE_SEA, DirectionTypes.DIRECTION_SOUTH)	   
-				pVikings.initUnit(iVikingLongboat, tSeaPlot[0], tSeaPlot[1], UnitAITypes.UNITAI_EXPLORE_SEA, DirectionTypes.DIRECTION_SOUTH)	
+				pVikings.initUnit(iVikingLongboat, tSeaPlot[0], tSeaPlot[1], UnitAITypes.UNITAI_EXPLORE_SEA, DirectionTypes.DIRECTION_SOUTH)
+				pVikings.initUnit(iVikingLongboat, tSeaPlot[0], tSeaPlot[1], UnitAITypes.UNITAI_EXPLORE_SEA, DirectionTypes.DIRECTION_SOUTH)
 		elif iCiv == iArabia:
 			utils.createSettlers(iCiv, 2)
 			utils.makeUnitAI(iArcher, iCiv, tPlot, UnitAITypes.UNITAI_CITY_DEFENSE, 1)
@@ -2687,7 +2687,8 @@ class RiseAndFall:
 			utils.makeUnit(iCrossbowman, iCiv, tPlot, 2)
 			utils.makeUnit(iHorseArcher, iCiv, tPlot, 2) 
 			utils.makeUnitAI(iMongolianKeshik, iCiv, tPlot, UnitAITypes.UNITAI_ATTACK_CITY, 6)
-			if utils.getHumanID() != iMongolia: 
+			utils.makeUnit(iBombard, iCiv, tPlot, 3)
+			if utils.getHumanID() != iMongolia:
 				utils.makeUnitAI(iMongolianKeshik, iCiv, tPlot, UnitAITypes.UNITAI_ATTACK_CITY, 4)
 				utils.makeUnitAI(iMongolianKeshik, iCiv, tPlot, UnitAITypes.UNITAI_ATTACK_CITY, 3)
 				utils.makeUnitAI(iMongolianKeshik, iCiv, tPlot, UnitAITypes.UNITAI_ATTACK_CITY, 3)
@@ -2695,8 +2696,6 @@ class RiseAndFall:
 				utils.makeUnitAI(iMongolSiegeEngineer, iCiv, tPlot, UnitAITypes.UNITAI_ATTACK_CITY, 2)
 				utils.makeUnitAI(iHeavySwordsman, iCiv, tPlot, UnitAITypes.UNITAI_COUNTER, 2)
 				utils.makeUnitAI(iScout, iCiv, tPlot, UnitAITypes.UNITAI_EXPLORE, 2)
-			utils.makeUnit(iMongolSiegeEngineer, iCiv, tPlot, 3)
-			if utils.getHumanID() != iMongolia:
 				utils.makeUnitAI(iLongbowman, iCiv, tPlot, UnitAITypes.UNITAI_CITY_DEFENSE, 2)
 		elif iCiv == iAztecs:
 			utils.createSettlers(iCiv, 2)

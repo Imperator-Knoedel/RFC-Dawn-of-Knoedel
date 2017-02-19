@@ -202,7 +202,7 @@ class Barbs:
 		#barbarians in central asia
 		if utils.isYearIn(-1600, -850):
 			self.checkSpawn(iBarbarian, iSumerianVulture, 1, (74, 34), (78, 44), self.spawnNomads, iGameTurn, 6-iHandicap, 2, ["TXT_KEY_ADJECTIVE_ASSYRIAN"])
-		elif utils.isYearIn(-850, 300):
+		elif utils.isYearIn(-300, 300):
 			self.checkSpawn(iBarbarian, iSumerianVulture, 1, (73, 38), (78, 44), self.spawnNomads, iGameTurn, 8-iHandicap, 2, ["TXT_KEY_ADJECTIVE_ASSYRIAN"])
 			self.checkSpawn(iBarbarian, iHorseArcher, 2 + iHandicap, (79, 41), (84, 49), self.spawnInvaders, iGameTurn, 7-iHandicap, 2, ["TXT_KEY_ADJECTIVE_PARTHIAN"])
 		elif utils.isYearIn(300, 700):

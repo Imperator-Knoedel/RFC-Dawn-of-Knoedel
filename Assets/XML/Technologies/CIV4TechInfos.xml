@@ -324,6 +324,7 @@
 			<OrPreReqs>
 				<PrereqTech>TECH_PRIESTHOOD</PrereqTech>
 				<PrereqTech>TECH_CURRENCY</PrereqTech>
+				<PrereqTech>TECH_MONARCHY</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
 				<PrereqTech>TECH_WRITING</PrereqTech>
