@@ -216,7 +216,9 @@ class RiseAndFall:
 		newUnit = utils.makeUnit(unit.getUnitType(), iByzantium, (closestCity.plot().getX(), closestCity.plot().getY()), 1)
 		gc.getPlayer(iByzantium).changeGold(-iCost)
 		unit.kill(False, iByzantium)
-		CyInterface().selectUnit(newUnit, True, True, False)
+		
+		if newUnit:
+			CyInterface().selectUnit(newUnit, True, True, False)
 
 #######################################
 ### Main methods (Event-Triggered) ###
@@ -1001,7 +1003,7 @@ class RiseAndFall:
 			pRome.setLastStateReligion(iCatholicism)
 			pRome.setCivics(0, iCivicCityStates)
 			pRome.setCivics(1, iCivicAbsolutism)
-			pRome.setCivics(2, iCivicSerfdom)
+			pRome.setCivics(2, iCivicCorvee)
 			pRome.setCivics(3, iCivicGuilds)
 			pRome.setCivics(4, iCivicOrganizedReligion)
 			pRome.setCivics(5, iCivicMercenaries)
@@ -1282,7 +1284,7 @@ class RiseAndFall:
 					self.moveOutInvaders(tTopLeft, tBottomRight)  
 					
 				if bBirthInCapital:
-					utils.makeUnit(iCatapult, iCiv, (1,0), 1)
+					utils.makeUnit(iCatapult, iCiv, (0, 0), 1)
 			
 				bDeleteEverything = False
 				pCapital = gc.getMap().plot(x, y)
@@ -1478,7 +1480,7 @@ class RiseAndFall:
    
 			print ("utils.flipUnitsInArea()") 
 			#cover plots revealed by the lion
-			utils.clearCatapult
+			utils.clearCatapult(iCiv)
 
 			if iNumHumanCitiesToConvert > 0 and iCiv != utils.getHumanID(): # Leoreth: quick fix for the "flip your own cities" popup, still need to find out where it comes from
 				print "Flip Popup: free region"

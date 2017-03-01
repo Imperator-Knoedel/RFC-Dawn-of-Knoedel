@@ -106,5 +106,10 @@
 			<Description>TXT_KEY_CONCEPT_EXTENDED_WORLDBUILDER</Description>
 			<Civilopedia>TXT_KEY_CONCEPT_EXTENDED_WORLDBUILDER_PEDIA</Civilopedia>
 		</ConceptInfo>
+		<ConceptInfo>
+			<Type>CONCEPT_KNOEDEL</Type>
+			<Description>TXT_KEY_CONCEPT_KNOEDEL</Description>
+			<Civilopedia>TXT_KEY_CONCEPT_KNOEDEL_PEDIA</Civilopedia>
+		</ConceptInfo>
 	</ConceptInfos>
 </Civ4BasicInfos>

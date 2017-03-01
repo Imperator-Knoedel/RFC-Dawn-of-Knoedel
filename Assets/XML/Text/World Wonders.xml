@@ -879,7 +879,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_HAGIA_SOPHIA_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Hagia Sophia[COLOR_REVERT] increases the production of all state religion buildings and increases its city's chances of generating a [COLOR_UNIT_TEXT]Great Engineer[COLOR_REVERT].</English>
-		<German>Die [COLOR_BUILDING_TEXT]Hagia Sophia[COLOR_REVERT] erhöht die Produktion aller Gebäude der Staatsreligion und erh&#246;ht die Chancen einer Stadt, einen [COLOR_UNIT_TEXT]Gro&#223;en Ingenieur[COLOR_REVERT] hervorzubringen.</German>
+		<English>The [COLOR_BUILDING_TEXT]Hagia Sophia[COLOR_REVERT] increases the production of all state religion buildings and increases its city's chances of generating a [COLOR_UNIT_TEXT]Great Prophet[COLOR_REVERT].</English>
+		<German>Die [COLOR_BUILDING_TEXT]Hagia Sophia[COLOR_REVERT] erhöht die Produktion aller Gebäude der Staatsreligion und erh&#246;ht die Chancen einer Stadt, einen [COLOR_UNIT_TEXT]Gro&#223;en Propheten[COLOR_REVERT] hervorzubringen.</German>
 	</TEXT>
 </Civ4GameText>

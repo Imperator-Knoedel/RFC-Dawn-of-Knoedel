@@ -26,6 +26,7 @@
 			<Description>TXT_KEY_BUILD_ROMAN_ROAD</Description>
 			<PrereqTech>TECH_THE_WHEEL</PrereqTech>
 			<iTime>300</iTime>
+			<iCost>1</iCost>
 			<RouteType>ROUTE_ROMAN_ROAD</RouteType>
 			<EntityEvent>ENTITY_EVENT_SHOVEL</EntityEvent>
 			<HotKey>KB_R</HotKey>

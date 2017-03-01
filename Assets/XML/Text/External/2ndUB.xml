@@ -122,7 +122,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_BYZANTIUM_BASILICA_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Basilica[COLOR_REVERT], the Byzantine replacement for the [COLOR_BUILDING_TEXT]Courthouse[COLOR_REVERT], provides 1 free [COLOR_HIGHLIGHT_TEXT]Priest[COLOR_REVERT].</English>
+		<English>The [COLOR_BUILDING_TEXT]Basilica[COLOR_REVERT], the Byzantine replacement for the [COLOR_BUILDING_TEXT]Courthouse[COLOR_REVERT], provides culture, happiness, and a [COLOR_HIGHLIGHT_TEXT]Priest[COLOR_REVERT] specialist slot.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CANADA_MICROWAVE</Tag>

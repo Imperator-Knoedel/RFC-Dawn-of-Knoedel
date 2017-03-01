@@ -1454,14 +1454,14 @@ def calculateStability(iPlayer):
 		
 	if tPlayer.isHasTech(iDemocracy):
 		if iCivicOrganization not in [iCivicRepresentation, iCivicEgalitarianism, iCivicTotalitarianism]: iCivicStability -= 5
-		if iCivicLabor in [iCivicSlavery, iCivicCasteSystem, iCivicSerfdom] and iCivicOrganization != iCivicTotalitarianism: iCivicStability -= 5
+		if iCivicLabor in [iCivicSlavery, iCivicCasteSystem, iCivicCorvee] and iCivicOrganization != iCivicTotalitarianism: iCivicStability -= 5
 		if iCivicGovernment == iCivicTyranny: iCivicStability -= 5
 		
 	if tPlayer.isHasTech(iCommunism):
 		if iCivicOrganization not in [iCivicEgalitarianism, iCivicTotalitarianism]: iCivicStability -= 5
 		
 	if tPlayer.isHasTech(iCorporation):
-		if iCivicEconomy in [iCivicSubsistence, iCivicGuilds]: iCivicStability -= 5
+		if iCivicEconomy in [iCivicReciprocity, iCivicGuilds]: iCivicStability -= 5
 		
 	if tPlayer.isHasTech(iEconomics):
 		if iCivicLabor == iCivicSlavery and iCivicOrganization != iCivicTotalitarianism: iCivicStability -= 5
@@ -1710,7 +1710,7 @@ def getCivicCombinationStability(iPlayer, iCivic1, iCivic2):
 	if iCivicDirectRule in lCivics:
 		if iCivicSocialism in lCivics: return -2
 
-	if iCivicTribalism in lCivics:
+	if iCivicSubsistence in lCivics:
 		if only(lCivics, iCivicTotalitarianism, iCivicEgalitarianism): return -2
 		if only(lCivics, iCivicCentralPlanning, iCivicPublicWelfare): return -3
 
@@ -1730,14 +1730,14 @@ def getCivicCombinationStability(iPlayer, iCivic1, iCivic2):
 		if iCivicSocialism in lCivics: return 2
 		if iCivicPublicWelfare in lCivics: return 2
 		if only(lCivics, iCivicTolerance, iCivicSecularism): return 2
-		if only(lCivics, iCivicSlavery, iCivicSerfdom, iCivicCasteSystem): return -4
+		if only(lCivics, iCivicSlavery, iCivicCorvee, iCivicCasteSystem): return -4
 
 	if iCivicCapitalism in lCivics:
 		if iCivicDirectRule in lCivics: return -2
 		if iCivicRepresentation in lCivics: return 2
 		if iCivicFreeMarket in lCivics: return 4
 		if iCivicGuilds in lCivics: return -4
-		if iCivicSubsistence in lCivics: return -2
+		if iCivicReciprocity in lCivics: return -2
 
 	if iCivicOligarchy in lCivics:
 		if iCivicRepresentation in lCivics: return 3
@@ -1750,7 +1750,7 @@ def getCivicCombinationStability(iPlayer, iCivic1, iCivic2):
 
 		if iCurrentEra == iMedieval:
 			if iCivicDynasty in lCivics: return 2
-			if iCivicSerfdom in lCivics: return 3
+			if iCivicCorvee in lCivics: return 3
 
 	if iCivicCityStates in lCivics:
 		if only(lCivics, iCivicAbsolutism, iCivicTotalitarianism): return -3
@@ -1771,7 +1771,7 @@ def getCivicCombinationStability(iPlayer, iCivic1, iCivic2):
 		if iCivicDirectRule in lCivics: return -2
 		if other(lCivics, iCivicCapitalism, iCivicSocialism): return -3
 		if iCivicRepresentation in lCivics: return 2
-		if iCivicSubsistence in lCivics: return -2
+		if iCivicReciprocity in lCivics: return -2
 
 	if iCivicAutocracy in lCivics:
 		if iCivicStandingArmy in lCivics: return 3

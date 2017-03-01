@@ -367,4 +367,12 @@
 		<Italian>Il [COLOR_BUILDING_TEXT]Cristo Redentore[COLOR_REVERT] permette a chi lo costruisce di cambiare [COLOR_HIGHLIGHT_TEXT]Religione[COLOR_REVERT] o [COLOR_HIGHLIGHT_TEXT]Forma di governo[COLOR_REVERT] istantaneamente una volta per turno, senza generare anarchia. Aumenta inoltre le probabilit&#224; che appaia un [COLOR_UNIT_TEXT]Great Prophet[COLOR_REVERT].</Italian>
 		<Spanish>El [COLOR_BUILDING_TEXT]Cristo Redentor[COLOR_REVERT] permite a su constructor cambiar instant&#225;neamente de [COLOR_HIGHLIGHT_TEXT]religi&#243;n[COLOR_REVERT] o de [COLOR_HIGHLIGHT_TEXT]principios[COLOR_REVERT] una vez por turno, sin sufrir los efectos de la anarqu&#237;a. Tambi&#233;n aumenta las posibilidades de que aparezca un [COLOR_UNIT_TEXT]Great Prophet[COLOR_REVERT].</Spanish>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CONCEPT_KNOEDEL</Tag>
+		<English>Odds and Ends in DoK</English>
+		<French>Odds and Ends in DoK</French>
+		<German>Odds and Ends in DoK</German>
+		<Italian>Odds and Ends in DoK</Italian>
+		<Spanish>Odds and Ends in DoK</Spanish>
+	</TEXT>
 </Civ4GameText>

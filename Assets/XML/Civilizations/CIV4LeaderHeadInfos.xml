@@ -20639,7 +20639,7 @@
 			<VassalRefuseAttitudeThreshold>ATTITUDE_PLEASED</VassalRefuseAttitudeThreshold>
 			<iVassalPowerModifier>0</iVassalPowerModifier>
 			<iFreedomAppreciation>10</iFreedomAppreciation>
-			<FavoriteCivic>CIVIC_SERFDOM</FavoriteCivic>
+			<FavoriteCivic>CIVIC_CORVEE</FavoriteCivic>
 			<FavoriteReligion>RELIGION_ORTHODOXY</FavoriteReligion>
 			<Traits/>
 			<Flavors>
@@ -48412,7 +48412,7 @@
 			<VassalRefuseAttitudeThreshold>ATTITUDE_PLEASED</VassalRefuseAttitudeThreshold>
 			<iVassalPowerModifier>20</iVassalPowerModifier>
 			<iFreedomAppreciation>10</iFreedomAppreciation>
-			<FavoriteCivic>CIVIC_THEOCRACY</FavoriteCivic>
+			<FavoriteCivic>CIVIC_ABSOLUTISM</FavoriteCivic>
 			<FavoriteReligion>RELIGION_ORTHODOXY</FavoriteReligion>
 			<Traits/>
 			<Flavors>

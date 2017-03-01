@@ -362,15 +362,14 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_LABOR</CivicOptionType>
-			<Type>CIVIC_TRIBALISM</Type>
-			<Description>TXT_KEY_CIVIC_TRIBALISM</Description>
-			<Civilopedia>TXT_KEY_CIVIC_TRIBALISM_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_CIVIC_TRIBALISM_STRATEGY</Strategy>
+			<Type>CIVIC_SUBSISTENCE</Type>
+			<Description>TXT_KEY_CIVIC_SUBSISTENCE</Description>
+			<Civilopedia>TXT_KEY_CIVIC_SUBSISTENCE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_CIVIC_SUBSISTENCE_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/Civics/Tribalism.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,7,3</Button>
 			<iAnarchyLength>2</iAnarchyLength>
 			<Upkeep>NONE</Upkeep>
-			<iNumCitiesMaintenanceModifier>100</iNumCitiesMaintenanceModifier>
-			<iFreeExperience>2</iFreeExperience>
+			<iDistanceMaintenanceModifier>100</iDistanceMaintenanceModifier>
 			<iWorkerSpeedModifier>-50</iWorkerSpeedModifier>
 			<iImprovementUpgradeRateModifier>-50</iImprovementUpgradeRateModifier>
 			<ImprovementYieldChanges>
@@ -485,10 +484,10 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_LABOR</CivicOptionType>
-			<Type>CIVIC_SERFDOM</Type>
-			<Description>TXT_KEY_CIVIC_SERFDOM</Description>
-			<Civilopedia>TXT_KEY_CIVIC_SERFDOM_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_CIVIC_SERFDOM_KNOEDEL_STRATEGY</Strategy>
+			<Type>CIVIC_CORVEE</Type>
+			<Description>TXT_KEY_CIVIC_CORVEE</Description>
+			<Civilopedia>TXT_KEY_CIVIC_CORVEE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_CIVIC_CORVEE_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/Civics/Serfdom.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,7,2</Button>
 			<TechPrereq>TECH_FEUDALISM</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
@@ -583,10 +582,10 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
-			<Type>CIVIC_SUBSISTENCE</Type>
-			<Description>TXT_KEY_CIVIC_SUBSISTENCE</Description>
-			<Civilopedia>TXT_KEY_CIVIC_SUBSISTENCE_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_CIVIC_SUBSISTENCE_STRATEGY</Strategy>
+			<Type>CIVIC_RECIPROCITY</Type>
+			<Description>TXT_KEY_CIVIC_RECIPROCITY</Description>
+			<Civilopedia>TXT_KEY_CIVIC_RECIPROCITY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_CIVIC_RECIPROCITY_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/Civics/Decentralization.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,4,1</Button>
 			<iAnarchyLength>2</iAnarchyLength>
 			<Upkeep>NONE</Upkeep>

@@ -15,7 +15,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_DYNASTICISM_STRATEGY</Tag>
-		<English>Military units in cities increase happiness</English>
+		<English>Military units in cities increase happiness, extra gold and culture in capital</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_CITY_STATES</Tag>
@@ -106,8 +106,12 @@
 		<English>May hire double the amount of artists, scientists and merchants; unhappiness penalty for all civilizations without egalitarianism; higher Great People Birth Rate</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_CIVIC_TRIBALISM_STRATEGY</Tag>
-		<English>The most primitive Society civic; less health and more maintenance in all cities</English>
+		<Tag>TXT_KEY_CIVIC_SUBSISTENCE</Tag>
+		<English>Subsistence</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_SUBSISTENCE_STRATEGY</Tag>
+		<English>The most primitive economy civic; extra yields for pastures and camps, slower worker speed and cottage growth</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_SLAVERY_STRATEGY</Tag>
@@ -122,8 +126,16 @@
 		<English>Extra Production for Specialists</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_CIVIC_SERFDOM_KNOEDEL_STRATEGY</Tag>
-		<English>Extra production from pastures; extra commerce from farms</English>
+		<Tag>TXT_KEY_CIVIC_CORVEE</Tag>
+		<English>Corvee</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_CORVEE_PEDIA</Tag>
+		<English>[TAB]Corvee is a form of unpaid, unfree labor, which is intermittent in nature and for limited periods of time: typically only a certain number of days' work each year.[PARAGRAPH:1]Statute labour is a corvee imposed by a state for the purposes of public works. As such it represents a form of levy (taxation). Unlike other forms of levy, such as a tithe, a corvee does not require the population to have land, crops or cash. It was thus favored in historical economies in which barter was more common than cash transactions and/or circulating money is in short supply. The obligation for tenant farmers to perform corvee work for landlords on private landed estates has been widespread throughout history. The term is most typically used in reference to medieval and early modern Europe, where work was often expected by a feudal landowner (of their vassals), or by a monarch of their subjects.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_CORVEE_STRATEGY</Tag>
+		<English>Extra production from pastures; extra commerce from farms, cottages, hamlets and wineries</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_CAPITALISM</Tag>
@@ -150,12 +162,16 @@
 		<English>Research from specialists; production from towns; less unhappiness and unhealth</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_CIVIC_SUBSISTENCE</Tag>
-		<English>Subsistence</English>
+		<Tag>TXT_KEY_CIVIC_RECIPROCITY</Tag>
+		<English>Reciprocity</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_CIVIC_SUBSISTENCE_STRATEGY</Tag>
-		<English>The most primitive economy civic; less health and more maintenance in all cities</English>
+		<Tag>TXT_KEY_CIVIC_RECIPROCITY_PEDIA</Tag>
+		<English>Contrary to popular conception, barter (goods and services exchanged directly for other goods and services) was not the primary method of economic transaction in pre-currency societies. Instead, early civilizations generally used a system of reciprocity, sometimes called a gift economy. Goods and services are given without expectation of something explicit in return. By giving generously and diplomatically individuals or states increase their prestige - making them more likely to receive useful and valuable gifts from other aspiring people.[NEWLINE][NEWLINE]Reciprocity's strength is the strong social ties and obligations it creates but these are hard to maintain in more populous societies and across larger distances. Critically though, gift economies are economies of abundance, not scarcity. Social bonds can quickly break down when basic subsistence is a struggle.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_RECIPROCITY_STRATEGY</Tag>
+		<English>The most primitive economy civic</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_GUILDS</Tag>

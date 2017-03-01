@@ -85,8 +85,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -183,8 +183,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -283,8 +283,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -407,8 +407,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -507,8 +507,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -603,8 +603,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -708,8 +708,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -820,8 +820,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -928,8 +928,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -1143,8 +1143,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -1251,8 +1251,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -1351,8 +1351,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -1469,8 +1469,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -1581,8 +1581,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -1709,8 +1709,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -1810,8 +1810,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -1940,8 +1940,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -2072,8 +2072,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -2185,8 +2185,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -2285,8 +2285,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -2384,8 +2384,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -2493,8 +2493,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -2601,8 +2601,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -2712,8 +2712,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -2813,8 +2813,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -2924,8 +2924,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -3042,8 +3042,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -3152,8 +3152,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -3252,8 +3252,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -3376,8 +3376,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -3494,8 +3494,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -3585,8 +3585,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -3690,8 +3690,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -3809,8 +3809,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -3918,8 +3918,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -4043,8 +4043,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -4160,8 +4160,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -4261,8 +4261,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -4386,8 +4386,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -4506,8 +4506,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -4635,8 +4635,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -4750,8 +4750,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -4874,8 +4874,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -4963,8 +4963,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -5179,8 +5179,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -5277,8 +5277,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -5378,8 +5378,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -5486,8 +5486,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -5600,8 +5600,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -5734,8 +5734,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -5840,8 +5840,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -5951,8 +5951,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -6187,8 +6187,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -6424,8 +6424,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -6633,8 +6633,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -6760,8 +6760,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>
@@ -7061,8 +7061,8 @@
 			<InitialCivics>
 				<CivicType>CIVIC_TYRANNY</CivicType>
 				<CivicType>CIVIC_DIRECT_RULE</CivicType>
-				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_SUBSISTENCE</CivicType>
+				<CivicType>CIVIC_RECIPROCITY</CivicType>
 				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_MILITIA</CivicType>
 			</InitialCivics>

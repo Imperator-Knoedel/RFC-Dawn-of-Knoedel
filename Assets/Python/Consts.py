@@ -1585,8 +1585,8 @@ iPortugalColonialAdministration, iRomeCastra, iRussiaKremlin, iSpainBullring, iT
 iNumCivics = 36
 (iCivicTyranny, iCivicDynasty, iCivicCityStates, iCivicOligarchy, iCivicAutocracy, iCivicRepublic,
 iCivicDirectRule, iCivicVassalage, iCivicAbsolutism, iCivicRepresentation, iCivicTotalitarianism, iCivicEgalitarianism,
-iCivicTribalism, iCivicSlavery, iCivicCasteSystem, iCivicSerfdom, iCivicCapitalism, iCivicSocialism,
-iCivicSubsistence, iCivicGuilds, iCivicMercantilism, iCivicFreeMarket, iCivicCentralPlanning, iCivicPublicWelfare,
+iCivicSubsistence, iCivicSlavery, iCivicCasteSystem, iCivicCorvee, iCivicCapitalism, iCivicSocialism,
+iCivicReciprocity, iCivicGuilds, iCivicMercantilism, iCivicFreeMarket, iCivicCentralPlanning, iCivicPublicWelfare,
 iCivicAnimism, iCivicPantheon, iCivicOrganizedReligion, iCivicTolerance, iCivicTheocracy, iCivicSecularism,
 iCivicMilitia, iCivicMercenaries, iCivicLevyArmies, iCivicStandingArmy, iCivicNavalSupremacy, iCivicMultilateralism) = range(iNumCivics)
 

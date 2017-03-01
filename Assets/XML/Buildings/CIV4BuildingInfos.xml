@@ -3448,21 +3448,21 @@
 			<ArtDefineTag>ART_DEF_BUILDING_BYZANTINE_HIPPODROME</ArtDefineTag>
 			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
 			<bNeverCapture>1</bNeverCapture>
-			<iCost>80</iCost>
+			<iCost>120</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iHappiness>1</iHappiness>
 			<iAsset>4</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<CommerceModifiers>
-				<iCommerce>0</iCommerce>
-				<iCommerce>0</iCommerce>
 				<iCommerce>10</iCommerce>
+				<iCommerce>0</iCommerce>
+				<iCommerce>20</iCommerce>
 			</CommerceModifiers>
 			<ObsoleteSafeCommerceChanges>
 				<iCommerce>0</iCommerce>
 				<iCommerce>0</iCommerce>
-				<iCommerce>2</iCommerce>
+				<iCommerce>1</iCommerce>
 			</ObsoleteSafeCommerceChanges>
 			<CommerceChangeDoubleTimes>
 				<iCommerce>0</iCommerce>
@@ -3489,19 +3489,7 @@
 			</BonusProductionModifiers>
 			<BonusHappinessChanges>
 				<BonusHappinessChange>
-					<BonusType>BONUS_DYE</BonusType>
-					<iHappinessChange>1</iHappinessChange>
-				</BonusHappinessChange>
-				<BonusHappinessChange>
 					<BonusType>BONUS_HORSE</BonusType>
-					<iHappinessChange>1</iHappinessChange>
-				</BonusHappinessChange>
-				<BonusHappinessChange>
-					<BonusType>BONUS_MARBLE</BonusType>
-					<iHappinessChange>1</iHappinessChange>
-				</BonusHappinessChange>
-				<BonusHappinessChange>
-					<BonusType>BONUS_STONE</BonusType>
 					<iHappinessChange>1</iHappinessChange>
 				</BonusHappinessChange>
 			</BonusHappinessChanges>
@@ -9749,12 +9737,15 @@
 			<StateReligion>RELIGION_ORTHODOXY</StateReligion>
 			<PrereqReligion>RELIGION_ORTHODOXY</PrereqReligion>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
-			<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			<PrereqTech>TECH_MACHINERY</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_CONSTRUCTION</PrereqTech>
+			</TechTypes>
 			<GreatPeopleUnitClass>UNITCLASS_GREAT_ENGINEER</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<bTeamShare>1</bTeamShare>
 			<bNukeImmune>1</bNukeImmune>
-			<iCost>500</iCost>
+			<iCost>400</iCost>
 			<iHurryCostModifier>100</iHurryCostModifier>
 			<iAdvancedStartCost>-1</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
@@ -9785,6 +9776,12 @@
 					<iProductonModifier>100</iProductonModifier>
 				</BonusProductionModifier>
 			</BonusProductionModifiers>
+			<BuildingClassNeededs>
+				<BuildingClassNeeded>
+					<BuildingClassType>BUILDINGCLASS_WALLS</BuildingClassType>
+					<bNeededInCity>1</bNeededInCity>
+				</BuildingClassNeeded>
+			</BuildingClassNeededs>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_MILITARY</FlavorType>
@@ -9988,9 +9985,9 @@
 			<StateReligion>RELIGION_ORTHODOXY</StateReligion>
 			<PrereqReligion>RELIGION_ORTHODOXY</PrereqReligion>
 			<MaxStartEra>ERA_MEDIEVAL</MaxStartEra>
-			<ObsoleteTech>TECH_STEAM_POWER</ObsoleteTech>
+			<ObsoleteTech>TECH_NATIONALISM</ObsoleteTech>
 			<PrereqTech>TECH_THEOLOGY</PrereqTech>
-			<GreatPeopleUnitClass>UNITCLASS_GREAT_ENGINEER</GreatPeopleUnitClass>
+			<GreatPeopleUnitClass>UNITCLASS_GREAT_PROPHET</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<bTeamShare>1</bTeamShare>
 			<bNukeImmune>1</bNukeImmune>
@@ -10016,6 +10013,12 @@
 				<bCommerceChangeOriginalOwner>0</bCommerceChangeOriginalOwner>
 				<bCommerceChangeOriginalOwner>1</bCommerceChangeOriginalOwner>
 			</CommerceChangeOriginalOwners>
+			<SpecialistCounts>
+				<SpecialistCount>
+					<SpecialistType>SPECIALIST_PRIEST</SpecialistType>
+					<iSpecialistCount>1</iSpecialistCount>
+				</SpecialistCount>
+			</SpecialistCounts>
 			<BonusProductionModifiers>
 				<BonusProductionModifier>
 					<BonusType>BONUS_MARBLE</BonusType>
@@ -12495,12 +12498,16 @@
 				<iCommerce>0</iCommerce>
 				<iCommerce>10</iCommerce>
 			</CommerceModifiers>
-			<FreeSpecialistCounts>
-				<FreeSpecialistCount>
+			<SpecialistCounts>
+				<SpecialistCount>
+					<SpecialistType>SPECIALIST_STATESMAN</SpecialistType>
+					<iSpecialistCount>1</iSpecialistCount>
+				</SpecialistCount>
+				<SpecialistCount>
 					<SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-					<iFreeSpecialistCount>1</iFreeSpecialistCount>
-				</FreeSpecialistCount>
-			</FreeSpecialistCounts>
+					<iSpecialistCount>1</iSpecialistCount>
+				</SpecialistCount>
+			</SpecialistCounts>
 			<ConstructSound>AS2D_BUILD_COURTHOUSE</ConstructSound>
 			<BonusProductionModifiers>
 				<BonusProductionModifier>
@@ -12509,6 +12516,14 @@
 				</BonusProductionModifier>
 			</BonusProductionModifiers>
 			<Flavors>
+				<Flavor>
+					<FlavorType>FLAVOR_GOLD</FlavorType>
+					<iFlavor>10</iFlavor>
+				</Flavor>
+				<Flavor>
+					<FlavorType>FLAVOR_ESPIONAGE</FlavorType>
+					<iFlavor>3</iFlavor>
+				</Flavor>
 				<Flavor>
 					<FlavorType>FLAVOR_RELIGION</FlavorType>
 					<iFlavor>3</iFlavor>

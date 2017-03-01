@@ -147,7 +147,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_BYZANTINE_CATAPHRACT_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Cataphract[COLOR_REVERT], the Byzantine replacement for the the [COLOR_UNIT_TEXT]Knight[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Machinery[COLOR_REVERT] technology, doesn't require the [COLOR_TECH_TEXT]Guilds[COLOR_REVERT] technology, has one less strength point, isn't immune to first strikes and has a combat bonus against [COLOR_UNIT_TEXT]Melee Units[COLOR_REVERT].</English>
+		<English>The [COLOR_UNIT_TEXT]Cataphract[COLOR_REVERT], the Byzantine replacement for the the [COLOR_UNIT_TEXT]Knight[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Civil Service[COLOR_REVERT] technology, doesn't require the [COLOR_TECH_TEXT]Feudalism[COLOR_REVERT] technology, has a first strike and a combat bonus against [COLOR_UNIT_TEXT]Melee Units[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_CAN_DIPLOMATIC_MISSION</Tag>

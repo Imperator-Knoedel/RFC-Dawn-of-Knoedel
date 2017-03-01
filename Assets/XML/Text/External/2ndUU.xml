@@ -91,11 +91,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_BYZANTIUM_TAGMATA</Tag>
-		<English>Tagmata</English>
-		<French>Tagmata</French>
-		<German>Tagmata</German>
-		<Italian>Tagmata</Italian>
-		<Spanish>Tagmata</Spanish>
+		<English>Tagma</English>
+		<French>Tagma</French>
+		<German>Tagma</German>
+		<Italian>Tagma</Italian>
+		<Spanish>Tagma</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_BYZANTIUM_TAGMATA_PEDIA</Tag>
@@ -104,7 +104,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_BYZANTIUM_TAGMATA_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Tagmata[COLOR_REVERT], the Byzantine replacement for the [COLOR_UNIT_TEXT]Pikeman[COLOR_REVERT], has a defense bonus when defending cities.</English>
+		<English>The [COLOR_UNIT_TEXT]Tagma[COLOR_REVERT], the Byzantine replacement for the [COLOR_UNIT_TEXT]Pikeman[COLOR_REVERT], has a defense bonus when defending cities, has an extra movement point and is available earlier.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_CANADA_ARROW</Tag>

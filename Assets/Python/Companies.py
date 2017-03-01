@@ -137,7 +137,7 @@ class Companies:
 			iValue += 2
 			
 		# Tribalism increases likeliness for silk route
-		if iCompany == iSilkRoute and owner.getCivics(2) == iCivicTribalism:
+		if iCompany == iSilkRoute and owner.getCivics(2) == iCivicSubsistence:
 			iValue += 2
 
 		# Free Market increases likeliness for all companies
