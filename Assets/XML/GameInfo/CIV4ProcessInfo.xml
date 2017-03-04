@@ -106,7 +106,7 @@
 			<Type>PROCESS_INEFFICIENT_CULTURE</Type>
 			<Description>TXT_KEY_PROCESS_INEFFICIENT_CULTURE</Description>
 			<Strategy>TXT_KEY_PROCESS_CULTURE_STRATEGY</Strategy>
-			<TechPrereq>TECH_MUSIC</TechPrereq>
+			<TechPrereq>TECH_DRAMA</TechPrereq>
 			<ProductionToCommerceModifiers>
 				<iProductionToCommerceModifier>0</iProductionToCommerceModifier>
 				<iProductionToCommerceModifier>0</iProductionToCommerceModifier>

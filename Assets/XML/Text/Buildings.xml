@@ -109,11 +109,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CANADIAN_ROYAL_MOUNTED_POLICE_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Royal Mounted Police[COLOR_REVERT], the Canadian replacement for the [COLOR_BUILDING_TEXT]Jail[COLOR_REVERT], provides extra happiness with access to [COLOR_HIGHLIGHT_TEXT]Horses[COLOR_REVERT].</English>
+		<English>The [COLOR_BUILDING_TEXT]Royal Mounted Police[COLOR_REVERT], the Canadian replacement for the [COLOR_BUILDING_TEXT]Jail[COLOR_REVERT], provides extra happiness with access to [COLOR_HIGHLIGHT_TEXT]Horses[COLOR_REVERT] and decreases city maintenance costs.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_BYZANTINE_HIPPODROME_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Hippodrome[COLOR_REVERT], the Byzantine replacement for the [COLOR_BUILDING_TEXT]Amphitheatre[COLOR_REVERT], increases the city's happiness with access to [COLOR_HIGHLIGHT_TEXT]Horses[COLOR_REVERT] as well as its Gold and Culture output.</English>
+		<English>The [COLOR_BUILDING_TEXT]Hippodrome[COLOR_REVERT], the Byzantine replacement for the [COLOR_BUILDING_TEXT]Amphitheatre[COLOR_REVERT], increases the city's happiness with access to [COLOR_HIGHLIGHT_TEXT]Horses[COLOR_REVERT] and greatly increases culture output.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CANADIAN_ROYAL_MOUNTED_POLICE</Tag>
@@ -129,7 +129,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CHINESE_TAIXUE_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Taixue[COLOR_REVERT], the Chinese replacement for the [COLOR_BUILDING_TEXT]Library[COLOR_REVERT], provides extra culture and allows you to hire one [COLOR_HIGHLIGHT_TEXT]Statesman[COLOR_REVERT] specialist.</English>
+		<English>The [COLOR_BUILDING_TEXT]Taixue[COLOR_REVERT], the Chinese replacement for the [COLOR_BUILDING_TEXT]Library[COLOR_REVERT], decreases city maintenance costs and allows you to hire one [COLOR_HIGHLIGHT_TEXT]Statesman[COLOR_REVERT] specialist.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_COAL_PLANT_STRATEGY</Tag>
@@ -736,7 +736,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CHINESE_PAVILLION_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Pavillion[COLOR_REVERT], the Chinese replacement for the [COLOR_BUILDING_TEXT]Theatre[COLOR_REVERT], provides an extra cultural boost</English>
+		<English>The [COLOR_BUILDING_TEXT]Pavillion[COLOR_REVERT], the Chinese replacement for the [COLOR_BUILDING_TEXT]Theatre[COLOR_REVERT], is cheaper and available earlier.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_THAI_HO_TRAI</Tag>

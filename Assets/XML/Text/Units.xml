@@ -234,7 +234,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_CHINESE_CHOKONU_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Cho Ko Nu[COLOR_REVERT], the Chinese replacement for the [COLOR_UNIT_TEXT]Crossbowman[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Metal Casting[COLOR_REVERT] technology, has an extra first strike, causes collateral damage and has a combat bonus against [COLOR_UNIT_TEXT]Melee Units[COLOR_REVERT].</English>
+		<English>The [COLOR_UNIT_TEXT]Cho Ko Nu[COLOR_REVERT], the Chinese replacement for the [COLOR_UNIT_TEXT]Crossbowman[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Metal Casting[COLOR_REVERT] technology, can also be trained with access to [COLOR_HIGHLIGHT_TEXT]Copper[COLOR_REVERT], has an extra first strike, and causes more collateral damage.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_CAVALRY_STRATEGY</Tag>
@@ -262,7 +262,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_CANADIAN_CORVETTE_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Corvette[COLOR_REVERT], the Canadian replacement for the [COLOR_UNIT_TEXT]Destroyer[COLOR_REVERT], is cheaper, has four less strength points, has two additional movement points, loses the ability to bombard cities and starts with the [COLOR_HIGHLIGHT_TEXT]Sentry[COLOR_REVERT] promotion.</English>
+		<English>The [COLOR_UNIT_TEXT]Corvette[COLOR_REVERT], the Canadian replacement for the [COLOR_UNIT_TEXT]Destroyer[COLOR_REVERT], is cheaper but weaker, has two additional movement points, has a higher chance to withdraw from combat and starts with the [COLOR_HIGHLIGHT_TEXT]Sentry[COLOR_REVERT] promotion.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_COLOMBIAN_ALBION_LEGION</Tag>

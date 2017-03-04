@@ -1508,7 +1508,7 @@ iIncanSlinger, iChariot, iEgyptianWarChariot, iPersiaScythedChariot, iHittiteHul
 iNumidianCavalry, iKushanAsvaka, iKnight, iMongolianKeshik, iArabianCamelArcher, iByzantineCataphract, iThaiChangSuek, iFranceChevalier, iSeljukGhulamWarrior,
 iMandeFarari, iCuirassier, iSpanishConquistador, iPolishWingedHussar, iItalianCondotierro, iSiouxMountedBrave, iMoorishCamelGunner, iCavalry, iRussianCossack,
 iMexicanRurales, iArgentineGrenadierCavalry, iColombianLlanero, iEthiopianSavannaHunter, iWarElephant, iKhmerBallistaElephant, iPhoenicianAfricanWarElephant,
-iIndiaMahout, iTank, iGermanPanzer, iMainBattleTank, iGunship, iCatapult, iKoreanHwacha, iBabylonRam, iRomanBallista, iTrebuchet, iChinaCannon, iBombard,
+iIndiaMahout, iTank, iGermanPanzer, iMainBattleTank, iGunship, iCatapult, iKoreanHwacha, iBabylonRam, iRomanBallista, iTrebuchet, iChinaGonne, iBombard,
 iMughalSiegeElephant, iMongolSiegeEngineer, iPolandTabor, iTurkeyGreatBombard, iCannon, iFrenchHeavyCannon, iMachineGun, iArtillery, iPrussiaHowitzer,
 iMobileArtillery, iWorkboat, iGalley, iPolynesianWaka, iPhoenicianBireme, iVikingLongboat, iTrireme, iCaravel, iPortugalCarrack, iTamilDharani, iGalleon,
 iDutchEastIndiaman, iPrivateer, iIndonesianOrangLaut, iMoorishCorsair, iFrigate, iShipOfTheLine, iEnglishManOWar, iIronclad, iKoreaKobukson, iTransport,

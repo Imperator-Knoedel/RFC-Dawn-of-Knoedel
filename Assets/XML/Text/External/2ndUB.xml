@@ -138,7 +138,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CANADA_MICROWAVE_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Microwave Station[COLOR_REVERT], the Canadian replacement for the [COLOR_BUILDING_TEXT]Broadcast Tower[COLOR_REVERT], increases the culture output.</English>
+		<English>The [COLOR_BUILDING_TEXT]Microwave Station[COLOR_REVERT], the Canadian replacement for the [COLOR_BUILDING_TEXT]Broadcast Tower[COLOR_REVERT], increases the culture output and is available sooner.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_COLOMBIA_LANCERO_SCHOOL</Tag>

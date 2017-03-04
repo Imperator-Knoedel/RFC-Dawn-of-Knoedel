@@ -123,20 +123,20 @@
 		<English>The [COLOR_UNIT_TEXT]Avro Arrow[COLOR_REVERT], the Canadian replacement for the [COLOR_UNIT_TEXT]Jet Fighter[COLOR_REVERT], is cheaper and has more range.</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UNIT_CHINA_CANNON</Tag>
-		<English>Ancient Cannon</English>
-		<French>Conons Antiques</French>
-		<German>Antike Kanone</German>
-		<Italian>Cannone Antico</Italian>
-		<Spanish>Cañones Antiguos</Spanish>
+		<Tag>TXT_KEY_UNIT_CHINA_GONNE</Tag>
+		<English>Handgonne</English>
+		<French>Handgonne</French>
+		<German>Handgonne</German>
+		<Italian>Handgonne</Italian>
+		<Spanish>Handgonne</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UNIT_CHINA_CANNON_PEDIA</Tag>
+		<Tag>TXT_KEY_UNIT_CHINA_GONNE_PEDIA</Tag>
 		<English>[TAB]Some time around 1000 AD, Chinese alchemists figured out how to create saltpeter (the main ingredient in gunpowder) out of potassium nitrate. The first firearms were very primitive and inaccurate devices: the first Chinese "cannons" were made from bamboo tubes and shot arrows. The earliest record of an actual cannon is found on a relief carved by Chinese Buddhist monks, dating from 1128. (The first European cannons appeared circa 1300.) [PARAGRAPH:2:1]A cannon is a rather simple device consisting of three parts: a cylinder with a hole at one end, a projectile, and a charge of explosives used to fire the projectile. The earliest cannon were as big (or bigger!) threats to their users as they were to potential enemies - when fired they were very much inclined to hurl themselves off of their mounts and maim or kill those nearby, or to blow up with even greater effect. With time, however, the weapons were refined and began to be cast from iron, making them somewhat safer to employ.[PARAGRAPH:1]During the Mongol invasions of China, the defenders of the Jin and Song Empires employed primitive cannon during sieges. During the siege of Kaifeng in 1232, the Jin used explosive weapons called "thunder crashing bombs" that initially enjoyed a great deal of success against the Mongols. (We know that one Mongol commander was blinded by a piece of shrapnel from such a weapon). These cannon were still very primitive and frequently exploded in the faces of the user, often because the cannoneers overcharged them with gunpowder. The cannon were not especially accurate either, but the great noise that they made was an effective shock weapon. By the time that the Mongols attacked the Southern Song Empire a generation later, they were making use of these cannon as well, further increasing their formidable skills in siege warfare.</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UNIT_CHINA_CANNON_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Ancient Cannon[COLOR_REVERT], the Chinese replacement for the [COLOR_UNIT_TEXT]Trebuchet[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Machinery[COLOR_REVERT] technology and doesn't require the [COLOR_TECH_TEXT]Engineering[COLOR_REVERT] technology.</English>
+		<Tag>TXT_KEY_UNIT_CHINA_GONNE_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Handgonne[COLOR_REVERT], the Chinese replacement for the [COLOR_UNIT_TEXT]Bombard[COLOR_REVERT], is cheaper and doesn't require any resources, however it causes less collateral damage.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_COLOMBIA_LLANERO</Tag>

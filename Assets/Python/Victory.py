@@ -299,9 +299,9 @@ def checkTurn(iGameTurn, iPlayer):
 			
 		# second goal: be first to discover Compass, Gunpowder, Paper and Printing Press
 		
-		# third goal: experience six golden ages by 1840 AD
+		# third goal: experience eight golden ages by 1840 AD
 		if isPossible(iChina, 2):
-			if data.iChineseGoldenAgeTurns >= utils.getTurns(48):
+			if data.iChineseGoldenAgeTurns >= utils.getTurns(64):
 				win(iChina, 2)
 				
 			if pChina.isGoldenAge() and not pChina.isAnarchy():
@@ -3034,7 +3034,7 @@ def getUHVHelp(iPlayer, iGoal):
 			aHelp.append(getIcon(bCompass) + localText.getText("TXT_KEY_TECH_COMPASS", ()) + ' ' + getIcon(bPaper) + localText.getText("TXT_KEY_TECH_PAPER", ()) + ' ' + getIcon(bGunpowder) + localText.getText("TXT_KEY_TECH_GUNPOWDER", ()) + ' ' + getIcon(bPrintingPress) + localText.getText("TXT_KEY_TECH_PRINTING_PRESS", ()))
 		elif iGoal == 2:
 			iGoldenAgeTurns = data.iChineseGoldenAgeTurns
-			aHelp.append(getIcon(iGoldenAgeTurns >= utils.getTurns(48)) + localText.getText("TXT_KEY_VICTORY_GOLDEN_AGES", (iGoldenAgeTurns / utils.getTurns(8), 6)))
+			aHelp.append(getIcon(iGoldenAgeTurns >= utils.getTurns(64)) + localText.getText("TXT_KEY_VICTORY_GOLDEN_AGES", (iGoldenAgeTurns / utils.getTurns(8), 8)))
 
 	elif iPlayer == iHarappa:
 		if iGoal == 1:

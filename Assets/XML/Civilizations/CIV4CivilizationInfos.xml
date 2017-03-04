@@ -1230,8 +1230,8 @@
 					<UnitType>UNIT_CHINESE_CHOKONU</UnitType>
 				</Unit>
 				<Unit>
-					<UnitClassType>UNITCLASS_TREBUCHET</UnitClassType>
-					<UnitType>UNIT_CHINA_CANNON</UnitType>
+					<UnitClassType>UNITCLASS_BOMBARD</UnitClassType>
+					<UnitType>UNIT_CHINA_GONNE</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>

@@ -589,6 +589,7 @@
 			<Button>,Art/Interface/Buttons/Civics/Decentralization.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,4,1</Button>
 			<iAnarchyLength>2</iAnarchyLength>
 			<Upkeep>NONE</Upkeep>
+			<iNumCitiesMaintenanceModifier>100</iNumCitiesMaintenanceModifier>
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
@@ -600,7 +601,7 @@
 			<TechPrereq>TECH_GUILDS</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>NONE</Upkeep>
-			<iNumCitiesMaintenanceModifier>100</iNumCitiesMaintenanceModifier>
+			<iNumCitiesMaintenanceModifier>50</iNumCitiesMaintenanceModifier>
 			<BuildingHappinessChanges>
 				<BuildingHappinessChange>
 					<BuildingType>BUILDINGCLASS_BANK</BuildingType>
@@ -626,11 +627,20 @@
 					<ImprovementType>IMPROVEMENT_LUMBERMILL</ImprovementType>
 					<ImprovementYields>
 						<iYield>0</iYield>
+						<iYield>0</iYield>
 						<iYield>1</iYield>
 					</ImprovementYields>
 				</ImprovementYieldChange>
 				<ImprovementYieldChange>
 					<ImprovementType>IMPROVEMENT_WATERMILL</ImprovementType>
+					<ImprovementYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</ImprovementYields>
+				</ImprovementYieldChange>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_WINDMILL</ImprovementType>
 					<ImprovementYields>
 						<iYield>0</iYield>
 						<iYield>0</iYield>
