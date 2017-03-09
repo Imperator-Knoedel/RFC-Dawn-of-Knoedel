@@ -21201,7 +21201,7 @@
 			<iVassalPowerModifier>0</iVassalPowerModifier>
 			<iFreedomAppreciation>10</iFreedomAppreciation>
 			<FavoriteCivic>CIVIC_SLAVERY</FavoriteCivic>
-			<FavoriteReligion>RELIGION_CONFUCIANISM</FavoriteReligion>
+			<FavoriteReligion>RELIGION_TAOISM</FavoriteReligion>
 			<Traits/>
 			<Flavors>
 				<Flavor>
@@ -41077,8 +41077,8 @@
 			<VassalRefuseAttitudeThreshold>ATTITUDE_PLEASED</VassalRefuseAttitudeThreshold>
 			<iVassalPowerModifier>0</iVassalPowerModifier>
 			<iFreedomAppreciation>10</iFreedomAppreciation>
-			<FavoriteCivic>CIVIC_GUILDS</FavoriteCivic>
-			<FavoriteReligion>RELIGION_CONFUCIANISM</FavoriteReligion>
+			<FavoriteCivic>CIVIC_TOLERANCE</FavoriteCivic>
+			<FavoriteReligion>RELIGION_BUDDHISM</FavoriteReligion>
 			<Traits/>
 			<Flavors>
 				<Flavor>
@@ -41622,7 +41622,7 @@
 			<VassalRefuseAttitudeThreshold>ATTITUDE_PLEASED</VassalRefuseAttitudeThreshold>
 			<iVassalPowerModifier>-20</iVassalPowerModifier>
 			<iFreedomAppreciation>10</iFreedomAppreciation>
-			<FavoriteCivic>CIVIC_MERCANTILISM</FavoriteCivic>
+			<FavoriteCivic>CIVIC_ABSOLUTISM</FavoriteCivic>
 			<FavoriteReligion>RELIGION_CONFUCIANISM</FavoriteReligion>
 			<Traits/>
 			<Flavors>

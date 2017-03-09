@@ -567,7 +567,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_PORCELAIN_TOWER_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Porcelain Tower[COLOR_REVERT] gives 2 free [COLOR_HIGHLIGHT_TEXT]Merchant[COLOR_REVERT] specialists and counts all trade routes in your civilization as foreign. It also increases the chance of generating a [COLOR_UNIT_TEXT]Great Merchant[COLOR_REVERT].</English>
+		<English>The [COLOR_BUILDING_TEXT]Porcelain Tower[COLOR_REVERT] gives a free [COLOR_HIGHLIGHT_TEXT]Priest[COLOR_REVERT] specialist and counts all trade routes in your civilization as foreign. It also increases the chance of generating a [COLOR_UNIT_TEXT]Great Merchant[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_PYRAMIDS</Tag>
@@ -762,7 +762,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_THEODOSIAN_WALLS_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Theodosian Walls[COLOR_REVERT] increase a city's defenses against pre-gunpowder units. It also increases their city's chances of generating a [COLOR_UNIT_TEXT]Great Engineer[COLOR_REVERT].</English>
+		<English>The [COLOR_BUILDING_TEXT]Theodosian Walls[COLOR_REVERT] increase a city's defenses against pre-gunpowder units and its espionage output as well as providing a trade route. It also increases their city's chances of generating a [COLOR_UNIT_TEXT]Great Engineer[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_TOPKAPI_PALACE</Tag>

@@ -26923,7 +26923,7 @@ BeginPlot
 		CityName=Knossos
 		CityPopulation=2
 		BuildingType=BUILDING_GRANARY
-		ReligionType=RELIGION_CATHOLICISM
+		ReligionType=RELIGION_ORTHODOXY
 		Player14Culture=10, (Byzantium)
 	EndCity
 EndPlot
@@ -29733,6 +29733,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=76,y=46
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
@@ -30114,6 +30115,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=77,y=45
+	BonusType=BONUS_WINE
+	FeatureType=FEATURE_FOREST, FeatureVariety=0
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot
