@@ -154,7 +154,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_COLOMBIA_LANCERO_SCHOOL_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Lancero School[COLOR_REVERT], the Colombian replacement for the [COLOR_BUILDING_TEXT]Jail[COLOR_REVERT], gives the [COLOR_HIGHLIGHT_TEXT]Tactics[COLOR_REVERT] promotion to units build in the city.</English>
+		<English>The [COLOR_BUILDING_TEXT]Lancero School[COLOR_REVERT], the Colombian replacement for the [COLOR_BUILDING_TEXT]Jail[COLOR_REVERT], gives the [COLOR_HIGHLIGHT_TEXT]City Garrison I[COLOR_REVERT] promotion to units build in the city, and also provides extra experience for [COLOR_UNIT_TEXT]Mounted Units[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CONGO_WENE</Tag>
@@ -170,7 +170,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CONGO_WENE_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Wene[COLOR_REVERT], the Congolese replacement for the [COLOR_BUILDING_TEXT]Granary[COLOR_REVERT], has a [COLOR_HIGHLIGHT_TEXT]Statesman[COLOR_REVERT] slot.</English>
+		<English>The [COLOR_BUILDING_TEXT]Wene[COLOR_REVERT], the Congolese replacement for the [COLOR_BUILDING_TEXT]Granary[COLOR_REVERT], has a [COLOR_HIGHLIGHT_TEXT]Statesman[COLOR_REVERT] slot and decreases city maintenance costs.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_DUTCH_MILL</Tag>
@@ -202,7 +202,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_EGYPT_PYRAMID_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Kushite Pyramid[COLOR_REVERT], the Egyptian replacement for the [COLOR_BUILDING_TEXT]Observatory[COLOR_REVERT], is cheaper, doesn't require the [COLOR_TECH_TEXT]Scientific Method[COLOR_REVERT] and [COLOR_TECH_TEXT]Astronomy[COLOR_REVERT] techs, requires the [COLOR_TECH_TEXT]Mathematics[COLOR_REVERT] tech and requires a [COLOR_BUILDING_TEXT]Library[COLOR_REVERT].</English>
+		<English>The [COLOR_BUILDING_TEXT]Kushite Pyramid[COLOR_REVERT], the Egyptian replacement for the [COLOR_BUILDING_TEXT]Library[COLOR_REVERT], is more expensive but available earlier than the building it replaces. It provides a massive culture boost, a [COLOR_TECH_TEXT]Priest[COLOR_REVERT] specialist slot, and increases Great People Birth Rate.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ENGLAND_DUNGEON</Tag>

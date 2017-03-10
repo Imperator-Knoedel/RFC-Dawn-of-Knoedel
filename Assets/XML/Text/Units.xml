@@ -270,7 +270,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_COLOMBIAN_ALBION_LEGION_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Albion Legion[COLOR_REVERT], the Colombian replacement for the [COLOR_UNIT_TEXT]Grenadier[COLOR_REVERT], has an additional movement point, begins with the [COLOR_HIGHLIGHT_TEXT]City Raider I[COLOR_REVERT] promotion and is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT].</English>
+		<English>The [COLOR_UNIT_TEXT]Albion Legion[COLOR_REVERT], the Colombian replacement for the [COLOR_UNIT_TEXT]Grenadier[COLOR_REVERT], ignores terrain movement costs, begins with the [COLOR_HIGHLIGHT_TEXT]City Raider I[COLOR_REVERT] promotion and is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_CUIRASSIER_STRATEGY</Tag>
@@ -302,7 +302,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_EGYPTIAN_WARCHARIOT_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]War Chariot[COLOR_REVERT], the Egyptian replacement for the [COLOR_UNIT_TEXT]Chariot[COLOR_REVERT], has an additional strength point, is immune to first strikes and has double movement in Desert.</English>
+		<English>The [COLOR_UNIT_TEXT]War Chariot[COLOR_REVERT], the Egyptian replacement for the [COLOR_UNIT_TEXT]Chariot[COLOR_REVERT], has an additional strength point, and double movement in Desert.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_DESTROYER_STRATEGY</Tag>
@@ -350,7 +350,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_EXPLORER_STRATEGY</Tag>
-		<English>[COLOR_UNIT_TEXT]Explorers[COLOR_REVERT] is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Marsh[COLOR_REVERT], gain only positive bonuses from Tribal villages, can only defend, ignores terrain movement costs and begins with the [COLOR_HIGHLIGHT_TEXT]Guerilla I[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Woodsman I[COLOR_REVERT] promotions.</English>
+		<English>[COLOR_UNIT_TEXT]Explorers[COLOR_REVERT] is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Marsh[COLOR_REVERT], gain only positive bonuses from Tribal villages, ignores terrain movement costs and begins with the [COLOR_HIGHLIGHT_TEXT]Sentry[COLOR_REVERT] promotion.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_MANDE_FARARI</Tag>
@@ -715,7 +715,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_CONGOLESE_POMBOS_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Pombos[COLOR_REVERT], the Congolese replacement for the [COLOR_UNIT_TEXT]Heavy Swordsman[COLOR_REVERT], is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Marsh[COLOR_REVERT], has a combat bonus against [COLOR_UNIT_TEXT]Gunpowder Units[COLOR_REVERT] and doesn't require the [COLOR_HIGHLIGHT_TEXT]Copper[COLOR_REVERT] or [COLOR_HIGHLIGHT_TEXT]Iron[COLOR_REVERT] resources.</English>
+		<English>The [COLOR_UNIT_TEXT]Pombos[COLOR_REVERT], the Congolese replacement for the [COLOR_UNIT_TEXT]Explorer[COLOR_REVERT], is more expensive, but also stronger. It does not require the [COLOR_HIGHLIGHT_TEXT]Compass[COLOR_REVERT] technology, has a first strike and a chance to withdraw from combat.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_CONGOLESE_POMBOS</Tag>

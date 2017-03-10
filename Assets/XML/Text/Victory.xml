@@ -490,27 +490,27 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_EGY1</Tag>
-		<English>Have more than 500 Culture in 1070 BC</English>
-		<French>Avoir plus de 500 en Culture en 1070 av. J.-C.</French>
-		<German>Besitzen Sie im Jahr 1070 v. Chr. mehr als 500 Kulturpunkte</German>
-		<Italian>Devi avere pi&#249; di 500 cultura nel 1070 a.C.</Italian>
-		<Spanish>Conseguir una cultura superior a 500 en el 1070 a. C.</Spanish>
+		<English>Have more than 500 Culture in 855 BC</English>
+		<French>Avoir plus de 500 en Culture en 855 av. J.-C.</French>
+		<German>Besitzen Sie im Jahr 855 v. Chr. mehr als 500 Kulturpunkte</German>
+		<Italian>Devi avere pi&#249; di 500 cultura nel 855 a.C.</Italian>
+		<Spanish>Conseguir una cultura superior a 500 en el 855 a. C.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_EGY1_EPIC</Tag>
-		<English>Have more than 750 Culture in 1070 BC</English>
-		<French>Avoir plus de 750 en Culture en 1070 av. J.-C.</French>
-		<German>Besitzen Sie im Jahr 1070 v. Chr. mehr als 750 Kulturpunkte</German>
-		<Italian>Devi avere pi&#249; di 750 cultura nel 1070 a.C.</Italian>
-		<Spanish>Conseguir una cultura superior a 750 en el 1070 a. C.</Spanish>
+		<English>Have more than 750 Culture in 855 BC</English>
+		<French>Avoir plus de 750 en Culture en 855 av. J.-C.</French>
+		<German>Besitzen Sie im Jahr 855 v. Chr. mehr als 750 Kulturpunkte</German>
+		<Italian>Devi avere pi&#249; di 750 cultura nel 855 a.C.</Italian>
+		<Spanish>Conseguir una cultura superior a 750 en el 855 a. C.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_EGY1_MARATHON</Tag>
-		<English>Have more than 1500 Culture in 1070 BC</English>
-		<French>Avoir plus de 1500 en Culture en 1070 av. J.-C.</French>
-		<German>Besitzen Sie im Jahr 1070 v. Chr. mehr als 1500 Kulturpunkte</German>
-		<Italian>Devi avere pi&#249; di 1500 cultura nel 1070 a.C.</Italian>
-		<Spanish>Conseguir una cultura superior a 1500 en el 1070 a. C.</Spanish>
+		<English>Have more than 1500 Culture in 855 BC</English>
+		<French>Avoir plus de 1500 en Culture en 855 av. J.-C.</French>
+		<German>Besitzen Sie im Jahr 855 v. Chr. mehr als 1500 Kulturpunkte</German>
+		<Italian>Devi avere pi&#249; di 1500 cultura nel 855 a.C.</Italian>
+		<Spanish>Conseguir una cultura superior a 1500 en el 855 a. C.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_EGY2_TITLE</Tag>
@@ -812,8 +812,8 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_HOL1</Tag>
-		<English>Settle 4 great merchants in Amsterdam by 1795 AD</English>
-		<German>Siedeln Sie bis 1795 n.Chr. 4 gro&#223;e H&#228;ndler in Amsterdam an</German>
+		<English>Settle 4 great merchants in Amsterdam by 1745 AD</English>
+		<German>Siedeln Sie bis 1745 n.Chr. 4 gro&#223;e H&#228;ndler in Amsterdam an</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_HOL2_TITLE</Tag>
@@ -822,8 +822,8 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_HOL2</Tag>
-		<English>Conquer 5 European colonies by 1795 AD</English>
-		<German>Erobern Sie bis 1795 n. Chr. 5 europ&#228;ische Kolonien</German>
+		<English>Conquer 5 European colonies by 1785 AD</English>
+		<German>Erobern Sie bis 1785 n. Chr. 5 europ&#228;ische Kolonien</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_HOL3_TITLE</Tag>
@@ -834,7 +834,7 @@
 		<Tag>TXT_KEY_UHV_HOL3</Tag>
 		<English>Secure or get by trade 8 spices resources by 1795 AD</English>
 		<French>S&#233;curiser ou obtenir par le commerce 8 en ressources d'&#233;pices avant 1795 ap. J.-C.</French>
-		<German>Besitzen oder kaufen Sie bis zum Jahr 1795 n. Chr. 8 Gew&#252;rz-Ressourcen</German>
+		<German>Besetzen oder kaufen Sie bis zum Jahr 1795 n. Chr. 8 Gew&#252;rz-Ressourcen</German>
 		<Italian>Assicurati o procurati col commercio 8 fonti di spezie entro il 1795 d.C.</Italian>
 		<Spanish>Asegurar o conseguir por medio del comercio 8 recursos de especias en el 1795 d. C.</Spanish>
 	</TEXT>
@@ -1157,8 +1157,8 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_CON1</Tag>
-		<English>Acquire 15% of the votes in the Apostolic Palace by 1655 AD</English>
-		<German>Erreichen sie bis zum Jahr 1655 n. Chr. 15% der Stimmen im Apostolischen Palast</German>
+		<English>Acquire 15% of the votes in the Apostolic Palace by 1665 AD</English>
+		<German>Erreichen sie bis zum Jahr 1665 n. Chr. 15% der Stimmen im Apostolischen Palast</German>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_CON2_TITLE</Tag>

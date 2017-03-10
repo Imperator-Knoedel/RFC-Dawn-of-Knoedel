@@ -721,7 +721,7 @@ def isCommunist(iPlayer):
 	if iOrganization in [iCivicVassalage, iCivicAbsolutism]:
 		return False
 		
-	if iLabor in [iCivicTribalism, iCivicCasteSystem, iCivicSerfdom]:
+	if iLabor in [iCivicSubsistence, iCivicCasteSystem, iCivicCorvee]:
 		return False
 		
 	return True
@@ -1396,7 +1396,7 @@ def republicTitle(iPlayer):
 	
 	if iPlayer == iAmerica:
 		a, b, iCivicLabor, d, e = getCivics(iPlayer)
-		if iCivicLabor in [iCivicSerfdom, iCivicSlavery, iCivicCasteSystem]:
+		if iCivicLabor in [iCivicCorvee, iCivicSlavery, iCivicCasteSystem]:
 			return key(iPlayer, "CSA")
 			
 	if gc.getPlayer(iPlayer).getStateReligion() == iIslam:
@@ -1802,7 +1802,7 @@ def specificTitle(iPlayer, lPreviousOwners=[]):
 		if iCivicLabor == iCivicCasteSystem:
 			return "TXT_KEY_CIV_AMERICA_CSA"
 			
-		if iCivicLabor == iCivicSerfdom:
+		if iCivicLabor == iCivicCorvee:
 			return "TXT_KEY_CIV_AMERICA_CSA"
 			
 	elif iPlayer == iArgentina:

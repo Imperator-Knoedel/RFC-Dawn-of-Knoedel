@@ -152,23 +152,19 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_COLOMBIA_LLANERO_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Llanero[COLOR_REVERT], the Colombian replacement for the [COLOR_UNIT_TEXT]Cavalry[COLOR_REVERT], is cheaper, receives a defensive bonus, and begins with the [COLOR_HIGHLIGHT_TEXT]Guerilla I[COLOR_REVERT] promotion.</English>
+		<English>The [COLOR_UNIT_TEXT]Llanero[COLOR_REVERT], the Colombian replacement for the [COLOR_UNIT_TEXT]Cavalry[COLOR_REVERT], is cheaper but weaker, receives a defensive bonus, begins with the [COLOR_HIGHLIGHT_TEXT]Guerilla I[COLOR_REVERT] promotion, and has a higher chance to withdraw from combat. It is also able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UNIT_CONGO_NGOLO</Tag>
-		<English>Ebamba Ngolo</English>
-		<French>Ebamba Ngolo</French>
-		<German>Ebamba Ngolo</German>
-		<Italian>Ebamba Ngolo</Italian>
-		<Spanish>Ebamba Ngolo</Spanish>
+		<Tag>TXT_KEY_UNIT_CONGO_LUCANZOS</Tag>
+		<English>Lucanzos</English>
+		<French>Lucanzos</French>
+		<German>Lucanzos</German>
+		<Italian>Lucanzos</Italian>
+		<Spanish>Lucanzos</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UNIT_CONGO_NGOLO_PEDIA</Tag>
-		<English>[TAB]No pedia yet.</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UNIT_CONGO_NGOLO_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Ebamba Ngolo[COLOR_REVERT], the Congolese replacement for the [COLOR_UNIT_TEXT]Longbowman[COLOR_REVERT], is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Marsh[COLOR_REVERT], causes collateral damage and has withdraw chance.</English>
+		<Tag>TXT_KEY_UNIT_CONGO_LUCANZOS_STRATEGY</Tag>
+		<English>The [COLOR_UNIT_TEXT]Lucanzos[COLOR_REVERT], the Congolese replacement for the [COLOR_UNIT_TEXT]Heavy Swordsman[COLOR_REVERT], is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Marsh[COLOR_REVERT], doesn't require any resources, and is cheaper.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_DUTCH_GARDIST</Tag>
@@ -184,7 +180,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_DUTCH_GARDIST_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Gardist[COLOR_REVERT], the Dutch replacement for the [COLOR_UNIT_TEXT]Grenadier[COLOR_REVERT], causes collateral damage and has a attack bonus when attacking cities.</English>
+		<English>The [COLOR_UNIT_TEXT]Gardist[COLOR_REVERT], the Dutch replacement for the [COLOR_UNIT_TEXT]Grenadier[COLOR_REVERT], has a slightly smaller attack bonus when attacking cities and begins with the [COLOR_HIGHLIGHT_TEXT]Amphibious[COLOR_REVERT] promotion.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_EGYPT_HEQA_KHASEWET</Tag>
@@ -200,7 +196,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_EGYPT_HEQA_KHASEWET_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Heqa Khasewet[COLOR_REVERT], the Egyptian replacement for the [COLOR_UNIT_TEXT]Axeman[COLOR_REVERT], is stronger than the unit it replaces.</English>
+		<English>The [COLOR_UNIT_TEXT]Heqa Khasewet[COLOR_REVERT], the Egyptian replacement for the [COLOR_UNIT_TEXT]Axeman[COLOR_REVERT], is cheaper than the unit it replaces, and can also be built with access to [COLOR_HIGHLIGHT_TEXT]Iron[COLOR_REVERT] or [COLOR_HIGHLIGHT_TEXT]Gold[COLOR_REVERT] resources.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ENGLAND_MAN_O_WAR</Tag>

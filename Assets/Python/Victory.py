@@ -273,8 +273,8 @@ def checkTurn(iGameTurn, iPlayer):
 	
 	if iPlayer == iEgypt:
 	
-		# first goal: have 500 culture in 1070 BC
-		if iGameTurn == getTurnForYear(-1070):
+		# first goal: have 500 culture in 855 BC
+		if iGameTurn == getTurnForYear(-855):
 			if pEgypt.countTotalCulture() >= utils.getTurns(500):
 				win(iEgypt, 0)
 			else:
@@ -1226,12 +1226,12 @@ def checkTurn(iGameTurn, iPlayer):
 				
 	elif iPlayer == iCongo:
 	
-		# first goal: acquire 15% of the votes in the Apostolic Palace by 1655 AD
+		# first goal: acquire 15% of the votes in the Apostolic Palace by 1665 AD
 		if isPossible(iCongo, 0):
 			if getApostolicVotePercent(iCongo) >= 15.0:
 				win(iCongo, 0)
 				
-		if iGameTurn == getTurnForYear(1655):
+		if iGameTurn == getTurnForYear(1665):
 			expire(iCongo, 0)
 			
 		# second goal: gain 1000 gold through slave trade by 1805 AD
@@ -1242,16 +1242,16 @@ def checkTurn(iGameTurn, iPlayer):
 		
 	elif iPlayer == iNetherlands:
 	
-		# first goal: settle four great merchants in Amsterdam by 1795 AD
+		# first goal: settle four great merchants in Amsterdam by 1745 AD
 		if isPossible(iNetherlands, 0):
 			if countCitySpecialists(iNetherlands, Areas.getCapital(iNetherlands), iSpecialistGreatMerchant) >= 4:
 				win(iNetherlands, 0)
 				
-		if iGameTurn == getTurnForYear(1795):
+		if iGameTurn == getTurnForYear(1745):
 			expire(iNetherlands, 0)
 			
-		# second goal: conquer five European colonies by 1795 AD
-		if iGameTurn == getTurnForYear(1795):
+		# second goal: conquer five European colonies by 1785 AD
+		if iGameTurn == getTurnForYear(1785):
 			expire(iNetherlands, 1)
 			
 		# third goal: secure or get by trade eight spice resources by 1795 AD
@@ -1537,7 +1537,7 @@ def onCityAcquired(iPlayer, iOwner, city, bConquest):
 			if bNAmerica and bSCAmerica and bAfrica and bAsia and bOceania:
 				win(iEngland, 0)
 				
-	# second Dutch goal: conquer five European colonies by 1795 AD
+	# second Dutch goal: conquer five European colonies by 1785 AD
 	elif iPlayer == iNetherlands:
 		if isPossible(iNetherlands, 1):
 			if iOwner in [iSpain, iFrance, iEngland, iPortugal, iVikings, iItaly, iRussia, iGermany, iHolyRome, iPoland]:
@@ -1545,7 +1545,7 @@ def onCityAcquired(iPlayer, iOwner, city, bConquest):
 			
 				if bColony and bConquest:
 					data.iDutchColonies += 1
-					if data.iDutchColonies >= 4:
+					if data.iDutchColonies >= 5:
 						win(iNetherlands, 1)
 				
 	# second Canadian goal: control all cities and 90% of the territory in Canada by 1950 AD without ever conquering a city

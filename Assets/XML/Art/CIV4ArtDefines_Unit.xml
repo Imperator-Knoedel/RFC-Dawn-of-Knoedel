@@ -6020,7 +6020,7 @@
 			<AudioRunSounds/>
 		</UnitArtInfo>
 		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_CONGOLESE_POMBOS</Type>
+			<Type>ART_DEF_UNIT_CONGO_LUCANZOS</Type>
 			<Button>Art/Units/Kongolese Pombos/Button_Pombos.dds</Button>
 			<fScale>0.44</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
@@ -7109,7 +7109,7 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_CONGO_NGOLO</Type>
+			<Type>ART_DEF_UNIT_CONGOLESE_POMBOS</Type>
 			<Button>,-,Art/2ndUUB/2ndUU_Buttons.dds,7,6</Button>
 			<fScale>0.44</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>

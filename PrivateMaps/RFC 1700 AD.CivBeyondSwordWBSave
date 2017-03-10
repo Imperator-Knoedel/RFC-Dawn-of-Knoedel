@@ -27680,10 +27680,10 @@ BeginPlot
 		UnitType=UNIT_CONGOLESE_POMBOS, UnitOwner=37, (Congo)
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_CONGO_NGOLO, UnitOwner=37, (Congo)
+		UnitType=UNIT_CONGO_LUCANZOS, UnitOwner=37, (Congo)
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_CONGO_NGOLO, UnitOwner=37, (Congo)
+		UnitType=UNIT_CONGO_LUCANZOS, UnitOwner=37, (Congo)
 	EndUnit
 	BeginUnit
 		UnitType=UNIT_CATAPULT, UnitOwner=37, (Congo)

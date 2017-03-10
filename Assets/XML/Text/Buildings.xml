@@ -141,7 +141,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_COLOMBIAN_HACIENDA_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Hacienda[COLOR_REVERT], the Colombian replacement for the [COLOR_BUILDING_TEXT]Grocer[COLOR_REVERT], increases the city's health with access to [COLOR_HIGHLIGHT_TEXT]Coffee[COLOR_REVERT] and also increases the improved tile yield of [COLOR_HIGHLIGHT_TEXT]Bananas[COLOR_REVERT], and [COLOR_HIGHLIGHT_TEXT]Coffee[COLOR_REVERT].</English>
+		<English>The [COLOR_BUILDING_TEXT]Hacienda[COLOR_REVERT], the Colombian replacement for the [COLOR_BUILDING_TEXT]Grocer[COLOR_REVERT], increases the city's happiness with access to [COLOR_HIGHLIGHT_TEXT]Coffee[COLOR_REVERT] and also increases the improved tile yield of [COLOR_HIGHLIGHT_TEXT]Bananas[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Coffee[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_AMPHITHEATRE</Tag>
@@ -233,7 +233,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_EGYPTIAN_OBELISK_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Obelisk[COLOR_REVERT], the Egyptian replacement for the [COLOR_BUILDING_TEXT]Pagan Temple[COLOR_REVERT], provides a major bonus to Culture output in your city and allows you to hire a [COLOR_HIGHLIGHT_TEXT]Priest[COLOR_REVERT] specialist.</English>
+		<English>The [COLOR_BUILDING_TEXT]Obelisk[COLOR_REVERT], the Egyptian replacement for the [COLOR_BUILDING_TEXT]Pagan Temple[COLOR_REVERT], provides a bonus to Culture output in your city is slightly cheaper.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CELTIC_DUN_STRATEGY</Tag>
@@ -418,7 +418,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_CONGOLESE_MBWADI_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Mbwadi[COLOR_REVERT], the Congolese replacement for the [COLOR_BUILDING_TEXT]Market[COLOR_REVERT], increases the improved tile yield of [COLOR_HIGHLIGHT_TEXT]Cotton[COLOR_REVERT].</English>
+		<English>The [COLOR_BUILDING_TEXT]Mbwadi[COLOR_REVERT], the Congolese replacement for the [COLOR_BUILDING_TEXT]Market[COLOR_REVERT], is cheaper and increases the improved tile yield of [COLOR_HIGHLIGHT_TEXT]Cotton[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_MARKET_STRATEGY</Tag>

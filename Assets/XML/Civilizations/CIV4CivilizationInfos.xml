@@ -1438,7 +1438,7 @@
 					<BuildingType>BUILDING_EGYPTIAN_OBELISK</BuildingType>
 				</Building>
 				<Building>
-					<BuildingClassType>BUILDINGCLASS_OBSERVATORY</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
 					<BuildingType>BUILDING_EGYPT_PYRAMID</BuildingType>
 				</Building>
 			</Buildings>
@@ -3123,12 +3123,12 @@
 			</Buildings>
 			<Units>
 				<Unit>
-					<UnitClassType>UNITCLASS_HEAVY_SWORDSMAN</UnitClassType>
+					<UnitClassType>UNITCLASS_EXPLORER</UnitClassType>
 					<UnitType>UNIT_CONGOLESE_POMBOS</UnitType>
 				</Unit>
 				<Unit>
-					<UnitClassType>UNITCLASS_LONGBOWMAN</UnitClassType>
-					<UnitType>UNIT_CONGO_NGOLO</UnitType>
+					<UnitClassType>UNITCLASS_HEAVY_SWORDSMAN</UnitClassType>
+					<UnitType>UNIT_CONGO_LUCANZOS</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_SLAVE</UnitClassType>

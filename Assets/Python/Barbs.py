@@ -57,7 +57,7 @@ tMinorCities = (
 (1100, (71, 20), iNative, 'Mombasa', 1, iZuluImpi, 1),		# Mombasa
 (1200, (77, 55), iBarbarian, 'Qazan', 2, iHorseArcher, 1),		# Kazan
 (1400, (104, 33), iIndependent, 'Saigon', 5, iLongbowman, 3),	# Saigon
-(1483, (62, 20), iNative, 'Mbanza Kongo', 1, iCongolesePombos, 1),	# Mbanza Kongo
+(1483, (62, 20), iNative, 'Mbanza Kongo', 1, iCongoLucanzos, 1),	# Mbanza Kongo
 )
 
 # do some research on dates here
@@ -255,8 +255,9 @@ class Barbs:
 				self.checkSpawn(iNative, iZuluImpi, 2 + iHandicap, (60, 10), (72, 27), self.spawnNatives, iGameTurn, 10, 4)
 			else:
 				self.checkSpawn(iNative, iZuluImpi, 2 + iHandicap, (60, 10), (72, 27), self.spawnNatives, iGameTurn, 15, 4)
-		elif utils.isYearIn(1600, 1800):
+		elif utils.isYearIn(1600, 1900):
 			self.checkSpawn(iNative, iCongolesePombos, 2 + iHandicap, (60, 10), (72, 27), self.spawnNatives, iGameTurn, 10, 4)
+			self.checkSpawn(iNative, iCongoLucanzos, 1 + iHandicap, (60, 10), (72, 27), self.spawnNatives, iGameTurn, 10, 5)
 			
 		#west africa
 		if utils.isYearIn(450, 1900):
