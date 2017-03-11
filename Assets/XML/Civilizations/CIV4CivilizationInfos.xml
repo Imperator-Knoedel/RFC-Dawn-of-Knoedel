@@ -1438,7 +1438,7 @@
 					<BuildingType>BUILDING_EGYPTIAN_OBELISK</BuildingType>
 				</Building>
 				<Building>
-					<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_AMPHITHEATRE</BuildingClassType>
 					<BuildingType>BUILDING_EGYPT_PYRAMID</BuildingType>
 				</Building>
 			</Buildings>
@@ -1448,8 +1448,8 @@
 					<UnitType>UNIT_EGYPTIAN_WARCHARIOT</UnitType>
 				</Unit>
 				<Unit>
-					<UnitClassType>UNITCLASS_AXEMAN</UnitClassType>
-					<UnitType>UNIT_EGYPT_AXEMAN</UnitType>
+					<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
+					<UnitType>UNIT_NUBIAN_MEDJAY</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>

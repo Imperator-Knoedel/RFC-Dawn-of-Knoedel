@@ -1497,7 +1497,7 @@ iNumUnits = 212 #originally 164, 209 in 2ndUUB mod
 (iLion, iBear, iPanther, iWolf, iSettler, iHarappanCityBuilder, iWorker, iBrazilianMadeireiro, iIndianPunjabiWorker, iScout, iExplorer, iMaliCaravan, iSpy,
 iReligiousPersecutor, iJewishMissionary, iOrthodoxMissionary, iCatholicMissionary, iProtestantMissionary, iIslamicMissionary, iHinduMissionary,
 iBuddhistMissionary, iConfucianMissionary, iTaoistMissionary, iZoroastrianMissionary, iWarrior, iHarappanCityGuard, iPolynesiaKoa, iSwordsman, iAztecJaguar,
-iRomanLegion, iCelticGallicWarrior, iAxeman, iGreekHoplite, iIncanAucac, iEgyptianAxeman, iSumerianVulture, iNativeAmericanDogSoldier, iHeavySwordsman,
+iRomanLegion, iCelticGallicWarrior, iAxeman, iGreekHoplite, iIncanAucac, iHyksosAxeman, iSumerianVulture, iNativeAmericanDogSoldier, iHeavySwordsman,
 iJapaneseSamurai, iVikingHuscarl, iCongoLucanzos, iArabianGhazi, iGermanDoppelsoldner, iTamilKallarani, iSpearman, iPersianImmortal, iAztecEagleWarrior,
 iMayaSpearman, iZuluImpi, iPikeman, iHolyRomanLandsknecht, iByantineTagmata, iIndonesiaBambooRuncing, iJapanAshigaru, iKhmerPhakak, iTibetDobDob, iMusketman,
 iOttomanJanissary, iEthiopianAskari, iIranianQizilbash, iPortugalBandeirantes, iRussiaStrelets, iSpainTercio, iIroquoisMohawk, iFrenchMusketeer, iRifleman,

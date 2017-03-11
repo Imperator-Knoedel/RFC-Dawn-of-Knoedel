@@ -200,11 +200,11 @@ class Barbs:
 			self.checkSpawn(iBarbarian, iHorseArcher, 3 + iHandicap, (68, 48), (78, 50), self.spawnInvaders, iGameTurn, 8, 5, ["TXT_KEY_ADJECTIVE_CUMAN"])
 			
 		#barbarians in central asia
-		if utils.isYearIn(-1600, -850):
+		if utils.isYearIn(-1600, -300):
 			self.checkSpawn(iBarbarian, iSumerianVulture, 1, (74, 34), (78, 44), self.spawnNomads, iGameTurn, 6-iHandicap, 2, ["TXT_KEY_ADJECTIVE_ASSYRIAN"])
 		elif utils.isYearIn(-300, 300):
 			self.checkSpawn(iBarbarian, iSumerianVulture, 1, (73, 38), (78, 44), self.spawnNomads, iGameTurn, 8-iHandicap, 2, ["TXT_KEY_ADJECTIVE_ASSYRIAN"])
-			self.checkSpawn(iBarbarian, iHorseArcher, 2 + iHandicap, (79, 41), (84, 49), self.spawnInvaders, iGameTurn, 7-iHandicap, 2, ["TXT_KEY_ADJECTIVE_PARTHIAN"])
+			self.checkSpawn(iBarbarian, iHorseArcher, 1 + iHandicap, (79, 41), (84, 49), self.spawnInvaders, iGameTurn, 7-iHandicap, 2, ["TXT_KEY_ADJECTIVE_PARTHIAN"])
 		elif utils.isYearIn(300, 700):
 			#if utils.getScenario() == i3000BC:  #late start condition
 			self.checkSpawn(iBarbarian, iHorseArcher, 2 + iHandicap, (78, 42), (88, 50), self.spawnNomads, iGameTurn, 8-iHandicap, 2, ["TXT_KEY_ADJECTIVE_TURKIC"])
@@ -243,12 +243,15 @@ class Barbs:
 			self.checkSpawn(iBarbarian, iArabianCamelArcher, 1, (54, 27), (67, 35), self.spawnNomads, iGameTurn, 8-iHandicap, 4, ["TXT_KEY_ADJECTIVE_BERBER"])
 			
 		#camels in arabia
-		if utils.isYearIn(190, 550):
+		if utils.isYearIn(400, 600):
 			self.checkSpawn(iBarbarian, iArabianCamelArcher, 2, (73, 30), (82, 36), self.spawnNomads, iGameTurn, 9-iHandicap, 7, ["TXT_KEY_ADJECTIVE_BEDOUIN"])
-		if utils.isYearIn(-800, 1300):
+		if utils.isYearIn(-1650, -300):
 			iNumUnits = iHandicap
-			if utils.getScenario() == i3000BC: iNumUnits += 1
-			if iGameTurn >= getTurnForYear(400): iNumUnits += 2
+			self.checkSpawn(iBarbarian, iNubianMedjay, 1, (66, 28), (71, 34), self.spawnUprising, iGameTurn, 12, 4, ["TXT_KEY_ADJECTIVE_NUBIAN"])
+			self.checkSpawn(iBarbarian, iHyksosAxeman, 1, (66, 28), (71, 34), self.spawnUprising, iGameTurn, 12, 4, ["TXT_KEY_ADJECTIVE_HYKSOS"])
+		if utils.isYearIn(-300, 1300):
+			iNumUnits = iHandicap
+			if iGameTurn >= getTurnForYear(400): iNumUnits += 1
 			self.checkSpawn(iBarbarian, iNubianMedjay, iNumUnits, (66, 28), (71, 34), self.spawnUprising, iGameTurn, 12, 4, ["TXT_KEY_ADJECTIVE_NUBIAN"])
 		if utils.isYearIn(450, 1600):
 			if utils.getScenario() == i3000BC:

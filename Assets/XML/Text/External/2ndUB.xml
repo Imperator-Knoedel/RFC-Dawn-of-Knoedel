@@ -202,7 +202,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_EGYPT_PYRAMID_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Kushite Pyramid[COLOR_REVERT], the Egyptian replacement for the [COLOR_BUILDING_TEXT]Library[COLOR_REVERT], is more expensive but available earlier than the building it replaces. It provides a massive culture boost, a [COLOR_TECH_TEXT]Priest[COLOR_REVERT] specialist slot, and increases Great People Birth Rate.</English>
+		<English>The [COLOR_BUILDING_TEXT]Kushite Pyramid[COLOR_REVERT], the Egyptian replacement for the [COLOR_BUILDING_TEXT]Amphitheatre[COLOR_REVERT], is available earlier than the building it replaces, and provides a culture boost as well as additional slots for [COLOR_TECH_TEXT]Priest[COLOR_REVERT] and [COLOR_TECH_TEXT]Engineer[COLOR_REVERT] specialists.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ENGLAND_DUNGEON</Tag>
@@ -218,7 +218,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ENGLAND_DUNGEON_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Dungeon[COLOR_REVERT], the English replacement for the [COLOR_BUILDING_TEXT]Jail[COLOR_REVERT], increases the espionage output and has an additional [COLOR_HIGHLIGHT_TEXT]Statesman[COLOR_REVERT] slot.</English>
+		<English>The [COLOR_BUILDING_TEXT]Dungeon[COLOR_REVERT], the English replacement for the [COLOR_BUILDING_TEXT]Jail[COLOR_REVERT], increases the espionage output, provides culture and has an additional [COLOR_HIGHLIGHT_TEXT]Statesman[COLOR_REVERT] slot.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ETHIOPIA_XEER</Tag>

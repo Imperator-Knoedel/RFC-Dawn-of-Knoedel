@@ -310,7 +310,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ENGLISH_REDCOAT_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Redcoat[COLOR_REVERT], the English replacement for the [COLOR_UNIT_TEXT]Rifleman[COLOR_REVERT], causes collateral damage.</English>
+		<English>The [COLOR_UNIT_TEXT]Redcoat[COLOR_REVERT], the English replacement for the [COLOR_UNIT_TEXT]Rifleman[COLOR_REVERT], is cheaper, has an additonal first strike chance and a combat bonus against [COLOR_UNIT_TEXT]Melee[COLOR_REVERT] units.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ETHIOPIAN_ASKARI</Tag>
@@ -494,7 +494,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_NUBIAN_MEDJAY_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Medjay[COLOR_REVERT] is a barbarian unit that spawns in Egypt from 800 BC to 1300 AD.</English>
+		<English>The [COLOR_UNIT_TEXT]Medjay[COLOR_REVERT], the Egyptian replacement for the [COLOR_UNIT_TEXT]Archer[COLOR_REVERT], is cheaper than the unit it replaces, has a slightly larger defense bonus in cities, and has double movement in desert.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_HARAPPAN_CITY_BUILDER_HELP</Tag>

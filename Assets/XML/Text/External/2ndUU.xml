@@ -184,11 +184,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_EGYPT_HEQA_KHASEWET</Tag>
-		<English>Heqa Khasewet</English>
-		<French>Heqa Khasewet</French>
-		<German>Heqa Khasewet</German>
-		<Italian>Heqa Khasewet</Italian>
-		<Spanish>Heqa Khasewet</Spanish>
+		<English>Heqa Khaseshet</English>
+		<French>Heqa Khaseshet</French>
+		<German>Heqa Khaseshet</German>
+		<Italian>Heqa Khaseshet</Italian>
+		<Spanish>Heqa Khaseshet</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_EGYPT_AXEMAN_PEDIA</Tag>
@@ -196,7 +196,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_EGYPT_HEQA_KHASEWET_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Heqa Khasewet[COLOR_REVERT], the Egyptian replacement for the [COLOR_UNIT_TEXT]Axeman[COLOR_REVERT], is cheaper than the unit it replaces, and can also be built with access to [COLOR_HIGHLIGHT_TEXT]Iron[COLOR_REVERT] or [COLOR_HIGHLIGHT_TEXT]Gold[COLOR_REVERT] resources.</English>
+		<English>The [COLOR_UNIT_TEXT]Heqa Khaseshet[COLOR_REVERT] is a barbarian unit that spawns in Egypt from 1650 to 300 BC.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ENGLAND_MAN_O_WAR</Tag>
@@ -212,7 +212,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ENGLAND_MAN_O_WAR_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Man-O-War[COLOR_REVERT], the English replacement for the [COLOR_UNIT_TEXT]Ship of the Line[COLOR_REVERT], begins with the [COLOR_HIGHLIGHT_TEXT]Combat I[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Drill I[COLOR_REVERT] promotions.</English>
+		<English>The [COLOR_UNIT_TEXT]Man-O-War[COLOR_REVERT], the English replacement for the [COLOR_UNIT_TEXT]Ship of the Line[COLOR_REVERT], is cheaper and faster than the unit it replaces.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ETHIOPIA_SAVANNA_HUNTER</Tag>
