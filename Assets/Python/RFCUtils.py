@@ -175,7 +175,7 @@ class RFCUtils:
 	#RiseAndFall
 	def updateMinorTechs( self, iMinorCiv, iMajorCiv):
 		for iTech in range(iNumTechs):
-			if (gc.getTeam(gc.getPlayer(iMajorCiv).getTeam()).isHasTech(iTech)):
+			if gc.getTeam(gc.getPlayer(iMajorCiv).getTeam()).isHasTech(iTech):
 					gc.getTeam(gc.getPlayer(iMinorCiv).getTeam()).setHasTech(iTech, True, iMinorCiv, False, False)
 
 
@@ -217,7 +217,7 @@ class RFCUtils:
 			if unit.getOwner() == iOldOwner:
 				unit.kill(False, iBarbarian)
 				if iNewOwner < iNumActivePlayers or unitType > iSettler:
-					self.makeUnit(unitType, iNewOwner, [0, 67], 1)
+					self.makeUnit(unitType, iNewOwner, (0, 67), 1)
 			else:
 				j += 1
 	#RiseAndFall
@@ -288,7 +288,7 @@ class RFCUtils:
 									continue
 								
 								if not (unit.isFound() and not bKillSettlers) and not unit.isAnimal():
-									self.makeUnit(unit.getUnitType(), iNewOwner, [0, 67], 1)
+									self.makeUnit(unit.getUnitType(), iNewOwner, (0, 67), 1)
 						else:
 							j += 1
 					tempPlot = gc.getMap().plot(0,67)
@@ -315,8 +315,8 @@ class RFCUtils:
 		iOldOwners is a list. Flip happens only if the old owner is in the list.
 		An empty list will cause the flip to always happen."""
 		pNewOwner = gc.getPlayer(iNewOwner)
-		city = gc.getMap().plot(tCityPlot[0], tCityPlot[1]).getPlotCity()
 		if gc.getMap().plot(tCityPlot[0], tCityPlot[1]).isCity():
+			city = gc.getMap().plot(tCityPlot[0], tCityPlot[1]).getPlotCity()
 			if not city.isNone():
 				iOldOwner = city.getOwner()
 				if iOldOwner in iOldOwners or not iOldOwners:
@@ -357,11 +357,9 @@ class RFCUtils:
 		iCulturePercent determine the percentage that goes to the new owner.
 		If old owner is barbarian, all the culture is converted"""
 
-		pCity = gc.getMap().plot(tCityPlot[0], tCityPlot[1])
-		city = pCity.getPlotCity()
-
 		#city
-		if pCity.isCity():
+		if gc.getMap().plot(tCityPlot[0], tCityPlot[1]).isCity():
+			city = gc.getMap().plot(tCityPlot[0], tCityPlot[1]).getPlotCity()
 			iCurrentCityCulture = city.getCulture(iOldOwner)
 			city.setCulture(iOldOwner, iCurrentCityCulture*(100-iCulturePercent)/100, False)
 			if iNewOwner != iBarbarian:
@@ -457,9 +455,10 @@ class RFCUtils:
 	#DynamicCivs
 	def getMaster(self, iCiv):
 		team = gc.getTeam(gc.getPlayer(iCiv).getTeam())
-		for iMaster in range(iNumTotalPlayers):
-			if team.isVassal(iMaster):
-				return iMaster
+		if team.isAVassal():
+			for iMaster in range(iNumTotalPlayers):
+				if team.isVassal(iMaster):
+					return iMaster
 		return -1
 
 
@@ -545,7 +544,7 @@ class RFCUtils:
 			j = 0
 			for i in range(iNumUnitsInAPlot):
 				unit = plotCity.getUnit(j)
-				if unit.getDomainType() == 0: #sea unit
+				if unit.getDomainType() == DomainTypes.DOMAIN_SEA:
 					unit.setXYOld(tDestination[0], tDestination[1])
 				else:
 					j += 1
@@ -577,10 +576,7 @@ class RFCUtils:
 	#AIWars, by CyberChrist
 
 	def isAVassal(self, iCiv):
-		for iMaster in range(iNumTotalPlayers):
-			if (gc.getTeam(gc.getPlayer(iCiv).getTeam()).isVassal(iMaster)):
-				return True
-		return False
+		return gc.getTeam(gc.getPlayer(iCiv).getTeam()).isAVassal()
 
 	#Barbs, RiseAndFall
 	def squareSearch(self, tTopLeft, tBottomRight, function, argsList, tExceptions = ()): #by LOQ
@@ -1019,11 +1015,10 @@ class RFCUtils:
 	# Leoreth: return list of border plots in a given direction, -1 means all directions
 	def getBorderPlotList(self, iCiv, iDirection):
 		lPlotList = []
-
-		for x in range(124):
-			for y in range(68):
-				if gc.getMap().plot(x, y).getOwner() == iCiv:
-					lPlotList.extend(self.testBorderPlot((x, y), iCiv, iDirection))
+		
+		for (x, y) in self.getWorldPlotsList():
+			if gc.getMap().plot(x, y).getOwner() == iCiv:
+				lPlotList.extend(self.testBorderPlot((x, y), iCiv, iDirection))
 
 		# exclude Mediterranean islands
 		for tPlot in [(68, 39), (69, 39), (71, 40)]:
@@ -1075,9 +1070,6 @@ class RFCUtils:
 		return [plot.getUnit(i) for i in range(plot.getNumUnits())]
 		
 	def hasEnemyUnit(self, iPlayer, tPlot):
-		x, y = tPlot
-		plot = gc.getMap().plot(x, y)
-		
 		for unit in self.getUnitList(tPlot):
 			if gc.getTeam(gc.getPlayer(iPlayer).getTeam()).isAtWar(unit.getTeam()): return True
 			
@@ -1145,26 +1137,24 @@ class RFCUtils:
 		lEurope = [rBritain, rIberia, rEurope, rItaly, rScandinavia, rRussia, rBalkans, rAnatolia, rMaghreb]
 		
 		lColonies = []
-		for city in PyPlayer(iPlayer).getCityList():
-			if city.GetCy().getRegionID() not in lEurope:
+		for city in self.getCityList(iPlayer):
+			if city.getRegionID() not in lEurope:
 				lColonies.append(city)
 				
 		if len(lColonies) == 0: return
 		
-		iRand = gc.getGame().getSorenRandNum(len(lColonies), 'random colony')
-		city = lColonies[iRand].GetCy()
+		city = self.getRandomEnty(lColonies)
 		
 		unit.setXYOld(city.getX(), city.getY())
 		
 	def clearSlaves(self, iPlayer):
-		for x in range(124):
-			for y in range(68):
-				plot = gc.getMap().plot(x, y)
-				if plot.getOwner() == iPlayer:
-					if plot.getImprovementType() == gc.getInfoTypeForString("IMPROVEMENT_SLAVE_PLANTATION"):
-						plot.setImprovementType(gc.getInfoTypeForString("IMPROVEMENT_PLANTATION"))
-					if plot.isCity():
-						self.removeSlaves(plot.getPlotCity())
+		for (x, y) in self.getWorldPlotsList():
+			plot = gc.getMap().plot(x, y)
+			if plot.getOwner() == iPlayer:
+				if plot.getImprovementType() == iSlavePlantation:
+					plot.setImprovementType(iPlantation)
+				if plot.isCity():
+					self.removeSlaves(plot.getPlotCity())
 						
 		lSlaves = []
 		for unit in PyPlayer(iPlayer).getUnitList():
@@ -1275,11 +1265,7 @@ class RFCUtils:
 		return lCities
 		
 	def getAreaCitiesCiv(self, iCiv, lPlots):
-		lCities = []
-		for city in self.getAreaCities(lPlots):
-			if city.getOwner() == iCiv:
-				lCities.append(city)
-		return lCities
+		return [city for city in self.getAreaCities(lPlots) if city.getOwner() == iCiv]
 		
 	def completeCityFlip(self, x, y, iCiv, iOwner, iCultureChange, bBarbarianDecay = True, bBarbarianConversion = False, bAlwaysOwnPlots = False, bFlipUnits = False):
 	
@@ -1327,7 +1313,7 @@ class RFCUtils:
 		if isTeamWonderClass(gc.getBuildingInfo(iBuilding).getBuildingClassType()):
 			return true
 
-		if isNationalWonderClass(gc.getBuildingInfo(iBuilding).getBuildingClassType()): #Rhye - should be changed to move embassies to regular buildings
+		if isNationalWonderClass(gc.getBuildingInfo(iBuilding).getBuildingClassType()):
 			return true
 
 		# Regular building
@@ -1644,9 +1630,9 @@ class RFCUtils:
 		
 	def evacuate(self, tPlot):
 		for tLoopPlot in self.surroundingPlots(tPlot):
-			for unit in utils.getUnitList(tLoopPlot):
-				lPossibleTiles = self.surroundingPlots(tLoopPlot, 2, lambda (x, y): utils.isFree(unit.getOwner(), (x, y), bNoEnemyUnit=True, bCanEnter=True))
-				tTargetPlot = utils.getRandomEntry(lPossibleTiles)
+			for unit in self.getUnitList(tLoopPlot):
+				lPossibleTiles = self.surroundingPlots(tLoopPlot, 2, lambda (x, y): self.isFree(unit.getOwner(), (x, y), bNoEnemyUnit=True, bCanEnter=True))
+				tTargetPlot = self.getRandomEntry(lPossibleTiles)
 				if tTargetPlot:
 					x, y = tLoopPlot
 					unit.setXY(x, y, False, True, False)
@@ -1724,7 +1710,7 @@ class RFCUtils:
 			
 	def getRegionCities(self, lRegions):
 		lCities = []
-		for (x, y) in [(x, y) for x in range(iWorldX) for y in range(iWorldY)]:
+		for (x, y) in self.getWorldPlotsList():
 			plot = gc.getMap().plot(x, y)
 			if plot.getRegionID() in lRegions and plot.isCity():
 				lCities.append(plot.getPlotCity())
@@ -1792,5 +1778,8 @@ class RFCUtils:
 	def isYearIn(self, iStartYear, iEndYear):
 		iGameTurn = gc.getGame().getGameTurn()
 		return getTurnForYear(iStartYear) <= iGameTurn <= getTurnForYear(iEndYear)
+		
+	def getWorldPlotsList(self):
+		return [(x, y) for x in range(iWorldX) for y in range(iWorldY)]
 
 utils = RFCUtils()

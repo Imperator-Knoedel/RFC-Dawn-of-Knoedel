@@ -72,6 +72,7 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iFoodKept>10</iFoodKept>
 			<iWarWearinessModifier>-10</iWarWearinessModifier>
+			<iHealRateChange>5</iHealRateChange>
 			<iDefense>50</iDefense>
 			<iBombardDefense>25</iBombardDefense>
 			<iAsset>1</iAsset>
@@ -108,6 +109,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iFoodKept>10</iFoodKept>
+			<iHealRateChange>5</iHealRateChange>
 			<iDefense>50</iDefense>
 			<iBombardDefense>50</iBombardDefense>
 			<iAsset>1</iAsset>
@@ -146,6 +148,7 @@
 			<iFoodKept>10</iFoodKept>
 			<iMaintenanceModifier>25</iMaintenanceModifier>
 			<iWarWearinessModifier>-10</iWarWearinessModifier>
+			<iHealRateChange>10</iHealRateChange>
 			<iDefense>50</iDefense>
 			<iBombardDefense>25</iBombardDefense>
 			<iAsset>2</iAsset>
@@ -245,6 +248,7 @@
 			<iFoodKept>10</iFoodKept>
 			<iMaintenanceModifier>10</iMaintenanceModifier>
 			<iWarWearinessModifier>-10</iWarWearinessModifier>
+			<iHealRateChange>10</iHealRateChange>
 			<iDefense>50</iDefense>
 			<iBombardDefense>25</iBombardDefense>
 			<iAsset>2</iAsset>
@@ -350,6 +354,7 @@
 			<iFoodKept>10</iFoodKept>
 			<iMaintenanceModifier>10</iMaintenanceModifier>
 			<iWarWearinessModifier>-10</iWarWearinessModifier>
+			<iHealRateChange>10</iHealRateChange>
 			<iDefense>60</iDefense>
 			<iBombardDefense>25</iBombardDefense>
 			<iAsset>2</iAsset>
@@ -665,6 +670,7 @@
 			<iConquestProb>66</iConquestProb>
 			<iFoodKept>10</iFoodKept>
 			<iWarWearinessModifier>-10</iWarWearinessModifier>
+			<iHealRateChange>5</iHealRateChange>
 			<iAirModifier>-50</iAirModifier>
 			<iAsset>1</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -692,6 +698,7 @@
 			<iConquestProb>66</iConquestProb>
 			<iFoodKept>10</iFoodKept>
 			<iWarWearinessModifier>-10</iWarWearinessModifier>
+			<iHealRateChange>10</iHealRateChange>
 			<iNukeModifier>-50</iNukeModifier>
 			<iAsset>1</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -1120,7 +1127,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>66</iConquestProb>
-			<iHealRateChange>10</iHealRateChange>
+			<iHealRateChange>15</iHealRateChange>
 			<iHealth>4</iHealth>
 			<iAsset>5</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -1215,6 +1222,12 @@
 					<iHealthChange>1</iHealthChange>
 				</BonusHealthChange>
 			</BonusHealthChanges>
+			<BonusHappinessChanges>
+				<BonusHappinessChange>
+					<BonusType>BONUS_PEARL</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+			</BonusHappinessChanges>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
@@ -1274,6 +1287,12 @@
 					<iHealthChange>1</iHealthChange>
 				</BonusHealthChange>
 			</BonusHealthChanges>
+			<BonusHappinessChanges>
+				<BonusHappinessChange>
+					<BonusType>BONUS_PEARL</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+			</BonusHappinessChanges>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
@@ -3911,6 +3930,10 @@
 			</BonusProductionModifiers>
 			<BonusHappinessChanges>
 				<BonusHappinessChange>
+					<BonusType>BONUS_COTTON</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
 					<BonusType>BONUS_FUR</BonusType>
 					<iHappinessChange>1</iHappinessChange>
 				</BonusHappinessChange>
@@ -3978,6 +4001,10 @@
 			</BonusProductionModifiers>
 			<BonusHappinessChanges>
 				<BonusHappinessChange>
+					<BonusType>BONUS_COTTON</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
 					<BonusType>BONUS_FUR</BonusType>
 					<iHappinessChange>1</iHappinessChange>
 				</BonusHappinessChange>
@@ -4040,6 +4067,10 @@
 				</BonusProductionModifier>
 			</BonusProductionModifiers>
 			<BonusHappinessChanges>
+				<BonusHappinessChange>
+					<BonusType>BONUS_COTTON</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
 				<BonusHappinessChange>
 					<BonusType>BONUS_FUR</BonusType>
 					<iHappinessChange>1</iHappinessChange>
@@ -4124,6 +4155,10 @@
 			</BonusProductionModifiers>
 			<BonusHappinessChanges>
 				<BonusHappinessChange>
+					<BonusType>BONUS_COTTON</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
 					<BonusType>BONUS_FUR</BonusType>
 					<iHappinessChange>1</iHappinessChange>
 				</BonusHappinessChange>
@@ -4206,6 +4241,10 @@
 			</BonusProductionModifiers>
 			<BonusHappinessChanges>
 				<BonusHappinessChange>
+					<BonusType>BONUS_COTTON</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
 					<BonusType>BONUS_FUR</BonusType>
 					<iHappinessChange>1</iHappinessChange>
 				</BonusHappinessChange>
@@ -4278,6 +4317,10 @@
 				</BonusProductionModifier>
 			</BonusProductionModifiers>
 			<BonusHappinessChanges>
+				<BonusHappinessChange>
+					<BonusType>BONUS_COTTON</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
 				<BonusHappinessChange>
 					<BonusType>BONUS_FUR</BonusType>
 					<iHappinessChange>1</iHappinessChange>
@@ -4354,6 +4397,20 @@
 					<iHealthChange>1</iHealthChange>
 				</BonusHealthChange>
 			</BonusHealthChanges>
+			<BonusHappinessChanges>
+				<BonusHappinessChange>
+					<BonusType>BONUS_COFFEE</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
+					<BonusType>BONUS_TEA</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
+					<BonusType>BONUS_TOBACCO</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+			</BonusHappinessChanges>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
@@ -4417,6 +4474,20 @@
 					<iHealthChange>1</iHealthChange>
 				</BonusHealthChange>
 			</BonusHealthChanges>
+			<BonusHappinessChanges>
+				<BonusHappinessChange>
+					<BonusType>BONUS_COFFEE</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
+					<BonusType>BONUS_TEA</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
+					<BonusType>BONUS_TOBACCO</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+			</BonusHappinessChanges>
 			<BonusYieldChanges>
 				<BonusYieldChange>
 					<BonusType>BONUS_BANANA</BonusType>
@@ -4521,6 +4592,14 @@
 			<BonusHappinessChanges>
 				<BonusHappinessChange>
 					<BonusType>BONUS_COFFEE</BonusType>
+					<iHappinessChange>2</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
+					<BonusType>BONUS_TEA</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
+					<BonusType>BONUS_TOBACCO</BonusType>
 					<iHappinessChange>1</iHappinessChange>
 				</BonusHappinessChange>
 			</BonusHappinessChanges>
@@ -4727,7 +4806,10 @@
 			<Strategy>TXT_KEY_BUILDING_AMERICAN_MALL_STRATEGY</Strategy>
 			<Advisor>ADVISOR_GROWTH</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_AMERICAN_MALL</ArtDefineTag>
-			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
+			<PrereqTech>TECH_COMBUSTION</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_ELECTRICITY</PrereqTech>
+			</TechTypes>
 			<iCost>300</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
@@ -8716,7 +8798,7 @@
 			<MovieDefineTag>ART_DEF_MOVIE_GREAT_LIGHTHOUSE</MovieDefineTag>
 			<PrereqCivic>CIVIC_PANTHEON</PrereqCivic>
 			<MaxStartEra>ERA_CLASSICAL</MaxStartEra>
-			<ObsoleteTech>TECH_COMPASS</ObsoleteTech>
+			<ObsoleteTech>TECH_OPTICS</ObsoleteTech>
 			<PrereqTech>TECH_SAILING</PrereqTech>
 			<TechTypes>
 				<PrereqTech>TECH_MASONRY</PrereqTech>
@@ -10198,6 +10280,12 @@
 				<bCommerceChangeOriginalOwner>0</bCommerceChangeOriginalOwner>
 				<bCommerceChangeOriginalOwner>1</bCommerceChangeOriginalOwner>
 			</CommerceChangeOriginalOwners>
+			<SpecialistCounts>
+				<SpecialistCount>
+					<SpecialistType>SPECIALIST_PRIEST</SpecialistType>
+					<iSpecialistCount>1</iSpecialistCount>
+				</SpecialistCount>
+			</SpecialistCounts>
 			<BonusProductionModifiers>
 				<BonusProductionModifier>
 					<BonusType>BONUS_STONE</BonusType>
@@ -11129,6 +11217,7 @@
 			<PrereqReligion>RELIGION_CONFUCIANISM</PrereqReligion>
 			<OrPrereqReligion>RELIGION_TAOISM</OrPrereqReligion>
 			<MaxStartEra>ERA_RENAISSANCE</MaxStartEra>
+			<ObsoleteTech>TECH_STEAM_POWER</ObsoleteTech>
 			<PrereqTech>TECH_BANKING</PrereqTech>
 			<GreatPeopleUnitClass>UNITCLASS_GREAT_MERCHANT</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
@@ -11582,10 +11671,10 @@
 			<ArtDefineTag>ART_DEF_BUILDING_WESTMINSTER_PALACE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_WESTMINSTER_PALACE</MovieDefineTag>
 			<MaxStartEra>ERA_INDUSTRIAL</MaxStartEra>
-			<ObsoleteTech>TECH_FIBER_OPTICS</ObsoleteTech>
+			<ObsoleteTech>TECH_SATELLITES</ObsoleteTech>
 			<PrereqTech>TECH_RAILROAD</PrereqTech>
 			<TechTypes>
-				<PrereqTech>TECH_DEMOCRACY</PrereqTech>
+				<PrereqTech>TECH_CONSTITUTION</PrereqTech>
 			</TechTypes>
 			<GreatPeopleUnitClass>UNITCLASS_GREAT_STATESMAN</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
@@ -11637,7 +11726,10 @@
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_MT_RUSHMORE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_MT_RUSHMORE</MovieDefineTag>
-			<PrereqTech>TECH_MASS_MEDIA</PrereqTech>
+			<PrereqTech>TECH_FASCISM</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_MASS_MEDIA</PrereqTech>
+			</TechTypes>
 			<GreatPeopleUnitClass>UNITCLASS_GREAT_ARTIST</GreatPeopleUnitClass>
 			<iGreatPeopleRateChange>2</iGreatPeopleRateChange>
 			<bTeamShare>1</bTeamShare>
@@ -13020,6 +13112,7 @@
 			<iAirModifier>-75</iAirModifier>
 			<iFoodKept>10</iFoodKept>
 			<iWarWearinessModifier>-20</iWarWearinessModifier>
+			<iHealRateChange>5</iHealRateChange>
 			<iAsset>1</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
 			<Flavors>
@@ -13075,6 +13168,10 @@
 			</FreeSpecialistCounts>
 			<ConstructSound>AS2D_BUILD_MARKETPLACE</ConstructSound>
 			<BonusHappinessChanges>
+				<BonusHappinessChange>
+					<BonusType>BONUS_COTTON</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
 				<BonusHappinessChange>
 					<BonusType>BONUS_FUR</BonusType>
 					<iHappinessChange>1</iHappinessChange>
@@ -13393,6 +13490,20 @@
 					<iHealthChange>1</iHealthChange>
 				</BonusHealthChange>
 			</BonusHealthChanges>
+			<BonusHappinessChanges>
+				<BonusHappinessChange>
+					<BonusType>BONUS_COFFEE</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
+					<BonusType>BONUS_TEA</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
+					<BonusType>BONUS_TOBACCO</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+			</BonusHappinessChanges>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
@@ -13696,6 +13807,7 @@
 			<iFoodKept>10</iFoodKept>
 			<iMaintenanceModifier>10</iMaintenanceModifier>
 			<iWarWearinessModifier>-10</iWarWearinessModifier>
+			<iHealRateChange>10</iHealRateChange>
 			<iDefense>60</iDefense>
 			<iBombardDefense>25</iBombardDefense>
 			<iAsset>2</iAsset>
@@ -13865,7 +13977,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>66</iConquestProb>
-			<iHealRateChange>10</iHealRateChange>
+			<iHealRateChange>15</iHealRateChange>
 			<iHealth>4</iHealth>
 			<iHappiness>1</iHappiness>
 			<iAsset>5</iAsset>
@@ -13939,7 +14051,7 @@
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iConquestProb>66</iConquestProb>
-			<iHealRateChange>10</iHealRateChange>
+			<iHealRateChange>15</iHealRateChange>
 			<iHealth>4</iHealth>
 			<iAsset>5</iAsset>
 			<fVisibilityPriority>1.0</fVisibilityPriority>
@@ -13990,6 +14102,7 @@
 			<iFoodKept>10</iFoodKept>
 			<iMaintenanceModifier>10</iMaintenanceModifier>
 			<iWarWearinessModifier>-10</iWarWearinessModifier>
+			<iHealRateChange>10</iHealRateChange>
 			<iDefense>50</iDefense>
 			<iBombardDefense>25</iBombardDefense>
 			<iAsset>2</iAsset>
@@ -14229,6 +14342,10 @@
 			<ConstructSound>AS2D_BUILD_MARKETPLACE</ConstructSound>
 			<BonusHappinessChanges>
 				<BonusHappinessChange>
+					<BonusType>BONUS_COTTON</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
 					<BonusType>BONUS_FUR</BonusType>
 					<iHappinessChange>1</iHappinessChange>
 				</BonusHappinessChange>
@@ -14344,6 +14461,20 @@
 					<iHealthChange>1</iHealthChange>
 				</BonusHealthChange>
 			</BonusHealthChanges>
+			<BonusHappinessChanges>
+				<BonusHappinessChange>
+					<BonusType>BONUS_COFFEE</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
+					<BonusType>BONUS_TEA</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
+					<BonusType>BONUS_TOBACCO</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+			</BonusHappinessChanges>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
@@ -14536,6 +14667,7 @@
 			<iFoodKept>10</iFoodKept>
 			<iMaintenanceModifier>10</iMaintenanceModifier>
 			<iWarWearinessModifier>-10</iWarWearinessModifier>
+			<iHealRateChange>10</iHealRateChange>
 			<iDefense>50</iDefense>
 			<iBombardDefense>25</iBombardDefense>
 			<iEspionageDefense>25</iEspionageDefense>
@@ -14750,6 +14882,20 @@
 					<iHealthChange>1</iHealthChange>
 				</BonusHealthChange>
 			</BonusHealthChanges>
+			<BonusHappinessChanges>
+				<BonusHappinessChange>
+					<BonusType>BONUS_COFFEE</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
+					<BonusType>BONUS_TEA</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
+					<BonusType>BONUS_TOBACCO</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+			</BonusHappinessChanges>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>
@@ -14871,12 +15017,6 @@
 				</SpecialistCount>
 			</SpecialistCounts>
 			<ConstructSound>AS2D_BUILD_GROCER</ConstructSound>
-			<BonusHappinessChanges>
-				<BonusHappinessChange>
-					<BonusType>BONUS_WHEAT</BonusType>
-					<iHappinessChange>1</iHappinessChange>
-				</BonusHappinessChange>
-			</BonusHappinessChanges>
 			<BonusHealthChanges>
 				<BonusHealthChange>
 					<BonusType>BONUS_BANANA</BonusType>
@@ -14895,6 +15035,24 @@
 					<iHealthChange>1</iHealthChange>
 				</BonusHealthChange>
 			</BonusHealthChanges>
+			<BonusHappinessChanges>
+				<BonusHappinessChange>
+					<BonusType>BONUS_COFFEE</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
+					<BonusType>BONUS_TEA</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
+					<BonusType>BONUS_TOBACCO</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+				<BonusHappinessChange>
+					<BonusType>BONUS_WHEAT</BonusType>
+					<iHappinessChange>1</iHappinessChange>
+				</BonusHappinessChange>
+			</BonusHappinessChanges>
 			<Flavors>
 				<Flavor>
 					<FlavorType>FLAVOR_GOLD</FlavorType>

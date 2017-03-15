@@ -310,7 +310,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ENGLISH_REDCOAT_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Redcoat[COLOR_REVERT], the English replacement for the [COLOR_UNIT_TEXT]Rifleman[COLOR_REVERT], is cheaper, has an additonal first strike chance and a combat bonus against [COLOR_UNIT_TEXT]Melee[COLOR_REVERT] units.</English>
+		<English>The [COLOR_UNIT_TEXT]Redcoat[COLOR_REVERT], the English replacement for the [COLOR_UNIT_TEXT]Rifleman[COLOR_REVERT], is stronger and cheaper than the unit it replaces. However, it has a slightly smaller combat bonus against [COLOR_UNIT_TEXT]Mounted[COLOR_REVERT] units.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ETHIOPIAN_ASKARI</Tag>
@@ -715,7 +715,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_CONGOLESE_POMBOS_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Pombos[COLOR_REVERT], the Congolese replacement for the [COLOR_UNIT_TEXT]Explorer[COLOR_REVERT], is more expensive, but also stronger. It does not require the [COLOR_HIGHLIGHT_TEXT]Compass[COLOR_REVERT] technology, has a first strike and a chance to withdraw from combat.</English>
+		<English>The [COLOR_UNIT_TEXT]Pombos[COLOR_REVERT], the Congolese replacement for the [COLOR_UNIT_TEXT]Explorer[COLOR_REVERT], is more expensive, but also stronger. It does not require the [COLOR_HIGHLIGHT_TEXT]Compass[COLOR_REVERT] technology, has a first strike and a chance to withdraw from combat. It also gains an attack bonus in [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Marsh[COLOR_REVERT] terrain.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_CONGOLESE_POMBOS</Tag>

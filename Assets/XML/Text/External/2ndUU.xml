@@ -164,7 +164,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_CONGO_LUCANZOS_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Lucanzos[COLOR_REVERT], the Congolese replacement for the [COLOR_UNIT_TEXT]Heavy Swordsman[COLOR_REVERT], is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Marsh[COLOR_REVERT], doesn't require any resources, and is cheaper.</English>
+		<English>The [COLOR_UNIT_TEXT]Lucanzos[COLOR_REVERT], the Congolese replacement for the [COLOR_UNIT_TEXT]Heavy Swordsman[COLOR_REVERT], is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Marsh[COLOR_REVERT], doesn't require any resources, is cheaper and gains a small combat bonus in [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Marsh[COLOR_REVERT] terrain.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_DUTCH_GARDIST</Tag>
@@ -180,7 +180,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_DUTCH_GARDIST_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Gardist[COLOR_REVERT], the Dutch replacement for the [COLOR_UNIT_TEXT]Grenadier[COLOR_REVERT], has a slightly smaller attack bonus when attacking cities and begins with the [COLOR_HIGHLIGHT_TEXT]Amphibious[COLOR_REVERT] promotion.</English>
+		<English>The [COLOR_UNIT_TEXT]Gardist[COLOR_REVERT], the Dutch replacement for the [COLOR_UNIT_TEXT]Grenadier[COLOR_REVERT], is available earlier, has a slightly smaller attack bonus when attacking cities and begins with the [COLOR_HIGHLIGHT_TEXT]Amphibious[COLOR_REVERT] promotion.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_EGYPT_HEQA_KHASEWET</Tag>
