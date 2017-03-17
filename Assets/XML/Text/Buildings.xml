@@ -253,7 +253,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ETHIOPIAN_STELE_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Stele[COLOR_REVERT], the Ethiopian replacement for the [COLOR_BUILDING_TEXT]Pagan Temple[COLOR_REVERT], allows you to hire two [COLOR_HIGHLIGHT_TEXT]Priest[COLOR_REVERT] specialists.</English>
+		<English>The [COLOR_BUILDING_TEXT]Stele[COLOR_REVERT], the Ethiopian replacement for the [COLOR_BUILDING_TEXT]Pagan Temple[COLOR_REVERT], is cheaper, allows you to hire an extra [COLOR_HIGHLIGHT_TEXT]Priest[COLOR_REVERT] specialist and increases Great People Birth Rate.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_FACTORY_STRATEGY</Tag>

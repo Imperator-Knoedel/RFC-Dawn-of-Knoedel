@@ -253,14 +253,19 @@ class Barbs:
 			iNumUnits = iHandicap
 			if iGameTurn >= getTurnForYear(400): iNumUnits += 1
 			self.checkSpawn(iBarbarian, iNubianMedjay, iNumUnits, (66, 28), (71, 34), self.spawnUprising, iGameTurn, 12, 4, ["TXT_KEY_ADJECTIVE_NUBIAN"])
-		if utils.isYearIn(450, 1600):
+		if utils.isYearIn(450, 1500):
 			if utils.getScenario() == i3000BC:
 				self.checkSpawn(iNative, iZuluImpi, 2 + iHandicap, (60, 10), (72, 27), self.spawnNatives, iGameTurn, 10, 4)
 			else:
 				self.checkSpawn(iNative, iZuluImpi, 2 + iHandicap, (60, 10), (72, 27), self.spawnNatives, iGameTurn, 15, 4)
-		elif utils.isYearIn(1600, 1900):
-			self.checkSpawn(iNative, iCongolesePombos, 2 + iHandicap, (60, 10), (72, 27), self.spawnNatives, iGameTurn, 10, 4)
-			self.checkSpawn(iNative, iCongoLucanzos, 1 + iHandicap, (60, 10), (72, 27), self.spawnNatives, iGameTurn, 10, 5)
+		elif utils.isYearIn(1500, 1700):
+			self.checkSpawn(iNative, iCongolesePombos, 2 + iHandicap, (60, 10), (72, 27), self.spawnNatives, iGameTurn, 5, 5)
+			self.checkSpawn(iNative, iCongoLucanzos, 3 + iHandicap, (60, 10), (72, 27), self.spawnNatives, iGameTurn, 5, 5)
+			self.checkSpawn(iNative, iOromoWarrior, 3 + iHandicap, (60, 10), (72, 27), self.spawnNatives, iGameTurn, 5, 5)
+		elif utils.isYearIn(1700, 1900):
+			self.checkSpawn(iNative, iCongolesePombos, 1 + iHandicap, (60, 10), (72, 27), self.spawnNatives, iGameTurn, 10, 5)
+			self.checkSpawn(iNative, iCongoLucanzos, 2 + iHandicap, (60, 10), (72, 27), self.spawnNatives, iGameTurn, 10, 5)
+			self.checkSpawn(iNative, iOromoWarrior, 1 + iHandicap, (60, 10), (72, 27), self.spawnNatives, iGameTurn, 10, 5)
 			
 		#west africa
 		if utils.isYearIn(450, 1900):

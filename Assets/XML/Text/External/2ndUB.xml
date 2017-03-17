@@ -186,7 +186,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_DUTCH_MILL_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Molen[COLOR_REVERT], the Dutch replacement for the [COLOR_BUILDING_TEXT]Forge[COLOR_REVERT], increases the building speed of naval units and has a [COLOR_HIGHLIGHT_TEXT]Merchant[COLOR_REVERT] slot.</English>
+		<English>The [COLOR_BUILDING_TEXT]Molen[COLOR_REVERT], the Dutch replacement for the [COLOR_BUILDING_TEXT]Forge[COLOR_REVERT], increases the building speed of naval units, doesn't cause unhealth, and has a [COLOR_HIGHLIGHT_TEXT]Merchant[COLOR_REVERT] slot.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_EGYPT_PYRAMID</Tag>
@@ -234,7 +234,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ETHIOPIA_XEER_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Xeer[COLOR_REVERT], the Ethiopian replacement for the [COLOR_BUILDING_TEXT]Courthouse[COLOR_REVERT], is much cheaper.</English>
+		<English>The [COLOR_BUILDING_TEXT]Xeer[COLOR_REVERT], the Ethiopian replacement for the [COLOR_BUILDING_TEXT]Courthouse[COLOR_REVERT], is much cheaper and provides culture.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_FRANCE_CHATEAU</Tag>

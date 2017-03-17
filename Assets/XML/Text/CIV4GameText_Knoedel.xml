@@ -375,4 +375,12 @@
 		<Italian>Odds and Ends in DoK</Italian>
 		<Spanish>Odds and Ends in DoK</Spanish>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_BARBARIAN_OROMO_WARRIOR_STRATEGY</Tag>
+		<English>This barbarian unit replaces the [COLOR_UNIT_TEXT]Musketman[COLOR_REVERT], begins with the [COLOR_HIGHLIGHT_TEXT]Mountaineer I[COLOR_REVERT] promotion. It spawns in East Africa during the 16th and 17th centuries.</English>
+		<French>This barbarian unit replaces the [COLOR_UNIT_TEXT]Musketman[COLOR_REVERT], begins with the [COLOR_HIGHLIGHT_TEXT]Mountaineer I[COLOR_REVERT] promotion. It spawns in East Africa during the 16th and 17th centuries.</French>
+		<German>This barbarian unit replaces the [COLOR_UNIT_TEXT]Musketman[COLOR_REVERT], begins with the [COLOR_HIGHLIGHT_TEXT]Mountaineer I[COLOR_REVERT] promotion. It spawns in East Africa during the 16th and 17th centuries.</German>
+		<Italian>This barbarian unit replaces the [COLOR_UNIT_TEXT]Musketman[COLOR_REVERT], begins with the [COLOR_HIGHLIGHT_TEXT]Mountaineer I[COLOR_REVERT] promotion. It spawns in East Africa during the 16th and 17th centuries.</Italian>
+		<Spanish>This barbarian unit replaces the [COLOR_UNIT_TEXT]Musketman[COLOR_REVERT], begins with the [COLOR_HIGHLIGHT_TEXT]Mountaineer I[COLOR_REVERT] promotion. It spawns in East Africa during the 16th and 17th centuries.</Spanish>
+	</TEXT>	
 </Civ4GameText>

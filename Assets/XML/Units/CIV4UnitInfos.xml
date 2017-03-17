@@ -726,6 +726,7 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
+			<iCityAttack>-10</iCityAttack>
 			<iAnimalCombat>100</iAnimalCombat>
 			<iAsset>1</iAsset>
 			<UnitMeshGroups>
@@ -779,6 +780,7 @@
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
+			<iCityAttack>-10</iCityAttack>
 			<iAsset>2</iAsset>
 			<iPower>2</iPower>
 			<iHillsDefense>50</iHillsDefense>
@@ -2866,7 +2868,7 @@
 			<TechTypes>
 				<PrereqTech>TECH_MACHINERY</PrereqTech>
 			</TechTypes>
-			<iCost>60</iCost>
+			<iCost>70</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
@@ -2905,6 +2907,18 @@
 					<iFeatureDefense>10</iFeatureDefense>
 				</FeatureDefense>
 			</FeatureDefenses>
+			<UnitClassAttackMods>
+				<UnitClassAttackMod>
+					<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+					<iUnitClassMod>10</iUnitClassMod>
+				</UnitClassAttackMod>
+			</UnitClassAttackMods>
+			<UnitClassDefenseMods>
+				<UnitClassDefenseMod>
+					<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+					<iUnitClassMod>10</iUnitClassMod>
+				</UnitClassDefenseMod>
+			</UnitClassDefenseMods>
 			<iConscription>3</iConscription>
 			<iCultureGarrison>7</iCultureGarrison>
 			<iAsset>3</iAsset>
@@ -4479,19 +4493,18 @@
 		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_MUSKETMAN</Class>
-			<Type>UNIT_ETHIOPIAN_ASKARI</Type>
+			<Type>UNIT_OROMO_WARRIOR</Type>
 			<Combat>UNITCOMBAT_GUN</Combat>
 			<Domain>DOMAIN_LAND</Domain>
 			<DefaultUnitAI>UNITAI_ATTACK</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_ETHIOPIAN_ASKARI</Description>
-			<Civilopedia>TXT_KEY_UNIT_ETHIOPIAN_ASKARI_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_ETHIOPIAN_ASKARI_STRATEGY</Strategy>
+			<Description>TXT_KEY_UNIT_ETHIOPIAN_OROMO_WARRIOR</Description>
+			<Civilopedia>TXT_KEY_UNIT_ETHIOPIAN_OROMO_WARRIOR_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_BARBARIAN_OROMO_WARRIOR_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<bMilitaryHappiness>1</bMilitaryHappiness>
 			<bMilitarySupport>1</bMilitarySupport>
 			<bMilitaryProduction>1</bMilitaryProduction>
 			<bPillage>1</bPillage>
-			<bFirstStrikeImmune>1</bFirstStrikeImmune>
 			<bIgnoreBuildingDefense>1</bIgnoreBuildingDefense>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
@@ -4519,30 +4532,17 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>2</iMoves>
 			<iNukeRange>-1</iNukeRange>
-			<FeatureImpassables>
-				<FeatureImpassable>
-					<FeatureType>FEATURE_JUNGLE</FeatureType>
-					<bFeatureImpassable>1</bFeatureImpassable>
-				</FeatureImpassable>
-				<FeatureImpassable>
-					<FeatureType>FEATURE_RAINFOREST</FeatureType>
-					<bFeatureImpassable>1</bFeatureImpassable>
-				</FeatureImpassable>
-				<FeatureImpassable>
-					<FeatureType>FEATURE_MARSH</FeatureType>
-					<bFeatureImpassable>1</bFeatureImpassable>
-				</FeatureImpassable>
-			</FeatureImpassables>
-			<iCombat>10</iCombat>
+			<FeatureImpassables/>
+			<iCombat>9</iCombat>
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
 			<iFirstStrikes>1</iFirstStrikes>
 			<iChanceFirstStrikes>1</iChanceFirstStrikes>
 			<iConscription>4</iConscription>
-			<iCultureGarrison>7</iCultureGarrison>
-			<iAsset>3</iAsset>
-			<iPower>9</iPower>
+			<iCultureGarrison>8</iCultureGarrison>
+			<iAsset>4</iAsset>
+			<iPower>10</iPower>
 			<UnitMeshGroups>
 				<iGroupSize>3</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
@@ -4565,11 +4565,7 @@
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
 			<FreePromotions>
 				<FreePromotion>
-					<PromotionType>PROMOTION_DRILL1</PromotionType>
-					<bFreePromotion>1</bFreePromotion>
-				</FreePromotion>
-				<FreePromotion>
-					<PromotionType>PROMOTION_DRILL2</PromotionType>
+					<PromotionType>PROMOTION_MOUNTAINEER1</PromotionType>
 					<bFreePromotion>1</bFreePromotion>
 				</FreePromotion>
 			</FreePromotions>
@@ -11018,17 +11014,11 @@
 			<iMinAreaSize>-1</iMinAreaSize>
 			<iMoves>4</iMoves>
 			<iNukeRange>-1</iNukeRange>
-			<FeatureImpassables>
-				<FeatureImpassable>
-					<FeatureType>FEATURE_MARSH</FeatureType>
-					<bFeatureImpassable>1</bFeatureImpassable>
-				</FeatureImpassable>
-			</FeatureImpassables>
-			<iCombat>15</iCombat>
+			<iCombat>14</iCombat>
 			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iWithdrawalProb>45</iWithdrawalProb>
+			<iWithdrawalProb>50</iWithdrawalProb>
 			<iFirstStrikes>1</iFirstStrikes>
 			<iCollateralDamageLimit>100</iCollateralDamageLimit>
 			<iCollateralDamageMaxUnits>7</iCollateralDamageMaxUnits>
@@ -11963,38 +11953,52 @@
 			<FormationType>FORMATION_TYPE_MACHINE</FormationType>
 		</UnitInfo>
 		<UnitInfo>
-			<Class>UNITCLASS_CATAPULT</Class>
-			<Type>UNIT_BABYLON_RAM</Type>
-			<Combat>UNITCOMBAT_SIEGE</Combat>
+			<Class>UNITCLASS_INFANTRY</Class>
+			<Type>UNIT_ETHIOPIAN_MEHAL_SEFARI</Type>
+			<Combat>UNITCOMBAT_GUN</Combat>
 			<Domain>DOMAIN_LAND</Domain>
-			<DefaultUnitAI>UNITAI_ATTACK_CITY</DefaultUnitAI>
-			<Description>TXT_KEY_UNIT_BABYLON_RAM</Description>
-			<Civilopedia>TXT_KEY_UNIT_BABYLON_RAM_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_BABYLON_RAM_STRATEGY</Strategy>
+			<DefaultUnitAI>UNITAI_CITY_DEFENSE</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_ETHIOPIAN_MEHAL_SEFARI</Description>
+			<Civilopedia>TXT_KEY_UNIT_ETHIOPIAN_MEHAL_SEFARI_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ETHIOPIAN_MEHAL_SEFARI_STRATEGY</Strategy>
 			<Advisor>ADVISOR_MILITARY</Advisor>
 			<bMilitaryHappiness>1</bMilitaryHappiness>
 			<bMilitarySupport>1</bMilitarySupport>
 			<bMilitaryProduction>1</bMilitaryProduction>
 			<bPillage>1</bPillage>
-			<bNoDefensiveBonus>1</bNoDefensiveBonus>
-			<bMechanized>1</bMechanized>
+			<bIgnoreBuildingDefense>1</bIgnoreBuildingDefense>
 			<UnitClassUpgrades>
 				<UnitClassUpgrade>
-					<UnitClassUpgradeType>UNITCLASS_TREBUCHET</UnitClassUpgradeType>
+					<UnitClassUpgradeType>UNITCLASS_MECHANIZED_INFANTRY</UnitClassUpgradeType>
+					<bUnitClassUpgrade>1</bUnitClassUpgrade>
+				</UnitClassUpgrade>
+				<UnitClassUpgrade>
+					<UnitClassUpgradeType>UNITCLASS_SQUAD_INFANTRY</UnitClassUpgradeType>
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
 			<UnitAIs>
 				<UnitAI>
-					<UnitAIType>UNITAI_ATTACK_CITY</UnitAIType>
+					<UnitAIType>UNITAI_ATTACK</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_RESERVE</UnitAIType>
+					<bUnitAI>1</bUnitAI>
+				</UnitAI>
+				<UnitAI>
+					<UnitAIType>UNITAI_CITY_DEFENSE</UnitAIType>
 					<bUnitAI>1</bUnitAI>
 				</UnitAI>
 			</UnitAIs>
-			<PrereqTech>TECH_MASONRY</PrereqTech>
-			<iCost>30</iCost>
+			<PrereqTech>TECH_RAILROAD</PrereqTech>
+			<TechTypes>
+				<PrereqTech>TECH_RIFLING</PrereqTech>
+			</TechTypes>
+			<iCost>140</iCost>
 			<iAdvancedStartCost>100</iAdvancedStartCost>
 			<iMinAreaSize>-1</iMinAreaSize>
-			<iMoves>1</iMoves>
+			<iMoves>2</iMoves>
 			<iNukeRange>-1</iNukeRange>
 			<FeatureImpassables>
 				<FeatureImpassable>
@@ -12010,34 +12014,43 @@
 					<bFeatureImpassable>1</bFeatureImpassable>
 				</FeatureImpassable>
 			</FeatureImpassables>
-			<iCombat>1</iCombat>
-			<iCombatLimit>10</iCombatLimit>
+			<iCombat>19</iCombat>
+			<iCombatLimit>100</iCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
-			<iFirstStrikes>1</iFirstStrikes>
-			<iCityAttack>100</iCityAttack>
-			<UnitCombatCollateralImmunes>
-				<UnitCombatCollateralImmune>
-					<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
-					<iUnitCombatCollateralImmune>1</iUnitCombatCollateralImmune>
-				</UnitCombatCollateralImmune>
-			</UnitCombatCollateralImmunes>
-			<iBombardRate>8</iBombardRate>
-			<iCultureGarrison>2</iCultureGarrison>
-			<iAsset>2</iAsset>
-			<iPower>3</iPower>
+			<iFirstStrikes>2</iFirstStrikes>
+			<UnitCombatMods>
+				<UnitCombatMod>
+					<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+					<iUnitCombatMod>25</iUnitCombatMod>
+				</UnitCombatMod>
+			</UnitCombatMods>
+			<iConscription>6</iConscription>
+			<iCultureGarrison>12</iCultureGarrison>
+			<iAsset>4</iAsset>
+			<iPower>22</iPower>
 			<UnitMeshGroups>
-				<iGroupSize>2</iGroupSize>
+				<iGroupSize>3</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
 				<fPadTime>1</fPadTime>
-				<iMeleeWaveSize>2</iMeleeWaveSize>
-				<iRangedWaveSize>2</iRangedWaveSize>
+				<iMeleeWaveSize>3</iMeleeWaveSize>
+				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
-					<iRequired>2</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_BABYLON_RAM</EarlyArtDefineTag>
+					<iRequired>3</iRequired>
+					<EarlyArtDefineTag>ART_DEF_UNIT_MEHAL_SEFARI_ETHIOPIAN</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
-			<FormationType>FORMATION_TYPE_MACHINE</FormationType>
+			<FormationType>FORMATION_TYPE_RANGED</FormationType>
+			<FreePromotions>
+				<FreePromotion>
+					<PromotionType>PROMOTION_DRILL1</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+				<FreePromotion>
+					<PromotionType>PROMOTION_MOUNTAINEER1</PromotionType>
+					<bFreePromotion>1</bFreePromotion>
+				</FreePromotion>
+			</FreePromotions>
 		</UnitInfo>
 		<UnitInfo>
 			<Class>UNITCLASS_CATAPULT</Class>

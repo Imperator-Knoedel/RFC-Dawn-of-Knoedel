@@ -554,12 +554,12 @@ def checkTurn(iGameTurn, iPlayer):
 	
 		# first goal: found Orthodoxy
 		
-		# second goal: acquire three incense resources by 1270 AD
+		# second goal: acquire four incense resources by 700 AD
 		if isPossible(iEthiopia, 1):
 			if pEthiopia.getNumAvailableBonuses(iIncense) >= 4:
 				win(iEthiopia, 1)
 				
-		if iGameTurn == getTurnForYear(1270):
+		if iGameTurn == getTurnForYear(700):
 			expire(iEthiopia, 1)
 			
 		# third goal: allow no European colonies in East and Subequatorial Africa in 1545 AD and 1935 AD

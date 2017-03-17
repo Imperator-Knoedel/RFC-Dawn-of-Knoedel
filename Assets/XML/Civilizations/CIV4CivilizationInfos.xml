@@ -1680,8 +1680,8 @@
 			</Buildings>
 			<Units>
 				<Unit>
-					<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
-					<UnitType>UNIT_ETHIOPIAN_ASKARI</UnitType>
+					<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
+					<UnitType>UNIT_ETHIOPIAN_MEHAL_SEFARI</UnitType>
 				</Unit>
 				<Unit>
 					<UnitClassType>UNITCLASS_CAVALRY</UnitClassType>
