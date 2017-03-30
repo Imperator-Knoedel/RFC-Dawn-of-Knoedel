@@ -394,7 +394,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_FRENCH_HEAVY_CANNON</Tag>
-		<English>Heavy Cannon</English>
+		<English>Canon de Gribeauval</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_GREAT_STATESMAN_STRATEGY</Tag>
@@ -406,7 +406,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_FRENCH_HEAVY_CANNON_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Culverin[COLOR_REVERT], the French replacement for the [COLOR_UNIT_TEXT]Bombard[COLOR_REVERT], has a combat bonus against [COLOR_UNIT_TEXT]Siege Weapons[COLOR_REVERT] and [COLOR_UNIT_TEXT]Gunpowder Units[COLOR_REVERT].</English>
+		<English>The [COLOR_UNIT_TEXT]Canon de Gribeauval[COLOR_REVERT], the French replacement for the [COLOR_UNIT_TEXT]Cannon[COLOR_REVERT], is stronger and faster.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_GREAT_SCIENTIST_STRATEGY</Tag>

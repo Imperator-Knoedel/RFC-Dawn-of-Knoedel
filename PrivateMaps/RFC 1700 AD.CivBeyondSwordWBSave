@@ -408,7 +408,7 @@ BeginPlayer
 	CivicOption=CIVICOPTION_ORGANIZATION, Civic=CIVIC_ABSOLUTISM
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_CORVEE
 	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_MERCANTILISM
-	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_ORGANIZED_RELIGION
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_THEOCRACY
 	CivicOption=CIVICOPTION_MILITARY, Civic=CIVIC_STANDING_ARMY
 	AttitudePlayer=24, AttitudeExtra=-4, (England)
 	AttitudePlayer=35, AttitudeExtra=-2, (Turkey)
@@ -32732,6 +32732,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=71,y=30
+	BonusType=BONUS_IRON
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	TeamReveal=35,44,45,

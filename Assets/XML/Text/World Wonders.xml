@@ -858,7 +858,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_VERSAILLES_STRATEGY</Tag>
-		<English>[COLOR_BUILDING_TEXT]Versailles[COLOR_REVERT] begins a [COLOR_HIGHLIGHT_TEXT]Golden Age[COLOR_REVERT] for your civilization. It increases its city's odds of generating a [COLOR_UNIT_TEXT]Great Statesman[COLOR_REVERT].</English>
+		<English>[COLOR_BUILDING_TEXT]Versailles[COLOR_REVERT] replicates many of the same effects of the [COLOR_BUILDING_TEXT]Palace[COLOR_REVERT] and provides a free specialist as well as a commerce modifier. It increases its city's odds of generating a [COLOR_UNIT_TEXT]Great Statesman[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_UNITED_NATIONS_STRATEGY</Tag>

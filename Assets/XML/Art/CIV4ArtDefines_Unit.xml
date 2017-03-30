@@ -7209,30 +7209,6 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_FRANCE_CHEVALIER</Type>
-			<Button>,-,Art/2ndUUB/2ndUU_Buttons.dds,2,2</Button>
-			<fScale>0.42</fScale>
-			<fInterfaceScale>0.9</fInterfaceScale>
-			<bActAsLand>0</bActAsLand>
-			<bActAsAir>0</bActAsAir>
-			<NIF>Art/2ndUUB/Units/France/Knight.nif</NIF>
-			<KFM>Art/Units/Unique/Mongol/Keshik/MongelKeshik.kfm</KFM>
-			<SHADERNIF>Art/2ndUUB/Units/France/Knight.nif</SHADERNIF>
-			<ShadowDef>
-				<ShadowNIF>Art/Units/01_UnitShadows/HorseShadow.nif</ShadowNIF>
-				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
-				<fShadowScale>1.0</fShadowScale>
-			</ShadowDef>
-			<fBattleDistance>0.35</fBattleDistance>
-			<fRangedDeathTime>0.31</fRangedDeathTime>
-			<bActAsRanged>0</bActAsRanged>
-			<TrainSound>AS2D_UNIT_BUILD_UNIQUE_UNIT</TrainSound>
-			<AudioRunSounds>
-				<AudioRunTypeLoop/>
-				<AudioRunTypeEnd/>
-			</AudioRunSounds>
-		</UnitArtInfo>
-		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_GERMANY_DOPPELSOLDNER</Type>
 			<Button>,-,Art/2ndUUB/2ndUU_Buttons.dds,3,2</Button>
 			<fScale>0.44</fScale>

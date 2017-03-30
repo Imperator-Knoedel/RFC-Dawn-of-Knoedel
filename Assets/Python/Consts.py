@@ -359,7 +359,7 @@ iCivPolynesia : (800, 1000, 1200),
 iCivPersia : (-330, 225, 225),
 iCivRome : (180, 320, -1),
 iCivTamils : (985, 1045, 1200),
-iCivEthiopia : (-1, 700, 1935),
+iCivEthiopia : (-1, 615, 1935),
 iCivKorea : (1390, -1, -1),
 iCivMaya : (830, 1225, -1),
 iCivByzantium : (1055, 1205, 1455),
@@ -371,7 +371,7 @@ iCivKhmer : (1220, 1430, 1430),
 iCivIndonesia : (1365, 1600, 1950),
 iCivMoors : (1155, 1490, 1680),
 iCivSpain : (-1, 1650, 1650),
-iCivFrance : (1715, 1815, 1890),
+iCivFrance : (1790, 1815, 1890),
 iCivEngland : (1850, 1815, -1),
 iCivHolyRome : (1230, -1, 1805),
 iCivRussia : (1920, -1, 1960),
@@ -1493,7 +1493,7 @@ iSatellites, iRobotics, iFutureTech) = range(iNumTechs)
 
 # initialise unit variables to unit indices from XML
 
-iNumUnits = 212 #originally 164, 209 in 2ndUUB mod
+iNumUnits = 211 #originally 164, 209 in 2ndUUB mod
 (iLion, iBear, iPanther, iWolf, iSettler, iHarappanCityBuilder, iWorker, iBrazilianMadeireiro, iIndianPunjabiWorker, iScout, iExplorer, iMaliCaravan, iSpy,
 iReligiousPersecutor, iJewishMissionary, iOrthodoxMissionary, iCatholicMissionary, iProtestantMissionary, iIslamicMissionary, iHinduMissionary,
 iBuddhistMissionary, iConfucianMissionary, iTaoistMissionary, iZoroastrianMissionary, iWarrior, iHarappanCityGuard, iPolynesiaKoa, iSwordsman, iAztecJaguar,
@@ -1505,7 +1505,7 @@ iEnglishRedcoat, iAmericanMinuteman, iThaiMahardlek, iGrenadier, iColombianAlbio
 iArgentinaPatricios, iMexicoEjercito, iMughalSepoy, iSamInfantry, iMobileSam, iAmericanUSMarine, iBrazilianGuardaNacional, iParatrooper, iMechanizedInfantry,
 iArcher, iMandeSkirmisher, iBabylonAsharittuBowman, iMayanHolkan, iNubianMedjay, iLongbowman, iIndianPatiyodha, iCongolesePombos, iCrossbowman, iChineseChokonu,
 iIncanSlinger, iChariot, iEgyptianWarChariot, iPersiaScythedChariot, iHittiteHuluganni, iCelticCidainh, iHorseArcher, iTibetanKhampa, iGreekHetairoi, iMoorsCavalry,
-iNumidianCavalry, iKushanAsvaka, iKnight, iMongolianKeshik, iArabianCamelArcher, iByzantineCataphract, iThaiChangSuek, iFranceChevalier, iSeljukGhulamWarrior,
+iNumidianCavalry, iKushanAsvaka, iKnight, iMongolianKeshik, iArabianCamelArcher, iByzantineCataphract, iThaiChangSuek, iSeljukGhulamWarrior,
 iMandeFarari, iCuirassier, iSpanishConquistador, iPolishWingedHussar, iItalianCondotierro, iSiouxMountedBrave, iMoorishCamelGunner, iCavalry, iRussianCossack,
 iMexicanRurales, iArgentineGrenadierCavalry, iColombianLlanero, iEthiopianSavannaHunter, iWarElephant, iKhmerBallistaElephant, iPhoenicianAfricanWarElephant,
 iIndiaMahout, iTank, iGermanPanzer, iMainBattleTank, iGunship, iCatapult, iKoreanHwacha, iEthiopianMehalSefari, iRomanBallista, iTrebuchet, iChinaGonne, iBombard,

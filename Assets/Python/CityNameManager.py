@@ -5607,6 +5607,7 @@ tRenames = (
 	'Per-Wadjet'		:	'Alexandreia',
 	'Chandax'		:	'Chandax',
 	'Iraklion'		:	'Heraklion',
+	'Rabd al-Handaq'	:	'Chandax',
 	'Ineb Hedj'		:	'Memphis',
 	'Al-Qahirah'		:	'Kairo',
 	'Yerushalayim'		:	'Hierousalem',

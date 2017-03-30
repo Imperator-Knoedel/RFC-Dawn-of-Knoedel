@@ -554,12 +554,12 @@ def checkTurn(iGameTurn, iPlayer):
 	
 		# first goal: found Orthodoxy
 		
-		# second goal: acquire four incense resources by 700 AD
+		# second goal: acquire four incense resources by 615 AD
 		if isPossible(iEthiopia, 1):
 			if pEthiopia.getNumAvailableBonuses(iIncense) >= 4:
 				win(iEthiopia, 1)
 				
-		if iGameTurn == getTurnForYear(700):
+		if iGameTurn == getTurnForYear(615):
 			expire(iEthiopia, 1)
 			
 		# third goal: allow no European colonies in East and Subequatorial Africa in 1545 AD and 1935 AD
@@ -875,9 +875,9 @@ def checkTurn(iGameTurn, iPlayer):
 				
 	elif iPlayer == iFrance:
 	
-		# first goal: have 25000 culture in Paris in 1715 AD
-		if iGameTurn == getTurnForYear(1715):
-			if getCityCulture(iFrance, (55, 50)) >= utils.getTurns(25000):
+		# first goal: have 30000 culture in Paris in 1790 AD
+		if iGameTurn == getTurnForYear(1790):
+			if getCityCulture(iFrance, (55, 50)) >= utils.getTurns(30000):
 				win(iFrance, 0)
 			else:
 				lose(iFrance, 0)
@@ -3345,7 +3345,7 @@ def getUHVHelp(iPlayer, iGoal):
 	elif iPlayer == iFrance:
 		if iGoal == 0:
 			iCulture = getCityCulture(iFrance, (55, 50))
-			aHelp.append(getIcon(iCulture >= utils.getTurns(25000)) + localText.getText("TXT_KEY_VICTORY_CITY_CULTURE", ("Paris", iCulture, utils.getTurns(25000))))
+			aHelp.append(getIcon(iCulture >= utils.getTurns(30000)) + localText.getText("TXT_KEY_VICTORY_CITY_CULTURE", ("Paris", iCulture, utils.getTurns(30000))))
 		elif iGoal == 1:
 			iEurope, iTotalEurope = countControlledTiles(iFrance, tEuropeTL, tEuropeBR, True)
 			iEasternEurope, iTotalEasternEurope = countControlledTiles(iFrance, tEasternEuropeTL, tEasternEuropeBR, True)

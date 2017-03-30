@@ -2044,15 +2044,13 @@ class RiseAndFall:
 						utils.makeUnitAI(iRifleman, iCiv, tPlot, UnitAITypes.UNITAI_ATTACK_CITY, 4)
 						utils.makeUnitAI(iCannon, iCiv, tPlot, UnitAITypes.UNITAI_ATTACK_CITY, 2)
 				else:
-					bFree = True
-					
-					if utils.isFree(iRussia, tPlot, True): # Also bNoEnemyUnits?
-						bFree = False
-					
-					if bFree:
+					if not utils.isFree(iRussia, tVladivostok, True): # Also bNoEnemyUnits?
 						pRussia.found(x, y)
 						utils.makeUnit(iRifleman, iCiv, tVladivostok, 2)
 						utils.makeUnit(iRifleman, iCiv, tVladivostok, 2)
+						
+						for (i, j) in utils.surroundingPlots(tVladivostok):
+							utils.convertPlotCulture(gc.getMap().plot(i, j), iRussia, 80, True)
 					
 
 
@@ -2284,9 +2282,9 @@ class RiseAndFall:
 			utils.makeUnit(iAxeman, iCiv, tPlot, 2)
 			utils.makeUnit(iSwordsman, iCiv, tPlot, 2)
 		elif iCiv == iArabia:
-			utils.makeUnit(iLongbowman, iCiv, tPlot, 2)
-			utils.makeUnit(iArabianCamelArcher, iCiv, tPlot, 3)
-			utils.makeUnit(iArabianGhazi, iCiv, tPlot, 1)
+			utils.makeUnit(iLongbowman, iCiv, tPlot, 3)
+			utils.makeUnit(iArabianCamelArcher, iCiv, tPlot, 4)
+			utils.makeUnit(iArabianGhazi, iCiv, tPlot, 3)
 		elif iCiv == iTibet:
 			utils.makeUnit(iTibetanKhampa, iCiv, tPlot, 2)
 		elif iCiv == iKhmer:
@@ -2496,8 +2494,8 @@ class RiseAndFall:
 		elif iCiv == iArabia:
 			utils.createSettlers(iCiv, 2)
 			utils.makeUnitAI(iArcher, iCiv, tPlot, UnitAITypes.UNITAI_CITY_DEFENSE, 1)
-			utils.makeUnit(iArabianCamelArcher, iCiv, tPlot, 2)
-			utils.makeUnit(iArabianGhazi, iCiv, tPlot, 1)
+			utils.makeUnit(iArabianCamelArcher, iCiv, tPlot, 3)
+			utils.makeUnit(iArabianGhazi, iCiv, tPlot, 2)
 			utils.makeUnit(iWorker, iCiv, tPlot, 1)    
 			tSeaPlot = self.findSeaPlots(tPlot, 1, iCiv)
 			if tSeaPlot:

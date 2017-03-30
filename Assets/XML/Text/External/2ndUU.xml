@@ -76,7 +76,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ETHIOPIAN_MEHAL_SEFARI_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Mehal Sefari[COLOR_REVERT], the Ethiopian replacement for the [COLOR_UNIT_TEXT]Infantry[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Railroad[COLOR_REVERT] technology, doesn't require the [COLOR_TECH_TEXT]Assembly Line[COLOR_REVERT] technology, is weaker and cheaper. It also begins with the [COLOR_HIGHLIGHT_TEXT]Drill I[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Mountaineer I[COLOR_REVERT] promotions.</English>
+		<English>The [COLOR_UNIT_TEXT]Mehal Sefari[COLOR_REVERT], the Ethiopian replacement for the [COLOR_UNIT_TEXT]Infantry[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Railroad[COLOR_REVERT] technology, doesn't require the [COLOR_TECH_TEXT]Assembly Line[COLOR_REVERT] technology, is weaker, cheaper, and gains a combat bonus when defending cities. It also begins with the [COLOR_HIGHLIGHT_TEXT]Drill I[COLOR_REVERT] promotion.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_BRAZIL_GUARDA_NACIONAL</Tag>
@@ -236,22 +236,6 @@
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ETHIOPIA_SAVANNA_HUNTER_STRATEGY</Tag>
 		<English>The [COLOR_UNIT_TEXT]Savanna Hunter[COLOR_REVERT], the Ethiopian replacement for the [COLOR_UNIT_TEXT]Cavalry[COLOR_REVERT], is cheaper and weaker, able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Marsh[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT], has a higher chance to withdraw from combat and begins with the [COLOR_HIGHLIGHT_TEXT]Sentry[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Mobility[COLOR_REVERT] promotions.</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UNIT_FRANCE_CHEVALIER</Tag>
-		<English>Chevalier</English>
-		<French>Chevalier</French>
-		<German>Chevalier</German>
-		<Italian>Chevalier</Italian>
-		<Spanish>Chevalier</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UNIT_FRANCE_CHEVALIER_PEDIA</Tag>
-		<English>[TAB]The Paladins (often called Chevaliers) were Medieval knights who followed the code of chivalry or knightly conduct, which emphasized courage, honour and service. The Paladin was adept at the art of war, trained in fighting in armour on horses with lances, swords and shields. They were expected to show courage, be gallant to women, defend the Church and swear off cowardice and baseness. Their origins lie with the first mounted infantry in the armies of the Emperor Charlemange as some elite warriors who wore armour and fought on horseback were rewarded with grants of land called "benefices" and became powerful captains with feudal fiefs that soon became hereditary and powerful, both in political influence and economic wealth.[PARAGRAPH:1]These knights became the mainstay of governing power under the King, raising their own armies in time of war and often rivalled the Church in wealth and influence. But chivalry and the Church remained closely entwined and the Crusades helped to reinforce the moral code of chivalry as it related to religion. Thus Christian armies were encouraged to devote their efforts to sacred purposes and the Paladins were expected to use their weapons for the protection of the weak and defenceless, to women and children, and above all to the defence of churches and pilgrims, giving rise to the religious military orders like the Templars, the Hospitallers and the Teutonic Knights. Some knightly orders, like the English "Order of the Bath" or the "Order of the Garter" remain day as honorary associations whose membership is granted by the Monarch for meritorious achievement.</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UNIT_FRANCE_CHEVALIER_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Chevaier[COLOR_REVERT], the French replacement for the [COLOR_UNIT_TEXT]Knight[COLOR_REVERT], has a combat bonus against [COLOR_UNIT_TEXT]Mounted Units[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_GERMANY_DOPPELSOLDNER</Tag>

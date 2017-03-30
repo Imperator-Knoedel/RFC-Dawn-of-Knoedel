@@ -1779,7 +1779,7 @@
 					<BuildingType>BUILDING_FRENCH_SALON</BuildingType>
 				</Building>
 				<Building>
-					<BuildingClassType>BUILDINGCLASS_COURTHOUSE</BuildingClassType>
+					<BuildingClassType>BUILDINGCLASS_CASTLE</BuildingClassType>
 					<BuildingType>BUILDING_FRANCE_CHATEAU</BuildingType>
 				</Building>
 			</Buildings>
@@ -1789,8 +1789,8 @@
 					<UnitType>UNIT_FRENCH_HEAVY_CANNON</UnitType>
 				</Unit>
 				<Unit>
-					<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
-					<UnitType>UNIT_FRANCE_CHEVALIER</UnitType>
+					<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
+					<UnitType>UNIT_FRENCH_MUSKETEER</UnitType>
 				</Unit>
 			</Units>
 			<FreeUnitClasses>

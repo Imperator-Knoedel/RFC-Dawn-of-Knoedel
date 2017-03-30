@@ -281,7 +281,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_FRENCH_SALON_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Salon[COLOR_REVERT], the French replacement for the [COLOR_BUILDING_TEXT]Jail[COLOR_REVERT], provides a cultural bonus, a happiness bonus if the city has access to [COLOR_HIGHLIGHT_TEXT]Coffee[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Tea[COLOR_REVERT] or [COLOR_HIGHLIGHT_TEXT]Tobacco[COLOR_REVERT] and increases the birthrate of [COLOR_HIGHLIGHT_TEXT]Great People[COLOR_REVERT].</English>
+		<English>The [COLOR_BUILDING_TEXT]Salon[COLOR_REVERT], the French replacement for the [COLOR_BUILDING_TEXT]Jail[COLOR_REVERT], is available sooner, provides a cultural bonus, a happiness bonus if the city has access to [COLOR_HIGHLIGHT_TEXT]Coffee[COLOR_REVERT], [COLOR_HIGHLIGHT_TEXT]Tea[COLOR_REVERT] or [COLOR_HIGHLIGHT_TEXT]Tobacco[COLOR_REVERT] and increases the birthrate of [COLOR_HIGHLIGHT_TEXT]Great People[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_GERMAN_ASSEMBLY_PLANT_STRATEGY</Tag>

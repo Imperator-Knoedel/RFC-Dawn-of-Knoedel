@@ -250,7 +250,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_FRANCE_CHATEAU_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Ch&#226;teau[COLOR_REVERT], the French replacement for the [COLOR_BUILDING_TEXT]Courthouse[COLOR_REVERT], increases culture output.</English>
+		<English>The [COLOR_BUILDING_TEXT]Ch&#226;teau[COLOR_REVERT], the French replacement for the [COLOR_BUILDING_TEXT]Castle[COLOR_REVERT], increases culture output and obsoletes later.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_HRE_OPERA_HOUSE</Tag>
