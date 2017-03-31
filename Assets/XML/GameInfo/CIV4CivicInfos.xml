@@ -407,7 +407,7 @@
 				</Hurry>
 			</Hurrys>
 			<iWorkerSpeedModifier>50</iWorkerSpeedModifier>
-			<iImprovementUpgradeRateModifier>-50</iImprovementUpgradeRateModifier>
+			<iImprovementUpgradeRateModifier>-25</iImprovementUpgradeRateModifier>
 			<ImprovementYieldChanges>
 				<ImprovementYieldChange>
 					<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
@@ -517,6 +517,13 @@
 					</ImprovementYields>
 				</ImprovementYieldChange>
 				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+					<ImprovementYields>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</ImprovementYields>
+				</ImprovementYieldChange>
+				<ImprovementYieldChange>
 					<ImprovementType>IMPROVEMENT_WINERY</ImprovementType>
 					<ImprovementYields>
 						<iYield>0</iYield>
@@ -588,8 +595,31 @@
 			<Strategy>TXT_KEY_CIVIC_RECIPROCITY_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/Civics/Decentralization.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,4,1</Button>
 			<iAnarchyLength>2</iAnarchyLength>
-			<Upkeep>NONE</Upkeep>
-			<iNumCitiesMaintenanceModifier>100</iNumCitiesMaintenanceModifier>
+			<Upkeep>UPKEEP_LOW</Upkeep>
+			<iWorkerSpeedModifier>-25</iWorkerSpeedModifier>
+			<ImprovementYieldChanges>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_CAMP</ImprovementType>
+					<ImprovementYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</ImprovementYields>
+				</ImprovementYieldChange>
+				<ImprovementYieldChange>
+					<ImprovementType>IMPROVEMENT_PASTURE</ImprovementType>
+					<ImprovementYields>
+						<iYield>0</iYield>
+						<iYield>0</iYield>
+						<iYield>1</iYield>
+					</ImprovementYields>
+				</ImprovementYieldChange>
+			</ImprovementYieldChanges>
+			<TradeYieldModifiers>
+				<iYield>0</iYield>
+				<iYield>0</iYield>
+				<iYield>-10</iYield>
+			</TradeYieldModifiers>
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
@@ -601,7 +631,7 @@
 			<TechPrereq>TECH_GUILDS</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
 			<Upkeep>NONE</Upkeep>
-			<iNumCitiesMaintenanceModifier>50</iNumCitiesMaintenanceModifier>
+			<iNumCitiesMaintenanceModifier>100</iNumCitiesMaintenanceModifier>
 			<BuildingHappinessChanges>
 				<BuildingHappinessChange>
 					<BuildingType>BUILDINGCLASS_BANK</BuildingType>

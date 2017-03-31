@@ -251,7 +251,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_GERMANY_DOPPELSOLDNER_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Doppelsöldner[COLOR_REVERT], the Holy Roman replacement for the [COLOR_UNIT_TEXT]Heavy Swordsman[COLOR_REVERT], begins with the [COLOR_HIGHLIGHT_TEXT]Shock[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Formations[COLOR_REVERT] promotions.</English>
+		<English>The [COLOR_UNIT_TEXT]Doppelsöldner[COLOR_REVERT], the Holy Roman replacement for the [COLOR_UNIT_TEXT]Heavy Swordsman[COLOR_REVERT], is more expensive but stronger and begins with the [COLOR_HIGHLIGHT_TEXT]Shock[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Formation[COLOR_REVERT] promotions.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_GREEK_HETAIROI</Tag>

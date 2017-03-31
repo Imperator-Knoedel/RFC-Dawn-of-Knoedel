@@ -677,7 +677,7 @@ class RiseAndFall:
 						
 			utils.updateMinorTechs(iSeljuks, iBarbarian)
 
-			tSeljukAreaTL = (79, 39)
+			tSeljukAreaTL = (78, 38)
 			tSeljukAreaBR = (84, 45)
 			targetCityList = []
 			targetPlayerList = []
@@ -717,9 +717,9 @@ class RiseAndFall:
 			lSpawnPlots = [(78,42), (77, 45), (78, 44), (78, 43)]
 			for tPlot in lSpawnPlots:
 				spawnPlot = utils.getFreePlot(tPlot)
-				utils.makeUnitAI(iSeljukGhulamWarrior, iSeljuks, spawnPlot, UnitAITypes.UNITAI_ATTACK_CITY, 2)
-				utils.makeUnitAI(iSeljukGhulamWarrior, iSeljuks, spawnPlot, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING, 2)
-				utils.makeUnitAI(iTrebuchet, iSeljuks, spawnPlot, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING, 2)
+				utils.makeUnitAI(iSeljukGhulamWarrior, iSeljuks, spawnPlot, UnitAITypes.UNITAI_ATTACK_CITY, 3)
+				utils.makeUnitAI(iSeljukGhulamWarrior, iSeljuks, spawnPlot, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING, 3)
+				utils.makeUnitAI(iTrebuchet, iSeljuks, spawnPlot, UnitAITypes.UNITAI_ATTACK_CITY_LEMMING, 3)
 				pSeljuks.setLastStateReligion(iIslam)
 				teamSeljuks.declareWar(iByzantium, True, WarPlanTypes.WARPLAN_TOTAL)
 				teamSeljuks.declareWar(iArabia, True, WarPlanTypes.WARPLAN_TOTAL)

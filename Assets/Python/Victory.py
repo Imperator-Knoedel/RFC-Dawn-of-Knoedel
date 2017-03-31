@@ -922,8 +922,8 @@ def checkTurn(iGameTurn, iPlayer):
 		
 	elif iPlayer == iHolyRome:
 	
-		# first goal: control Saint Peter's Basilica and the Church of the Anastasis in 1230 AD
-		if iGameTurn == getTurnForYear(1230):
+		# first goal: control Saint Peter's Basilica and the Church of the Anastasis in 1255 AD
+		if iGameTurn == getTurnForYear(1255):
 			bSaintPeters = getNumBuildings(iHolyRome, iCatholicShrine) > 0
 			bAnastasis = getNumBuildings(iHolyRome, iOrthodoxShrine) > 0
 			if bSaintPeters and bAnastasis:
@@ -933,9 +933,9 @@ def checkTurn(iGameTurn, iPlayer):
 				
 		# second goal: found Protestantism
 		
-		# third goal: settle four great artists in Vienna by 1805 AD
+		# third goal: settle five great artists in Vienna by 1805 AD
 		if isPossible(iHolyRome, 2):
-			if countCitySpecialists(iHolyRome, tVienna, iSpecialistGreatArtist) >= 4:
+			if countCitySpecialists(iHolyRome, tVienna, iSpecialistGreatArtist) >= 5:
 				win(iHolyRome, 2)
 				
 		if iGameTurn == getTurnForYear(1805):
@@ -3388,7 +3388,7 @@ def getUHVHelp(iPlayer, iGoal):
 			aHelp.append(getIcon(bSaintPeters) + localText.getText("TXT_KEY_BUILDING_CATHOLIC_SHRINE", ()) + ' ' + getIcon(bAnastasis) + localText.getText("TXT_KEY_BUILDING_ORTHODOX_SHRINE", ()))
 		elif iGoal == 2:
 			iGreatArtists = countCitySpecialists(iHolyRome, tVienna, iSpecialistGreatArtist)
-			aHelp.append(getIcon(iGreatArtists >= 4) + localText.getText("TXT_KEY_VICTORY_GREAT_ARTISTS_SETTLED", ('Vienna', iGreatArtists, 4)))
+			aHelp.append(getIcon(iGreatArtists >= 5) + localText.getText("TXT_KEY_VICTORY_GREAT_ARTISTS_SETTLED", ('Vienna', iGreatArtists, 5)))
 
 	elif iPlayer == iRussia:
 		if iGoal == 0:

@@ -26923,7 +26923,7 @@ BeginPlot
 	EndUnit
 	BeginCity
 		CityOwner=14, (Byzantium)
-		CityName=Knossos
+		CityName=Chandax
 		CityPopulation=2
 		BuildingType=BUILDING_GRANARY
 		ReligionType=RELIGION_ORTHODOXY

@@ -266,7 +266,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_HRE_OPERA_HOUSE_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Opera House[COLOR_REVERT], the Holy Roman replacement for the [COLOR_BUILDING_TEXT]Amphitheatre[COLOR_REVERT], has an increase culture and happiness output.</English>
+		<English>The [COLOR_BUILDING_TEXT]Opera House[COLOR_REVERT], the Holy Roman replacement for the [COLOR_BUILDING_TEXT]Theatre[COLOR_REVERT], is more expensive and available later, but otherwise better in every way. It grants a significant boost to culture and Great People Birth Rate, provides an extra [COLOR_HIGHLIGHT_TEXT]Artist[COLOR_REVERT] specialist slot and a free [COLOR_HIGHLIGHT_TEXT]Artist[COLOR_REVERT] specialist.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_GREEK_AGORA</Tag>

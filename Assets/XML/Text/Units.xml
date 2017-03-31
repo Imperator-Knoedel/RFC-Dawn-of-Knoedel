@@ -482,7 +482,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_HOLY_ROMAN_LANDSKNECHT_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Landsknecht[COLOR_REVERT], the German replacement for the [COLOR_UNIT_TEXT]Pikeman[COLOR_REVERT], has a big bonus against [COLOR_UNIT_TEXT]Melee[COLOR_REVERT] and [COLOR_UNIT_TEXT]Mounted Units[COLOR_REVERT].</English>
+		<English>The [COLOR_UNIT_TEXT]Landsknecht[COLOR_REVERT], the German replacement for the [COLOR_UNIT_TEXT]Pikeman[COLOR_REVERT], has a big bonus against [COLOR_UNIT_TEXT]Melee[COLOR_REVERT] and [COLOR_UNIT_TEXT]Mounted Units[COLOR_REVERT] and begins with the [COLOR_UNIT_TEXT]Formation[COLOR_REVERT] promotion.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_HARAPPAN_CITY_BUILDER</Tag>
