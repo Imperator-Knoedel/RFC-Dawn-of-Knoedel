@@ -11723,7 +11723,7 @@
 			</FeatureImpassables>
 			<iCombat>1</iCombat>
 			<iCombatLimit>40</iCombatLimit>
-			<iAirCombat>4</iAirCombat>
+			<iAirCombat>8</iAirCombat>
 			<iAirCombatLimit>40</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -11824,7 +11824,7 @@
 			</FeatureImpassables>
 			<iCombat>3</iCombat>
 			<iCombatLimit>40</iCombatLimit>
-			<iAirCombat>4</iAirCombat>
+			<iAirCombat>8</iAirCombat>
 			<iAirCombatLimit>40</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -12028,7 +12028,7 @@
 			</FeatureImpassables>
 			<iCombat>2</iCombat>
 			<iCombatLimit>50</iCombatLimit>
-			<iAirCombat>6</iAirCombat>
+			<iAirCombat>10</iAirCombat>
 			<iAirCombatLimit>50</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -12137,7 +12137,7 @@
 			</FeatureImpassables>
 			<iCombat>1</iCombat>
 			<iCombatLimit>60</iCombatLimit>
-			<iAirCombat>8</iAirCombat>
+			<iAirCombat>14</iAirCombat>
 			<iAirCombatLimit>60</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -12234,7 +12234,7 @@
 			</FeatureImpassables>
 			<iCombat>4</iCombat>
 			<iCombatLimit>50</iCombatLimit>
-			<iAirCombat>6</iAirCombat>
+			<iAirCombat>14</iAirCombat>
 			<iAirCombatLimit>60</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -12335,7 +12335,7 @@
 			</FeatureImpassables>
 			<iCombat>4</iCombat>
 			<iCombatLimit>50</iCombatLimit>
-			<iAirCombat>6</iAirCombat>
+			<iAirCombat>15</iAirCombat>
 			<iAirCombatLimit>50</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -12439,7 +12439,7 @@
 			</FeatureImpassables>
 			<iCombat>6</iCombat>
 			<iCombatLimit>50</iCombatLimit>
-			<iAirCombat>6</iAirCombat>
+			<iAirCombat>15</iAirCombat>
 			<iAirCombatLimit>50</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -12537,7 +12537,7 @@
 			</FeatureImpassables>
 			<iCombat>3</iCombat>
 			<iCombatLimit>40</iCombatLimit>
-			<iAirCombat>5</iAirCombat>
+			<iAirCombat>13</iAirCombat>
 			<iAirCombatLimit>40</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -12646,7 +12646,7 @@
 			</FeatureImpassables>
 			<iCombat>4</iCombat>
 			<iCombatLimit>50</iCombatLimit>
-			<iAirCombat>6</iAirCombat>
+			<iAirCombat>15</iAirCombat>
 			<iAirCombatLimit>50</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -12753,7 +12753,7 @@
 			</FeatureImpassables>
 			<iCombat>4</iCombat>
 			<iCombatLimit>60</iCombatLimit>
-			<iAirCombat>8</iAirCombat>
+			<iAirCombat>18</iAirCombat>
 			<iAirCombatLimit>60</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -12849,7 +12849,7 @@
 			</FeatureImpassables>
 			<iCombat>10</iCombat>
 			<iCombatLimit>60</iCombatLimit>
-			<iAirCombat>12</iAirCombat>
+			<iAirCombat>20</iAirCombat>
 			<iAirCombatLimit>60</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -12946,7 +12946,7 @@
 			</FeatureImpassables>
 			<iCombat>11</iCombat>
 			<iCombatLimit>65</iCombatLimit>
-			<iAirCombat>14</iAirCombat>
+			<iAirCombat>22</iAirCombat>
 			<iAirCombatLimit>65</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -13141,7 +13141,7 @@
 			</FeatureImpassables>
 			<iCombat>16</iCombat>
 			<iCombatLimit>70</iCombatLimit>
-			<iAirCombat>20</iAirCombat>
+			<iAirCombat>30</iAirCombat>
 			<iAirCombatLimit>70</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -13244,7 +13244,7 @@
 			</FeatureImpassables>
 			<iCombat>18</iCombat>
 			<iCombatLimit>80</iCombatLimit>
-			<iAirCombat>24</iAirCombat>
+			<iAirCombat>34</iAirCombat>
 			<iAirCombatLimit>80</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -13345,7 +13345,7 @@
 			</FeatureImpassables>
 			<iCombat>24</iCombat>
 			<iCombatLimit>80</iCombatLimit>
-			<iAirCombat>28</iAirCombat>
+			<iAirCombat>36</iAirCombat>
 			<iAirCombatLimit>80</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -14672,7 +14672,7 @@
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>8</iCombat>
 			<iCombatLimit>100</iCombatLimit>
-			<iAirCombat>5</iAirCombat>
+			<iAirCombat>8</iAirCombat>
 			<iAirCombatLimit>100</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -14739,7 +14739,7 @@
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>10</iCombat>
 			<iCombatLimit>100</iCombatLimit>
-			<iAirCombat>5</iAirCombat>
+			<iAirCombat>12</iAirCombat>
 			<iAirCombatLimit>100</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -14806,7 +14806,7 @@
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>10</iCombat>
 			<iCombatLimit>100</iCombatLimit>
-			<iAirCombat>5</iAirCombat>
+			<iAirCombat>12</iAirCombat>
 			<iAirCombatLimit>100</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -14876,7 +14876,7 @@
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>16</iCombat>
 			<iCombatLimit>100</iCombatLimit>
-			<iAirCombat>5</iAirCombat>
+			<iAirCombat>12</iAirCombat>
 			<iAirCombatLimit>100</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -14948,7 +14948,7 @@
 			</TerrainImpassables>
 			<iCombat>14</iCombat>
 			<iCombatLimit>100</iCombatLimit>
-			<iAirCombat>5</iAirCombat>
+			<iAirCombat>12</iAirCombat>
 			<iAirCombatLimit>100</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -15074,7 +15074,7 @@
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>30</iCombat>
 			<iCombatLimit>100</iCombatLimit>
-			<iAirCombat>5</iAirCombat>
+			<iAirCombat>15</iAirCombat>
 			<iAirCombatLimit>100</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -15151,7 +15151,7 @@
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>29</iCombat>
 			<iCombatLimit>100</iCombatLimit>
-			<iAirCombat>5</iAirCombat>
+			<iAirCombat>14</iAirCombat>
 			<iAirCombatLimit>100</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -15231,7 +15231,7 @@
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>40</iCombat>
 			<iCombatLimit>100</iCombatLimit>
-			<iAirCombat>5</iAirCombat>
+			<iAirCombat>20</iAirCombat>
 			<iAirCombatLimit>100</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -15298,7 +15298,7 @@
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>40</iCombat>
 			<iCombatLimit>100</iCombatLimit>
-			<iAirCombat>5</iAirCombat>
+			<iAirCombat>22</iAirCombat>
 			<iAirCombatLimit>100</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
@@ -15378,7 +15378,7 @@
 			<iNukeRange>-1</iNukeRange>
 			<iCombat>30</iCombat>
 			<iCombatLimit>100</iCombatLimit>
-			<iAirCombat>5</iAirCombat>
+			<iAirCombat>15</iAirCombat>
 			<iAirCombatLimit>100</iAirCombatLimit>
 			<iXPValueAttack>4</iXPValueAttack>
 			<iXPValueDefense>2</iXPValueDefense>
