@@ -305,7 +305,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_GREEK_ODEON_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Odeon[COLOR_REVERT], the Greek replacement for the [COLOR_BUILDING_TEXT]Theatre[COLOR_REVERT], increase a city's happiness, requires the [COLOR_TECH_TEXT]Aesthetics[COLOR_REVERT] technology, doesn't require the [COLOR_TECH_TEXT]Drama[COLOR_REVERT] technology and allows you to hire one [COLOR_HIGHLIGHT_TEXT]Statesman[COLOR_REVERT] specialist.</English>
+		<English>The [COLOR_BUILDING_TEXT]Odeon[COLOR_REVERT], the Greek replacement for the [COLOR_BUILDING_TEXT]Theatre[COLOR_REVERT], increase a city's happiness and provides a decent culture boost.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_GROCER_STRATEGY</Tag>

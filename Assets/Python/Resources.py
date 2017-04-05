@@ -85,6 +85,7 @@ class Resources:
 			
 			self.removeResource(51, 36)
 			self.removeResource(58, 37)
+			self.createResource(68, 45, iSilk) #Silk in Constantinople
 			
 		# Leoreth: prepare Tibet, 630 AD
 		elif iGameTurn == getTurnForYear(tBirth[iTibet])-1 and data.isPlayerEnabled(iTibet):
@@ -149,6 +150,7 @@ class Resources:
 		if iGameTurn == getTurnForYear(1250):
 			#gc.getMap().plot(57, 52).setBonusType(iWheat) #Amsterdam
 			self.createResource(96, 36, iFish) # Calcutta, Dhaka, Pagan
+			self.createResource(60, 44, iSilk) # Silk in Rome
 
 		elif iGameTurn == getTurnForYear(1350):
 			gc.getMap().plot(102, 35).setFeatureType(-1, 0) #remove rainforest in Vietnam
@@ -202,6 +204,11 @@ class Resources:
 			self.createResource(67, 47, iCorn) # Romania
 			self.createResource(106, 50, iCorn) # Manchuria
 			self.createResource(77, 52, iCorn) # Caricyn
+			self.removeResource(49, 57) # remove Irish Horse
+			self.createResource(49, 57, iCorn) # Irish Potatoes
+			self.createResource(62, 59, iCorn) # Scandinavia
+			self.createResource(63, 53, iCorn) # Germany
+			self.createResource(67, 56, iCorn) # Baltic
 			
 			self.createResource(92, 35, iSpices) # Deccan
 			gc.getMap().plot(92, 35).setFeatureType(iRainforest, 0)

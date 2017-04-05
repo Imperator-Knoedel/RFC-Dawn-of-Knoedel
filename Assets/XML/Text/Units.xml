@@ -474,7 +474,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_GREEK_HOPLITE_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Hoplite[COLOR_REVERT], the Greek replacement for the [COLOR_UNIT_TEXT]Spearman[COLOR_REVERT], has a higher strength.</English>
+		<English>The [COLOR_UNIT_TEXT]Hoplite[COLOR_REVERT], the Greek replacement for the [COLOR_UNIT_TEXT]Spearman[COLOR_REVERT], is stronger and has the ability to bombard city defenses.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_HORSE_ARCHER_STRATEGY</Tag>

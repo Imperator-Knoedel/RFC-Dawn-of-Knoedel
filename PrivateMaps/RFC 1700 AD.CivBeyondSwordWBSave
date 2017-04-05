@@ -21361,8 +21361,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=49,y=57
-	BonusType=BONUS_HORSE
-	ImprovementType=IMPROVEMENT_PASTURE
+	BonusType=BONUS_CORN
+	ImprovementType=IMPROVEMENT_FARM
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=16,22,23,24,38,45,
@@ -26757,6 +26757,7 @@ BeginPlot
 	x=60,y=44
 	RiverNSDirection=2
 	isWOfRiver
+	BonusType=BONUS_SILK
 	RouteType=ROUTE_ROMAN_ROAD
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -28142,7 +28143,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=62,y=59
-	ImprovementType=IMPROVEMENT_WORKSHOP
+	BonusType=BONUS_CORN
+	ImprovementType=IMPROVEMENT_FARM
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -28584,7 +28586,8 @@ BeginPlot
 	x=63,y=53
 	RiverNSDirection=0
 	isWOfRiver
-	ImprovementType=IMPROVEMENT_HAMLET
+	BonusType=BONUS_CORN
+	ImprovementType=IMPROVEMENT_FARM
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
 	TeamReveal=16,22,23,24,25,26,28,38,39,44,45,
@@ -30779,6 +30782,8 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=67,y=56
+	BonusType=BONUS_CORN
+	ImprovementType=IMPROVEMENT_FARM
 	RouteType=ROUTE_ROAD
 	TerrainType=TERRAIN_GRASS
 	PlotType=2
@@ -31209,6 +31214,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=68,y=45
+	BonusType=BONUS_SILK
 	RouteType=ROUTE_ROMAN_ROAD
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2

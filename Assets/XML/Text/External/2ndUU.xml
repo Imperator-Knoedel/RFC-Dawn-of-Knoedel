@@ -271,7 +271,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_GREEK_HETAIROI_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Hetairoi[COLOR_REVERT], the Greek replacement for the [COLOR_UNIT_TEXT]Horse Archer[COLOR_REVERT], is immune to first strikes and has a bonus against Melee units.</English>
+		<English>The [COLOR_UNIT_TEXT]Hetairoi[COLOR_REVERT], the Greek replacement for the [COLOR_UNIT_TEXT]Heavy Horseman[COLOR_REVERT], is available sooner and cheaper, but also a bit weaker. It has a chance to withdraw from combat, causes collateral damage and has a small combat bonus agains [COLOR_HIGHLIGHT_TEXT]Melee[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Archery[COLOR_REVERT] units.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_HARAPPA_CITY_GUARD</Tag>

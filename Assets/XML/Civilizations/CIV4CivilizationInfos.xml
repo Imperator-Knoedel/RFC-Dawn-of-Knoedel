@@ -2051,7 +2051,7 @@
 					<UnitType>UNIT_GREEK_HOPLITE</UnitType>
 				</Unit>
 				<Unit>
-					<UnitClassType>UNITCLASS_HORSE_ARCHER</UnitClassType>
+					<UnitClassType>UNITCLASS_HEAVY_HORSEMAN</UnitClassType>
 					<UnitType>UNIT_GREEK_HETAIROI</UnitType>
 				</Unit>
 			</Units>
