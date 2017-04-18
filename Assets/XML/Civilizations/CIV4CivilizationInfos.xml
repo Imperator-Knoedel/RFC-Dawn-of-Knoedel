@@ -2363,7 +2363,7 @@
 					<UnitType>UNIT_INCAN_AUCAC</UnitType>
 				</Unit>
 				<Unit>
-					<UnitClassType>UNITCLASS_CROSSBOWMAN</UnitClassType>
+					<UnitClassType>UNITCLASS_ARCHER</UnitClassType>
 					<UnitType>UNIT_INCA_SLINGER</UnitType>
 				</Unit>
 			</Units>

@@ -342,12 +342,12 @@ def checkTurn(iGameTurn, iPlayer):
 		if iGameTurn == getTurnForYear(-1300):
 			expire(iHarappa, 1)
 			
-		# third goal: have a total population of 25 by 300 BC
+		# third goal: have a total population of 25 by 325 BC
 		if isPossible(iHarappa, 2):
 			if pHarappa.getTotalPopulation() >= 25:
 				win(iHarappa, 2)
 				
-		if iGameTurn == getTurnForYear(-300):
+		if iGameTurn == getTurnForYear(-325):
 			expire(iHarappa, 2)
 			
 	elif iPlayer == iGreece:
@@ -371,8 +371,8 @@ def checkTurn(iGameTurn, iPlayer):
 				
 	elif iPlayer == iIndia:
 	
-		# first goal: control the Hindu and Buddhist shrine in 100 BC
-		if iGameTurn == getTurnForYear(-100):
+		# first goal: control the Hindu and Buddhist shrine in 230 BC
+		if iGameTurn == getTurnForYear(-230):
 			bBuddhistShrine = getNumBuildings(iIndia, iBuddhistShrine) > 0
 			bHinduShrine = getNumBuildings(iIndia, iHinduShrine) > 0
 			if bHinduShrine and bBuddhistShrine:
@@ -380,8 +380,8 @@ def checkTurn(iGameTurn, iPlayer):
 			else:
 				lose(iIndia, 0)
 				
-		# second goal: build 20 temples by 700 AD
-		if iGameTurn == getTurnForYear(700):
+		# second goal: build 16 temples by 650 AD
+		if iGameTurn == getTurnForYear(650):
 			expire(iIndia, 1)
 			
 		# third goal: control 20% of the world's population in 1200 AD
@@ -1670,7 +1670,7 @@ def onBuildingBuilt(iPlayer, iBuilding):
 				if iNumBaths >= 3 and iNumWalls >= 2:
 					win(iHarappa, 1)
 					
-	# second Indian goal: build 20 temples by 700 AD
+	# second Indian goal: build 16 temples by 650 AD
 	elif iPlayer == iIndia:
 		if isPossible(iIndia, 1):
 			lTemples = [iTemple + i*4 for i in range(iNumReligions)]
@@ -1678,7 +1678,7 @@ def onBuildingBuilt(iPlayer, iBuilding):
 				iCounter = 0
 				for iGoalTemple in lTemples:
 					iCounter += getNumBuildings(iIndia, iGoalTemple)
-				if iCounter >= 20:
+				if iCounter >= 16:
 					win(iIndia, 1)
 	
 	# first Roman goal: build 6 Barracks, 5 Aqueducts, 4 Amphitheatres and 3 Forums by 180 AD
@@ -3008,7 +3008,7 @@ def getURVHelp(iPlayer, iGoal):
 def getUHVHelp(iPlayer, iGoal):
 	"Returns an array of help strings used by the Victory Screen table"
 
-	aHelp = [];
+	aHelp = []
 
 	# the info is outdated or irrelevant once the goal has been accomplished or failed
 	if data.players[iPlayer].lGoals[iGoal] == 1:
@@ -3100,7 +3100,7 @@ def getUHVHelp(iPlayer, iGoal):
 			iCounter = 0
 			for iGoalTemple in lTemples:
 				iCounter += getNumBuildings(iIndia, iGoalTemple)
-			aHelp.append(getIcon(iCounter >= 20) + localText.getText("TXT_KEY_VICTORY_TEMPLES_BUILT", (iCounter, 20)))
+			aHelp.append(getIcon(iCounter >= 16) + localText.getText("TXT_KEY_VICTORY_TEMPLES_BUILT", (iCounter, 16)))
 		elif iGoal == 2:
 			popPercent = getPopulationPercent(iIndia)
 			aHelp.append(getIcon(popPercent >= 20.0) + localText.getText("TXT_KEY_VICTORY_PERCENTAGE_WORLD_POPULATION", (str(u"%.2f%%" % popPercent), str(20))))

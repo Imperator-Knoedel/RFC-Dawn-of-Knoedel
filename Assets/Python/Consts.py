@@ -351,9 +351,9 @@ dVictoryYears = {
 iCivEgypt : (-855, -245, -30),
 iCivChina : (1270, -1, 1840),
 iCivBabylonia : (-1, -690, -540),
-iCivHarappa : (-1700, -1300, -300),
+iCivHarappa : (-1700, -1300, -325),
 iCivGreece : (-1, -145, -325),
-iCivIndia : (-100, 700, 1200),
+iCivIndia : (-230, 650, 1200),
 iCivCarthage : (-265, -200, -145),
 iCivPolynesia : (800, 1000, 1200),
 iCivPersia : (-330, 225, 225),
@@ -1745,3 +1745,7 @@ lWarMapColors = ["COLOR_RED", "COLOR_PLAYER_ORANGE", "COLOR_YELLOW", "COLOR_GREE
 
 lReligionMapColors = ["COLOR_PLAYER_ORANGE", "COLOR_YELLOW", "COLOR_GREEN", "COLOR_CYAN"]
 lReligionMapTexts = ["TXT_KEY_CULTURELEVEL_NONE", "TXT_KEY_WB_RELIGIONMAP_MINORITY", "TXT_KEY_WB_RELIGIONMAP_PERIPHERY", "TXT_KEY_WB_RELIGIONMAP_HISTORICAL", "TXT_KEY_WB_RELIGIONMAP_CORE"]
+
+lNetworkEvents = {
+	"CHANGE_COMMERCE_PERCENT" :	1200,
+}

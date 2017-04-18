@@ -767,7 +767,7 @@ def getEmpireThreshold(iPlayer):
 	if gc.getPlayer(iPlayer).isReborn():
 		if iPlayer == iPersia: return 4
 		
-	return 5
+	return 6
 	
 def isAtWar(iPlayer):
 	for iTarget in range(iNumPlayers):

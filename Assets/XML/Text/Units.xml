@@ -538,7 +538,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_INDIAN_PATIYODHA_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Patiyodha[COLOR_REVERT], the Indian replacement for the [COLOR_UNIT_TEXT]Archer[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Monarchy[COLOR_REVERT] and [COLOR_TECH_TEXT]Calendar[COLOR_REVERT] technologies, doesn't require the [COLOR_TECH_TEXT]Feudalism[COLOR_REVERT] technology, has one less strength point, is cheaper, is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT] and begins with the [COLOR_HIGHLIGHT_TEXT]Formation[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Woodsman I[COLOR_REVERT] promotions.</English>
+		<English>The [COLOR_UNIT_TEXT]Patiyodha[COLOR_REVERT], the Indian replacement for the [COLOR_UNIT_TEXT]Longbowman[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Monarchy[COLOR_REVERT] and [COLOR_TECH_TEXT]Calendar[COLOR_REVERT] technologies, doesn't require the [COLOR_TECH_TEXT]Feudalism[COLOR_REVERT] technology, is cheaper, is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT] and has a significant combat bonus against [COLOR_HIGHLIGHT_TEXT]Mounted[COLOR_REVERT] units.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_HITTITE_HULUGANNI</Tag>
@@ -546,7 +546,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_INCAN_AUCAC_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Aucac[COLOR_REVERT], the Incan replacement for the [COLOR_UNIT_TEXT]Axeman[COLOR_REVERT], requires the [COLOR_TECH_TEXT]Mining[COLOR_REVERT] technology, doesn't require the [COLOR_TECH_TEXT]Bronze Working[COLOR_REVERT] technology, doesn't require the [COLOR_HIGHLIGHT_TEXT]Copper[COLOR_REVERT] or [COLOR_HIGHLIGHT_TEXT]Iron[COLOR_REVERT] resources, has a combat bonus against [COLOR_HIGHLIGHT_TEXT]Archery Units[COLOR_REVERT], is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT] and begins with the [COLOR_HIGHLIGHT_TEXT]Combat I[COLOR_REVERT] promotion.</English>
+		<English>The [COLOR_UNIT_TEXT]Aucac[COLOR_REVERT], the Incan replacement for the [COLOR_UNIT_TEXT]Axeman[COLOR_REVERT], is cheaper but weaker, requires the [COLOR_TECH_TEXT]Mining[COLOR_REVERT] technology, doesn't require the [COLOR_TECH_TEXT]Bronze Working[COLOR_REVERT] technology, doesn't require any resources, is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT] and begins with the [COLOR_HIGHLIGHT_TEXT]Mountaineer I[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Flanking I[COLOR_REVERT] promotions. It also has an attack bonus against [COLOR_HIGHLIGHT_TEXT]Archers[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_ICBM_STRATEGY</Tag>

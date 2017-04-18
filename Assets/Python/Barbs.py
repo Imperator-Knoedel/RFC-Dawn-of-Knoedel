@@ -19,10 +19,10 @@ utils = RFCUtils.RFCUtils()
 tMinorCities = (
 (-3000, (73, 38), iIndependent, 'Yerushalayim', 2, iArcher, 3),	# Jerusalem
 (-3000, (79, 40), iIndependent2, 'Shushan', 1, iArcher, 1), 	# Susa
-(-2700, (69, 39), iIndependent2, 'Knossos', 2, iArcher, 1), 	# Knossos
+(-2800, (69, 39), iIndependent2, 'Knossos', 2, iArcher, 1), 	# Knossos
 (-2000, (85, 47), iIndependent, 'Afrasiyab', 1, iArcher, 1), 	# Samarkand
 #(-2000, (92, 39), iIndependent, 'Varanasi', 1, iWarrior, 1), 	# Varanasi
-(-1800, (70, 43), iIndependent2, 'Ephesos', 2, iArcher, 1), 	# Troy but I don't know how to dynamic names and I'm not willing to learn!
+(-1700, (70, 43), iIndependent2, 'Ephesos', 2, iArcher, 1), 	# Troy but I don't know how to dynamic names and I'm not willing to learn!
 (-1600, (90, 40), iIndependent, 'Indraprastha', 1, iWarrior, 1),	# Delhi
 (-1600, (73, 43), iIndependent, 'Ankuwash', 2, iArcher, 2),		# Ankara
 (-1000, (102, 47), iIndependent, 'Zhongdu', 2, iSpearman, 1),	# Beijing
@@ -176,8 +176,8 @@ class Barbs:
 			self.checkSpawn(iBarbarian, iTrireme, 1, (72, 20), (91, 36), self.spawnPirates, iGameTurn, 10, 0)
 
 		# Leoreth: Barbarians in Anatolia (Hittites), replace Hattusas spawn
-		if utils.isYearIn(-2000, -800):
-			self.checkSpawn(iBarbarian, iHittiteHuluganni, 1 + iHandicap, (68, 42), (74, 45), self.spawnInvaders, iGameTurn, 16, 0, ["TXT_KEY_ADJECTIVE_HITTITE"])
+		if utils.isYearIn(-1600, -800):
+			self.checkSpawn(iBarbarian, iHittiteHuluganni, 1 + iHandicap, (69, 41), (74, 45), self.spawnInvaders, iGameTurn, 16, 0, ["TXT_KEY_ADJECTIVE_HITTITE"])
 			
 		#barbarians in europe
 		if utils.isYearIn(-210, 470):

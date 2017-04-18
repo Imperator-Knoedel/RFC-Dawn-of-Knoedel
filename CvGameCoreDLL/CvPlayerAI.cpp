@@ -4991,12 +4991,12 @@ TechTypes CvPlayerAI::AI_bestTech(int iMaxPathLength, bool bIgnoreCost, bool bAs
 								switch (getID())
 								{
 								case EGYPT:
-									if (iI == WRITING || iI == SAILING)
+									if (iI == HUNTING || iI == BRONZEWORKING)
 										iValue /= 3;
-									if (iI == MEDITATION || iI == PRIESTHOOD)
+									if (iI == MEDITATION || iI == MINING)
 										iValue /= 5;
 									if (iI == MASONRY)
-										iValue *= 3;
+										iValue *= 5;
                                     if (iI == MONOTHEISM)
                                         iValue /= 5;
 									break;
@@ -5045,7 +5045,7 @@ TechTypes CvPlayerAI::AI_bestTech(int iMaxPathLength, bool bIgnoreCost, bool bAs
 										iValue *= 2;
 									if (iI == MONARCHY && !GC.getGame().isReligionFounded(JUDAISM))
 										iValue *= 2;
-									if (iI == MATHEMATICS || iI == BRONZEWORKING || iI == FEUDALISM)
+									if (iI == MINING || iI == BRONZEWORKING || iI == FEUDALISM)
 										iValue /= 3;
 									break;
 								case HARAPPA:
@@ -5154,9 +5154,9 @@ TechTypes CvPlayerAI::AI_bestTech(int iMaxPathLength, bool bIgnoreCost, bool bAs
 										iValue *= 3;
 									break;
                                 case BYZANTIUM:
-                                    if (iI == OPTICS || iI == GUNPOWDER || iI == ASTRONOMY)
+                                    if (iI == OPTICS || iI == BANKING || iI == ASTRONOMY)
                                         iValue /= 2;
-									else if (iI == BANKING)
+									else if (iI == GUNPOWDER)
 										iValue /= 5;
                                     break;
 								case JAPAN:

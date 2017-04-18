@@ -468,7 +468,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_PARTHENON_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Parthenon[COLOR_REVERT] grants access to all [COLOR_HIGHLIGHT_TEXT]Government[COLOR_REVERT] Civics. It also increases the odds of its city generating a [COLOR_UNIT_TEXT]Great Artist[COLOR_REVERT].</English>
+		<English>The [COLOR_BUILDING_TEXT]Parthenon[COLOR_REVERT] grants access to all [COLOR_HIGHLIGHT_TEXT]Government[COLOR_REVERT] Civics and creates a free [COLOR_BUILDING_TEXT]Courthouse[COLOR_REVERT] in all cities. It also increases the odds of its city generating a [COLOR_UNIT_TEXT]Great Artist[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_ISHTAR_GATE_STRATEGY</Tag>
@@ -719,7 +719,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_TEMPLE_OF_ARTEMIS_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Temple of Artemis[COLOR_REVERT] increases its city's trade route income and gives a free [COLOR_HIGHLIGHT_TEXT]Priest[COLOR_REVERT]. It increases its city's chances of generating a [COLOR_UNIT_TEXT]Great Merchant[COLOR_REVERT].</English>
+		<English>The [COLOR_BUILDING_TEXT]Temple of Artemis[COLOR_REVERT] creates a free [COLOR_BUILDING_TEXT]Smokehouse[COLOR_REVERT] in each city and gives a free [COLOR_HIGHLIGHT_TEXT]Priest[COLOR_REVERT]. It increases its city's chances of generating a [COLOR_UNIT_TEXT]Great Merchant[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_DOME_OF_THE_ROCK_STRATEGY</Tag>

@@ -370,7 +370,7 @@
 			<iAnarchyLength>2</iAnarchyLength>
 			<Upkeep>NONE</Upkeep>
 			<iDistanceMaintenanceModifier>100</iDistanceMaintenanceModifier>
-			<iWorkerSpeedModifier>-50</iWorkerSpeedModifier>
+			<iWorkerSpeedModifier>-25</iWorkerSpeedModifier>
 			<iImprovementUpgradeRateModifier>-50</iImprovementUpgradeRateModifier>
 			<ImprovementYieldChanges>
 				<ImprovementYieldChange>
@@ -406,7 +406,7 @@
 					<bHurry>1</bHurry>
 				</Hurry>
 			</Hurrys>
-			<iWorkerSpeedModifier>50</iWorkerSpeedModifier>
+			<iWorkerSpeedModifier>25</iWorkerSpeedModifier>
 			<iImprovementUpgradeRateModifier>-25</iImprovementUpgradeRateModifier>
 			<ImprovementYieldChanges>
 				<ImprovementYieldChange>

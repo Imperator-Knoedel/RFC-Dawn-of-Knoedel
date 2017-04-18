@@ -191,6 +191,9 @@ class Religions:
 		#print city.getOwner()
 		utils.makeUnit(iMissionary, city.getOwner(), tCoords, iNum)
 		
+	def getTargetCities(self, lCities, iReligion):
+		return [city for city in lCities if not city.isHasReligion(iReligion) and gc.getPlayer(city.getOwner()).getSpreadType(city.plot(), iReligion) > ReligionSpreadTypes.RELIGION_SPREAD_NONE]
+		
 	def selectHolyCity(self, tTL, tBR, tPreferredCity = None, bAIOnly = True):
 		if tPreferredCity:
 			x, y = tPreferredCity
@@ -206,6 +209,33 @@ class Religions:
 			
 		return None
 		
+	def checkLateReligionFounding(self, iReligion, iTech):
+		if gc.getReligionInfo(iReligion).getTechPrereq() != iTech:
+			return
+			
+		if gc.getGame().isReligionFounded(iReligion):
+			return
+		
+		iPlayerCount = 0
+		iPrereqCount = 0
+		for iPlayer in range(iNumPlayers):
+			if gc.getPlayer(iPlayer).isAlive():
+				iPlayerCount += 1
+				if gc.getTeam(gc.getPlayer(iPlayer).getTeam()).isHasTech(iTech):
+					iPrereqCount += 1
+					
+		if 2 * iPrereqCount >= iPlayerCount:
+			self.foundReligionInCore(iReligion)
+			
+	def foundReligionInCore(self, iReligion):
+		lCoreCities = [city for city in utils.getAllCities() if city.plot().getSpreadFactor(iReligion) == RegionSpreadTypes.REGION_SPREAD_CORE]
+		
+		if not lCoreCities: return
+		
+		city = utils.getRandomEntry(lCoreCities)
+		
+		self.foundReligion((city.getX(), city.getY()), iReligion)
+					
 ## JUDAISM
 
 	def checkJudaism(self, iGameTurn):
@@ -224,9 +254,9 @@ class Religions:
 		lJewishCities = [city for city in lEuropeanCities if city.isHasReligion(iJudaism)]
 		
 		if 2 * len(lJewishCities) < len(lEuropeanCities):
-			pSpreadCity = utils.getRandomEntry([city for city in lEuropeanCities if not city.isHasReligion(iJudaism)])
+			pSpreadCity = utils.getRandomEntry(self.getTargetCities(lEuropeanCities, iJudaism))
 			if pSpreadCity:
-				pSpreadCity.setHasReligion(iJudaism, True, True, True)
+				pSpreadCity.spreadReligion(iJudaism)
 				
 	def spreadJudaismMiddleEast(self, iGameTurn):
 		if not gc.getGame().isReligionFounded(iJudaism): return
@@ -238,9 +268,9 @@ class Religions:
 		lJewishCities = [city for city in lMiddleEastCities if city.isHasReligion(iJudaism)]
 		
 		if 2 * len(lJewishCities) < len(lMiddleEastCities):
-			pSpreadCity = utils.getRandomEntry([city for city in lMiddleEastCities if not city.isHasReligion(iJudaism)])
+			pSpreadCity = utils.getRandomEntry(self.getTargetCities(lMiddleEastCities, iJudaism))
 			if pSpreadCity:
-				pSpreadCity.setHasReligion(iJudaism, True, True, True)
+				pSpreadCity.spreadReligion(iJudaism)
 		
 ## BUDDHISM
 
@@ -384,6 +414,9 @@ class Religions:
 					gc.getPlayer(iPlayer).foundReligion(iProtestantism, iProtestantism, True)
 					self.reformation()
 					
+		for iReligion in range(iNumReligions):
+			self.checkLateReligionFounding(iReligion, iTech)
+
 	def onBuildingBuilt(self, city, iPlayer, iBuilding):
 		if iBuilding == iHinduTemple:
 			if gc.getGame().isReligionFounded(iBuddhism): return

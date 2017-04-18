@@ -53,10 +53,12 @@ class Resources:
        	
 	def checkTurn(self, iGameTurn):
 		
-		# Gujarati horses appear later so Harappa cannot benefit too early
+		# Gujarati horses appear later so Harappa cannot benefit too early; also Harappan Stone turns to Marble
 		if iGameTurn == getTurnForYear(-1000):
+			self.removeResource(86, 39)
 			self.createResource(88, 37, iHorse)
-			
+			self.createResource(86, 39, iMarble)
+
 		# Tamils, 300 BC
 		elif iGameTurn == getTurnForYear(tBirth[iTamils])-1 and data.isPlayerEnabled(iTamils):
 			self.createResource(90, 28, iFish)
@@ -111,11 +113,11 @@ class Resources:
 			self.createResource(71, 34, iIron)
 
 		# Knoedel: Remove Greek Silver
-		if iGameTurn == getTurnForYear(-300):
+		elif iGameTurn == getTurnForYear(-300):
 			self.removeResource(66, 40)
 
 		# Knoedel: Remove Greek Gold
-		if iGameTurn == getTurnForYear(-400):
+		elif iGameTurn == getTurnForYear(-400):
 			self.removeResource(67, 44)
 		    
 		elif iGameTurn == getTurnForYear(1100):

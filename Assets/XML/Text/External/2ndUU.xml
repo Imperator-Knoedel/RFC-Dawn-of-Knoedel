@@ -271,7 +271,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_GREEK_HETAIROI_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Hetairoi[COLOR_REVERT], the Greek replacement for the [COLOR_UNIT_TEXT]Heavy Horseman[COLOR_REVERT], is available sooner and cheaper, but also a bit weaker. It has a chance to withdraw from combat, causes collateral damage and has a small combat bonus agains [COLOR_HIGHLIGHT_TEXT]Melee[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Archery[COLOR_REVERT] units.</English>
+		<English>The [COLOR_UNIT_TEXT]Hetairoi[COLOR_REVERT], the Greek replacement for the [COLOR_UNIT_TEXT]Heavy Horseman[COLOR_REVERT], is available sooner and cheaper, but also a bit weaker. It has a chance to withdraw from combat, causes collateral damage and has a small combat bonus against [COLOR_HIGHLIGHT_TEXT]Melee[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Archery[COLOR_REVERT] units.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_HARAPPA_CITY_GUARD</Tag>
@@ -287,7 +287,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_HARAPPA_CITY_GUARD_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]City Guard[COLOR_REVERT], the Harappan replacement for the [COLOR_UNIT_TEXT]Warrior[COLOR_REVERT], begins with the [COLOR_HIGHLIGHT_TEXT]City Garrison I[COLOR_REVERT] promotion and can be upgraded to an [COLOR_UNIT_TEXT]Archer[COLOR_REVERT].</English>
+		<English>The [COLOR_UNIT_TEXT]City Guard[COLOR_REVERT], the Harappan replacement for the [COLOR_UNIT_TEXT]Warrior[COLOR_REVERT], is cheaper, stronger when defending cities and can be upgraded to an [COLOR_UNIT_TEXT]Archer[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_INCA_SLINGER</Tag>
@@ -303,7 +303,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_INCA_SLINGER_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Huaraca[COLOR_REVERT], the Incan replacement for the [COLOR_UNIT_TEXT]Crossbowman[COLOR_REVERT], is weaker, cheaper, doesn't require the [COLOR_HIGHLIGHT_TEXT]Iron[COLOR_REVERT] resource, is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT] and begins with the [COLOR_HIGHLIGHT_TEXT]Guerilla I[COLOR_REVERT] promotion.</English>
+		<English>The [COLOR_UNIT_TEXT]Huaraca[COLOR_REVERT], the Incan replacement for the [COLOR_UNIT_TEXT]Archer[COLOR_REVERT], is able to enter [COLOR_HIGHLIGHT_TEXT]Jungle[COLOR_REVERT] and [COLOR_HIGHLIGHT_TEXT]Rainforest[COLOR_REVERT], is stronger when attacking hills and begins with the [COLOR_HIGHLIGHT_TEXT]Guerilla I[COLOR_REVERT] promotion.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_INDIA_MAHOUT</Tag>
@@ -319,7 +319,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_INDIA_MAHOUT_STRATEGY</Tag>
-		<English>The [COLOR_UNIT_TEXT]Mahout[COLOR_REVERT], the Indian replacement for the [COLOR_UNIT_TEXT]War Elephant[COLOR_REVERT], begins with the [COLOR_HIGHLIGHT_TEXT]City Garrison I[COLOR_REVERT] promotion and receives a defensive bonus.</English>
+		<English>The [COLOR_UNIT_TEXT]Mahout[COLOR_REVERT], the Indian replacement for the [COLOR_UNIT_TEXT]War Elephant[COLOR_REVERT], is a lot cheaper but also a little weaker, begins with the [COLOR_HIGHLIGHT_TEXT]City Garrison I[COLOR_REVERT] promotion and can make use of defensive bonuses.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UNIT_INDONESIA_BAMBOO_RUNCING</Tag>

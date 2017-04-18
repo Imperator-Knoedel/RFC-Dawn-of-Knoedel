@@ -217,6 +217,7 @@ BeginPlayer
 	PlayableCiv=1
 	StartingGold=80
 	StateReligion=RELIGION_HINDUISM
+	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_CASTE_SYSTEM
 	Handicap=HANDICAP_REGENT
 EndPlayer
 BeginPlayer
@@ -26572,6 +26573,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=69,y=41
+	BonusType=BONUS_FISH
 	TerrainType=TERRAIN_COAST
 	PlotType=3
 EndPlot
@@ -32937,7 +32939,7 @@ BeginPlot
 	x=86,y=39
 	RiverNSDirection=2
 	isWOfRiver
-	BonusType=BONUS_MARBLE
+	BonusType=BONUS_STONE
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 EndPlot

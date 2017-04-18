@@ -2044,7 +2044,7 @@ class RiseAndFall:
 						utils.makeUnitAI(iRifleman, iCiv, tPlot, UnitAITypes.UNITAI_ATTACK_CITY, 4)
 						utils.makeUnitAI(iCannon, iCiv, tPlot, UnitAITypes.UNITAI_ATTACK_CITY, 2)
 				else:
-					if not utils.isFree(iRussia, tVladivostok, True): # Also bNoEnemyUnits?
+					if utils.isFree(iRussia, tVladivostok, True): # Also bNoEnemyUnits?
 						pRussia.found(x, y)
 						utils.makeUnit(iRifleman, iCiv, tVladivostok, 2)
 						utils.makeUnit(iRifleman, iCiv, tVladivostok, 2)
@@ -2328,7 +2328,7 @@ class RiseAndFall:
 			utils.makeUnit(iPikeman, iCiv, tPlot, 3)
 		elif iCiv == iInca:
 			utils.makeUnit(iIncanAucac, iCiv, tPlot, 5)
-			utils.makeUnit(iArcher, iCiv, tPlot, 3)
+			utils.makeUnit(iIncanSlinger, iCiv, tPlot, 3)
 		elif iCiv == iItaly:
 			utils.makeUnit(iKnight, iCiv, tPlot, 2)
 		elif iCiv == iMongolia:
@@ -2375,7 +2375,7 @@ class RiseAndFall:
 		elif iCiv == iGreece:
 			utils.createSettlers(iCiv, 1)
 			utils.makeUnit(iWarrior, iCiv, tPlot, 2)
-			utils.makeUnit(iGreekHetairoi, iCiv, tPlot, 1)
+			utils.makeUnit(iArcher, iCiv, tPlot, 1)
 			pGreece.initUnit(iGreekHoplite, tPlot[0], tPlot[1], UnitAITypes.UNITAI_ATTACK, DirectionTypes.DIRECTION_SOUTH)
 			pGreece.initUnit(iGreekHoplite, tPlot[0], tPlot[1], UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.DIRECTION_SOUTH)
 			tSeaPlot = self.findSeaPlots(tPlot, 1, iCiv)
@@ -2652,7 +2652,7 @@ class RiseAndFall:
 		elif iCiv == iInca:
 			utils.createSettlers(iCiv, 1)
 			utils.makeUnit(iIncanAucac, iCiv, tPlot, 4)
-			utils.makeUnit(iArcher, iCiv, tPlot, 2)
+			utils.makeUnit(iIncanSlinger, iCiv, tPlot, 2)
 			if utils.getHumanID() != iInca:
 				utils.makeUnit(iSettler, iCiv, tPlot, 1)
 		elif iCiv == iItaly:
@@ -2999,7 +2999,7 @@ class RiseAndFall:
 				
 			if iPlayer == iHarappa and (data.isPlayerEnabled(iPlayer) or gc.getPlayer(iPlayer).isHuman()):
 				utils.makeUnit(iHarappanCityBuilder, iPlayer, tCapital, 1)
-				utils.makeUnit(iWarrior, iPlayer, tCapital, 1)
+				utils.makeUnit(iHarappanCityGuard, iPlayer, tCapital, 1)
 		
 	def assignTechs(self, iPlayer):
 		Civilizations.initPlayerTechs(iPlayer)

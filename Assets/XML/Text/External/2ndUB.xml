@@ -298,7 +298,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_HARAPPA_STOREHOUSE_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Storehouse[COLOR_REVERT], the Harappan replacement for the [COLOR_BUILDING_TEXT]Granary[COLOR_REVERT], is cheaper and provides health.</English>
+		<English>The [COLOR_BUILDING_TEXT]Storehouse[COLOR_REVERT], the Harappan replacement for the [COLOR_BUILDING_TEXT]Granary[COLOR_REVERT], is cheaper and provides happiness.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_INCA_STONECUTTER</Tag>
@@ -314,7 +314,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_INCA_STONECUTTER_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Stone Cutter[COLOR_REVERT], the Incan replacement for the [COLOR_BUILDING_TEXT]Forge[COLOR_REVERT], has no unhealth penalty, can be build faster with the [COLOR_HIGHLIGHT_TEXT]Stone[COLOR_REVERT] resource and provides happiness with access to [COLOR_HIGHLIGHT_TEXT]Stone[COLOR_REVERT].</English>
+		<English>The [COLOR_BUILDING_TEXT]Stone Cutter[COLOR_REVERT], the Incan replacement for the [COLOR_BUILDING_TEXT]Forge[COLOR_REVERT], is available sooner, has no unhealth penalty, provides extra yields for improved sources of [COLOR_HIGHLIGHT_TEXT]Stone[COLOR_REVERT] and provides happiness with access to [COLOR_HIGHLIGHT_TEXT]Stone[COLOR_REVERT].</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_INDIA_SHRENI</Tag>
@@ -330,7 +330,7 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_INDIA_SHRENI_STRATEGY</Tag>
-		<English>The [COLOR_BUILDING_TEXT]Shreni[COLOR_REVERT], the Indian replacement for the [COLOR_BUILDING_TEXT]Grocer[COLOR_REVERT], is cheaper, doesn't require the [COLOR_TECH_TEXT]Guilds[COLOR_REVERT] and [COLOR_TECH_TEXT]Currency[COLOR_REVERT] techs and requires the [COLOR_TECH_TEXT]Mathematics[COLOR_REVERT] tech.</English>
+		<English>The [COLOR_BUILDING_TEXT]Shreni[COLOR_REVERT], the Indian replacement for the [COLOR_BUILDING_TEXT]Grocer[COLOR_REVERT], is cheaper, doesn't require the [COLOR_TECH_TEXT]Guilds[COLOR_REVERT] and [COLOR_TECH_TEXT]Currency[COLOR_REVERT] techs, and requires the [COLOR_TECH_TEXT]Mathematics[COLOR_REVERT] tech. It provides a [COLOR_HIGHLIGHT_TEXT]Priest[COLOR_REVERT] specialist slot and slightly increases Great People Birth Rate.</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_INDONESIA_PENDOPO</Tag>
